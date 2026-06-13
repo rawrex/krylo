@@ -2527,12 +2527,6 @@
 		(uuid "39c1d2a0-af82-47a6-8c75-c27cd65380c1")
 	)
 	(junction
-		(at 61.976 119.888)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "414627c1-850d-4d0a-b9ce-9c564c0ec29f")
-	)
-	(junction
 		(at 94.488 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2557,13 +2551,13 @@
 		(uuid "6216c961-9844-49ba-91ba-a21f24a6bfc1")
 	)
 	(junction
-		(at 60.198 119.888)
+		(at 50.292 120.142)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "621c5069-9a3c-4f73-9c0a-f2cf41ab0636")
 	)
 	(junction
-		(at 50.546 123.698)
+		(at 40.64 123.952)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f7c3373-ce66-4a37-b0da-9b933d1e7d2b")
@@ -2593,7 +2587,7 @@
 		(uuid "97624386-769f-4269-bb45-73ede8cfeded")
 	)
 	(junction
-		(at 50.546 116.078)
+		(at 40.64 116.332)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9dbd0d4c-794e-4a1e-ad7d-ba0c5bccd988")
@@ -2685,7 +2679,7 @@
 		(uuid "44a44b56-4fb7-4980-9845-db8bca8e1b02")
 	)
 	(no_connect
-		(at 76.2 117.348)
+		(at 66.294 117.602)
 		(uuid "5796774c-ec21-45b9-a18c-d89cb4a62a8d")
 	)
 	(no_connect
@@ -2706,7 +2700,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.658 114.3) (xy 66.294 114.3)
+			(xy 47.752 114.554) (xy 56.388 114.554)
 		)
 		(stroke
 			(width 0)
@@ -2716,23 +2710,13 @@
 	)
 	(wire
 		(pts
-			(xy 57.658 125.476) (xy 66.04 125.476)
+			(xy 47.752 125.73) (xy 56.134 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "062f8c7a-6893-4742-9611-39d86dfd5137")
-	)
-	(wire
-		(pts
-			(xy 34.798 109.982) (xy 61.976 109.982)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "065e5415-b2bd-4d61-81ec-cd74a771ec65")
 	)
 	(wire
 		(pts
@@ -2766,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.546 117.856) (xy 52.578 117.856)
+			(xy 40.64 118.11) (xy 42.672 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2776,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.546 121.92) (xy 52.578 121.92)
+			(xy 40.64 122.174) (xy 42.672 122.174)
 		)
 		(stroke
 			(width 0)
@@ -2806,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.418 123.698) (xy 50.546 123.698)
+			(xy 32.512 123.952) (xy 40.64 123.952)
 		)
 		(stroke
 			(width 0)
@@ -2826,7 +2810,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.546 116.078) (xy 50.546 117.856)
+			(xy 40.64 116.332) (xy 40.64 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2846,7 +2830,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.658 121.92) (xy 60.198 121.92)
+			(xy 47.752 122.174) (xy 50.292 122.174)
 		)
 		(stroke
 			(width 0)
@@ -2856,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.546 123.698) (xy 50.546 121.92)
+			(xy 40.64 123.952) (xy 40.64 122.174)
 		)
 		(stroke
 			(width 0)
@@ -2956,16 +2940,6 @@
 	)
 	(wire
 		(pts
-			(xy 61.976 109.982) (xy 61.976 119.888)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b9611c1-92cf-416b-87bc-fdf5e6758324")
-	)
-	(wire
-		(pts
 			(xy 116.332 48.514) (xy 116.332 67.31)
 		)
 		(stroke
@@ -2986,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 79.502 122.428) (xy 79.502 120.142)
+			(xy 69.596 122.682) (xy 69.596 120.396)
 		)
 		(stroke
 			(width 0)
@@ -2996,7 +2970,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 122.428) (xy 79.502 122.428)
+			(xy 66.294 122.682) (xy 69.596 122.682)
 		)
 		(stroke
 			(width 0)
@@ -3026,7 +3000,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.976 119.888) (xy 60.198 119.888)
+			(xy 50.292 120.142) (xy 56.134 120.142)
 		)
 		(stroke
 			(width 0)
@@ -3036,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.578 125.476) (xy 50.546 125.476)
+			(xy 42.672 125.73) (xy 40.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3086,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.546 125.476) (xy 50.546 123.698)
+			(xy 40.64 125.73) (xy 40.64 123.952)
 		)
 		(stroke
 			(width 0)
@@ -3096,7 +3070,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.294 114.3) (xy 66.294 112.268)
+			(xy 56.388 114.554) (xy 56.388 112.522)
 		)
 		(stroke
 			(width 0)
@@ -3136,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 42.418 116.078) (xy 50.546 116.078)
+			(xy 32.512 116.332) (xy 40.64 116.332)
 		)
 		(stroke
 			(width 0)
@@ -3146,7 +3120,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.198 117.856) (xy 57.658 117.856)
+			(xy 50.292 118.11) (xy 47.752 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3196,16 +3170,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.888) (xy 61.976 119.888)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b98d586a-f5ba-4430-8cee-d883948cc317")
-	)
-	(wire
-		(pts
 			(xy 127.254 48.514) (xy 127.254 67.31)
 		)
 		(stroke
@@ -3236,16 +3200,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.798 116.078) (xy 34.798 109.982)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d2a89a-3294-4cbb-96a8-42cbec267e7e")
-	)
-	(wire
-		(pts
 			(xy 138.176 30.226) (xy 138.176 48.514)
 		)
 		(stroke
@@ -3256,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 125.476) (xy 66.04 126.238)
+			(xy 56.134 125.73) (xy 56.134 126.492)
 		)
 		(stroke
 			(width 0)
@@ -3266,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.198 117.856) (xy 60.198 119.888)
+			(xy 50.292 118.11) (xy 50.292 120.142)
 		)
 		(stroke
 			(width 0)
@@ -3296,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.198 119.888) (xy 60.198 121.92)
+			(xy 50.292 120.142) (xy 50.292 122.174)
 		)
 		(stroke
 			(width 0)
@@ -3306,7 +3260,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.578 114.3) (xy 50.546 114.3)
+			(xy 42.672 114.554) (xy 40.64 114.554)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.546 114.3) (xy 50.546 116.078)
+			(xy 40.64 114.554) (xy 40.64 116.332)
 		)
 		(stroke
 			(width 0)
@@ -3385,7 +3339,7 @@
 		(uuid "f927d46c-63df-4fc8-bc75-3ed69e9e092a")
 	)
 	(label "PAD2"
-		(at 44.196 123.698 0)
+		(at 34.29 123.952 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3395,7 +3349,7 @@
 		(uuid "082b612d-2c38-4b1d-b289-5af2c2c73a19")
 	)
 	(label "PAD1"
-		(at 43.942 116.078 0)
+		(at 34.036 116.332 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4281,7 +4235,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 79.502 120.142 0)
+		(at 69.596 120.396 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4291,7 +4245,7 @@
 		(dnp no)
 		(uuid "141f259a-1a56-46aa-bae6-6be390066d37")
 		(property "Reference" "#PWR0106"
-			(at 79.502 123.952 0)
+			(at 69.596 124.206 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4302,7 +4256,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 77.47 115.824 0)
+			(at 67.564 116.078 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4312,7 +4266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.502 120.142 0)
+			(at 69.596 120.396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4323,7 +4277,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 79.502 120.142 0)
+			(at 69.596 120.396 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 79.502 120.142 0)
+			(at 69.596 120.396 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4845,7 +4799,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 42.418 121.158 0)
+		(at 32.512 121.412 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4855,7 +4809,7 @@
 		(dnp no)
 		(uuid "303b52eb-2229-442e-bdef-ad8604aaf819")
 		(property "Reference" "BT1"
-			(at 49.53 118.872 0)
+			(at 39.624 119.126 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4866,7 +4820,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 38.354 115.062 90)
+			(at 28.448 115.316 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4878,7 +4832,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:JST_PH_reversible"
-			(at 42.418 119.634 90)
+			(at 32.512 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4889,7 +4843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 42.418 119.634 90)
+			(at 32.512 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +4854,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 42.418 121.158 0)
+			(at 32.512 121.412 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5565,7 +5519,7 @@
 	)
 	(symbol
 		(lib_id "PLITKA:Device_Jumper_NO_Small")
-		(at 55.118 121.92 0)
+		(at 45.212 122.174 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5575,7 +5529,7 @@
 		(dnp no)
 		(uuid "6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(property "Reference" "JP3"
-			(at 54.864 120.65 0)
+			(at 44.958 120.904 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5585,7 +5539,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 55.118 119.38 0)
+			(at 45.212 119.634 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5596,7 +5550,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:Jumper"
-			(at 55.118 121.92 0)
+			(at 45.212 122.174 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5607,7 +5561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.118 121.92 0)
+			(at 45.212 122.174 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5618,7 +5572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.118 121.92 0)
+			(at 45.212 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5799,7 +5753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 126.238 0)
+		(at 56.134 126.492 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5810,7 +5764,7 @@
 		(fields_autoplaced yes)
 		(uuid "722e37e5-7ab4-4acb-846d-463ab9d155c6")
 		(property "Reference" "#PWR0112"
-			(at 66.04 132.588 0)
+			(at 56.134 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5821,7 +5775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 131.826 0)
+			(at 56.134 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5831,7 +5785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 126.238 0)
+			(at 56.134 126.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5842,7 +5796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 126.238 0)
+			(at 56.134 126.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,7 +5807,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 126.238 0)
+			(at 56.134 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6505,89 +6459,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 34.798 121.158 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "871734cd-c91c-43c1-ac66-0df48b989539")
-		(property "Reference" "BT2"
-			(at 33.528 117.856 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Battery_Cell"
-			(at 40.386 115.062 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PLITKA:custombatteryconnector"
-			(at 34.798 119.634 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.798 119.634 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.798 121.158 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "24d81c03-e7dd-487f-9f61-b51c7243d996")
-		)
-		(pin "2"
-			(uuid "1d5a40ff-5c7b-4cdf-aa40-19094a428343")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PLITKA:Device_Jumper_NO_Small")
-		(at 55.118 114.3 0)
+		(at 45.212 114.554 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6597,7 +6470,7 @@
 		(dnp no)
 		(uuid "87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(property "Reference" "JP1"
-			(at 55.118 113.03 0)
+			(at 45.212 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6607,7 +6480,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 55.118 111.76 0)
+			(at 45.212 112.014 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6618,7 +6491,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:Jumper"
-			(at 55.118 114.3 0)
+			(at 45.212 114.554 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6629,7 +6502,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.118 114.3 0)
+			(at 45.212 114.554 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6640,7 +6513,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.118 114.3 0)
+			(at 45.212 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7470,7 +7343,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DPDT_x2")
-		(at 71.12 119.888 0)
+		(at 61.214 120.142 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7480,7 +7353,7 @@
 		(dnp no)
 		(uuid "c8fe5627-c989-4033-8547-ad4fffbf385d")
 		(property "Reference" "PSW1"
-			(at 71.12 124.46 0)
+			(at 61.214 124.714 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7490,7 +7363,7 @@
 			)
 		)
 		(property "Value" "SW_DPDT_x2"
-			(at 71.12 114.808 0)
+			(at 61.214 115.062 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7501,7 +7374,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:MSK12C02_reversible"
-			(at 71.12 119.888 0)
+			(at 61.214 120.142 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7512,7 +7385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 119.888 0)
+			(at 61.214 120.142 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7523,7 +7396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 119.888 0)
+			(at 61.214 120.142 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7785,7 +7658,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.294 112.268 180)
+		(at 56.388 112.522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7796,7 +7669,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8f30b02-7baf-4e33-a818-4a0fb6edca4b")
 		(property "Reference" "#PWR0113"
-			(at 66.294 105.918 0)
+			(at 56.388 106.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +7680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.088 110.9979 0)
+			(at 59.182 111.2519 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7818,7 +7691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.294 112.268 0)
+			(at 56.388 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7829,7 +7702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.294 112.268 0)
+			(at 56.388 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7840,7 +7713,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.294 112.268 0)
+			(at 56.388 112.522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8269,7 +8142,7 @@
 	)
 	(symbol
 		(lib_id "PLITKA:Device_Jumper_NO_Small")
-		(at 55.118 125.476 0)
+		(at 45.212 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8279,7 +8152,7 @@
 		(dnp no)
 		(uuid "e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(property "Reference" "JP4"
-			(at 55.118 127.254 0)
+			(at 45.212 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8289,7 +8162,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 55.118 122.936 0)
+			(at 45.212 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8300,7 +8173,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:Jumper"
-			(at 55.118 125.476 0)
+			(at 45.212 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8311,7 +8184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.118 125.476 0)
+			(at 45.212 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8322,7 +8195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.118 125.476 0)
+			(at 45.212 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8347,85 +8220,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 34.798 123.698 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8edad13-d7a0-4540-a1d4-9e1fb4f6fb41")
-		(property "Reference" "#PWR0107"
-			(at 34.798 130.048 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 34.798 129.286 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.798 123.698 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.798 123.698 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 34.798 123.698 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "792e8545-7be7-46bb-89cc-21c755250470")
-		)
-		(instances
-			(project "PLITKA"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "device_jumper_no_small:Device_Jumper_NO_Small")
-		(at 55.118 117.856 0)
+		(at 45.212 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8435,7 +8231,7 @@
 		(dnp no)
 		(uuid "ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(property "Reference" "JP2"
-			(at 55.118 119.126 0)
+			(at 45.212 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8445,7 +8241,7 @@
 			)
 		)
 		(property "Value" "Device_Jumper_NO_Small"
-			(at 55.118 115.316 0)
+			(at 45.212 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8456,7 +8252,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:Jumper"
-			(at 55.118 117.856 0)
+			(at 45.212 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8467,7 +8263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.118 117.856 0)
+			(at 45.212 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8478,7 +8274,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.118 117.856 0)
+			(at 45.212 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
