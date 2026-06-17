@@ -734,7 +734,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -12.192 20.828 0)
+			(at -14.478 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -744,7 +744,7 @@
 			)
 		)
 		(property "Value" "nice!nano"
-			(at -7.366 18.288 0)
+			(at -9.906 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -754,7 +754,7 @@
 			)
 		)
 		(property "Footprint" "PLITKA:nice_nano"
-			(at 0.254 -20.32 0)
+			(at 10.668 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -787,8 +787,8 @@
 		)
 		(symbol "nice_nano_0_1"
 			(rectangle
-				(start -12.7 16.51)
-				(end 12.7 -16.51)
+				(start -15.24 16.51)
+				(end 15.24 -16.51)
 				(stroke
 					(width 0)
 					(type default)
@@ -800,7 +800,7 @@
 		)
 		(symbol "nice_nano_1_1"
 			(pin bidirectional line
-				(at -17.78 13.97 0)
+				(at -20.32 13.97 0)
 				(length 5.08)
 				(name "D1/P0.06"
 					(effects
@@ -818,7 +818,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 11.43 0)
+				(at -20.32 11.43 0)
 				(length 5.08)
 				(name "D0/0.08"
 					(effects
@@ -836,7 +836,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 8.89 0)
+				(at -20.32 8.89 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -854,7 +854,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 6.35 0)
+				(at -20.32 6.35 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -872,7 +872,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 3.81 0)
+				(at -20.32 3.81 0)
 				(length 5.08)
 				(name "D2/P0.17"
 					(effects
@@ -890,7 +890,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 1.27 0)
+				(at -20.32 1.27 0)
 				(length 5.08)
 				(name "D3/P0.20"
 					(effects
@@ -908,7 +908,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -1.27 0)
+				(at -20.32 -1.27 0)
 				(length 5.08)
 				(name "D4/P0.22"
 					(effects
@@ -926,7 +926,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -3.81 0)
+				(at -20.32 -3.81 0)
 				(length 5.08)
 				(name "D5/P0.24"
 					(effects
@@ -944,7 +944,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -6.35 0)
+				(at -20.32 -6.35 0)
 				(length 5.08)
 				(name "D6/P1.00"
 					(effects
@@ -962,7 +962,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -8.89 0)
+				(at -20.32 -8.89 0)
 				(length 5.08)
 				(name "D7/P0.11"
 					(effects
@@ -980,7 +980,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -11.43 0)
+				(at -20.32 -11.43 0)
 				(length 5.08)
 				(name "D8/P1.04"
 					(effects
@@ -998,7 +998,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 -13.97 0)
+				(at -20.32 -13.97 0)
 				(length 5.08)
 				(name "D9/P1.06"
 					(effects
@@ -1016,7 +1016,7 @@
 				)
 			)
 			(pin power_out line
-				(at 17.78 13.97 180)
+				(at 20.32 8.89 180)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -1034,7 +1034,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 11.43 180)
+				(at 0 -21.59 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1052,7 +1052,7 @@
 				)
 			)
 			(pin input line
-				(at 17.78 8.89 180)
+				(at 20.32 6.35 180)
 				(length 5.08)
 				(name "RESET"
 					(effects
@@ -1070,7 +1070,7 @@
 				)
 			)
 			(pin power_in line
-				(at 17.78 6.35 180)
+				(at 0 21.59 270)
 				(length 5.08)
 				(name "EXT_VCC"
 					(effects
@@ -1088,7 +1088,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 3.81 180)
+				(at 20.32 3.81 180)
 				(length 5.08)
 				(name "D21/P0.31"
 					(effects
@@ -1106,7 +1106,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 1.27 180)
+				(at 20.32 1.27 180)
 				(length 5.08)
 				(name "D20/P0.29"
 					(effects
@@ -1124,7 +1124,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -1.27 180)
+				(at 20.32 -1.27 180)
 				(length 5.08)
 				(name "D19/P0.02"
 					(effects
@@ -1142,7 +1142,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -3.81 180)
+				(at 20.32 -3.81 180)
 				(length 5.08)
 				(name "D18/P1.15"
 					(effects
@@ -1160,7 +1160,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -6.35 180)
+				(at 20.32 -6.35 180)
 				(length 5.08)
 				(name "D15/P1.13"
 					(effects
@@ -1178,7 +1178,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -8.89 180)
+				(at 20.32 -8.89 180)
 				(length 5.08)
 				(name "D14/P1.11"
 					(effects
@@ -1196,7 +1196,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -11.43 180)
+				(at 20.32 -11.43 180)
 				(length 5.08)
 				(name "D16/P0.10"
 					(effects
@@ -1214,7 +1214,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -13.97 180)
+				(at 20.32 -13.97 180)
 				(length 5.08)
 				(name "D10/P0.09"
 					(effects
