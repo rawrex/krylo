@@ -2549,7 +2549,7 @@
 		(uuid "148f8a95-60bf-48d7-8b24-0123b0453848")
 	)
 	(junction
-		(at 76.2 123.19)
+		(at 72.39 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "16fe79a5-ec61-46bb-b256-6a815d82e59c")
@@ -2836,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 118.11) (xy 69.85 118.11)
+			(xy 72.39 118.11) (xy 69.85 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2966,7 +2966,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 129.54) (xy 69.85 129.54)
+			(xy 72.39 129.54) (xy 69.85 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +3166,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 123.19) (xy 76.2 118.11)
+			(xy 72.39 123.19) (xy 72.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3196,7 +3196,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 123.19) (xy 76.2 129.54)
+			(xy 72.39 123.19) (xy 72.39 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3356,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 123.19) (xy 76.2 123.19)
+			(xy 73.66 123.19) (xy 72.39 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4368,7 +4368,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 77.47 123.19 270)
+		(at 73.66 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4378,7 +4378,7 @@
 		(dnp no)
 		(uuid "141f259a-1a56-46aa-bae6-6be390066d37")
 		(property "Reference" "#PWR6"
-			(at 73.66 123.19 0)
+			(at 69.85 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4389,7 +4389,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 81.026 123.19 0)
+			(at 77.216 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4399,7 +4399,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 123.19 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4410,7 +4410,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 123.19 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4421,7 +4421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 77.47 123.19 0)
+			(at 73.66 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
