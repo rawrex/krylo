@@ -7,7 +7,7 @@
 		(at -2.413 0.127 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "fc6f5ebb-f120-40a0-a03c-f93cc7b0d80e")
+		(uuid "f7be8d4b-7f75-421e-98ea-ae4136c1ddd0")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -19,7 +19,7 @@
 		(at -2.794 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "81a2e677-7c91-4de9-8033-fc8f7a4fc45b")
+		(uuid "552b938c-125f-4364-bb24-4d476afe1864")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0ebbd724-c7d8-4326-9cf9-a3a55bef4ee0")
+		(uuid "87dcac51-87bd-40d2-a52b-09c14e76dbf8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0cd64e18-4352-4198-8204-dc374fd7b400")
+		(uuid "551ce70c-bf45-4178-8867-3db891781e8b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,7 +50,7 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
+	(duplicate_pad_numbers_are_jumpers yes)
 	(fp_rect
 		(start -1.143 -0.889)
 		(end 1.143 0.889)
@@ -60,7 +60,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "d63d00de-289e-49b7-9305-5c10ed5f0f0b")
+		(uuid "6d4c70ae-a1d3-45cb-a74a-6ef22c9f1811")
 	)
 	(fp_rect
 		(start -1.143 -0.889)
@@ -71,21 +71,35 @@
 		)
 		(fill no)
 		(layer "B.SilkS")
-		(uuid "3af60b77-1d97-4c0a-a6ea-d5ac717fa4de")
+		(uuid "b0cf0eaf-91b1-4951-bf99-08d6c1ca922e")
 	)
 	(pad "1" smd rect
 		(at -0.50038 0)
 		(size 0.635 1.143)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.1905)
-		(uuid "fa98d9d9-05ff-44a8-ba69-daddd4c1279b")
+		(uuid "c12c8046-c2d4-4023-9b13-d7126510801f")
+	)
+	(pad "1" smd rect
+		(at -0.50038 0)
+		(size 0.635 1.143)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.1905)
+		(uuid "e92c4e31-da4f-4efb-a13a-c0b17e89db7d")
 	)
 	(pad "2" smd rect
 		(at 0.50038 0)
 		(size 0.635 1.143)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.1905)
-		(uuid "63af9ca5-527b-41ce-a81c-1e00cef14f34")
+		(uuid "6625a3a6-1cec-4b9f-9a83-b6dfc8b04490")
+	)
+	(pad "2" smd rect
+		(at 0.50038 0)
+		(size 0.635 1.143)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(clearance 0.1905)
+		(uuid "ff0d394a-0038-439d-9adb-6537f34cfec7")
 	)
 	(embedded_fonts no)
 	(model "smd\\resistors\\R0603.wrl"
