@@ -696,7 +696,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Pinky.kicad_sch",
+        "filename": "pinky.kicad_sch",
         "name": "Pinky",
         "uuid": "231ead31-262f-44fe-a25c-f58d2465dcca"
       }
