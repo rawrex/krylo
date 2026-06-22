@@ -180,7 +180,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "82a2873b-9f79-49fd-b3b1-babe24c33742")
+			(uuid "e0205ec3-ce6f-43f0-9c96-00889777b878")
 			(effects
 				(font
 					(size 1 1)
@@ -193,7 +193,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba4d8949-9e3b-4499-9db4-e2222d1586cc")
+			(uuid "0ad0cf83-8099-4581-917c-ff269cb5b195")
 			(effects
 				(font
 					(size 1 1)
@@ -221,7 +221,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca57bdc7-3971-49ce-9421-c3fd965730ca")
+			(uuid "f4a17420-d9df-47b6-8d6b-d28ea874619f")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -241,7 +241,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f640cb6d-1c5e-48c7-ad82-396d8b2acb20")
+			(uuid "2c3f3068-c29c-4074-9253-1135e34aa9f6")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -251,7 +251,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f4a17420-d9df-47b6-8d6b-d28ea874619f")
+			(uuid "f640cb6d-1c5e-48c7-ad82-396d8b2acb20")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -261,7 +261,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b11f5795-2f79-4d01-97d8-a24f927651f9")
+			(uuid "5e687e96-543b-478a-b09c-bb9cd4d7e4fd")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -271,7 +271,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "5e687e96-543b-478a-b09c-bb9cd4d7e4fd")
+			(uuid "fc6cbabb-9961-49c1-b848-3a3fb4d69798")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -281,7 +281,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "17f827b9-73cd-4aa3-8d36-45597ec3ede1")
+			(uuid "7410a445-8f78-4489-a486-24348056f125")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -291,7 +291,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7410a445-8f78-4489-a486-24348056f125")
+			(uuid "b11f5795-2f79-4d01-97d8-a24f927651f9")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -309,7 +309,7 @@
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "e9f678d9-fa7e-4bc3-8912-bb2df443db91")
+			(uuid "f723aa3c-7ac1-478f-b6e6-22a9851d937e")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -327,7 +327,7 @@
 			(net "Net-(D9-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "e45a2b1e-e201-4ef1-a619-069700256f6b")
+			(uuid "a5bd73b4-4d04-485f-9d50-5dd4dd460877")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -400,7 +400,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f96478b-96e1-471c-8591-3e7acaf858b9")
+			(uuid "898cfd5c-3280-4246-a98b-470f6706c6dd")
 			(effects
 				(font
 					(size 1 1)
@@ -413,7 +413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "538a0fac-5898-4b98-b70b-92e2f748689b")
+			(uuid "3eacd1ba-2c88-4ffc-b0ea-eb142d1a473f")
 			(effects
 				(font
 					(size 1 1)
@@ -441,7 +441,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "53002140-9b06-4211-b3ae-cb83a2d29128")
+			(uuid "cb3e0923-788c-4425-8423-f5554dd16623")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -451,7 +451,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cb3e0923-788c-4425-8423-f5554dd16623")
+			(uuid "d36cd51a-c1ad-47c7-90d9-3f2ccea1b822")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -461,7 +461,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d36cd51a-c1ad-47c7-90d9-3f2ccea1b822")
+			(uuid "53002140-9b06-4211-b3ae-cb83a2d29128")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -471,7 +471,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "424d3e69-cfff-4134-991a-ce776e4d1d83")
+			(uuid "0d5815f6-28a9-467e-b51f-2cbe47189f59")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -481,7 +481,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "3a7a7e3d-aeb0-478b-a01f-f03b60149355")
+			(uuid "424d3e69-cfff-4134-991a-ce776e4d1d83")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -491,7 +491,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "0d5815f6-28a9-467e-b51f-2cbe47189f59")
+			(uuid "f81cf28d-7f8a-45aa-8733-bbbd77ce5ecf")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -501,7 +501,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fa7a8c05-618f-42cb-966b-3664b5480436")
+			(uuid "3a7a7e3d-aeb0-478b-a01f-f03b60149355")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -511,7 +511,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f81cf28d-7f8a-45aa-8733-bbbd77ce5ecf")
+			(uuid "df000b52-2ae1-4041-914a-d30bffcfac7c")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -529,7 +529,7 @@
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "3f850cc3-2f60-413e-9a12-8572aadab9f9")
+			(uuid "8f85fbcc-a000-41bf-aff1-cf848c6d2b33")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -547,7 +547,7 @@
 			(net "Net-(D7-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "639d3d6c-dc64-4c3d-80bb-ae3dada7f944")
+			(uuid "6767e41a-87bd-402b-85d5-9272be843e46")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -1751,13 +1751,13 @@
 			(at 150.969862 51.115117)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "bc579a76-32e9-4e0b-8591-b3f8de1ae78b")
+			(uuid "d399fec8-a2dd-41ea-a8bd-9fd9137ee2fd")
 		)
 		(point
 			(at 145.344862 50.765117)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "d399fec8-a2dd-41ea-a8bd-9fd9137ee2fd")
+			(uuid "bc579a76-32e9-4e0b-8591-b3f8de1ae78b")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -1958,7 +1958,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a678fe67-2d9e-4dc6-9d7a-fb33d9809d92")
+			(uuid "a4267a76-e5de-4fe4-a671-204e91954710")
 			(effects
 				(font
 					(size 1 1)
@@ -1971,7 +1971,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3a76beb-0f23-4836-a53d-468ec8223e9d")
+			(uuid "80c532da-b4b2-44c7-b7f1-e51394a168dc")
 			(effects
 				(font
 					(size 1 1)
@@ -1999,7 +1999,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2d119697-5945-4921-b68d-24f149a6324c")
+			(uuid "7212d2dd-e7b9-42bc-bbed-d0647a6d908e")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -2009,7 +2009,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "436cddc1-ee61-4a0f-a763-9c67821b1fc5")
+			(uuid "2d119697-5945-4921-b68d-24f149a6324c")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -2019,7 +2019,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7212d2dd-e7b9-42bc-bbed-d0647a6d908e")
+			(uuid "3bef0edc-dbbe-407e-bc30-f6e0f6100bff")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -2029,7 +2029,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3bef0edc-dbbe-407e-bc30-f6e0f6100bff")
+			(uuid "436cddc1-ee61-4a0f-a763-9c67821b1fc5")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -2039,7 +2039,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "28c33503-50f3-44f3-8ba6-f7a0a2986de5")
+			(uuid "49d7909e-5bad-4275-b4fb-e6047d7bc1ff")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -2049,7 +2049,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "4b6736c7-9531-462b-8e4a-04545835d3e9")
+			(uuid "886b5619-7e99-44bd-8656-053d8adf5c79")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -2059,7 +2059,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f755b5e1-7161-44e3-8c7a-8e912788a09e")
+			(uuid "fbd04f06-60f2-42c0-8f52-52789ec665e7")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -2069,7 +2069,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c6dd0a19-6d14-40c0-8b27-a7ffd87fc6e4")
+			(uuid "bc48edde-ea9a-48bf-a616-18f25aca95f0")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 350)
@@ -2087,7 +2087,7 @@
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "e77d4294-37bb-4282-9a86-57d78c90e0b7")
+			(uuid "b2a0018f-bc4f-4c92-9552-a706cb21ae5a")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 350)
@@ -2105,7 +2105,7 @@
 			(net "Net-(D15-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "7ca3ac1d-8224-4546-b65d-95ff90b6c6a7")
+			(uuid "4847a886-1d5a-4bcf-8e8e-b70d67e93f0e")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -2962,7 +2962,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e43de6da-b015-4668-8c40-793a58cfbc92")
+			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -2972,7 +2972,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
+			(uuid "e43de6da-b015-4668-8c40-793a58cfbc92")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -3112,7 +3112,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "3ca813a6-1326-4d92-8752-30d4e9a7a8b4")
+			(uuid "e3398458-087d-42fd-bd13-4f28fc2f146a")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -4892,7 +4892,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa0154f6-dd3f-41f2-b9e6-ee458b08024f")
+			(uuid "d5c62fa5-7310-40da-8932-bcc567f94bb5")
 			(effects
 				(font
 					(size 1 1)
@@ -4905,7 +4905,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b477abb-7d3a-43fe-9ad9-ece0292049e8")
+			(uuid "57954090-e0f8-4e89-a169-05a78701cbec")
 			(effects
 				(font
 					(size 1 1)
@@ -4933,7 +4933,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5f3d1f00-6827-4310-b177-42f04b648d0a")
+			(uuid "f14fab93-994a-4660-98e7-01b61836c2b0")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -4943,7 +4943,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b3f229a9-ca0b-4a57-a910-4641fa04d855")
+			(uuid "5f3d1f00-6827-4310-b177-42f04b648d0a")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -4953,7 +4953,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f14fab93-994a-4660-98e7-01b61836c2b0")
+			(uuid "307c0646-7ac9-4a89-b2e4-deddf108b929")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -4963,7 +4963,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "307c0646-7ac9-4a89-b2e4-deddf108b929")
+			(uuid "b3f229a9-ca0b-4a57-a910-4641fa04d855")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -4973,7 +4973,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b91e3a95-52c5-4484-b7a1-a8392c658436")
+			(uuid "66132ba6-ac85-4666-a669-fb8a4b9b0aa9")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -4983,7 +4983,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ea209a0e-c280-49ea-b2bc-d9cc11802f3d")
+			(uuid "8ee7a8b4-3c80-4fe2-b992-285be0cbd09d")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -4993,7 +4993,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "8ee7a8b4-3c80-4fe2-b992-285be0cbd09d")
+			(uuid "ecb99712-02fb-4425-9b1f-45030131d4a9")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -5003,7 +5003,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "97e9da85-3ac2-416a-8dec-ce5c04ac424e")
+			(uuid "43073a1b-b34e-433f-8f23-16d67423437f")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -5021,7 +5021,7 @@
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "a17beb20-7da0-428c-957e-2ee130e63e1f")
+			(uuid "2c78f7b7-0b8c-4f9a-9abe-deb88fde5cfc")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -5039,7 +5039,7 @@
 			(net "Net-(D2-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "88515d9f-235c-4e9d-abc4-92a323ac1ee4")
+			(uuid "3e7911dc-d373-485c-bb60-01e759e94dcd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -5112,7 +5112,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e25b186a-2612-4302-b5e9-0220719623b9")
+			(uuid "22c10a1c-6ae3-43d9-9f64-b8ea48ad101e")
 			(effects
 				(font
 					(size 1 1)
@@ -5125,7 +5125,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57c3aa13-7d19-4894-a42a-ba6e6cf798ec")
+			(uuid "76c9c5b6-c177-4c22-a353-6f0ce8b0355c")
 			(effects
 				(font
 					(size 1 1)
@@ -5153,7 +5153,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "32342196-c6f5-4b44-a587-5b553f239143")
+			(uuid "57f8089c-eef5-4c71-8205-4d0da3f6af1b")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -5163,7 +5163,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "763e73b4-dbeb-4c22-a598-4a2eea19b308")
+			(uuid "32342196-c6f5-4b44-a587-5b553f239143")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -5183,7 +5183,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a3704b45-941e-4ca7-9f5a-547991b07322")
+			(uuid "763e73b4-dbeb-4c22-a598-4a2eea19b308")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -5193,7 +5193,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6f7723ab-9b81-43f3-b744-74764fc3ce28")
+			(uuid "b1629abe-7e19-4020-b5d3-3138890bfa50")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -5203,7 +5203,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d2d5338e-529d-4976-925a-a09baa20282a")
+			(uuid "2ad75d50-8326-4c4d-8f86-4d83706121fe")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -5213,7 +5213,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d845e404-b3b0-457e-b2e2-8a287f55f4e4")
+			(uuid "4491c469-cc52-481e-bd87-83da9c4624cc")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -5223,7 +5223,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b40d7de7-982e-4b5a-9562-d2292bc8b549")
+			(uuid "a52e3633-0ee4-4782-b165-8219c5f3105a")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -5241,7 +5241,7 @@
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "a107871d-e5fc-47bf-8da6-2a69205c2333")
+			(uuid "7c923958-7782-41f4-965a-87fce1f84063")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -5259,7 +5259,7 @@
 			(net "Net-(D6-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "8b69093e-1076-4b41-a6cc-828427ecc2f9")
+			(uuid "c2b2c243-6c27-4db8-b7a3-9894643fae3c")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -5330,7 +5330,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77dba1b0-3fd8-4a58-9a34-82a044664113")
+			(uuid "a58aafb9-7380-4dd2-b95d-f5448805ca83")
 			(effects
 				(font
 					(size 1 1)
@@ -5343,7 +5343,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "215729c1-f060-49be-b5a1-036484d96dd2")
+			(uuid "237fb2c8-33c0-4670-acdc-4d519aab6f3a")
 			(effects
 				(font
 					(size 1 1)
@@ -5356,7 +5356,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7b95325-d285-48cb-a27b-04465d0b0072")
+			(uuid "a0a03645-6354-4b94-95de-23a13ec1e52d")
 			(effects
 				(font
 					(size 1 1)
@@ -6821,14 +6821,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "5503432f-9338-44cd-b140-2c2cae6dcbbd")
 		(at 194.398013 57.553692)
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M2 ISO7380")
+		(tags "mountinghole M2")
 		(property "Reference" "H2"
-			(at 0 -2.7 0)
+			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(uuid "eb88b575-d1cb-459e-853c-85f6c6e0731f")
 			(effects
@@ -6839,7 +6839,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.7 0)
+			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "26499ca7-206f-4883-a290-1e4fa7ff11f6")
 			(effects
@@ -6885,7 +6885,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.75 0)
+			(end 2.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6896,7 +6896,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6911,8 +6911,8 @@
 			(uuid "deee85ef-cb82-4743-a884-4753952d560e")
 			(effects
 				(font
-					(size 0.88 0.88)
-					(thickness 0.13)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6983,7 +6983,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0489a588-45a2-4543-acb3-d82da8729586")
+			(uuid "ac2bb6c2-780b-4f63-be79-ab47db5c64d4")
 			(effects
 				(font
 					(size 1 1)
@@ -6996,7 +6996,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "38945324-c19c-4e62-a4d7-eec758b4a987")
+			(uuid "4af7833c-b3f7-4fdb-855f-9cf472804c09")
 			(effects
 				(font
 					(size 1 1)
@@ -7024,7 +7024,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b7bc5cb9-f955-4a2c-9db8-f47871bdab76")
+			(uuid "ef835d9b-e5e9-45de-80bb-799c22f8893a")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -7034,7 +7034,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "2350124d-3714-48c3-91ca-86328bf52371")
+			(uuid "b7bc5cb9-f955-4a2c-9db8-f47871bdab76")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -7044,7 +7044,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f3c4982f-978a-4e89-96da-ae2bffb74b0d")
+			(uuid "2eca73ec-6eb5-4f27-90ef-d39ba1f5fb69")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -7054,7 +7054,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ef835d9b-e5e9-45de-80bb-799c22f8893a")
+			(uuid "2350124d-3714-48c3-91ca-86328bf52371")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -7064,7 +7064,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "cd8ade0c-8df3-4d6d-9876-880327fa3c14")
+			(uuid "7bfdbd51-aed6-4dcc-9fd2-56c0dd423daf")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -7074,7 +7074,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "9d6302e3-a09a-40a3-b878-aa915e3db8a0")
+			(uuid "9563421d-f518-4e13-8483-043e52def741")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -7084,7 +7084,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "913a601b-5977-41d8-98a6-7c65f9f23e13")
+			(uuid "713e4a3a-7e0e-4f66-b73c-4c1ddec38824")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -7094,7 +7094,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7bfdbd51-aed6-4dcc-9fd2-56c0dd423daf")
+			(uuid "8d4e9476-255d-4052-901d-3abd8b2c00a5")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 350)
@@ -7112,7 +7112,7 @@
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "4307dc7f-a521-4961-85de-c7386a3ddfdb")
+			(uuid "6478293e-af18-466c-bb64-c482fef00038")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 350)
@@ -7130,7 +7130,7 @@
 			(net "Net-(D17-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "90101b49-614c-45c0-8ea1-4e8c656a49a1")
+			(uuid "151c1cfd-53be-4f1b-8ab6-d24c8fff33e5")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -8239,13 +8239,13 @@
 			(at 150.969862 68.084448)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "3e498fb1-0698-4623-8b6e-fa722dbdb9f0")
+			(uuid "9b754f84-b55e-4178-8c37-5ed893da11e9")
 		)
 		(point
 			(at 145.344862 67.734448)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "9b754f84-b55e-4178-8c37-5ed893da11e9")
+			(uuid "3e498fb1-0698-4623-8b6e-fa722dbdb9f0")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -8388,14 +8388,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "5c201a33-dfab-41f9-9fc8-9fb756c9e57f")
 		(at 148.18216 105.392393)
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M2 ISO7380")
+		(tags "mountinghole M2")
 		(property "Reference" "H3"
-			(at 0 -2.7 0)
+			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(uuid "ac42c111-2650-4953-a97d-1a0b3893f380")
 			(effects
@@ -8406,7 +8406,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.7 0)
+			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "2f2cbfe9-a1bc-42fa-958a-89dea1ee2db5")
 			(effects
@@ -8452,7 +8452,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.75 0)
+			(end 2.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -8463,7 +8463,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -8478,8 +8478,8 @@
 			(uuid "a5e8c014-a02c-48a7-a56b-b148c03b0656")
 			(effects
 				(font
-					(size 0.88 0.88)
-					(thickness 0.13)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9586,13 +9586,13 @@
 			(at 171.836554 61.790467)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "233e0c48-db73-492b-a412-d09bc599bbf4")
+			(uuid "7bb99a18-381a-497e-a153-73f73a840537")
 		)
 		(point
 			(at 166.249671 61.048939)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "7bb99a18-381a-497e-a153-73f73a840537")
+			(uuid "233e0c48-db73-492b-a412-d09bc599bbf4")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
@@ -13522,7 +13522,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "10e9d581-128a-4b1c-b79c-361d7dd533e0")
+			(uuid "42c08cac-7bf5-41de-b617-f5394a8a4c31")
 			(effects
 				(font
 					(size 1 1)
@@ -13535,7 +13535,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cd502a5f-9ad6-49fd-9da5-74b4e23dd4de")
+			(uuid "4b7627d9-afca-443a-8f72-8983df8e0f69")
 			(effects
 				(font
 					(size 1 1)
@@ -13563,7 +13563,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ca02bd56-8d0b-4e25-a8cf-ae1e1e49ead4")
+			(uuid "affe1c3d-84a2-4208-b4a5-46bc6ceb80c0")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -13573,7 +13573,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1f830867-4f5f-4345-b1b0-4c368291f0c9")
+			(uuid "ca02bd56-8d0b-4e25-a8cf-ae1e1e49ead4")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -13593,7 +13593,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f686aee0-011d-49d4-b9f1-91a248d4901a")
+			(uuid "1f830867-4f5f-4345-b1b0-4c368291f0c9")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -13613,7 +13613,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "a9a32957-4f11-4e94-9550-82055989ce4d")
+			(uuid "f686aee0-011d-49d4-b9f1-91a248d4901a")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -13623,7 +13623,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "62f98874-c086-4016-aff0-1f354a411a35")
+			(uuid "d14c058c-e97c-498d-9d0f-05dd0f1a5722")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -13633,7 +13633,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ddbcb7d1-6ff4-48c2-884d-9a3d4941e698")
+			(uuid "7a45fcbf-ac76-41d0-ad18-b74703d63d13")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -13651,7 +13651,7 @@
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "63eb4e12-caae-4058-ae28-642c013aaec0")
+			(uuid "83299daa-b315-4ea3-b385-25fbd053fd50")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -13669,7 +13669,7 @@
 			(net "Net-(D10-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "f25cdced-f62c-4467-8955-1321d3f27595")
+			(uuid "8a753d31-ce33-487a-8362-9c62c17a4ad3")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -13684,14 +13684,14 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "7a2b5755-88d9-4a00-a72e-c13e419e065e")
 		(at 72.5 112)
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M2 ISO7380")
+		(tags "mountinghole M2")
 		(property "Reference" "H4"
-			(at 0 -2.7 0)
+			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(uuid "421dadb4-72eb-48b1-9800-0d01697a537b")
 			(effects
@@ -13702,7 +13702,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.7 0)
+			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "15791119-be15-44cb-b526-29fdfa6f6534")
 			(effects
@@ -13748,7 +13748,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.75 0)
+			(end 2.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13759,7 +13759,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -13774,8 +13774,8 @@
 			(uuid "552d2777-af2b-41ec-a31e-cd43b7c8490e")
 			(effects
 				(font
-					(size 0.88 0.88)
-					(thickness 0.13)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13846,7 +13846,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed333491-b1d6-45b3-b4df-7b7395177175")
+			(uuid "12f38815-f4be-44ec-b054-da18ebb016fd")
 			(effects
 				(font
 					(size 1 1)
@@ -13859,7 +13859,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b407f84-1d8b-4c5b-882c-f722a5bb7852")
+			(uuid "960f5f04-d6db-4c3c-aa1d-2ecdb24f80c5")
 			(effects
 				(font
 					(size 1 1)
@@ -13887,7 +13887,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1ddf52d4-d6d0-4afc-beb2-9a94269814ae")
+			(uuid "a68fdc7d-51d8-4f54-a454-660c52ab368a")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -13897,7 +13897,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dd8f8eea-a0a7-48d7-a5c1-f4c4d1a3b90f")
+			(uuid "8f85d28c-97cf-499e-a0db-14db76544aee")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -13907,7 +13907,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "68b0b901-a46e-4c4c-8d63-7076fb4dfbfb")
+			(uuid "1ddf52d4-d6d0-4afc-beb2-9a94269814ae")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -13917,7 +13917,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8f85d28c-97cf-499e-a0db-14db76544aee")
+			(uuid "68b0b901-a46e-4c4c-8d63-7076fb4dfbfb")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -13927,7 +13927,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "bcbf41d9-4fe5-4f56-8731-cf1e018154b1")
+			(uuid "322abdd4-a324-4f5f-9c22-98be207721a1")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -13937,7 +13937,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "3b3ffa14-23c9-4852-81d0-8dd08fffec63")
+			(uuid "bcbf41d9-4fe5-4f56-8731-cf1e018154b1")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -13947,7 +13947,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "8a5a67c9-4b2c-4d5b-86dd-6c6a654f7ee0")
+			(uuid "3b3ffa14-23c9-4852-81d0-8dd08fffec63")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -13957,7 +13957,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6671d815-e777-4497-97ef-fddba708f008")
+			(uuid "5f92213e-5e1d-40e0-9c38-31478264caba")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 356)
@@ -13975,7 +13975,7 @@
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "26d31520-a03a-4ebc-9ab5-21c6bbb1ddc8")
+			(uuid "f19cc8a8-7a2d-49c8-9d75-ff0604e01b28")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 356)
@@ -13993,7 +13993,7 @@
 			(net "Net-(D13-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "00bc2017-0fbd-46ca-bcfc-e8081e13140f")
+			(uuid "66cb9a85-be5e-4db5-a1aa-15c0d899e185")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -15404,7 +15404,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9852300-4e10-477b-a8dc-d8f90e40fe1c")
+			(uuid "a4748070-6129-4252-b81a-13f7f281bac3")
 			(effects
 				(font
 					(size 1 1)
@@ -15417,7 +15417,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8769e794-e826-432d-8b86-8c7286d40640")
+			(uuid "cf60bd10-8e64-4e68-a8f0-ac2166ab8208")
 			(effects
 				(font
 					(size 1 1)
@@ -15445,7 +15445,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7032d3e1-b1a4-4777-88ba-7e8dacac88c4")
+			(uuid "299f0529-9e57-4ab8-b852-710a6f61de12")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -15455,7 +15455,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a3ebc73b-095f-415e-8679-fd8c7a3fd7e4")
+			(uuid "b83b16eb-bc41-497b-9e1f-a0cb29a28a7f")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -15465,7 +15465,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "299f0529-9e57-4ab8-b852-710a6f61de12")
+			(uuid "f29d752a-cc55-4318-adb5-ef4e9f4cb0e7")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -15475,7 +15475,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b83b16eb-bc41-497b-9e1f-a0cb29a28a7f")
+			(uuid "a3ebc73b-095f-415e-8679-fd8c7a3fd7e4")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -15495,7 +15495,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "316369ce-281e-4fab-8ad5-3b8ffc87cc69")
+			(uuid "fa92844a-710e-4c6f-8d65-8c3c34e8ccc8")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -15505,7 +15505,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f4ced3b8-38cf-47d0-a1d4-8aede5c14782")
+			(uuid "2e822acb-ef3f-4ad9-9033-480f0e56dd21")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -15515,7 +15515,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fa92844a-710e-4c6f-8d65-8c3c34e8ccc8")
+			(uuid "3aeb57a0-fc59-455e-b599-6c75297d6a13")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 350)
@@ -15533,7 +15533,7 @@
 			(net "row_B")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "acf3d7d5-669c-432b-8e32-e58da6213d7d")
+			(uuid "f61b85d1-0662-4acf-aa61-2c039a4b3c7a")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 350)
@@ -15551,7 +15551,7 @@
 			(net "Net-(D16-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "e338df40-9776-46c6-b20f-770909c91b96")
+			(uuid "e905d99a-e79d-41b4-b06f-6e9534d9893b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -15624,7 +15624,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0323e854-e509-4f1c-bc27-c882896be098")
+			(uuid "4a31ab3b-c769-47fb-b5d7-a54ae857fc09")
 			(effects
 				(font
 					(size 1 1)
@@ -15637,7 +15637,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b3cc2e9b-f368-41cf-94dd-6f89d797a4b8")
+			(uuid "0e7fc832-2079-46d8-b5e1-8d7c43b23206")
 			(effects
 				(font
 					(size 1 1)
@@ -15675,7 +15675,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "95336338-8db1-4464-a84b-daa113efbc32")
+			(uuid "521aa1c0-6d55-4f15-9931-bde8541bd9d0")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -15695,7 +15695,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fd82fda1-43eb-4607-8327-2b36c275510d")
+			(uuid "95336338-8db1-4464-a84b-daa113efbc32")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -15705,7 +15705,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "36849103-2c54-4833-8cdd-2c7a2ac0455f")
+			(uuid "60261c71-2651-47a5-8911-3a90ad3ca7f0")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -15715,7 +15715,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "748cb2f5-2d05-4558-9e5e-e50284e5b4ab")
+			(uuid "c35095fa-3be0-4cdc-8d75-8c3187412e8b")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -15725,7 +15725,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "3af39ae8-fc7a-4f40-b103-7b4020fddae9")
+			(uuid "36849103-2c54-4833-8cdd-2c7a2ac0455f")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -15735,7 +15735,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "2178f619-2c32-447d-ac84-8a1050919fc8")
+			(uuid "42a103be-fb63-4931-8186-ec9653233e1d")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -15753,7 +15753,7 @@
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "949b4faa-91ad-4e69-9e6e-b369394ab448")
+			(uuid "2f639441-3c51-4d47-a24c-2ad9202301bb")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -15771,7 +15771,7 @@
 			(net "Net-(D11-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "e415ca4c-6b44-4331-af04-0088a79fb699")
+			(uuid "52f846be-2bf3-4137-8e8c-de2373d2a099")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -15844,7 +15844,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "49cbac59-edd0-4bd5-bcaa-fc8b8f0fe0d4")
+			(uuid "a11f305c-a29f-40b4-abb7-3707d1ff122b")
 			(effects
 				(font
 					(size 1 1)
@@ -15857,7 +15857,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5d0247b-c634-4348-b628-f9f6b52694ae")
+			(uuid "5307dfdb-5a8d-4d09-b36b-052e4f801a4b")
 			(effects
 				(font
 					(size 1 1)
@@ -15885,7 +15885,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a82fe7dd-5d8a-4fb2-b0a1-82f29d9e1e7e")
+			(uuid "27707420-8e93-42fd-9578-ad5e202f75a7")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -15905,7 +15905,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "27707420-8e93-42fd-9578-ad5e202f75a7")
+			(uuid "1dabe15b-9579-4c53-8648-151670444f2f")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -15915,7 +15915,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1dabe15b-9579-4c53-8648-151670444f2f")
+			(uuid "a82fe7dd-5d8a-4fb2-b0a1-82f29d9e1e7e")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -15925,7 +15925,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "39ba230e-d5a0-49d4-86d6-fedc388c184f")
+			(uuid "5abb4755-4d2a-496a-98a1-6f98a7b909fc")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -15935,7 +15935,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "5abb4755-4d2a-496a-98a1-6f98a7b909fc")
+			(uuid "7aae4ce2-991b-4bac-8c08-9d6d53e2014d")
 		)
 		(fp_line
 			(start 0.45 -0.700001)
@@ -15945,7 +15945,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "73135535-2a02-4874-8de9-ac02be991519")
+			(uuid "7ea04877-0cca-4ceb-8401-b0be3d32ff5e")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -15955,7 +15955,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "d7d84ffc-96f9-4913-a7e5-cd9dbe25907e")
+			(uuid "39ba230e-d5a0-49d4-86d6-fedc388c184f")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 8)
@@ -15973,7 +15973,7 @@
 			(net "row_D")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "0095d113-7d89-4f57-910d-c889bc4b5e9f")
+			(uuid "37a05bab-771c-41f8-8527-b81360e78b76")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 8)
@@ -15991,7 +15991,7 @@
 			(net "Net-(D4-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "15c30520-688d-4b8c-ab11-b898d9ee1458")
+			(uuid "144ba8ce-50ad-48d5-b8b2-6da004abf8c7")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -16064,7 +16064,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f121a05f-157d-44f5-9f1e-b43579a8054a")
+			(uuid "79f9c135-048a-4eae-9873-a6c7b02a5b52")
 			(effects
 				(font
 					(size 1 1)
@@ -16077,7 +16077,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "739acb96-821f-4dee-8823-daa7be631b7c")
+			(uuid "dcfc4a89-4a48-4783-a027-ece166502a89")
 			(effects
 				(font
 					(size 1 1)
@@ -16105,7 +16105,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "109e80eb-b083-4dbe-9793-f59fbd30cc56")
+			(uuid "722c5f47-49d1-417a-acf5-2e8e35f71eb8")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -16115,7 +16115,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c5124f85-59bf-44ee-9530-dda0f5c56cdc")
+			(uuid "8b5beada-b66b-4c94-9324-76740e2e5eb2")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -16125,7 +16125,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "722c5f47-49d1-417a-acf5-2e8e35f71eb8")
+			(uuid "f073cf98-6734-4ea9-827f-4c4cecb730a6")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -16135,7 +16135,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f073cf98-6734-4ea9-827f-4c4cecb730a6")
+			(uuid "c5124f85-59bf-44ee-9530-dda0f5c56cdc")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -16145,7 +16145,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "70aac149-64d0-474f-b3c1-16c3956fe907")
+			(uuid "e3c909c1-dc62-4c67-956f-188da0028240")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -16155,7 +16155,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "09d80699-a6a9-4714-b5b0-09c47dd9807d")
+			(uuid "109e80eb-b083-4dbe-9793-f59fbd30cc56")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -16175,7 +16175,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "c004f72c-d771-4b38-bd3a-ebfea74b27fb")
+			(uuid "37b51ce5-8f2d-40b4-8305-7bd2e3b517df")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 4)
@@ -16193,7 +16193,7 @@
 			(net "row_D")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "b79df155-af3d-40dc-b9bb-35a171291b84")
+			(uuid "aff5170f-2ccc-452c-8555-eaca7a943899")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 4)
@@ -16211,7 +16211,7 @@
 			(net "Net-(D8-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "929142db-672b-48b5-a75c-6f0d6b2e8173")
+			(uuid "960eafdc-3df4-4029-b1ba-c71695615d96")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -16840,7 +16840,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "f19530e4-ffc6-4053-b61e-089a95ad8f8e")
+			(uuid "22b9416f-8f80-40da-9de3-7161140f5a40")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -16850,7 +16850,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "22b9416f-8f80-40da-9de3-7161140f5a40")
+			(uuid "f19530e4-ffc6-4053-b61e-089a95ad8f8e")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -17092,7 +17092,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a378b491-7a30-4624-9b7d-fd2447f5136d")
+			(uuid "ac0d6d5e-abb1-4ccc-a1b2-2127532cf6ec")
 		)
 		(fp_line
 			(start -9.55 -5)
@@ -17122,7 +17122,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d2f66986-8587-432b-990d-b23a31c653e6")
+			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
 		)
 		(fp_line
 			(start -7 -5)
@@ -17282,7 +17282,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6a39c4be-fdca-4ded-ab38-899bc83892cd")
+			(uuid "a378b491-7a30-4624-9b7d-fd2447f5136d")
 		)
 		(fp_line
 			(start 7.499999 -7.5)
@@ -17292,7 +17292,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ac0d6d5e-abb1-4ccc-a1b2-2127532cf6ec")
+			(uuid "d2f66986-8587-432b-990d-b23a31c653e6")
 		)
 		(fp_arc
 			(start -2.5 -2.200001)
@@ -17469,14 +17469,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "9864579c-5dab-4754-977a-d4e4261130a5")
 		(at 70.02 56.31)
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M2 ISO7380")
+		(tags "mountinghole M2")
 		(property "Reference" "H1"
-			(at 0 -2.7 0)
+			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(uuid "8813ce05-915f-4463-9c5d-95e2d4d85600")
 			(effects
@@ -17487,7 +17487,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.7 0)
+			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "67652a04-2d59-4b75-b5ac-cb5c7887ed0d")
 			(effects
@@ -17533,7 +17533,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.75 0)
+			(end 2.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -17544,7 +17544,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -17559,8 +17559,8 @@
 			(uuid "8dc186eb-86cf-41e1-8b58-fae7324b6144")
 			(effects
 				(font
-					(size 0.88 0.88)
-					(thickness 0.13)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -17631,7 +17631,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "83295768-3d2b-49d1-a6bf-4d78e0ca8d58")
+			(uuid "5e40b3fb-2f5e-4de0-99f2-520827f332cd")
 			(effects
 				(font
 					(size 1 1)
@@ -17644,7 +17644,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "60255bc9-f973-4a00-b62a-066a5225939c")
+			(uuid "7ad3dd8c-ef77-41b4-837d-332f1a3c9744")
 			(effects
 				(font
 					(size 1 1)
@@ -17672,7 +17672,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cc4c201d-ac1f-4cc2-9d08-d218cab03b86")
+			(uuid "3162b0e0-5ea3-4340-bec2-ceda50eec162")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -17702,7 +17702,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3162b0e0-5ea3-4340-bec2-ceda50eec162")
+			(uuid "31e4e25f-46cc-4640-a934-119dd7abeba2")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -17712,7 +17712,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "be359a01-3421-4ee3-a71f-e014f2599e5e")
+			(uuid "7546cb99-e6fa-4a36-8ca5-3b84dcdc5f1d")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -17722,7 +17722,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "082c99a0-32ec-4c9a-b79d-7a8c68e58474")
+			(uuid "cc4c201d-ac1f-4cc2-9d08-d218cab03b86")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -17732,7 +17732,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "31e4e25f-46cc-4640-a934-119dd7abeba2")
+			(uuid "e3cde50a-16ce-4792-8323-432aa0fb908d")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -17742,7 +17742,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7546cb99-e6fa-4a36-8ca5-3b84dcdc5f1d")
+			(uuid "97653325-99f8-4637-b1af-ac0e0430d693")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -17760,7 +17760,7 @@
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "3475cfaf-13e4-407e-b469-3316a67d3e51")
+			(uuid "aa1e1456-d142-41b0-b4ec-b860553f5b7c")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -17778,7 +17778,7 @@
 			(net "Net-(D5-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "6f739c8c-f23f-46f7-9646-00d921219f5d")
+			(uuid "b6102554-c333-4263-894c-97c78430d13b")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -18887,13 +18887,13 @@
 			(at 114.985 78.068484)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "a693d8e7-50fb-4a47-8dae-2b56a526a368")
+			(uuid "93d9ee6a-5a43-4afc-b915-05d52996878b")
 		)
 		(point
 			(at 109.36 77.718484)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "93d9ee6a-5a43-4afc-b915-05d52996878b")
+			(uuid "a693d8e7-50fb-4a47-8dae-2b56a526a368")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -20306,13 +20306,13 @@
 			(at 132.977431 58.382647)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "494b6bda-6fb1-45f7-a3e4-0ac312ec3018")
+			(uuid "0b5acc2c-3b36-43bc-84b6-ea255c270f8a")
 		)
 		(point
 			(at 127.352431 58.032647)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "0b5acc2c-3b36-43bc-84b6-ea255c270f8a")
+			(uuid "494b6bda-6fb1-45f7-a3e4-0ac312ec3018")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
@@ -20513,7 +20513,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "85fcd92e-5a34-4ea8-9b3e-58bbcec91288")
+			(uuid "3f678d31-3378-4bd1-9ca7-90b51713718f")
 			(effects
 				(font
 					(size 1 1)
@@ -20526,7 +20526,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c83dd2f-3a8b-477d-bca1-09ee20f3ee95")
+			(uuid "98728a98-fa01-4d2e-b5c4-22dcee972a88")
 			(effects
 				(font
 					(size 1 1)
@@ -20554,7 +20554,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a4c88eb7-6752-46f1-9852-1ff8454dc841")
+			(uuid "eb2bd1b2-cef8-4414-9af1-4ce7207a025a")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -20564,7 +20564,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5e5ef074-7253-4128-b3cc-3a58a81f4b31")
+			(uuid "a4c88eb7-6752-46f1-9852-1ff8454dc841")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -20574,7 +20574,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "43c1b881-4c7d-4e78-b9bb-24107f0a191f")
+			(uuid "5e5ef074-7253-4128-b3cc-3a58a81f4b31")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -20584,7 +20584,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "eb2bd1b2-cef8-4414-9af1-4ce7207a025a")
+			(uuid "9b5750db-8e0c-4f0b-82b3-bed6d1cad866")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -20594,7 +20594,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "1a51930b-c757-47c1-8f9d-581f6bdcafc6")
+			(uuid "2003662e-b21a-4a21-b67e-b17d47f2ae52")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -20604,7 +20604,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fdf4e5e5-ce2c-447d-bb90-a5b6b60c83c5")
+			(uuid "68c28482-4e33-454d-92ff-1a5267285e3b")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -20614,7 +20614,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "2003662e-b21a-4a21-b67e-b17d47f2ae52")
+			(uuid "1a51930b-c757-47c1-8f9d-581f6bdcafc6")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -20624,7 +20624,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "92980ed2-d0ca-4e66-a623-c71285482cd5")
+			(uuid "814eb30f-2b54-45fc-b723-26eb899c6027")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -20642,7 +20642,7 @@
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "a4af2cd7-b1bd-4582-a0c4-dc7bbe7c3a71")
+			(uuid "b9e76dd8-db3c-4d6d-9e2a-b6780096450c")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -20660,7 +20660,7 @@
 			(net "Net-(D3-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "fde8107e-229e-4a49-8c93-f7538c3c1936")
+			(uuid "c5505936-6e50-42dd-910e-cfe3ca317e24")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -20733,7 +20733,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20669177-32b5-44ae-804a-effbc3927ff1")
+			(uuid "0da7dc78-8b8d-4d91-9463-308e08288f68")
 			(effects
 				(font
 					(size 1 1)
@@ -20746,7 +20746,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac49d80e-dbf5-4f99-a085-879b4aefcbf0")
+			(uuid "005c2e02-c285-486c-a36d-53e01ec76c01")
 			(effects
 				(font
 					(size 1 1)
@@ -20804,7 +20804,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "debab7a2-a71c-4336-9be9-512b08b667c6")
+			(uuid "daae1481-8d1c-436c-abf0-b9821db52b5b")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -20814,7 +20814,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "f4e89523-bbec-4016-92f9-d4c18a1387db")
+			(uuid "4840710b-38f8-4b86-9dae-1836658dc54d")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -20834,7 +20834,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6c1bba7f-85e9-46f7-b444-93c2be9fc59d")
+			(uuid "8c150ba2-23e7-46ec-8d36-df01eb931786")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -20844,7 +20844,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "4840710b-38f8-4b86-9dae-1836658dc54d")
+			(uuid "c1a98a99-c0c7-4ef2-aab3-221e06c07f9b")
 		)
 		(pad "1" smd rect
 			(at -1.7 0)
@@ -20862,7 +20862,7 @@
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "2c067cf8-a03e-4d62-bd5d-c95fa17b6c00")
+			(uuid "30dec37c-c76b-4db4-b967-6939811105ce")
 		)
 		(pad "2" smd rect
 			(at 1.7 0)
@@ -20880,7 +20880,7 @@
 			(net "Net-(D1-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "37b9ce2e-4d75-4217-830d-d5613ad297c1")
+			(uuid "6eb78b49-c5e3-43de-92fc-6e386adca1dd")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -20953,7 +20953,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c13da9fc-8977-409f-b972-8b592491ce62")
+			(uuid "a91e084f-dd24-4570-8bd7-9f756d75ca41")
 			(effects
 				(font
 					(size 1 1)
@@ -20966,7 +20966,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e32a48e-a6c3-4be9-b3fd-d414e5dcf9e6")
+			(uuid "60ba160e-13b1-44e0-9715-d3ce16749f53")
 			(effects
 				(font
 					(size 1 1)
@@ -20994,7 +20994,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "217a1dc6-d4ba-42b7-9893-0279a2082f4f")
+			(uuid "51f849b4-65fa-466c-acdf-106f3ea4da9f")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -21004,7 +21004,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3b4af561-510c-4149-af6b-5a759a8676a5")
+			(uuid "9ca657b9-e787-4d39-9eb1-8d2323494acb")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -21014,7 +21014,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9ca657b9-e787-4d39-9eb1-8d2323494acb")
+			(uuid "3b4af561-510c-4149-af6b-5a759a8676a5")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -21024,7 +21024,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a8def749-b07f-4f95-90e0-e3d7f8029b49")
+			(uuid "217a1dc6-d4ba-42b7-9893-0279a2082f4f")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -21034,7 +21034,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "fd2b131b-baa8-454c-b53e-55152171520b")
+			(uuid "b12aaee7-a0fb-4233-b3b4-7458235a0fda")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -21054,7 +21054,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "5a1aba6b-c659-49c4-9112-f90ff1ada841")
+			(uuid "015c0912-e7c5-4ac5-a932-62b1457c4a3b")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -21064,7 +21064,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "015c0912-e7c5-4ac5-a932-62b1457c4a3b")
+			(uuid "8ef6f069-6fda-40e5-a712-996ce82dce30")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 356)
@@ -21082,7 +21082,7 @@
 			(net "row_A")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "0f046ffb-21cf-4a1f-87cc-adc38acf019e")
+			(uuid "3b3b3c61-1fd3-4e48-8b8f-d5f991410a3c")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 356)
@@ -21100,7 +21100,7 @@
 			(net "Net-(D12-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "5d24307b-2eb5-45aa-b790-17220f5651bf")
+			(uuid "a6dc1549-4727-4455-8510-91430bdf8de1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -23452,13 +23452,13 @@
 			(at 114.608271 113.919694)
 			(size 1)
 			(layer "F.Cu")
-			(uuid "86fe0bce-36c7-493f-82b0-8871c52bd532")
+			(uuid "9a931276-dc42-4bcc-b227-7c6a0716ba96")
 		)
 		(point
 			(at 108.972662 113.864564)
 			(size 1)
 			(layer "F.SilkS")
-			(uuid "9a931276-dc42-4bcc-b227-7c6a0716ba96")
+			(uuid "86fe0bce-36c7-493f-82b0-8871c52bd532")
 		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 3)
@@ -23601,14 +23601,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2_ISO7380"
+	(footprint "MountingHole:MountingHole_2.2mm_M2"
 		(layer "F.Cu")
 		(uuid "c60995ad-f260-497d-85c7-ea20f2c3d9c5")
 		(at 194.398013 127.759458)
 		(descr "Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py")
-		(tags "mountinghole M2 ISO7380")
+		(tags "mountinghole M2")
 		(property "Reference" "H5"
-			(at 0 -2.7 0)
+			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(uuid "14ba9b06-630b-4066-867e-80a6599a4861")
 			(effects
@@ -23619,7 +23619,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 2.7 0)
+			(at 0 3.15 0)
 			(layer "F.Fab")
 			(uuid "f08c710b-855f-470d-b064-2fd3276ad24c")
 			(effects
@@ -23665,7 +23665,7 @@
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
-			(end 1.75 0)
+			(end 2.2 0)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -23676,7 +23676,7 @@
 		)
 		(fp_circle
 			(center 0 0)
-			(end 2 0)
+			(end 2.45 0)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -23691,8 +23691,8 @@
 			(uuid "cd5e5396-17e0-450e-8b9a-002266132cf2")
 			(effects
 				(font
-					(size 0.88 0.88)
-					(thickness 0.13)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -25926,7 +25926,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d4d4123f-56ae-4593-92fc-d6a70526494e")
+			(uuid "d999ec2c-3d76-4d33-b66f-2f34f2bb8392")
 			(effects
 				(font
 					(size 1 1)
@@ -25939,7 +25939,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "825ca10d-50ab-4f5f-a34c-e5236cb6cc10")
+			(uuid "ef632d67-305b-400c-b623-9b3487d3a533")
 			(effects
 				(font
 					(size 1 1)
@@ -25977,7 +25977,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "27987005-749e-4a00-b10a-16ecc795ec4f")
+			(uuid "f0c6218a-8e07-4bec-8d90-f2709e041e36")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -25987,7 +25987,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f0c6218a-8e07-4bec-8d90-f2709e041e36")
+			(uuid "ec84f008-a18b-4344-bce1-ed4ae27b5e8e")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -25997,7 +25997,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "beb5e92b-bde6-4468-8459-39fc6bfdafbd")
+			(uuid "27987005-749e-4a00-b10a-16ecc795ec4f")
 		)
 		(fp_line
 			(start -0.45 0)
@@ -26007,7 +26007,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ec2492ce-bd45-4942-8363-d744f21fb5f7")
+			(uuid "ee6a6fa6-320d-4e17-af0c-605293a581b1")
 		)
 		(fp_line
 			(start -0.45 -0.7)
@@ -26017,7 +26017,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7135ec38-04a5-40a7-90ed-1f92693df47f")
+			(uuid "beb5e92b-bde6-4468-8459-39fc6bfdafbd")
 		)
 		(fp_line
 			(start 0.45 0.7)
@@ -26027,7 +26027,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "ee6a6fa6-320d-4e17-af0c-605293a581b1")
+			(uuid "249af1d6-08e8-4a8a-b13f-1c1984699f59")
 		)
 		(fp_line
 			(start 0.45 -0.7)
@@ -26037,7 +26037,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "b8df576e-52e4-4898-823b-719ba99a7a0c")
+			(uuid "7135ec38-04a5-40a7-90ed-1f92693df47f")
 		)
 		(pad "1" smd rect
 			(at -1.7 0 356)
@@ -26055,7 +26055,7 @@
 			(net "row_C")
 			(pinfunction "K_1")
 			(pintype "passive")
-			(uuid "dc3fe435-797e-42df-8bc8-189debf1cc04")
+			(uuid "403ae3ea-fc19-47e3-9910-bb759fca9df6")
 		)
 		(pad "2" smd rect
 			(at 1.7 0 356)
@@ -26073,7 +26073,7 @@
 			(net "Net-(D14-A)")
 			(pinfunction "A_2")
 			(pintype "passive")
-			(uuid "7e1236fc-f0be-495d-bd1f-03cd985369d7")
+			(uuid "f6879a73-1a99-4086-8dab-9214d21224b1")
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step"
@@ -26702,7 +26702,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
+			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
 		)
 		(fp_line
 			(start -7.5 -7.499999)
@@ -26712,7 +26712,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
+			(uuid "8628e550-83cc-4680-99c1-567370e3c220")
 		)
 		(fp_line
 			(start -4.55 -5.95)
@@ -26852,7 +26852,7 @@
 				(type solid)
 			)
 			(layer "B.Fab")
-			(uuid "d7080aea-a985-4cd4-90b1-cd18e1724df4")
+			(uuid "47759a01-5af9-489b-9be6-9f0cfc7fc1cd")
 		)
 		(fp_line
 			(start 7.000001 -1.5)
@@ -26954,7 +26954,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "cbaac10b-4ba4-4401-8ca0-de591d554b1a")
+			(uuid "ceded776-8101-4dc2-bf0c-c68067368bff")
 		)
 		(fp_line
 			(start -9.55 -5)
@@ -27154,7 +27154,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ceded776-8101-4dc2-bf0c-c68067368bff")
+			(uuid "cbaac10b-4ba4-4401-8ca0-de591d554b1a")
 		)
 		(fp_arc
 			(start -2.5 -2.200001)
