@@ -2016,7 +2016,7 @@
 		(layer "F.Cu")
 		(uuid "1f16ff3c-62d4-4cb7-b68e-74609b34ac59")
 		(at 106.71 56.91 180)
-		(property "Reference" "SW19"
+		(property "Reference" "RESET"
 			(at 0 2.55 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -18513,7 +18513,7 @@
 		(layer "F.Cu")
 		(uuid "a045f640-8670-46e0-bdbf-d01fcac2a5dc")
 		(at 100.5 55.35 -90)
-		(property "Reference" "SW1"
+		(property "Reference" "SW_PWR"
 			(at -3 0.1 270)
 			(layer "F.SilkS")
 			(hide yes)

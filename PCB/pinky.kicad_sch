@@ -3930,7 +3930,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b2283d2-68f9-40a8-9a40-e386244682ad")
-		(property "Reference" "SW1"
+		(property "Reference" "SW_PWR"
 			(at 59.69 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4833,7 +4833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b6b1593-51f1-40c8-89c3-442c47f55797")
-		(property "Reference" "SW19"
+		(property "Reference" "RESET"
 			(at 175.26 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
