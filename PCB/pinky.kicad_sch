@@ -1257,8 +1257,8 @@
 			)
 			(symbol "nice_nano_0_1"
 				(rectangle
-					(start -15.24 16.51)
-					(end 15.24 -16.51)
+					(start -15.24 15.24)
+					(end 15.24 -21.59)
 					(stroke
 						(width 0)
 						(type default)
@@ -1270,7 +1270,7 @@
 			)
 			(symbol "nice_nano_1_1"
 				(pin bidirectional line
-					(at -20.32 13.97 0)
+					(at -20.32 12.7 0)
 					(length 5.08)
 					(name "D1/P0.06"
 						(effects
@@ -1288,7 +1288,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 11.43 0)
+					(at -12.7 -26.67 90)
 					(length 5.08)
 					(name "D0/P0.08"
 						(effects
@@ -1306,7 +1306,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 8.89 0)
+					(at -2.54 -26.67 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1324,7 +1324,7 @@
 					)
 				)
 				(pin power_in line
-					(at -20.32 6.35 0)
+					(at 7.62 -26.67 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1342,7 +1342,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 3.81 0)
+					(at -20.32 10.16 0)
 					(length 5.08)
 					(name "D2/P0.17"
 						(effects
@@ -1360,7 +1360,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 1.27 0)
+					(at -20.32 7.62 0)
 					(length 5.08)
 					(name "D3/P0.20"
 						(effects
@@ -1378,7 +1378,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -1.27 0)
+					(at -20.32 5.08 0)
 					(length 5.08)
 					(name "D4/P0.22"
 						(effects
@@ -1396,7 +1396,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -3.81 0)
+					(at -20.32 2.54 0)
 					(length 5.08)
 					(name "D5/P0.24"
 						(effects
@@ -1414,7 +1414,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -6.35 0)
+					(at -20.32 0 0)
 					(length 5.08)
 					(name "D6/P1.00"
 						(effects
@@ -1432,7 +1432,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -8.89 0)
+					(at -20.32 -2.54 0)
 					(length 5.08)
 					(name "D7/P0.11"
 						(effects
@@ -1450,7 +1450,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -11.43 0)
+					(at -20.32 -5.08 0)
 					(length 5.08)
 					(name "D8/P1.04"
 						(effects
@@ -1468,7 +1468,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -20.32 -13.97 0)
+					(at -20.32 -7.62 0)
 					(length 5.08)
 					(name "D9/P1.06"
 						(effects
@@ -1486,7 +1486,7 @@
 					)
 				)
 				(pin power_out line
-					(at 20.32 8.89 180)
+					(at 20.32 12.7 180)
 					(length 5.08)
 					(name "VBAT"
 						(effects
@@ -1504,7 +1504,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -21.59 90)
+					(at -7.62 -26.67 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -1522,7 +1522,7 @@
 					)
 				)
 				(pin input line
-					(at 20.32 6.35 180)
+					(at 2.54 -26.67 90)
 					(length 5.08)
 					(name "RESET"
 						(effects
@@ -1540,7 +1540,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 21.59 270)
+					(at 12.7 -26.67 90)
 					(length 5.08)
 					(name "EXT_VCC"
 						(effects
@@ -1558,7 +1558,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 3.81 180)
+					(at 20.32 10.16 180)
 					(length 5.08)
 					(name "D21/P0.31"
 						(effects
@@ -1576,7 +1576,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 1.27 180)
+					(at 20.32 7.62 180)
 					(length 5.08)
 					(name "D20/P0.29"
 						(effects
@@ -1594,7 +1594,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -1.27 180)
+					(at 20.32 5.08 180)
 					(length 5.08)
 					(name "D19/P0.02"
 						(effects
@@ -1612,7 +1612,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -3.81 180)
+					(at 20.32 2.54 180)
 					(length 5.08)
 					(name "D18/P1.15"
 						(effects
@@ -1630,7 +1630,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -6.35 180)
+					(at 20.32 0 180)
 					(length 5.08)
 					(name "D15/P1.13"
 						(effects
@@ -1648,7 +1648,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -8.89 180)
+					(at 20.32 -2.54 180)
 					(length 5.08)
 					(name "D14/P1.11"
 						(effects
@@ -1666,7 +1666,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -11.43 180)
+					(at 20.32 -5.08 180)
 					(length 5.08)
 					(name "D16/P0.10"
 						(effects
@@ -1684,7 +1684,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 20.32 -13.97 180)
+					(at 20.32 -7.62 180)
 					(length 5.08)
 					(name "D10/P0.09"
 						(effects
@@ -2154,10 +2154,22 @@
 		(uuid "1718738f-2d97-4f60-87f2-033dbb0d1412")
 	)
 	(junction
-		(at 44.45 83.82)
+		(at 45.72 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2272b2bd-c174-41d2-9aec-e8d85ff81370")
+		(uuid "1a6640b5-8d34-4061-a971-139ab8963e53")
+	)
+	(junction
+		(at 55.88 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "243cab15-1f42-4572-982c-f21a7f0bb3da")
+	)
+	(junction
+		(at 55.88 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28fa146d-5b49-4052-b991-c4309d6178ae")
 	)
 	(junction
 		(at 138.43 30.48)
@@ -2196,16 +2208,40 @@
 		(uuid "54b0e829-651e-4940-a0e4-9e54bc34de4c")
 	)
 	(junction
+		(at 38.1 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56205aa6-c3c3-4035-8b32-9829109200fc")
+	)
+	(junction
 		(at 110.49 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e7466d4-730d-4998-a25d-2fa66a069513")
 	)
 	(junction
+		(at 58.42 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eb51eee-137b-4d66-b472-52090b5a6cde")
+	)
+	(junction
 		(at 99.06 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6216c961-9844-49ba-91ba-a21f24a6bfc1")
+	)
+	(junction
+		(at 53.34 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "647f6cd0-7d7c-4112-a7dd-9eee3cab003f")
+	)
+	(junction
+		(at 50.8 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bf54f2a-5e11-4998-b06b-7a14c8c67af4")
 	)
 	(junction
 		(at 40.64 125.73)
@@ -2230,6 +2266,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89e21c7b-061c-45d8-81b2-c34eb989e42a")
+	)
+	(junction
+		(at 35.56 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ef7df82-465d-43c0-88ec-e7c04052700a")
 	)
 	(junction
 		(at 132.08 40.64)
@@ -2292,10 +2334,10 @@
 		(uuid "f233421e-e5b1-47c8-ac02-f7d5d573d5a9")
 	)
 	(junction
-		(at 44.45 35.56)
+		(at 43.18 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2a9595e-2621-44fa-bf08-ef9671ebbc8e")
+		(uuid "f2e50f33-bd06-457a-9065-c242df05237d")
 	)
 	(junction
 		(at 93.98 30.48)
@@ -2310,56 +2352,44 @@
 		(uuid "f8c6c6f8-96ad-4bd8-91f6-5cf0af9f9263")
 	)
 	(no_connect
-		(at 64.77 60.96)
-		(uuid "02379965-1319-4b3f-86dc-fb35ae549f16")
-	)
-	(no_connect
-		(at 64.77 66.04)
-		(uuid "080e0686-8b5f-4135-9d77-bcb6af2d7796")
-	)
-	(no_connect
-		(at 64.77 71.12)
-		(uuid "1319e85f-5550-4023-85b0-c43051843c5d")
+		(at 66.04 50.8)
+		(uuid "2cc6ceae-1864-4b9b-837d-c51d1ee6abe6")
 	)
 	(no_connect
 		(at 62.23 123.19)
 		(uuid "3016c6a1-16a9-428a-9392-da5eca4aed1f")
 	)
 	(no_connect
-		(at 64.77 68.58)
-		(uuid "363b00bc-a32a-47f0-a640-0e903e8371ef")
+		(at 66.04 45.72)
+		(uuid "3c8389a5-2c88-45ae-b3a5-72568356db36")
 	)
 	(no_connect
-		(at 24.13 48.26)
-		(uuid "43d14c8b-195f-42bd-9fee-026399b10642")
+		(at 66.04 38.1)
+		(uuid "5bfb4af5-f4e7-495e-b667-f4abef88463a")
 	)
 	(no_connect
-		(at 64.77 58.42)
-		(uuid "617ce587-04fa-4fb6-90a5-6451381029d6")
+		(at 66.04 40.64)
+		(uuid "6b910313-05d9-4ccf-bede-cb622c1bc6e0")
 	)
 	(no_connect
-		(at 64.77 55.88)
-		(uuid "8ca2f3ac-7430-4e18-8e46-b9a4e7053c0b")
+		(at 25.4 35.56)
+		(uuid "9a16459f-0e3e-473f-906c-083b03fbe9fc")
 	)
 	(no_connect
-		(at 24.13 53.34)
-		(uuid "ab10847b-88be-4339-a5f9-06e62acedab4")
+		(at 66.04 43.18)
+		(uuid "c1adda25-89c6-4c49-b4c2-e1e930efbf43")
 	)
 	(no_connect
-		(at 24.13 50.8)
-		(uuid "b863fc63-a1b0-49fb-b6ed-fe6f79b48f0e")
+		(at 66.04 35.56)
+		(uuid "cde5c2d2-3b4d-4068-bdfd-91f8347a1d39")
 	)
 	(no_connect
-		(at 24.13 45.72)
-		(uuid "e2872615-bf0a-4906-b986-4980292269b6")
+		(at 66.04 53.34)
+		(uuid "d0791f51-795b-4b25-b6a8-007ac3a46a6c")
 	)
 	(no_connect
-		(at 64.77 63.5)
-		(uuid "e3426201-3088-4503-bc62-82f4c96255fb")
-	)
-	(no_connect
-		(at 64.77 50.8)
-		(uuid "f147c6ba-b739-4b96-8318-aba6a4185bd6")
+		(at 66.04 48.26)
+		(uuid "f323bf7c-94b7-4517-8e9d-38f5c5b5a4b2")
 	)
 	(wire
 		(pts
@@ -2379,7 +2409,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "062f8c7a-6893-4742-9611-39d86dfd5137")
+		(uuid "05862a68-d1b4-4c3d-96f6-a9ffa40c1079")
 	)
 	(wire
 		(pts
@@ -2410,6 +2440,16 @@
 			(type default)
 		)
 		(uuid "0bf6f49d-f8cf-4512-b5fb-f3b7cb513d8c")
+	)
+	(wire
+		(pts
+			(xy 55.88 80.01) (xy 55.88 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c1b8d2f-90f4-44ea-a82d-b28e8f147faa")
 	)
 	(wire
 		(pts
@@ -2473,13 +2513,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 83.82) (xy 44.45 81.28)
+			(xy 45.72 80.01) (xy 48.26 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "308cf0fc-dc95-4eb2-b16d-da3a72131db2")
+		(uuid "300c9020-70b1-4f35-a86c-6987bb98e4cf")
 	)
 	(wire
 		(pts
@@ -2593,6 +2633,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 80.01) (xy 45.72 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fc9b39-50aa-413c-90da-f3fa45353167")
+	)
+	(wire
+		(pts
 			(xy 48.26 118.11) (xy 50.8 118.11)
 		)
 		(stroke
@@ -2620,6 +2670,16 @@
 			(type default)
 		)
 		(uuid "6a1334fd-a9ee-4a6a-a26b-af115f47a2f0")
+	)
+	(wire
+		(pts
+			(xy 33.02 80.01) (xy 35.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8e4aed-de68-419d-b481-e5126c800f9a")
 	)
 	(wire
 		(pts
@@ -2693,13 +2753,13 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 35.56) (xy 44.45 38.1)
+			(xy 43.18 80.01) (xy 45.72 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88b077ab-5cfd-484a-8d82-fd6b1f1976ee")
+		(uuid "851beca4-ef59-4ebc-9efc-713137e1a21b")
 	)
 	(wire
 		(pts
@@ -2763,6 +2823,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 127) (xy 50.8 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d264694-793f-451c-9899-623e9d235e15")
+	)
+	(wire
+		(pts
 			(xy 33.02 116.84) (xy 40.64 116.84)
 		)
 		(stroke
@@ -2770,6 +2840,16 @@
 			(type default)
 		)
 		(uuid "a2aa6939-8ffb-4f86-99d6-a7e4887e853a")
+	)
+	(wire
+		(pts
+			(xy 35.56 80.01) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acacc690-72a1-46e3-9b77-3a54877f82bc")
 	)
 	(wire
 		(pts
@@ -2800,6 +2880,16 @@
 			(type default)
 		)
 		(uuid "b508feb7-d854-488c-88a9-9e72aa4bea85")
+	)
+	(wire
+		(pts
+			(xy 53.34 80.01) (xy 55.88 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75d58b4-c0f3-49a0-a262-ebd9fe5cd4ba")
 	)
 	(wire
 		(pts
@@ -2890,6 +2980,16 @@
 			(type default)
 		)
 		(uuid "decc4b5a-4445-4e38-a4ee-a758924fc8f9")
+	)
+	(wire
+		(pts
+			(xy 55.88 80.01) (xy 58.42 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd87fc5-0c90-4e3a-988d-4d2ef9653ac3")
 	)
 	(wire
 		(pts
@@ -3093,7 +3193,7 @@
 	)
 	(global_label "col_E"
 		(shape input)
-		(at 24.13 66.04 180)
+		(at 25.4 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3103,7 +3203,7 @@
 		)
 		(uuid "3c11af96-fc51-4de8-a246-f8ac472505d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.1254 66.04 0)
+			(at 17.3954 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3117,7 +3217,7 @@
 	)
 	(global_label "col_A"
 		(shape input)
-		(at 24.13 55.88 180)
+		(at 25.4 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3127,7 +3227,7 @@
 		)
 		(uuid "5320e57d-12e7-435c-8785-b2700d53a879")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.1858 55.88 0)
+			(at 17.4558 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3141,7 +3241,7 @@
 	)
 	(global_label "col_D"
 		(shape input)
-		(at 24.13 63.5 180)
+		(at 25.4 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3151,7 +3251,7 @@
 		)
 		(uuid "54e3226a-6776-4aa9-9744-6524d84c76ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0044 63.5 0)
+			(at 17.2744 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,7 +3265,7 @@
 	)
 	(global_label "row_C"
 		(shape input)
-		(at 24.13 73.66 180)
+		(at 25.4 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3175,7 +3275,7 @@
 		)
 		(uuid "5810ff2e-10f3-4a31-8ca3-7e9aa9cf303a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.6415 73.66 0)
+			(at 16.9115 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,17 +3289,17 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 64.77 53.34 0)
+		(at 45.72 81.28 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "78e09f8e-c3bc-4f43-92f7-52914fb1180c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.9283 53.2606 0)
+			(at 45.72 90.0103 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3307,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3237,7 +3337,7 @@
 	)
 	(global_label "col_B"
 		(shape input)
-		(at 24.13 58.42 180)
+		(at 25.4 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3247,7 +3347,7 @@
 		)
 		(uuid "8d21cd17-f4cb-438f-9443-79f52797e605")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0044 58.42 0)
+			(at 17.2744 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3261,7 +3361,7 @@
 	)
 	(global_label "row_A"
 		(shape input)
-		(at 24.13 68.58 180)
+		(at 25.4 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3271,7 +3371,7 @@
 		)
 		(uuid "b38e531e-48b5-43f2-8b3a-ae92f2b3f625")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.8229 68.58 0)
+			(at 17.0929 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3385,7 @@
 	)
 	(global_label "row_B"
 		(shape input)
-		(at 24.13 71.12 180)
+		(at 25.4 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3295,7 +3395,7 @@
 		)
 		(uuid "c1701931-d6c7-48f4-ac0f-7ab622b957a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.6415 71.12 0)
+			(at 16.9115 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3381,7 +3481,7 @@
 	)
 	(global_label "row_D"
 		(shape input)
-		(at 64.77 73.66 0)
+		(at 66.04 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3391,7 +3491,7 @@
 		)
 		(uuid "d22184c1-7062-4b2b-988b-d84697fec47a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.2585 73.66 0)
+			(at 74.5285 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3429,7 +3529,7 @@
 	)
 	(global_label "col_C"
 		(shape input)
-		(at 24.13 60.96 180)
+		(at 25.4 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3439,7 +3539,7 @@
 		)
 		(uuid "eb0c03a9-e7bf-4cfa-b89d-a31533b8de03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0044 60.96 0)
+			(at 17.2744 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3448,6 +3548,86 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 53.34 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00b1af25-090b-4bfe-8839-090c600a2893")
+		(property "Reference" "#FLG05"
+			(at 55.245 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 57.15 74.9299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 53.34 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28644b80-dc0d-4621-b4f8-45912633628a")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "#FLG05")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -4056,6 +4236,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Pinky:Jumper")
+		(at 33.02 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
+		(property "Reference" "JP5"
+			(at 33.528 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 34.29 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Pinky:Jumper"
+			(at 28.448 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4dd5f8b5-5dde-4b64-aadb-faca110dc054")
+		)
+		(pin "1"
+			(uuid "2db9ad1e-4f02-43f1-9188-a40348fbc0ba")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "JP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pinky:D_SOD123")
 		(at 99.06 38.1 90)
 		(unit 1)
@@ -4463,7 +4725,7 @@
 		(dnp no)
 		(uuid "2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(property "Reference" "SW_PWR1"
-			(at 57.658 115.316 0)
+			(at 57.15 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4699,7 +4961,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 44.45 35.56 270)
+		(at 55.88 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4708,9 +4970,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3b9364ba-389e-4338-8b33-f3cfed5e23d6")
-		(property "Reference" "#FLG2"
-			(at 46.355 35.56 0)
+		(uuid "37a701e0-db30-4951-906e-cd6c8ae463d2")
+		(property "Reference" "#FLG04"
+			(at 57.785 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4721,7 +4983,8 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 48.26 35.5599 90)
+			(at 59.69 81.2799 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4732,7 +4995,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 35.56 0)
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4743,7 +5006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 35.56 0)
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4754,7 +5017,87 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 35.56 0)
+			(at 55.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d84c3d8-cf2f-464d-bf20-1343335ebda4")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b9364ba-389e-4338-8b33-f3cfed5e23d6")
+		(property "Reference" "#FLG2"
+			(at 60.325 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 62.23 74.9299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4959,7 +5302,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 44.45 83.82 270)
+		(at 38.1 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4969,7 +5312,7 @@
 		(dnp no)
 		(uuid "46124236-c10f-427c-a0d7-a5696417f434")
 		(property "Reference" "#FLG1"
-			(at 46.355 83.82 0)
+			(at 40.005 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +5323,8 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 52.578 83.82 90)
+			(at 45.466 76.708 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4990,7 +5334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 83.82 0)
+			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5001,7 +5345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 83.82 0)
+			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5012,7 +5356,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 83.82 0)
+			(at 38.1 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5029,6 +5373,88 @@
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#FLG1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pinky:Jumper")
+		(at 48.26 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ca40658-9f7a-40d7-9fd1-2719bafc3242")
+		(property "Reference" "JP8"
+			(at 48.768 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 49.53 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Pinky:Jumper"
+			(at 43.688 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0ffc558a-3a04-43b8-bc5d-f9263da67916")
+		)
+		(pin "1"
+			(uuid "7f891e69-d942-4b19-b01d-04983624957e")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -5333,7 +5759,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(property "Reference" "RESET19"
-			(at 175.26 77.47 0)
+			(at 176.53 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5341,6 +5767,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "ResetSW"
@@ -6008,6 +6435,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 52.07 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7772d6c5-a8f2-4af3-8c7d-024547d3e0f6")
+		(property "Reference" "#FLG3"
+			(at 53.975 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 52.07 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e49595f8-91a1-42d1-90b2-5323f8af3580")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "#FLG3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pinky:D_SOD123")
 		(at 99.06 55.88 90)
 		(unit 1)
@@ -6270,8 +6776,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 44.45 35.56 90)
+		(lib_id "Pinky:Jumper")
+		(at 58.42 77.47 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6279,9 +6785,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7ea15999-0781-4c2e-a266-2adaf5a39946")
-		(property "Reference" "#PWR3"
-			(at 48.26 35.56 0)
+		(uuid "7dcb223b-3203-46e5-b917-f870accb5b07")
+		(property "Reference" "JP10"
+			(at 58.928 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 59.69 78.7399 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6289,20 +6806,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 38.1 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 35.56 0)
+		(property "Footprint" "Pinky:Jumper"
+			(at 53.848 77.216 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,7 +6821,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 35.56 0)
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "161d8bd6-2f5f-4555-b77c-23f1cdaded3e")
+		)
+		(pin "1"
+			(uuid "a9012a26-df64-46e8-977f-4e2cf588b168")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "JP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 55.88 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7ea15999-0781-4c2e-a266-2adaf5a39946")
+		(property "Reference" "#PWR3"
+			(at 55.88 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 55.88 84.836 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6324,7 +6912,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 44.45 35.56 0)
+			(at 55.88 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6422,6 +7010,88 @@
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pinky:Jumper")
+		(at 53.34 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "837f6c0c-0404-45c0-82cc-e00589df18e2")
+		(property "Reference" "JP9"
+			(at 53.848 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 54.61 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Pinky:Jumper"
+			(at 48.768 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "85172ad4-ed0c-4865-a8d0-fbdf969e37b4")
+		)
+		(pin "1"
+			(uuid "637583e2-d5dd-4ee7-b746-9d7f0995cc5c")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "JP9")
 					(unit 1)
 				)
 			)
@@ -7123,6 +7793,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Pinky:Jumper")
+		(at 38.1 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
+		(property "Reference" "JP6"
+			(at 38.608 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 39.37 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Pinky:Jumper"
+			(at 33.528 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "302022f1-fce5-4a06-b3d2-80a5ec7312de")
+		)
+		(pin "1"
+			(uuid "13d6d10c-a1c2-474a-b79a-824abeb7b5d1")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "JP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pinky:Switch")
 		(at 107.95 50.8 0)
 		(unit 1)
@@ -7309,8 +8061,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 44.45 83.82 270)
+		(lib_id "power:PWR_FLAG")
+		(at 43.18 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7318,9 +8070,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "c516236d-7229-4a01-a069-eb1adad5e9b6")
-		(property "Reference" "#PWR4"
-			(at 38.1 83.82 0)
+		(fields_autoplaced yes)
+		(uuid "c0ccc37e-8950-43ae-aa6d-3c3b807f14ec")
+		(property "Reference" "#FLG06"
+			(at 45.085 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7330,18 +8083,20 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 38.354 83.82 90)
+		(property "Value" "PWR_FLAG"
+			(at 46.99 74.9299 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 83.82 0)
+			(at 43.18 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7352,7 +8107,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 83.82 0)
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 43.18 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76a6c61a-3495-4db7-a900-1063badf29da")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c516236d-7229-4a01-a069-eb1adad5e9b6")
+		(property "Reference" "#PWR4"
+			(at 35.56 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7363,7 +8195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 83.82 0)
+			(at 35.56 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7468,7 +8300,7 @@
 	)
 	(symbol
 		(lib_id "Pinky:nice_nano")
-		(at 44.45 59.69 0)
+		(at 45.72 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7478,7 +8310,7 @@
 		(dnp no)
 		(uuid "cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(property "Reference" "U1"
-			(at 30.48 39.37 0)
+			(at 31.242 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7488,7 +8320,7 @@
 			)
 		)
 		(property "Value" "nice!nano"
-			(at 34.544 41.656 0)
+			(at 35.814 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7498,7 +8330,7 @@
 			)
 		)
 		(property "Footprint" "Pinky:nice_nano"
-			(at 55.118 41.656 0)
+			(at 56.388 30.226 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7509,7 +8341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 86.36 0)
+			(at 48.26 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7519,7 +8351,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 59.69 0)
+			(at 45.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,6 +9152,88 @@
 			(project "pinky"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pinky:Jumper")
+		(at 43.18 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f574c61c-2757-42be-8f64-9a7e500f8c33")
+		(property "Reference" "JP7"
+			(at 43.688 77.47 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 44.45 78.7399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Pinky:Jumper"
+			(at 38.608 77.216 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fe49cbbd-52da-4142-abcb-e8edee2bcce3")
+		)
+		(pin "1"
+			(uuid "e3ec2f26-7bc4-479f-a21f-33a9f6b75c22")
+		)
+		(instances
+			(project "pinky"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
