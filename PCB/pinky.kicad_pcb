@@ -26235,7 +26235,7 @@
 		(embedded_fonts no)
 	)
 	(gr_line
-		(start 86.340707 119.451306)
+		(start 86.339657 119.443833)
 		(end 88.838109 137.221227)
 		(stroke
 			(width 0.1)
@@ -26256,7 +26256,7 @@
 	)
 	(gr_line
 		(start 91.49 118.72)
-		(end 86.339651 119.443834)
+		(end 86.339657 119.443833)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -26486,7 +26486,7 @@
 	)
 	(gr_line
 		(start 177.985 119.519355)
-		(end 196.2 122.74)
+		(end 196.207626 122.741348)
 		(stroke
 			(width 0.1)
 			(type solid)
