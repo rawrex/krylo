@@ -23,7 +23,7 @@ This repo: PCB, footprints, and symbols only.
 - **`pinky.kicad_prl`** — auto-generated KiCad UI state (layer visibility, window positions). Not for manual editing.
 - **`~*.lck` files** in `PCB/` — KiCad lock files, gitignored by pattern `PCB/~*.lck`.
 - **`.bak` files** in `Pinky.pretty/` — remove them, they don't belong in the library directory.
-- **Symbol and footprint names must match** — every symbol in `pinky.kicad_sym` references a footprint in `Pinky.pretty/` by name. Renames must be kept in sync.
+- **Symbol and footprint names must match** — every symbol in `pinky.kicad_sym` references a footprint in `Pinky.pretty/` by name (except `MountingHole`, which uses system lib `MountingHole:MountingHole_2.2mm_M2`). Renames must be kept in sync.
 
 ## Custom footprints (7)
 
@@ -42,6 +42,8 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 Plus system lib: `MountingHole:MountingHole_2.2mm_M2` (5 per board).
 
 **Naming is consistent:** each footprint name matches its file name and its symbol name in `pinky.kicad_sym`.
+
+Plus 6 `.step` 3D model files in `Pinky.pretty/` named by matching footprint name.
 
 ## Custom symbols
 
@@ -74,7 +76,7 @@ Plus system lib: `MountingHole:MountingHole_2.2mm_M2` (5 per board).
 
 - **Only one footprint library** (`Pinky`). System libs (e.g. `MountingHole`) come from KiCad's global table.
 - **DRC:** min track 0.127 mm, min clearance 0.0 mm, min copper-to-edge 0.5 mm. Violations are `error` severity.
-- **Default net class:** track 0.127 mm, via 0.6/0.3 mm, clearance 0.127 mm.
+- **Default net class:** track 0.25 mm, via 0.6/0.3 mm, clearance 0.127 mm.
 
 ## What not to modify
 
