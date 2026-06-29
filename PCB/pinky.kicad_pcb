@@ -6534,7 +6534,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "Pinky:MountingHole"
 		(layer "F.Cu")
 		(uuid "5503432f-9338-44cd-b140-2c2cae6dcbbd")
 		(at 201 108.6)
@@ -6543,6 +6543,7 @@
 		(property "Reference" "H2"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "caad382f-737d-49b4-bdb2-3c8ea71019fb")
 			(effects
 				(font
@@ -6551,8 +6552,8 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.15 0)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "846bb0f9-caab-444e-aa66-5f9b5784c07a")
 			(effects
@@ -6588,7 +6589,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "733f42ff-4e05-44b6-8a34-3e6a2030c4af")
+			(uuid "0d11a797-fec5-45a5-914d-9530cec3b7dd")
 			(effects
 				(font
 					(size 1 1)
@@ -6596,7 +6597,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole:MountingHole_2.2mm_M2")
+		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
@@ -6623,17 +6624,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "5ed3eb6e-4113-4e4a-93ef-848547ba49e9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "deee85ef-cb82-4743-a884-4753952d560e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -8066,7 +8056,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "Pinky:MountingHole"
 		(layer "F.Cu")
 		(uuid "5c201a33-dfab-41f9-9fc8-9fb756c9e57f")
 		(at 128.4 110.87)
@@ -8075,6 +8065,7 @@
 		(property "Reference" "H3"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "97b64808-8a90-4a86-975d-66f17bfc8447")
 			(effects
 				(font
@@ -8083,8 +8074,8 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.15 0)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "2e3e34da-4206-4391-94ff-36110d286677")
 			(effects
@@ -8120,7 +8111,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "48365e8d-027e-4d46-bc93-77636aacb1c9")
+			(uuid "537bc48c-7b36-4d99-8e9b-dffa3417eddb")
 			(effects
 				(font
 					(size 1 1)
@@ -8128,7 +8119,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole:MountingHole_2.2mm_M2")
+		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
@@ -8155,17 +8146,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "f009ac58-f532-4e59-a1ec-f6a687be6983")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a5e8c014-a02c-48a7-a56b-b148c03b0656")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -13315,7 +13295,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "Pinky:MountingHole"
 		(layer "F.Cu")
 		(uuid "7a2b5755-88d9-4a00-a72e-c13e419e065e")
 		(at 105.5 75)
@@ -13324,6 +13304,7 @@
 		(property "Reference" "H4"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e63152c4-f27e-4bc3-b914-7b6ab8269f9d")
 			(effects
 				(font
@@ -13332,8 +13313,8 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.15 0)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "164bef3c-61a2-4e4f-9a43-2390e8a31194")
 			(effects
@@ -13369,7 +13350,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bc8f5f80-8ff9-42dc-8f39-8cadce3b58e6")
+			(uuid "d6690784-b30d-40fe-b13b-f6e78d3d4295")
 			(effects
 				(font
 					(size 1 1)
@@ -13377,7 +13358,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole:MountingHole_2.2mm_M2")
+		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
@@ -13404,17 +13385,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "e13a898a-5de8-4d94-a80e-b064cdd01fc8")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "552d2777-af2b-41ec-a31e-cd43b7c8490e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -16015,7 +15985,7 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_2.2mm_M2"
+	(footprint "Pinky:MountingHole"
 		(layer "F.Cu")
 		(uuid "9864579c-5dab-4754-977a-d4e4261130a5")
 		(at 164.28 57.79)
@@ -16024,6 +15994,7 @@
 		(property "Reference" "H1"
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5afe48a9-c44a-4e4b-bea8-00733e5a295b")
 			(effects
 				(font
@@ -16032,8 +16003,8 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 0 3.15 0)
+		(property "Value" "MountingHole_2.2mm_M2"
+			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "df02b32d-6331-474d-a8c4-4c15aea6c52f")
 			(effects
@@ -16069,7 +16040,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "bd0bf53e-d432-4f68-b671-0cd58df64f6b")
+			(uuid "aff722a5-1f39-4128-a03e-8d55ab7b9905")
 			(effects
 				(font
 					(size 1 1)
@@ -16077,7 +16048,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole:MountingHole_2.2mm_M2")
+		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
@@ -16104,17 +16075,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "8e46ddad-6bfa-40af-b04f-edc6699bc195")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "8dc186eb-86cf-41e1-8b58-fae7324b6144")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)

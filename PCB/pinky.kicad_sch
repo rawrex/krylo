@@ -750,7 +750,7 @@
 					)
 				)
 			)
-			(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(property "Footprint" "Pinky:MountingHole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -794,7 +794,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole:MountingHole_2.2mm_M2"
+			(property "ki_fp_filters" "Pinky:MountingHole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3711,7 +3711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "Pinky:MountingHole"
 			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5116,7 +5116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "Pinky:MountingHole"
 			(at 170.18 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5350,7 +5350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "Pinky:MountingHole"
 			(at 170.18 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6513,7 +6513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "Pinky:MountingHole"
 			(at 170.18 47.244 0)
 			(hide yes)
 			(show_name no)
