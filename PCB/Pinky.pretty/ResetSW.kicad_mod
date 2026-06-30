@@ -7,7 +7,7 @@
 		(at 0 2.55 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "de3c786b-6529-4340-a8d2-1e60dbb26509")
+		(uuid "3537fb68-191c-4422-8f26-c2118b80eb23")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -2.55 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8e5f1193-2a41-4f19-9ab9-fc3c046a31e8")
+		(uuid "535aed5e-76bb-4689-82ab-8f44380003e7")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "de4f29f9-21ed-4d43-9816-25481dc8ff06")
+		(uuid "6734fac7-bc35-4e56-8588-f67959e7d950")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "91cc260e-7d7b-48a1-8045-294757a015b7")
+		(uuid "466ea32b-c5be-44a6-a1c3-45db83fc7954")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "720bf2a2-41f4-4df4-afbc-21346e1fa486")
+		(uuid "f6005b59-2432-49ae-9717-8a8e079da47e")
 	)
 	(fp_line
 		(start -3 -1.75)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1486a5cb-92a7-4639-a80c-65ea357e33e0")
+		(uuid "3f3c22c9-908a-45c0-9551-db443bedde43")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5ee8e857-5b3f-47e0-a537-5e99bfaed4ac")
+		(uuid "5288b74d-8f11-4014-9004-8530266202a7")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "54bfeecd-d066-4088-9a8d-805c2b1c6db0")
+		(uuid "5e6b192a-3f2e-4322-91e4-6005603fe938")
 	)
 	(fp_line
 		(start 3 -1.75)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "abde8e45-2099-42ca-88b5-d22ee0845cff")
+		(uuid "390cbe2d-c317-4b51-a75d-1826b711eb70")
 	)
 	(fp_line
 		(start 3 1.75)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1a949f80-e615-428a-8b4a-9e1104240b5d")
+		(uuid "1cf50fbb-9eb6-4fd5-87dc-71822b7444d0")
 	)
 	(fp_line
 		(start -3 -1.75)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "692b8b7c-d64e-4edd-8d20-a7b954d5e022")
+		(uuid "e443f68d-38b9-40a0-97b2-804d0681e402")
 	)
 	(fp_line
 		(start -3 -1.5)
@@ -129,7 +129,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "ee6d6ba3-49db-47d2-81d3-97c5f36b7944")
+		(uuid "82318466-4999-48a1-9433-2c97f32f86f8")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -139,7 +139,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "99890eb9-47ee-47d3-8703-e8d6a290e16f")
+		(uuid "4d21f987-73e6-4a80-b45a-4e21d537c056")
 	)
 	(fp_line
 		(start 3 -1.75)
@@ -149,7 +149,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "f73b3d4f-21b7-4a7a-b066-11247309ee57")
+		(uuid "bc3ea75d-790c-4b59-8c55-929ae4adca8b")
 	)
 	(fp_line
 		(start 3 1.5)
@@ -159,7 +159,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "f62d5036-307d-4ff4-8c99-4a0f2af319af")
+		(uuid "dcb5495f-88b2-4f88-a78b-12ff62f46d5b")
 	)
 	(fp_line
 		(start 3 1.75)
@@ -169,12 +169,12 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "61b79438-da00-4cd3-942a-c6e3832ed745")
+		(uuid "54a79b25-9094-418f-9d33-ec2a0bec26e6")
 	)
 	(fp_text user "RESET"
 		(at -0.05 0.05 0)
 		(layer "F.SilkS")
-		(uuid "a1891fe9-4c95-472d-8d72-cdafea1b16da")
+		(uuid "20f421e3-0915-4e68-b18f-26a1022c7c80")
 		(effects
 			(font
 				(size 1 1)
@@ -185,7 +185,7 @@
 	(fp_text user "RESET"
 		(at 0.077 0.05 0)
 		(layer "B.SilkS")
-		(uuid "295b166a-f615-47b0-bffa-4038f535e963")
+		(uuid "48ae91c9-f2fb-4df1-9227-4dc1cb77d13c")
 		(effects
 			(font
 				(size 1 1)
@@ -198,17 +198,17 @@
 		(at 3.25 0)
 		(size 2 2)
 		(drill 1.3)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0f33dd36-62c1-46e5-8a5e-92d634513bc6")
+		(uuid "ad93c419-689d-4b09-ba3d-c3626205a03f")
 	)
 	(pad "2" thru_hole circle
 		(at -3.25 0)
 		(size 2 2)
 		(drill 1.3)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ef32bda4-d888-4a53-949a-05608dc29f84")
+		(uuid "c16ea815-9967-4e95-be45-4b70a7452dcf")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/Pinky.pretty/reset.step"
