@@ -138,7 +138,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 270)
 			(layer "F.SilkS")
 			(hide yes)
@@ -176,8 +176,14 @@
 		(path "/7dcb223b-3203-46e5-b917-f870accb5b07")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 -0.889)
 			(end 1.143 0.889)
@@ -230,7 +236,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -253,7 +259,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -264,10 +270,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaca0274-1536-40ef-812c-d58eef982ff2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2580e6ce-dea5-4495-890b-a6c3916edb3d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -404,7 +442,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -427,7 +465,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -438,10 +476,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9296da62-70b0-4e40-ae55-8a28ea66fc6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08aea0aa-0b4a-4297-814e-5d3975c0421a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -575,7 +645,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -613,8 +683,14 @@
 		(path "/ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 -0.889)
 			(end 1.143 0.889)
@@ -666,7 +742,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "bc9b5657-3062-49e6-aa6c-094c6ac6dcc8")
@@ -703,6 +779,12 @@
 		(path "/2f95d38e-a03f-4cf7-9731-498d6751a3a3")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1901,7 +1983,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -1924,7 +2006,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -1935,10 +2017,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60409afd-79c4-40f2-975e-a940c2fc994a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3719017-b09e-4725-b33f-00c8ca8c7f14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2074,7 +2188,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(uuid "e8537770-62ba-413a-a6c1-3a8c557b2cd7")
@@ -2111,6 +2225,12 @@
 		(path "/9f6aa6fa-3191-4b10-803e-e75e33001f85")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3313,7 +3433,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "37b576e6-fdd2-4406-8c05-92b1f4086393")
@@ -3350,6 +3470,12 @@
 		(path "/8188caea-8de6-4fbc-a456-b632b8bf6731")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4545,7 +4671,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 270)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4583,8 +4709,14 @@
 		(path "/acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 -0.889)
 			(end 1.143 0.889)
@@ -4637,7 +4769,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4660,7 +4792,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4671,10 +4803,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4514c26b-4fca-4d8e-a721-e6a778c742e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07183cf9-0d33-47c3-8404-9ae90a03fb93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4811,7 +4975,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4834,7 +4998,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4845,10 +5009,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "814186a6-4d27-4a42-8162-603983e4db88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d590edfa-3ec0-46f1-b048-fa69a3f5b75e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/0ecf4455-e900-453c-94e8-f99082fd818c")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5006,7 +5202,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-cell battery"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5020,6 +5216,12 @@
 		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5243,7 +5445,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(uuid "4ba93f49-5833-41e9-82b1-e056ba8d0663")
@@ -5280,6 +5482,12 @@
 		(path "/cafe9b5c-8d4c-4967-a3f1-359d5108b504")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6482,7 +6690,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.2mm_M2"
+		(property "Value" "MountingHole"
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "846bb0f9-caab-444e-aa66-5f9b5784c07a")
@@ -6504,7 +6712,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6515,23 +6723,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0d11a797-fec5-45a5-914d-9530cec3b7dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6583,7 +6785,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -6606,7 +6808,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -6617,10 +6819,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae0dd2ed-0e26-42d0-a0b0-3b612bda6e61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f68eb58b-c455-4602-bbda-4d39e72e4d62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6756,7 +6990,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "b638732a-7b83-480f-a7fd-455092c3a8f9")
@@ -6793,6 +7027,12 @@
 		(path "/05f348eb-9a05-40e8-9e2d-51b3642a08b7")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7990,7 +8230,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.2mm_M2"
+		(property "Value" "MountingHole"
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "2e3e34da-4206-4391-94ff-36110d286677")
@@ -8012,7 +8252,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8023,23 +8263,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "537bc48c-7b36-4d99-8e9b-dffa3417eddb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8090,7 +8324,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(uuid "c0c93260-13b0-4bd7-b161-cad16a544b2c")
@@ -8127,6 +8361,12 @@
 		(path "/7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9329,7 +9569,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(uuid "0c5cfa39-b3e4-4c8e-a9a4-43a715aa8861")
@@ -9366,6 +9606,12 @@
 		(path "/25dd9609-789f-4f3c-89e7-04c67e5f906d")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10568,7 +10814,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "8fb7f473-918c-4d80-bcbf-5c78e08af10e")
@@ -10605,6 +10851,12 @@
 		(path "/72154ec9-0d68-4d25-a464-427bd5d96a7b")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11802,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 8)
 			(layer "F.Fab")
 			(uuid "2c8a7b18-3114-427f-b115-75fa103cc5a6")
@@ -11839,6 +12091,12 @@
 		(path "/72debe4c-353b-441e-948e-ae12758310db")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13042,7 +13300,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13065,7 +13323,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13076,10 +13334,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb906b8f-068e-4f18-b30c-9c6aec5b6804")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce99ce91-aaf6-4ab7-a34f-6cbcf08e303f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13215,7 +13505,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.2mm_M2"
+		(property "Value" "MountingHole"
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "164bef3c-61a2-4e4f-9a43-2390e8a31194")
@@ -13237,7 +13527,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13248,23 +13538,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "d6690784-b30d-40fe-b13b-f6e78d3d4295")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13316,7 +13600,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -13339,7 +13623,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -13350,10 +13634,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4718648-3705-4db8-ad0e-f4bde608945b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dfc5c82-d2ae-4c80-bd2f-d4327f2fef99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13487,7 +13803,7 @@
 				)
 			)
 		)
-		(property "Value" "Val**"
+		(property "Value" "ResetSW"
 			(at 0 -2.55 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13510,7 +13826,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13524,6 +13840,12 @@
 		(path "/5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13673,7 +13995,7 @@
 			(at 3.25 0 90)
 			(size 2 2)
 			(drill 1.3)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
 			(pinfunction "1_1")
@@ -13684,7 +14006,7 @@
 			(at -3.25 0 90)
 			(size 2 2)
 			(drill 1.3)
-			(layers "*.Cu" "*.Mask" "F.SilkS")
+			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "RESET")
 			(pinfunction "2_2")
@@ -13720,7 +14042,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -13758,8 +14080,14 @@
 		(path "/e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 -0.889)
 			(end 1.143 0.889)
@@ -13812,7 +14140,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -13835,7 +14163,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -13846,10 +14174,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51121ee0-38b1-4167-8673-16b1a1afa684")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4aec232f-ea99-49df-a59f-c585c39b2e4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13986,7 +14346,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14009,7 +14369,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14020,10 +14380,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b5de5eb-882e-4023-8a33-55b946a529e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1485171-3dc8-4fa1-8e29-7dd226c5c51a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/df35e296-ea0f-4574-b225-3389ca777371")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14160,7 +14552,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 8)
 			(layer "F.Fab")
 			(hide yes)
@@ -14183,7 +14575,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
@@ -14194,10 +14586,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 8)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31bf9ac0-83b0-4e77-9b2d-3a7fa4db7c7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 8)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6eb3938-a2d9-4874-b579-456c7c0b257f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14334,7 +14758,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 4)
 			(layer "F.Fab")
 			(hide yes)
@@ -14357,7 +14781,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 4)
 			(layer "F.Fab")
 			(hide yes)
@@ -14368,10 +14792,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 4)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb198450-840d-47c8-a872-73057e8dbef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 4)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9461e2f-558b-4bd2-9e29-a050ee1a955b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14507,7 +14963,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(uuid "5cc42fec-8e46-4166-897e-45617b1abfaa")
@@ -14544,6 +15000,12 @@
 		(path "/1379ae49-5f43-4487-ba64-820f99c87628")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15746,7 +16208,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole_2.2mm_M2"
+		(property "Value" "MountingHole"
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(uuid "df02b32d-6331-474d-a8c4-4c15aea6c52f")
@@ -15768,7 +16230,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15779,23 +16241,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "aff722a5-1f39-4128-a03e-8d55ab7b9905")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "Pinky:MountingHole")
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -15847,7 +16303,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15870,7 +16326,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15881,10 +16337,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7127f636-5a2c-4e8a-bf11-c26c13483695")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35f335f3-f6fa-4481-8bf1-e61ca3c629d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/549837fd-742e-4acb-9954-b1cc01668088")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16020,7 +16508,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "c76debf4-8e76-466f-a3a5-de1700061a1d")
@@ -16057,6 +16545,12 @@
 		(path "/e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17254,7 +17748,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "510fdee4-2d48-4a4f-8771-d9622858400f")
@@ -17291,6 +17785,12 @@
 		(path "/e2ceac69-a5d5-462f-b8e7-24123de35429")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18486,7 +18986,7 @@
 				)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 270)
 			(layer "F.SilkS")
 			(hide yes)
@@ -18524,8 +19024,14 @@
 		(path "/4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 -0.889)
 			(end 1.143 0.889)
@@ -18578,7 +19084,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18601,7 +19107,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18612,10 +19118,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cc45ef5-0f57-4163-8c7f-8801cccebaf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b95b7f37-f5a1-465c-ad2c-379dc80f1f53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18752,7 +19290,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -18775,7 +19313,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -18786,10 +19324,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "119bbd3a-4b87-4cda-85ba-234c71152204")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de742967-7466-40e2-b0b5-ab96b3beaf36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18925,7 +19495,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "0a1f8d8e-06ee-4c12-bb6e-25a8bf7cf1e0")
@@ -18962,6 +19532,12 @@
 		(path "/8bb89a93-d7e1-42e7-b46e-e080be939965")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20159,7 +20735,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 3)
 			(layer "F.Fab")
 			(uuid "fc4eccf7-3b48-4403-a678-c145cf7a541d")
@@ -20196,6 +20772,12 @@
 		(path "/a9980814-ca5f-4ba5-922a-1a504b5f4f96")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21418,7 +22000,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, single pole double throw"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21432,6 +22014,12 @@
 		(path "/2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21483,7 +22071,7 @@
 			(at 3.2 6 270)
 			(size 0.7 1)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "unconnected-(SW_PWR1-C-Pad1)_1")
+			(net "unconnected-(SW_PWR1-C-Pad1)")
 			(pinfunction "C_1")
 			(pintype "passive+no_connect")
 			(uuid "fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9")
@@ -21579,7 +22167,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(uuid "554ede2b-dc01-46ce-8eda-840555ae7cc6")
@@ -21616,6 +22204,12 @@
 		(path "/aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22814,7 +23408,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "D_SOD123"
 			(at 0 -1.2 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -22837,7 +23431,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -22848,10 +23442,42 @@
 				)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6499bbe6-591f-4889-a1eb-7b142d75704a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f86f47f4-e896-4b0f-972c-bbe10bd5d0df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pinky:D_SOD123")
 		(path "/24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22987,7 +23613,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Kailh_Choc_PG1350"
+		(property "Value" "Switch"
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(uuid "921cc87d-ea8a-49db-8e94-5a53aa8af89b")
@@ -23024,6 +23650,12 @@
 		(path "/92fbf0cb-13a5-442a-a697-7d0064a38422")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24225,7 +24857,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 270)
 			(layer "B.SilkS")
 			(hide yes)
@@ -24266,8 +24898,14 @@
 		(path "/f574c61c-2757-42be-8f64-9a7e500f8c33")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 0.889)
 			(end 1.143 -0.889)
@@ -24318,7 +24956,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -24359,8 +24997,14 @@
 		(path "/87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 0.889)
 			(end 1.143 -0.889)
@@ -24411,7 +25055,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 270)
 			(layer "B.SilkS")
 			(hide yes)
@@ -24452,8 +25096,14 @@
 		(path "/1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 0.889)
 			(end 1.143 -0.889)
@@ -24504,7 +25154,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 270)
 			(layer "B.SilkS")
 			(hide yes)
@@ -24545,8 +25195,14 @@
 		(path "/837f6c0c-0404-45c0-82cc-e00589df18e2")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 0.889)
 			(end 1.143 -0.889)
@@ -24638,6 +25294,14 @@
 		(path "/cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "6" "7" "8" "9" "10" "11" "12" "2" "14" "3" "15" "4" "16"
+					"13" "17" "18" "19" "20" "21" "22" "23" "24"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25530,7 +26194,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "SDA"
+		(property "Value" "Jumper"
 			(at -2.794 0 0)
 			(layer "B.SilkS")
 			(hide yes)
@@ -25571,8 +26235,14 @@
 		(path "/6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(sheetname "/")
 		(sheetfile "pinky.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
-		(duplicate_pad_numbers_are_jumpers yes)
+		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.143 0.889)
 			(end 1.143 -0.889)
@@ -30847,21 +31517,6 @@
 		(layer "B.Cu")
 		(net "unconnected-(SW_PWR1-C-Pad1)")
 		(uuid "3ef037d4-2b4d-4682-8809-8147f0a425de")
-	)
-	(group ""
-		(uuid "6a71db09-2df1-4297-9d85-d6ff1c55ecef")
-		(members "e7304433-d196-4ead-a683-a41e8dded7e2")
-	)
-	(group ""
-		(uuid "e7304433-d196-4ead-a683-a41e8dded7e2")
-		(members "0c2127be-0323-4de5-b678-a729107ae4ae" "27440596-c6b3-4995-82f6-ce1f81b31ccc"
-			"35675cc2-adf7-472b-bee4-7991bcf3d15f" "3ef037d4-2b4d-4682-8809-8147f0a425de"
-			"755ed1f1-cc7e-4695-8c43-a6913f142eb5" "85e8acbb-f482-40e3-a758-8a3044ef2c2a"
-			"9ac9ae0a-ebfe-4ac2-b222-942572fd2a32" "b41b37f6-db53-4fcc-b60f-c1d667d3474f"
-			"b69f8576-b9d9-46d6-850e-a9f0dba2f324" "c61abb32-d35a-4d37-a255-46caf10b0155"
-			"dfa72967-e20d-4446-bc5d-f017d764a526" "e1ba055f-153b-401f-9028-c577b6983ee7"
-			"fbbc3c8d-b709-4f77-b549-8e0ed0aface7"
-		)
 	)
 	(embedded_fonts no)
 )
