@@ -28909,6 +28909,22 @@
 		(uuid "83897453-c25a-4a10-8aec-18bb55b4f9fe")
 	)
 	(segment
+		(start 105.5 78.75)
+		(end 107.6 78.75)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "20228e8c-c3cb-47c2-9561-f49c3a858d8c")
+	)
+	(segment
+		(start 105.5 78.75)
+		(end 107.6 78.75)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "91ec4314-b991-4a44-814a-2a7aec841d8f")
+	)
+	(segment
 		(start 133.2 87.7945)
 		(end 133.24 87.7545)
 		(width 0.25)
