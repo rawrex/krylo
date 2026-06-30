@@ -205,7 +205,7 @@
 		)
 	)
 	(fp_text user "RESET"
-		(at 0.077 0.05 0)
+		(at 0.05 0.05 0)
 		(layer "B.SilkS")
 		(uuid "0ffc25a3-6ba4-45fa-8705-569b0d5df412")
 		(effects

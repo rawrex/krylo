@@ -66,8 +66,8 @@
 	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
-		(center -0.01 -0.01)
-		(end 2.44 -0.01)
+		(center 0 0)
+		(end 2.45 0)
 		(stroke
 			(width 0.05)
 			(type solid)
