@@ -233,7 +233,7 @@
 		(uuid "fc80467a-a588-431d-abfd-94af5497bf47")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Pinky.pretty/reset.step"
+	(model "${KIPRJMOD}/Pinky.pretty/ResetSW.step"
 		(offset
 			(xyz 8.5 -1.4 1)
 		)

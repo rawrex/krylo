@@ -1870,7 +1870,7 @@
 			(uuid "5a26b56e-3a94-44c4-ae7e-38dc0cdecc7c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3284,7 +3284,7 @@
 			(uuid "afeeebf9-6e53-4f81-9f14-b95b10839f02")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4519,7 +4519,7 @@
 			(uuid "231d1483-1e87-4b1d-a53f-cdf9394a5d62")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6466,7 +6466,7 @@
 			(uuid "b7b89dd0-6899-417c-8ffd-77b30c20f9fb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7976,7 +7976,7 @@
 			(uuid "73325586-6fe4-422d-b3fb-f76192a22609")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9317,7 +9317,7 @@
 			(uuid "3cffbf9d-b24a-4b2e-bbd5-b1eac57959dd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10557,7 +10557,7 @@
 			(uuid "ef69e946-9bc5-4dec-9ff8-91bc7bd193b9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11792,7 +11792,7 @@
 			(uuid "5c62288b-3f82-4e85-848e-59912227d02f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13032,7 +13032,7 @@
 			(uuid "1de744e6-1756-4ce7-97f6-64b89edf112c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13758,7 +13758,7 @@
 			(uuid "1949ef65-4e87-42ef-a77f-09d04a95921f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/reset.step"
+		(model "${KIPRJMOD}/Pinky.pretty/ResetSW.step"
 			(offset
 				(xyz 8.5 -1.4 1)
 			)
@@ -15772,7 +15772,7 @@
 			(uuid "b742c66c-293a-4b92-9ddd-a81f2023fa22")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17282,7 +17282,7 @@
 			(uuid "91e3b171-dc8a-4778-b4d1-3d755cb19bcd")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18517,7 +18517,7 @@
 			(uuid "87ac1854-87f6-4be4-bf2f-80019e9e4dec")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20200,7 +20200,7 @@
 			(uuid "33b46bec-5f99-469c-b9ef-87b9e130750a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21440,7 +21440,7 @@
 			(uuid "f3c32381-0b1f-407f-8793-f6c38e68df82")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21643,7 +21643,7 @@
 			(uuid "f265129a-62c7-48a5-9886-905320450f7c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/MSK_12C02.step"
+		(model "${KIPRJMOD}/Pinky.pretty/MSK12C02.step"
 			(offset
 				(xyz 1.3 -3.88 0.7)
 			)
@@ -22856,7 +22856,7 @@
 			(uuid "88823142-7afe-4ddb-94c7-dfd506d12a8a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24270,7 +24270,7 @@
 			(uuid "3aa37d80-8a0f-429c-b242-69135cd01ef8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+		(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25641,7 +25641,7 @@
 			(uuid "bd81696b-bee8-48aa-80dc-fae9e546c78c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Pinky.pretty/nicenano.step"
+		(model "${KIPRJMOD}/Pinky.pretty/nice_nano.step"
 			(offset
 				(xyz -0.05 -0.7 -4)
 			)

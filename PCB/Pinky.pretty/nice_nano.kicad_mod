@@ -840,7 +840,7 @@
 		(uuid "454d496e-1990-4408-a676-8dcac37de2dd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Pinky.pretty/nicenano.step"
+	(model "${KIPRJMOD}/Pinky.pretty/nice_nano.step"
 		(offset
 			(xyz -0.05 -0.7 -4)
 		)

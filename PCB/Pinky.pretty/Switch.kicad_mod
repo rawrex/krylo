@@ -1175,7 +1175,7 @@
 		(uuid "6c1f283a-180b-4024-bc15-c8251e075caa")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Pinky.pretty/switch.step"
+	(model "${KIPRJMOD}/Pinky.pretty/Switch.step"
 		(offset
 			(xyz 0 0 0)
 		)

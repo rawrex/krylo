@@ -42,7 +42,7 @@ All in `Pinky.pretty/` as `.kicad_mod`:
 
 **Naming is consistent:** each footprint name matches its file name and its symbol name in `pinky.kicad_sym`.
 
-Plus 6 `.step` 3D model files in `Pinky.pretty/` named by matching footprint name.
+Plus 6 `.step` 3D model files in `Pinky.pretty/`. Four match their footprint name (`Switch.step`, `nice_nano.step`, `MSK12C02.step`, `ResetSW.step`); `keycap.step` and `hot_swap_socket.step` are extra models attached to the Switch footprint.
 
 ## Custom symbols
 
