@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MountingHole_2.2mm_M2"
+	(property "Value" "MountingHole"
 		(at 0 3.55 0)
 		(layer "F.Fab")
 		(hide yes)

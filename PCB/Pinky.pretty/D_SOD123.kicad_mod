@@ -18,7 +18,7 @@
 			)
 		)
 	)
-	(property "Value" "D"
+	(property "Value" "D_SOD123"
 		(at 0 -1.2 0)
 		(layer "F.Fab")
 		(hide yes)

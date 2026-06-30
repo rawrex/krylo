@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SDA"
+	(property "Value" "Jumper"
 		(at -2.794 0 0)
 		(layer "F.SilkS")
 		(hide yes)
@@ -50,7 +50,7 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers yes)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
 		(start -1.1455 -0.889)
 		(end 1.1405 0.889)

@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "SW_Kailh_Choc_PG1350"
+	(property "Value" "Switch"
 		(at 0 9.9 0)
 		(layer "F.Fab")
 		(hide yes)

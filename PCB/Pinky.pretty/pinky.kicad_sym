@@ -1226,7 +1226,7 @@
 				)
 			)
 		)
-		(property "Value" "nice!nano"
+		(property "Value" "nice_nano"
 			(at -9.906 18.034 0)
 			(show_name no)
 			(do_not_autoplace no)
