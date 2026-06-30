@@ -77,7 +77,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "unconnected_items|100749743|106250185|F.Cu|4|8baaac1f-f1bb-4f42-a3cd-1072990b2ece|f6a7df37-2246-4dff-b68f-64d7b95444c3",
+          "Inentional layer split. Used to configure for which side of the split the PCB is used"
+        ],
+        [
+          "unconnected_items|103274743|105249425|F.Cu|4|ac9d5117-8db0-47a0-8fcf-f6bca751aba2|0130c17a-0143-43f8-b0c0-9e9676f371d9",
+          "Inentional layer split. Used to configure for which side of the split the PCB is used"
+        ],
+        [
+          "unconnected_items|109597368|114171387|F.Cu|4|537aeabb-d11f-46b8-8f2e-f088ac22490b|537aeabb-d11f-46b8-8f2e-f088ac22490b",
+          "Intentional layer split. Ignoring dual layer GND artifacts"
+        ],
+        [
+          "unconnected_items|124365581|124949828|F.Cu|4|537aeabb-d11f-46b8-8f2e-f088ac22490b|537aeabb-d11f-46b8-8f2e-f088ac22490b",
+          "Intentional layer split. Ignoring dual layer GND artifacts"
+        ],
+        [
+          "unconnected_items|139742026|109091700|F.Cu|4|537aeabb-d11f-46b8-8f2e-f088ac22490b|537aeabb-d11f-46b8-8f2e-f088ac22490b",
+          "Intentional layer split. Ignoring dual layer GND artifacts"
+        ],
+        [
+          "unconnected_items|98224743|106250185|F.Cu|4|ad1451f3-12d8-4af6-9cb7-9800a454916c|6e3fd2ec-3178-458f-b422-7bb4569ad12c",
+          "Inentional layer split. Used to configure for which side of the split the PCB is used"
+        ]
+      ],
       "meta": {
         "version": 2
       },
