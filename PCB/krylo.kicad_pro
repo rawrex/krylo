@@ -79,15 +79,15 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|100749743|106250185|F.Cu|4|8baaac1f-f1bb-4f42-a3cd-1072990b2ece|f6a7df37-2246-4dff-b68f-64d7b95444c3",
+          "unconnected_items|100749743|106250185|F.Cu|4|e92a1a67-73a4-4aeb-a443-33d304ce3cf9|ceae0cc5-1cef-49d9-836d-fbe4f1f838fd",
           "Intentional layer split. Used to configure for which side of the split the PCB is used"
         ],
         [
-          "unconnected_items|103274743|105249425|F.Cu|4|ac9d5117-8db0-47a0-8fcf-f6bca751aba2|0130c17a-0143-43f8-b0c0-9e9676f371d9",
+          "unconnected_items|103274743|105249425|F.Cu|4|71495759-8c6c-4fe1-bd16-3fefd683632d|367b288c-0054-479c-b287-4a34e7bf0b24",
           "Intentional layer split. Used to configure for which side of the split the PCB is used"
         ],
         [
-          "unconnected_items|98224743|106250185|F.Cu|4|ad1451f3-12d8-4af6-9cb7-9800a454916c|6e3fd2ec-3178-458f-b422-7bb4569ad12c",
+          "unconnected_items|98224743|106250185|F.Cu|4|ab4158de-b18e-491a-85ae-72e3387dcaed|8fe1fefc-3044-453c-8fb6-ea6a34a93458",
           "Intentional layer split. Used to configure for which side of the split the PCB is used"
         ]
       ],
@@ -714,7 +714,7 @@
         "uuid": "231ead31-262f-44fe-a25c-f58d2465dcca"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#FLG2,#FLG4,#FLG6-7",
     "variants": []
   },
   "sheets": [

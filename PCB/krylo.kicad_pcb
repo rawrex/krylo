@@ -124,12 +124,12 @@
 	(footprint "krylo:Jumper"
 		(layer "F.Cu")
 		(uuid "07cefac1-a089-4791-b0e5-12cfc37d803d")
-		(at 103.274743 105.749805 -90)
+		(at 103.274743 105.749805 90)
 		(property "Reference" "JP10"
-			(at -2.413 0.127 270)
+			(at -2.413 0.127 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c4145a98-f9b0-4cc0-a564-0c56f925b49b")
+			(uuid "01477cd8-2f11-4928-b58d-d6d3d30e10ff")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -138,10 +138,10 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at -2.794 0 270)
+			(at -2.794 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3dc64425-4e57-4ab3-9f7c-464fd7e519b3")
+			(uuid "799ccb19-2f58-45b1-ae67-05b74840879f")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -150,10 +150,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e1e780f-74e6-4cb4-9e90-5b8aa8f78943")
+			(uuid "d502ff25-0cbe-4aa6-86fa-8a5632e1cca3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,10 +161,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e2c2dcb-871c-4622-9425-a5db07d332c4")
+			(uuid "18d6606a-71ef-4be6-aab9-4bf14a6584a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -175,6 +175,12 @@
 		(path "/7dcb223b-3203-46e5-b917-f870accb5b07")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -200,20 +206,20 @@
 			(uuid "de8933bf-546d-4224-8aef-5520e21d50c4")
 		)
 		(pad "1" smd rect
-			(at -0.50038 0 270)
+			(at -0.50038 0 90)
 			(size 0.635 1.143)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+BATT_indirect")
+			(net "+BATT")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(clearance 0.1905)
 			(uuid "ac9d5117-8db0-47a0-8fcf-f6bca751aba2")
 		)
 		(pad "2" smd rect
-			(at 0.50038 0 270)
+			(at 0.50038 0 90)
 			(size 0.635 1.143)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "+BATT")
+			(net "/+BATT_{indirect}")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(clearance 0.1905)
@@ -232,7 +238,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5799432c-97a2-41c7-ae29-cab56c0df3b3")
+			(uuid "6ca74c92-b83d-4745-8359-a0311f1e54fd")
 			(effects
 				(font
 					(size 1 1)
@@ -244,7 +250,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6b94194-69c2-45af-921a-7abbb89219ae")
+			(uuid "87acc0b1-87cf-4ff9-a60b-f34bb62e87bb")
 			(effects
 				(font
 					(size 1 1)
@@ -256,21 +262,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "207de951-0452-40db-b2e3-ffd3421c57fd")
+			(uuid "405299c0-9984-41d6-a6b6-46e389584860")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fa812aa8-201c-4f58-9e2d-da8733b7c573")
+			(uuid "b3913bd6-2bdf-4348-b248-f72d27d229ce")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c89205b0-f7ae-476d-bc7f-a1e671e5fb31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c40a0b79-df43-4f5e-8dbf-89e0550b99d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -278,6 +310,12 @@
 		(path "/b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -406,7 +444,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dad53616-f771-48c2-9130-3e9c36b72c8e")
+			(uuid "6796b407-22d0-4e55-b7d3-853306a4e796")
 			(effects
 				(font
 					(size 1 1)
@@ -418,7 +456,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "038cbb9b-5aee-497b-8515-51522b76ad95")
+			(uuid "9715c04c-60c4-4ba3-90c6-99819f56ab47")
 			(effects
 				(font
 					(size 1 1)
@@ -430,21 +468,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57b54990-998d-4980-b564-5f23bb1a22c3")
+			(uuid "87dc5c2e-5044-48c0-9719-d34109f0fdaa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9de1d27f-4a71-4625-a5ae-faa2e074b957")
+			(uuid "ecf07bb8-7b42-459e-9160-3de5720ded5c")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "742380cb-3077-42cd-9de3-9cd52f6e0080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d74a526a-e1d2-4a2e-b2d7-38b7bb4415cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -452,6 +516,12 @@
 		(path "/2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -577,7 +647,7 @@
 			(at -2.413 0.127 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a9cce788-8381-43c4-b0a6-747e6878b783")
+			(uuid "7b18765d-aaf6-4b49-8cb3-9550a264d096")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -589,7 +659,7 @@
 			(at -2.794 0 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "17e40da3-39f5-445b-935e-a3d32a8b3247")
+			(uuid "b13b6850-b447-4628-847e-5231aad2611b")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -601,7 +671,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d5657a7-a4ef-4235-b3bc-901cdf3790db")
+			(uuid "528627f9-57ff-4e6b-845d-6d49f682e9e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -612,7 +682,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1511455f-7fb6-41df-a098-af6d4cb77691")
+			(uuid "7d0fad5a-8ded-43ec-a474-d0fac7a226c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -623,6 +693,12 @@
 		(path "/ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -679,7 +755,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ff3132c4-50b1-4a1e-ab31-ad5d95c9acda")
+			(uuid "3dcca0e6-2962-4f5a-89b3-22dea07f89a8")
 			(effects
 				(font
 					(size 1 1)
@@ -691,7 +767,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2abb40cd-77d0-4ec2-bc3c-a98d13e9978c")
+			(uuid "844593ef-3c6e-4d94-8ddc-a3b0dec176b4")
 			(effects
 				(font
 					(size 1 1)
@@ -703,7 +779,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "54851bed-661a-49ac-ab15-d6f20b790609")
+			(uuid "660d374f-eab7-4822-97a3-3d56d599ae7b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,7 +790,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75fc4abf-709a-4ad4-8c2b-169ae3ffea17")
+			(uuid "49ee8df5-7d31-4b8e-bcb4-d82aed7817cf")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,6 +801,12 @@
 		(path "/2f95d38e-a03f-4cf7-9731-498d6751a3a3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1904,7 +1986,7 @@
 			(at 0 1.5 350)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d7500d24-e6dd-4c6c-b99a-d534b1cc68fe")
+			(uuid "36ccb308-6064-436b-9a67-90481c351350")
 			(effects
 				(font
 					(size 1 1)
@@ -1916,7 +1998,7 @@
 			(at 0 -1.2 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "449662f4-8dd7-4a46-b5d6-67d2c8fb3ba5")
+			(uuid "04fd64cc-5e70-46d1-ab35-964da9a5aacd")
 			(effects
 				(font
 					(size 1 1)
@@ -1928,21 +2010,47 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcc909f7-39c6-4ebc-a7fa-6b5867fd5515")
+			(uuid "505daceb-a2ab-4425-b67e-d364c8d55636")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b2a3642-b218-41c9-bdb7-31f7e850e743")
+			(uuid "958900d9-8794-4769-974f-e4b0ac5ea1fd")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f27d3a06-597b-4fc4-8a41-1d1a9360a838")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "060d34a9-93e4-4a35-88fa-37ffc1e85e39")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1950,6 +2058,12 @@
 		(path "/e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2077,7 +2191,7 @@
 			(at 0 -8.89 350)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5f5aaa8e-36ac-4d58-bdff-9f2dd9758d13")
+			(uuid "4f58b149-34d2-48fb-8c61-4a404ab18207")
 			(effects
 				(font
 					(size 1 1)
@@ -2089,7 +2203,7 @@
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8537770-62ba-413a-a6c1-3a8c557b2cd7")
+			(uuid "567dac99-519f-435c-9b5a-4ba2df1d22f2")
 			(effects
 				(font
 					(size 1 1)
@@ -2101,7 +2215,7 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1efd2031-41a0-45d1-a1e2-ed0c3778eaf3")
+			(uuid "7020d91b-790e-4e72-9b37-9f58b53c53de")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2226,7 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "223c1382-c386-40f7-9e9d-7b196c16875a")
+			(uuid "83af1841-0298-402d-a99c-5931aed98b9d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,6 +2237,12 @@
 		(path "/9f6aa6fa-3191-4b10-803e-e75e33001f85")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2459,7 +2579,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -2528,7 +2648,7 @@
 			(uuid "7327bb88-63f9-4991-bf77-1802b56e003e")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.1)
@@ -2671,7 +2791,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
+				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -2683,7 +2803,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
+				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -2785,7 +2905,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -2824,7 +2944,7 @@
 			(uuid "5593ab3b-6421-48a3-bbeb-a24169dd8e79")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.1)
@@ -2908,7 +3028,7 @@
 			(uuid "ef067395-0594-4016-bbc4-ad6a9356d682")
 		)
 		(fp_line
-			(start -9.55 -2.499999)
+			(start -9.55 -2.499998)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -2919,7 +3039,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499999)
+			(end -9.55 -2.499998)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -3068,7 +3188,7 @@
 			(uuid "af450198-f957-4785-a515-d2c50fb6cfac")
 		)
 		(fp_line
-			(start 4.549999 -5.957)
+			(start 4.549998 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.1)
@@ -3305,7 +3425,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d06e59b4-2af0-42b2-b23a-6fe45d4e72e0")
+			(uuid "fadb648d-c1fb-438f-b585-8a9b825b39a5")
 			(effects
 				(font
 					(size 1 1)
@@ -3317,7 +3437,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5064a156-b5dd-4f81-be9c-6b599e10c627")
+			(uuid "2e13f029-cacd-4f22-a324-3a2f2c6f0959")
 			(effects
 				(font
 					(size 1 1)
@@ -3329,7 +3449,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f7db994-56d0-4b95-86cc-90332ffbb99a")
+			(uuid "55029533-7395-49f6-92ba-60dc11496139")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3460,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d436155-4e74-468e-affc-a3591eec214c")
+			(uuid "595af1a0-60c5-426c-b106-9eefddcf1430")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,6 +3471,12 @@
 		(path "/8188caea-8de6-4fbc-a456-b632b8bf6731")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4522,12 +4648,12 @@
 	(footprint "krylo:Jumper"
 		(layer "F.Cu")
 		(uuid "30a8cae3-0d19-440d-bcda-2517d5e3d239")
-		(at 98.224743 105.749805 -90)
+		(at 98.224743 105.749805 90)
 		(property "Reference" "JP2"
-			(at -2.413 0.127 270)
+			(at -2.413 0.127 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6b9a8fc2-5a9b-4a88-beb0-148d60b67e61")
+			(uuid "ab0ccb07-26ad-47cf-bfcb-8a96fc203749")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -4536,10 +4662,10 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at -2.794 0 270)
+			(at -2.794 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "45f34274-6892-46f0-ab38-1cac5dee09f6")
+			(uuid "53b670e8-6387-4c74-9dc1-13809439ddac")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -4548,10 +4674,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f38f1135-9b14-4092-b521-28cef3c71d99")
+			(uuid "eddd845c-fba2-417c-b137-0f857bb5ed44")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4559,10 +4685,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51a5655c-51ab-4539-9818-a8e55c06ec90")
+			(uuid "e78fdca6-a8b5-4561-8a35-7ce421879fcd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,6 +4699,12 @@
 		(path "/acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4598,20 +4730,20 @@
 			(uuid "ece30d6a-cb94-460d-89ee-169b8a109ba7")
 		)
 		(pad "1" smd rect
-			(at -0.50038 0 270)
+			(at -0.50038 0 90)
 			(size 0.635 1.143)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND_indirect")
+			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(clearance 0.1905)
 			(uuid "6e3fd2ec-3178-458f-b422-7bb4569ad12c")
 		)
 		(pad "2" smd rect
-			(at 0.50038 0 270)
+			(at 0.50038 0 90)
 			(size 0.635 1.143)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "GND")
+			(net "/GND_{indirect}")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(clearance 0.1905)
@@ -4630,7 +4762,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2dc08424-2dc5-40a5-b890-6d0e5e1d7708")
+			(uuid "d7a9bf47-3edf-40f8-98c9-6fe8cadce748")
 			(effects
 				(font
 					(size 1 1)
@@ -4642,7 +4774,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6846d947-3656-4f66-b2c6-35613b7b1f4a")
+			(uuid "7a27c301-ea7c-40f5-a86c-a0c22a6513bb")
 			(effects
 				(font
 					(size 1 1)
@@ -4654,21 +4786,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b000c76-19a8-4539-bc72-728f96146a6d")
+			(uuid "5ad94477-ca7f-4b7e-8ebd-5a80f81305a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af004392-4c28-4b28-ada3-20a3e74977ef")
+			(uuid "be5bfd12-f089-4d53-886f-847679d764bb")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea7b1497-0674-4e4e-a7d4-eed028fd238a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47c244ca-6c2e-4189-a760-ebbcb5292f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4676,6 +4834,12 @@
 		(path "/78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4804,7 +4968,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f3a06e80-5b9e-41b5-a3e4-5eb54d4515a5")
+			(uuid "dc8d83b6-0fa0-4878-b755-47077bcb9add")
 			(effects
 				(font
 					(size 1 1)
@@ -4816,7 +4980,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "620375b1-d11b-4499-991f-eadc21a89647")
+			(uuid "b9e3e9ae-a810-4570-be60-c3bdfc72dcff")
 			(effects
 				(font
 					(size 1 1)
@@ -4828,21 +4992,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa038fab-7f0e-4476-833e-4d9d5f3fa42a")
+			(uuid "621e4869-5ea9-4ef7-8a02-cefa02ed0b13")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a10af8a-1a8b-401f-9e72-cfdd61f57ffc")
+			(uuid "c899d69b-5986-45bc-96a0-24fe309bc827")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c019fe9a-35d5-4bed-9bf2-444d1d566a41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7caba553-ae1e-4bcb-b0a2-90ffb75703de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4850,6 +5040,12 @@
 		(path "/0ecf4455-e900-453c-94e8-f99082fd818c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4977,7 +5173,7 @@
 			(at 1 -2.55 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6c92b09d-f22c-4dac-95af-ca23c23a4db4")
+			(uuid "33d8fb75-25dc-4e6c-8892-24546542e0ba")
 			(effects
 				(font
 					(size 1 1)
@@ -4988,7 +5184,7 @@
 		(property "Value" "JST_PH"
 			(at 1.25 -3.35 0)
 			(layer "F.Fab")
-			(uuid "9050e0a8-97f6-4b8f-bc5d-1b8030f0e8fa")
+			(uuid "45f45a56-4563-4fbc-9372-e33d3bb5eff2")
 			(effects
 				(font
 					(size 1 1)
@@ -5000,27 +5196,34 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00b41ffa-4020-46a2-aedb-eeea004cbe74")
+			(uuid "049e2be7-1b6d-427a-9b9e-1a17dbeb6b29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-cell battery"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "93edcceb-7a16-4f72-ac53-f38c0678abef")
+			(uuid "3f28ac68-95f2-4340-bd89-12e192f825ec")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property ki_fp_filters "krylo:JST_PH")
 		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5236,7 +5439,7 @@
 			(at 0 -8.89 356)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "622a3b3d-30e2-4d72-a6e4-3500ad7941de")
+			(uuid "7a3c1667-53c7-4af6-a234-3644acdceb0f")
 			(effects
 				(font
 					(size 1 1)
@@ -5248,7 +5451,7 @@
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7611fe1f-3c51-49d4-87dc-1ff4f5a718c3")
+			(uuid "04fbcb68-304b-465f-a493-bf944673aa15")
 			(effects
 				(font
 					(size 1 1)
@@ -5260,7 +5463,7 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b38f307-f018-443e-9f3e-bdf3aa49c685")
+			(uuid "a6d395a4-1afa-480c-a8e2-8de120a0ad68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5474,7 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62119272-d0b0-408a-8b98-1d54d49c20d3")
+			(uuid "2bfdb8d8-48de-48d8-9a3d-1cf58ebc90ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5282,6 +5485,12 @@
 		(path "/cafe9b5c-8d4c-4967-a3f1-359d5108b504")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5315,7 +5524,7 @@
 			(uuid "5561d723-cffe-45e0-a880-764cfd698dd3")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -5345,7 +5554,7 @@
 			(uuid "9c1a1d16-aed0-4046-ad25-2132f0a4f39d")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -5455,7 +5664,7 @@
 			(uuid "ebcf4a89-a173-4b67-b34d-95de57357077")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -5475,7 +5684,7 @@
 			(uuid "e330ee68-faee-4d06-89d8-c7a341a128e8")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -5527,7 +5736,7 @@
 			(uuid "bbe6dd70-4693-484e-9fd7-a8969f9dcfda")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -5547,7 +5756,7 @@
 			(uuid "690d928a-65bd-4540-8c8a-f88ba1134d88")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -5657,7 +5866,7 @@
 			(uuid "ba900e94-5854-4bab-81f1-4c5017f2ec5f")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -5677,7 +5886,7 @@
 			(uuid "3556fc5d-ee69-4384-86b5-cbeaa5f6690d")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -6067,7 +6276,7 @@
 			(uuid "bc67cdf6-b888-4c60-8c2f-db2c5a17499d")
 		)
 		(fp_line
-			(start -9.549999 -2.5)
+			(start -9.549998 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -6078,7 +6287,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549999 -2.5)
+			(end -9.549998 -2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6464,7 +6673,7 @@
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0abe6795-57cc-4789-b8c2-2065e3c65f43")
+			(uuid "577c5d57-e58d-410a-aec0-2a7b416c1669")
 			(effects
 				(font
 					(size 1 1)
@@ -6476,7 +6685,7 @@
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bdf87472-8af8-4cd2-91a2-f33d936a6cf6")
+			(uuid "30032f58-e6a6-4a64-9821-bc205a4c08ec")
 			(effects
 				(font
 					(size 1 1)
@@ -6488,33 +6697,21 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c6d8971-c24e-412a-b7ac-4fed5b9c4917")
+			(uuid "0e757262-2db8-4734-a12f-c65277b976b6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6848db8-4e90-45bd-9c95-687e90de3061")
+			(uuid "ffaafac3-04a2-4410-af17-14d687beaac9")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7c0cfef3-1e29-4d73-a160-811d98c71462")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -6522,7 +6719,13 @@
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6566,7 +6769,7 @@
 			(at 0 1.5 350)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "96218a1b-3e1b-4482-adc4-bbceb7ccd461")
+			(uuid "13d23936-6687-4aeb-9a37-bb66e7416d31")
 			(effects
 				(font
 					(size 1 1)
@@ -6578,7 +6781,7 @@
 			(at 0 -1.2 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a608f3e7-f989-4639-89d5-de170c4a1471")
+			(uuid "53ae6c6e-95d1-43b2-81b3-a835489e4706")
 			(effects
 				(font
 					(size 1 1)
@@ -6590,21 +6793,47 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3f53d23-8f4d-4e9e-b7e6-6f7f40fae958")
+			(uuid "7f4aa095-11c7-4dad-a86d-c933696f9de3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4344307c-8caa-4006-bc9e-32f6ac051785")
+			(uuid "4a09142d-5b27-463e-8f3d-c1e1866bba68")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7802aa8b-8373-4a25-bd4d-d08394ad6fc2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "648554e1-28e4-4f70-ae23-2256931f9482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6612,6 +6841,12 @@
 		(path "/5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6739,7 +6974,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e1a9b9a7-32d7-4cdc-b14a-24e1e7ba8600")
+			(uuid "cec9de37-d54d-467c-a98c-1317d184792d")
 			(effects
 				(font
 					(size 1 1)
@@ -6751,7 +6986,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "15e6e52e-f69a-4c93-a0e2-728cd3f274b3")
+			(uuid "cca03bc6-618f-479c-92b4-ca019310874a")
 			(effects
 				(font
 					(size 1 1)
@@ -6763,7 +6998,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de516cd5-82f2-4ffc-9066-df68077bf697")
+			(uuid "62e52857-507c-40ce-ba61-6fc6983e6274")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +7009,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d2264b7e-8eeb-42e7-be44-4ad9b6419b9f")
+			(uuid "bb3a72e7-c21b-4dcd-93e1-7801a34f2aed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6785,6 +7020,12 @@
 		(path "/05f348eb-9a05-40e8-9e2d-51b3642a08b7")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7963,7 +8204,7 @@
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "70548792-0f53-4cb3-b16c-eedd0426ef07")
+			(uuid "1dcaba62-c69b-4e0d-95c3-8e0ed4756b14")
 			(effects
 				(font
 					(size 1 1)
@@ -7975,7 +8216,7 @@
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "284ff3b7-5c4d-43bd-b949-c831721d4242")
+			(uuid "22558289-1aea-484c-b7e1-b0bf2e557294")
 			(effects
 				(font
 					(size 1 1)
@@ -7987,33 +8228,21 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b04fa14-0966-4af0-8fcb-a30170c1e1cb")
+			(uuid "2e541a2b-5a2b-48c0-b10a-77af948c3852")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "935c69ee-fdf4-404a-9876-d24af98220a6")
+			(uuid "0b019a11-4723-41c5-9dfe-79551823778a")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "aea627b4-c1ea-4e37-b4fc-ae7fe8215206")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -8021,7 +8250,13 @@
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -8064,7 +8299,7 @@
 			(at 0 -8.89 356)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5f54de75-b646-444f-acfd-fb17d044a721")
+			(uuid "a0703b79-97e7-4f90-8c3b-25afbe1590a8")
 			(effects
 				(font
 					(size 1 1)
@@ -8076,7 +8311,7 @@
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dfaf0207-5e3f-43eb-a726-a07b665351af")
+			(uuid "634921f0-e61d-46dc-837e-dea62a1bee6c")
 			(effects
 				(font
 					(size 1 1)
@@ -8088,7 +8323,7 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fd4472a0-7549-4d1a-9384-ee19ae56fe1f")
+			(uuid "cd934457-3843-461d-8590-e59cbb24b399")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8099,7 +8334,7 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ff82297f-e258-4a0c-aabb-3e94e70936bd")
+			(uuid "d177b37a-c31a-4ef0-bf59-ef85cc074e75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,6 +8345,12 @@
 		(path "/7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8143,7 +8384,7 @@
 			(uuid "36be91a6-8044-4ebf-9721-6a55c507003b")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -8173,7 +8414,7 @@
 			(uuid "4e5a5802-4d89-4ae0-973f-a235b0b7db62")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -8283,7 +8524,7 @@
 			(uuid "01b4767b-e8b1-48da-bcd9-a982708090e5")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -8303,7 +8544,7 @@
 			(uuid "e7b1f096-efae-4185-8f7e-bec9c1be62d5")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -8355,7 +8596,7 @@
 			(uuid "c5bc07f9-8446-40c9-87a9-a34ee819a5e6")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -8375,7 +8616,7 @@
 			(uuid "84e10ebe-795a-49e9-bb43-5e09dc784a67")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -8485,7 +8726,7 @@
 			(uuid "a37d0d59-a8f4-4789-9df3-eabc79479dc7")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -8505,7 +8746,7 @@
 			(uuid "5222611c-33ad-469a-9e47-93f7ea8a4a4f")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -8895,7 +9136,7 @@
 			(uuid "2428030f-5a36-4b30-89ce-12af83076297")
 		)
 		(fp_line
-			(start -9.549999 -2.5)
+			(start -9.549998 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -8906,7 +9147,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549999 -2.5)
+			(end -9.549998 -2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -9292,7 +9533,7 @@
 			(at 0 -8.89 356)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3306f49d-ddc2-48b8-8398-b1aee36b312a")
+			(uuid "45854e08-0971-4279-9de9-8e0bc1fdc918")
 			(effects
 				(font
 					(size 1 1)
@@ -9304,7 +9545,7 @@
 			(at 0 9.9 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d5a6d39d-e8ae-4cd5-9ee2-e2a0c12582a3")
+			(uuid "f08c1b85-45bb-48e3-94be-45c66abc0ef6")
 			(effects
 				(font
 					(size 1 1)
@@ -9316,7 +9557,7 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ee3e786-7613-4bbb-a8a0-50b751b70bbe")
+			(uuid "03d128ad-6346-49c7-93e5-dfbab8e89149")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9327,7 +9568,7 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a8d972c-0920-45ef-845c-ae79ccc533d2")
+			(uuid "3cb534d4-c133-441c-b34b-df966ee4732d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9338,6 +9579,12 @@
 		(path "/25dd9609-789f-4f3c-89e7-04c67e5f906d")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9371,7 +9618,7 @@
 			(uuid "36e6412f-20b9-49ce-8b66-210416803276")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -9401,7 +9648,7 @@
 			(uuid "bed2fe95-6dba-4ebe-bc9c-a19e14f15a00")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -9511,7 +9758,7 @@
 			(uuid "34ffbebd-dcc6-461a-a653-d0b19ed0a487")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -9531,7 +9778,7 @@
 			(uuid "1e483cf8-9e9a-4977-b975-9c07821e4ae7")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -9583,7 +9830,7 @@
 			(uuid "068b569b-f893-40b2-8f66-18f95af450f7")
 		)
 		(fp_line
-			(start -7.000001 -6)
+			(start -7.000002 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -9603,7 +9850,7 @@
 			(uuid "0cfc3231-4efa-466e-a4a7-253767765343")
 		)
 		(fp_line
-			(start -6 7.000001)
+			(start -6 7.000002)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -9713,7 +9960,7 @@
 			(uuid "a9408896-f0fc-4d55-ab3d-5d7d357e4d87")
 		)
 		(fp_line
-			(start 6 -7.000001)
+			(start 6 -7.000002)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -9733,7 +9980,7 @@
 			(uuid "2aa23d84-35dd-4dd4-97ea-7558946cd426")
 		)
 		(fp_line
-			(start 7.000001 6)
+			(start 7.000002 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -10123,7 +10370,7 @@
 			(uuid "fdb1b71b-b0e0-4fa2-8a62-cb872b756ddb")
 		)
 		(fp_line
-			(start -9.549999 -2.5)
+			(start -9.549998 -2.5)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -10134,7 +10381,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.549999 -2.5)
+			(end -9.549998 -2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -10520,7 +10767,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "0db1e537-a5ba-42b7-9497-a288b342b497")
+			(uuid "d690e4f3-152b-43b8-b20f-fe883fd822cd")
 			(effects
 				(font
 					(size 1 1)
@@ -10532,7 +10779,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4501d0e-bfe2-40df-897d-5bb516e69b5b")
+			(uuid "4d1ab8c7-9709-40dd-9a58-736250b13561")
 			(effects
 				(font
 					(size 1 1)
@@ -10544,7 +10791,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0ae3cfd8-4891-40a0-87a6-634ad77cfc34")
+			(uuid "22038075-09f3-440d-9d6c-37d639b5a041")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10555,7 +10802,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "199c79e4-22a7-4705-ac45-725d80f6be84")
+			(uuid "057cc8cd-eef1-4a51-ba28-6f0b0d1b8af6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,6 +10813,12 @@
 		(path "/72154ec9-0d68-4d25-a464-427bd5d96a7b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11744,7 +11997,7 @@
 			(at 0 -8.89 8)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "891d4ff3-1437-4f3d-8812-338ebf22a27a")
+			(uuid "ba57231c-7dbb-4342-bf24-827df0dafbc6")
 			(effects
 				(font
 					(size 1 1)
@@ -11756,7 +12009,7 @@
 			(at 0 9.9 8)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e69e791-73f9-46c2-ae0e-85c3779a9543")
+			(uuid "ab7a8e85-4a68-4663-a374-842db9b46289")
 			(effects
 				(font
 					(size 1 1)
@@ -11768,7 +12021,7 @@
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b442a65-b260-42ed-9334-290df7d20dee")
+			(uuid "9f31ab23-b155-429b-b61b-8a1358e2b1b3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +12032,7 @@
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "172653df-f797-4557-b00c-daa7289d2a17")
+			(uuid "0e09a7b4-4ff6-4fb9-ab9e-50a1b11c6669")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11790,6 +12043,12 @@
 		(path "/72debe4c-353b-441e-948e-ae12758310db")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11893,7 +12152,7 @@
 			(uuid "f6a19b91-19b9-47b3-b9e9-565fc0b11661")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end -2 -7.7)
 			(stroke
 				(width 0.1)
@@ -11904,7 +12163,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12076,7 +12335,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12085,7 +12344,7 @@
 			(uuid "4b154485-5b61-4186-a4b3-64f838264132")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.1)
@@ -12096,7 +12355,7 @@
 		)
 		(fp_line
 			(start -2 -4.2)
-			(end -2 -4.550001)
+			(end -2 -4.550002)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -12392,7 +12651,7 @@
 		)
 		(fp_line
 			(start -2 -7.7)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12411,7 +12670,7 @@
 			(uuid "7f5f7e46-3911-4c82-bbfd-d2743b79366b")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end 1.5 -8.2)
 			(stroke
 				(width 0.1)
@@ -12502,7 +12761,7 @@
 		)
 		(fp_line
 			(start 7 -5)
-			(end 9.55 -4.999999)
+			(end 9.55 -4.999998)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12521,7 +12780,7 @@
 			(uuid "32d45800-fc5c-450e-a7a6-c2c9fe5d35b2")
 		)
 		(fp_line
-			(start 9.55 -4.999999)
+			(start 9.55 -4.999998)
 			(end 9.55 -2.5)
 			(stroke
 				(width 0.1)
@@ -12655,7 +12914,7 @@
 			(uuid "fa0bbf59-28e6-4d6d-83ec-336c27df2c8b")
 		)
 		(fp_line
-			(start -1.5 -8.200001)
+			(start -1.5 -8.200002)
 			(end -2 -7.7)
 			(stroke
 				(width 0.1)
@@ -12666,7 +12925,7 @@
 		)
 		(fp_line
 			(start 1.5 -8.2)
-			(end -1.5 -8.200001)
+			(end -1.5 -8.200002)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -12705,7 +12964,7 @@
 			(uuid "c279d1ef-b18d-48df-b73e-104757a0fa18")
 		)
 		(fp_line
-			(start 1.999999 -4.25)
+			(start 1.999998 -4.25)
 			(end 2 -7.7)
 			(stroke
 				(width 0.1)
@@ -12736,7 +12995,7 @@
 		)
 		(fp_line
 			(start 4.54 -5.95)
-			(end 3.281 -4.690999)
+			(end 3.281 -4.690998)
 			(stroke
 				(width 0.1)
 				(type default)
@@ -12973,7 +13232,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9d5f8a0a-0f7a-4df9-ad5f-baec6d7be211")
+			(uuid "3de13ecc-e013-4282-9837-f1ad21dc4b65")
 			(effects
 				(font
 					(size 1 1)
@@ -12985,7 +13244,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30192de4-223e-4490-a53c-dd97ac775d1c")
+			(uuid "300f5458-920a-4b42-be06-c43648edf5de")
 			(effects
 				(font
 					(size 1 1)
@@ -12997,21 +13256,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd641222-3a15-4a2c-9356-0d5c565bc6c2")
+			(uuid "9386ca65-8e69-4efb-b15c-d19f3711b1c5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0ad39e4-dc35-4c6e-9416-3d014d94183c")
+			(uuid "3f5b283a-ecc9-4941-96c0-80ab8abfa678")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4454b12-36d9-4c3a-a6c5-f50a180491ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa7360a5-5b65-4e36-abcb-43b703938059")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13019,6 +13304,12 @@
 		(path "/5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13146,7 +13437,7 @@
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b7ee9fbf-16fc-4888-aa0e-9ac63f5f15dc")
+			(uuid "c495e00c-30f7-48be-b161-c93380d51eec")
 			(effects
 				(font
 					(size 1 1)
@@ -13158,7 +13449,7 @@
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e66fad6-93a9-429f-8fc1-40bbb6e3886d")
+			(uuid "9aea9fc9-93d8-4dff-8a2f-f33d078eb914")
 			(effects
 				(font
 					(size 1 1)
@@ -13170,33 +13461,21 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5c78564-4f6b-4a25-9931-cad75407262e")
+			(uuid "c1d84b5d-f920-404d-9ced-d7c69220d745")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79932b37-d7ec-472b-b6ef-e4f7e80fb3a5")
+			(uuid "4da33f27-d4a0-4bfd-ad9d-beef308818d3")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1c9b0af8-f95e-4eee-8c73-45963fb3de43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -13204,7 +13483,13 @@
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13248,7 +13533,7 @@
 			(at 0 1.5 356)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2a6127df-74a9-45b0-b269-f48434b7cf46")
+			(uuid "fa397adc-2e94-45e4-930c-832802d7f422")
 			(effects
 				(font
 					(size 1 1)
@@ -13260,7 +13545,7 @@
 			(at 0 -1.2 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbcd56e6-0dc3-4766-8a71-8c4ff0309e32")
+			(uuid "8d04bdaa-2871-4ad5-bcb5-c55d38501e4a")
 			(effects
 				(font
 					(size 1 1)
@@ -13272,21 +13557,47 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "370d6c6c-79c7-4ffc-8365-11300f562484")
+			(uuid "b112e535-bd4c-4ad6-a67d-34e45f6c8f94")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8759d6b4-fba3-4fbe-92ed-f1e955a53965")
+			(uuid "f9e7cf86-8f53-4e55-a050-6c03e7ab6501")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2aca018-0af8-442f-a2cb-7eef5c69d3d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d753996a-9d09-4289-90a4-a7e2bcb490f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13294,6 +13605,12 @@
 		(path "/1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13419,7 +13736,7 @@
 			(at 0 2.55 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2219b133-cc24-4e94-b960-6cc2ed27a65c")
+			(uuid "a9e85e8e-5e87-4657-acad-ca7f92cd2e87")
 			(effects
 				(font
 					(size 1 1)
@@ -13431,7 +13748,7 @@
 			(at 0 -2.55 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4bd16da9-72a9-4866-bace-60b6e518f9a0")
+			(uuid "3611c635-b6fe-4415-82ae-7a94c3fbfb0c")
 			(effects
 				(font
 					(size 1 1)
@@ -13443,27 +13760,34 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c8180f1c-cceb-4052-88ad-1b23481e849e")
+			(uuid "924031bd-f094-48d7-b58a-7e3eac7858d5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f6d9475-9ecf-4f56-8712-aa006ff3eb80")
+			(uuid "2a25cee5-1067-4bd4-ae23-3ceed5144746")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property ki_fp_filters "krylo:ResetSW")
 		(path "/5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13674,7 +13998,7 @@
 			(at -2.413 0.127 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "7ae3b332-0fa5-49e6-9225-c268e5c5bc0a")
+			(uuid "281c29d2-2601-4879-af3a-0b049dd6c5f9")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -13686,7 +14010,7 @@
 			(at -2.794 0 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "dd49b729-0c43-4374-945d-d97c08749c93")
+			(uuid "709a0683-3741-4f74-bd0d-e5c4758fd9c2")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -13698,7 +14022,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "821fb7a3-8dcf-4f32-b120-7ffa92fa4c4b")
+			(uuid "f028d577-553a-4a3e-bae1-2f9888a81f06")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13709,7 +14033,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c18a3d9-4235-4ee3-8630-d08132d15ea8")
+			(uuid "82ea9b1f-c315-45ed-9d82-2629f253ee36")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13720,6 +14044,12 @@
 		(path "/e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13777,7 +14107,7 @@
 			(at 0 1.5 350)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "65570822-621b-4b4e-b10d-debbd1b5b7d0")
+			(uuid "c7e261ab-2882-401f-94cd-b7ae1b59ad95")
 			(effects
 				(font
 					(size 1 1)
@@ -13789,7 +14119,7 @@
 			(at 0 -1.2 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ea9b0386-882e-469e-aa24-bd1a1e4d7ea6")
+			(uuid "6c4fe797-9ed7-4664-bb43-75f9fd7fd045")
 			(effects
 				(font
 					(size 1 1)
@@ -13801,21 +14131,47 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fe778320-09c6-43b5-9283-74fb3fb12410")
+			(uuid "5e253fe9-9019-457b-9355-c7a3d8110f21")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4320f39e-ab52-45af-956b-a2b5596be5bd")
+			(uuid "9149370e-f8af-42e2-8e9a-975f59ddb675")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c704d5e-d27a-463d-95a8-453648f91790")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 350)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48cd60c4-0eb3-4cad-b05b-11c91592b26c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13823,6 +14179,12 @@
 		(path "/dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13951,7 +14313,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2ad228f4-44e7-4e4e-a084-fda1c6d85e85")
+			(uuid "cbcba358-0c59-4a89-8354-608cf0088a32")
 			(effects
 				(font
 					(size 1 1)
@@ -13963,7 +14325,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41371115-c60b-4d3a-8bc2-6d23a7b17e12")
+			(uuid "cadfedde-a755-4c6a-acb2-f20cc6dbd911")
 			(effects
 				(font
 					(size 1 1)
@@ -13975,21 +14337,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61b0a8e0-024e-42dc-978d-bc26605b71e6")
+			(uuid "1c745b21-d772-440f-b7c1-8ae17d292e6b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5eb071a3-128b-41ba-9514-c2a24c2888ab")
+			(uuid "6d9e4ba5-164f-4161-b4f8-54dac320ab9f")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de3dce0a-ad6c-46c9-8a20-978e3f5d0c5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec505960-86e5-4c24-a375-df53e62eef1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13997,6 +14385,12 @@
 		(path "/df35e296-ea0f-4574-b225-3389ca777371")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14125,7 +14519,7 @@
 			(at 0 1.5 8)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5cd2ed9b-e468-44d3-82e9-3add844bcf6a")
+			(uuid "3faf0b0c-bf16-4f10-ad74-09840cf0b30e")
 			(effects
 				(font
 					(size 1 1)
@@ -14137,7 +14531,7 @@
 			(at 0 -1.2 8)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "381657ea-6260-4144-b8db-86081d2818fa")
+			(uuid "9869b58d-adbf-4300-8eac-c340ed8eb1c0")
 			(effects
 				(font
 					(size 1 1)
@@ -14149,21 +14543,47 @@
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a2b7e55-426f-46f4-9a68-8b66a269d4ce")
+			(uuid "b862d506-c809-4213-b521-247fcaeb4432")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f044bb96-c460-4b12-9ced-c092a09ed8e7")
+			(uuid "81e7a9bd-9b2e-4222-ac6f-7a67a67732d1")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 8)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ab8d470-8a70-48f1-b19c-f6fa61c1c35c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 8)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0e6197d-3411-467f-aad9-502838dd15c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14171,11 +14591,17 @@
 		(path "/8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700001)
+			(end -0.45 0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14185,7 +14611,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700001)
+			(end 0.45 -0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14194,7 +14620,7 @@
 			(uuid "0565eab0-3b3a-4168-80cf-bd999a21623d")
 		)
 		(fp_line
-			(start 0.45 -0.700001)
+			(start 0.45 -0.700002)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -14215,7 +14641,7 @@
 		)
 		(fp_line
 			(start -0.45 -0.7)
-			(end -0.45 0.700001)
+			(end -0.45 0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14225,7 +14651,7 @@
 		)
 		(fp_line
 			(start -0.45 0)
-			(end 0.45 -0.700001)
+			(end 0.45 -0.700002)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14234,7 +14660,7 @@
 			(uuid "7aae4ce2-991b-4bac-8c08-9d6d53e2014d")
 		)
 		(fp_line
-			(start 0.45 -0.700001)
+			(start 0.45 -0.700002)
 			(end 0.45 0.7)
 			(stroke
 				(width 0.15)
@@ -14299,7 +14725,7 @@
 			(at 0 1.5 4)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "294c9a7b-545a-4c6f-afe6-e36de3fd6a16")
+			(uuid "f6f6a4d9-f303-49c2-9cdf-df77bd314dc2")
 			(effects
 				(font
 					(size 1 1)
@@ -14311,7 +14737,7 @@
 			(at 0 -1.2 4)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "717ea974-163b-415c-8d02-b8220304fd2b")
+			(uuid "43a2e563-5dd1-459f-b6eb-78283b53fb94")
 			(effects
 				(font
 					(size 1 1)
@@ -14323,21 +14749,47 @@
 			(at 0 0 4)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47e07682-3bc2-474c-bc24-4e98bca31714")
+			(uuid "f1907a14-fca7-407b-b174-579a1e6a1f4b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 4)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6172c304-c71e-4a59-b249-7b5d1bf8a654")
+			(uuid "939d8c9f-c7e4-48de-9cd7-4b2a9d84b2be")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 4)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "701d6948-d338-452f-bdd4-4df8950866c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 4)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81b19fb1-25ff-4434-8a15-28959b7acc33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -14345,6 +14797,12 @@
 		(path "/5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14472,7 +14930,7 @@
 			(at 0 -8.89 350)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4ccff604-0943-4526-a2d9-1e12a2c9b530")
+			(uuid "50a34985-8ac2-4806-9b57-e5a2b21acc67")
 			(effects
 				(font
 					(size 1 1)
@@ -14484,7 +14942,7 @@
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "91814955-1cd0-45fb-9ed3-71faff0230d8")
+			(uuid "9b0572a1-ad07-4e07-a094-03658b1c4410")
 			(effects
 				(font
 					(size 1 1)
@@ -14496,7 +14954,7 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "46f56039-5838-43af-a585-bdf2c0950d93")
+			(uuid "dc690f0c-0bf8-4f5b-ba40-85aae932714d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14507,7 +14965,7 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9be5d8b8-6d8c-48d2-b06b-0fe95cd3911f")
+			(uuid "e0203c5a-7f06-4571-a7b9-b7652d1589d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14518,6 +14976,12 @@
 		(path "/1379ae49-5f43-4487-ba64-820f99c87628")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14854,7 +15318,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -14923,7 +15387,7 @@
 			(uuid "0ed5a47e-e569-42cf-ab2b-1cc86b4502cb")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.1)
@@ -15066,7 +15530,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
+				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -15078,7 +15542,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
+				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -15180,7 +15644,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -15219,7 +15683,7 @@
 			(uuid "ecfb794b-bb00-48bb-80b4-f4cbb835cc35")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.1)
@@ -15303,7 +15767,7 @@
 			(uuid "8282cbdc-baf7-4176-89f6-fbb8a73226a4")
 		)
 		(fp_line
-			(start -9.55 -2.499999)
+			(start -9.55 -2.499998)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -15314,7 +15778,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499999)
+			(end -9.55 -2.499998)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -15463,7 +15927,7 @@
 			(uuid "71e8b74d-06f8-4f00-a09a-8d24be796676")
 		)
 		(fp_line
-			(start 4.549999 -5.957)
+			(start 4.549998 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.1)
@@ -15700,7 +16164,7 @@
 			(at 0 -3.15 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a1b549ce-30cb-47fd-8063-0ea962e0174b")
+			(uuid "42be10f5-bc36-4139-820a-18501477e272")
 			(effects
 				(font
 					(size 1 1)
@@ -15712,7 +16176,7 @@
 			(at 0 3.55 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be2ea9b2-a8bb-4a30-b631-ddfb5467274d")
+			(uuid "fa603e2b-4261-4ba6-a293-d66d42718354")
 			(effects
 				(font
 					(size 1 1)
@@ -15724,33 +16188,21 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e48ad924-4cdd-44e9-91f8-f6ca8020807e")
+			(uuid "4b25d995-c55d-4d30-84e8-ba22044640d7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole without connection"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "119782b0-e0ae-4bcc-88b1-a0e3781f122a")
+			(uuid "25c54d97-2ba4-49bd-a193-9f592e9726ad")
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "7c5f2a1b-621f-4292-a9bc-f12bb39abc22")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -15758,7 +16210,13 @@
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -15802,7 +16260,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ea3152ac-4589-4cfb-873c-45210c8fc1a2")
+			(uuid "a6bd8b02-3fc3-46e5-b183-c5ac76ecb4bc")
 			(effects
 				(font
 					(size 1 1)
@@ -15814,7 +16272,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e991eda0-71e5-454b-a628-74a42c08a89b")
+			(uuid "d652417a-64d8-4833-ae56-a0e2a744f027")
 			(effects
 				(font
 					(size 1 1)
@@ -15826,21 +16284,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aaa76daf-ecf4-48b5-a83d-65cf4750db7b")
+			(uuid "e645cb50-5216-4eca-8c25-8bf8919bee07")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "387f156b-feba-4ada-ad3c-544f94aa8bce")
+			(uuid "a1c8770f-cbe2-466c-8ea3-f477249705fd")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95cf30f3-9943-4804-b06d-96774d85695b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59f1d9cc-06c7-4aa5-b911-f5bbb658bd11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -15848,6 +16332,12 @@
 		(path "/549837fd-742e-4acb-9954-b1cc01668088")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15975,7 +16465,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8c323691-0236-4414-8605-41f0f565ff89")
+			(uuid "246e72af-e637-4f7d-940e-1d174b88550a")
 			(effects
 				(font
 					(size 1 1)
@@ -15987,7 +16477,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c0d7280-b3a0-4898-a3f1-ed9c9b4e0ebf")
+			(uuid "adaec824-6ed0-4898-8189-70868f475052")
 			(effects
 				(font
 					(size 1 1)
@@ -15999,7 +16489,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "826817d2-c623-4b5b-9e1e-488db0ff669c")
+			(uuid "edd9b54d-02cd-45ed-a259-c76dac67f496")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16010,7 +16500,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c8b0fc3-5e72-4c5f-83b5-0f6aca2ede72")
+			(uuid "d75146da-4e58-4f50-a7d9-91e89a9db242")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16021,6 +16511,12 @@
 		(path "/e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17199,7 +17695,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6753e1d0-2b20-4c6d-8652-40df36bf1744")
+			(uuid "f400b64d-ed4f-42d8-91b1-2f7513083bf3")
 			(effects
 				(font
 					(size 1 1)
@@ -17211,7 +17707,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5dc54267-a907-4fe2-89a3-1b93333089f4")
+			(uuid "cdafe0d4-4b43-492f-8dd7-0f9bb7010fbc")
 			(effects
 				(font
 					(size 1 1)
@@ -17223,7 +17719,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f15ffd96-151e-42c3-99e3-b2e9816984da")
+			(uuid "08230a32-258b-4238-a6f9-6be1e340d766")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17234,7 +17730,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f7461491-ba7c-44d3-94a1-f1bc3bea4d78")
+			(uuid "edd26e4f-db80-40dc-a32b-c076a7dcd425")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17245,6 +17741,12 @@
 		(path "/e2ceac69-a5d5-462f-b8e7-24123de35429")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18416,12 +18918,12 @@
 	(footprint "krylo:Jumper"
 		(layer "F.Cu")
 		(uuid "a12f4b38-566b-4645-ba76-4db8f75f6c9f")
-		(at 100.749743 105.749805 -90)
+		(at 100.749743 105.749805 90)
 		(property "Reference" "JP8"
-			(at -2.413 0.127 270)
+			(at -2.413 0.127 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c803886c-5d05-4989-9494-de0df7957a7f")
+			(uuid "0fb27e11-1297-4c16-bd5b-9c91d0723df5")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -18430,10 +18932,10 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at -2.794 0 270)
+			(at -2.794 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2ffbbdf4-930d-4cc7-abcc-a97c2a76c695")
+			(uuid "3dff1177-662b-491f-9eaf-8b4f3fa32373")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -18442,10 +18944,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5fdfd4c5-69ae-45fd-b6ca-890d88bda99c")
+			(uuid "2a07dd74-b72c-48cd-b033-14311d9d3c92")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18453,10 +18955,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "154224e6-1b7d-4f4e-a8c4-214118b6a1c9")
+			(uuid "a9535407-5315-4b73-b093-fb48fc11f9ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18467,6 +18969,12 @@
 		(path "/4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18492,20 +19000,20 @@
 			(uuid "4257f601-dbc0-4054-84af-11b859293c58")
 		)
 		(pad "1" smd rect
-			(at -0.50038 0 270)
+			(at -0.50038 0 90)
 			(size 0.635 1.143)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "RESET_indirect")
+			(net "RESET")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(clearance 0.1905)
 			(uuid "f6a7df37-2246-4dff-b68f-64d7b95444c3")
 		)
 		(pad "2" smd rect
-			(at 0.50038 0 270)
+			(at 0.50038 0 90)
 			(size 0.635 1.143)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net "RESET")
+			(net "/RESET_{indirect}")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(clearance 0.1905)
@@ -18524,7 +19032,7 @@
 			(at 0 1.5 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "57d772dd-7914-4419-929e-0255b249ba94")
+			(uuid "33433143-3c42-46d6-8059-dad1180d2cee")
 			(effects
 				(font
 					(size 1 1)
@@ -18536,7 +19044,7 @@
 			(at 0 -1.2 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c47955e2-495a-4943-9e05-3f9876befa28")
+			(uuid "a554f405-341d-4b83-a839-0a788bfb090b")
 			(effects
 				(font
 					(size 1 1)
@@ -18548,21 +19056,47 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5de06ac0-7da4-460c-85e3-b1d91dd42fb4")
+			(uuid "1b44f30b-7363-4dd0-b03a-d5b2eedd77f9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59481919-9fda-4289-ab89-54b23eab3e8c")
+			(uuid "8fe8ba12-2a8d-440e-98c6-06abed90132c")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b2eefd9-2d55-41f2-aa93-0a0d9c8059f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f521e258-ce1b-44ce-956a-21de24a5c728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18570,6 +19104,12 @@
 		(path "/1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18698,7 +19238,7 @@
 			(at 0 1.5 356)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "36bc38b6-dfcb-4f52-8550-9b5182ce56fa")
+			(uuid "3134a47f-971d-4803-bd70-f81101e642fc")
 			(effects
 				(font
 					(size 1 1)
@@ -18710,7 +19250,7 @@
 			(at 0 -1.2 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab665141-1c62-435d-bdcf-cdf9fa1c60d9")
+			(uuid "abc42a7f-651c-44b4-a033-e592625a4da1")
 			(effects
 				(font
 					(size 1 1)
@@ -18722,21 +19262,47 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f79bd0b-454b-4005-9f20-c4e6393f5b98")
+			(uuid "454dd939-754c-447d-9dd7-33180964bc5d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc53c301-ae6b-4253-bca3-9765454a88d0")
+			(uuid "18b090dd-c0c2-4447-92bd-3dc6bb88589e")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d039dc1-fb2b-4660-ab25-2eab9d08d960")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56d6fac0-8df9-4d88-87e9-babd9b69fb06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -18744,6 +19310,12 @@
 		(path "/a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18871,7 +19443,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1e1be2f3-fc64-410f-aee4-bd97978b883f")
+			(uuid "e00d26b5-0b50-4411-8423-68f20e3c5feb")
 			(effects
 				(font
 					(size 1 1)
@@ -18883,7 +19455,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6842d1a2-6c47-4f6b-90ff-deaee8633e0b")
+			(uuid "452abb41-96d2-4d00-9493-6bd8b7fe8a98")
 			(effects
 				(font
 					(size 1 1)
@@ -18895,7 +19467,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2d6c6de9-e69e-4214-97b2-8242efed7d6a")
+			(uuid "06cd7f72-398f-44ed-ba4f-4046c9b6a579")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18906,7 +19478,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68fbe083-77f2-40a1-8438-eaf114cc22d1")
+			(uuid "4e1f0a68-abd7-4db8-ab5d-6bdf5552e017")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18917,6 +19489,12 @@
 		(path "/8bb89a93-d7e1-42e7-b46e-e080be939965")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20095,7 +20673,7 @@
 			(at 0 -8.89 3)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "23a690e6-2f36-448a-91d9-57290d6c3c77")
+			(uuid "c05bb7ee-b2d0-43ba-888c-948a9cf6f068")
 			(effects
 				(font
 					(size 1 1)
@@ -20107,7 +20685,7 @@
 			(at 0 9.9 3)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47e169e3-f6ce-49e8-a5e4-bb8f07a2547e")
+			(uuid "f71f56ac-61d3-4cac-94ce-bfd256b51741")
 			(effects
 				(font
 					(size 1 1)
@@ -20119,7 +20697,7 @@
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d7fa7bd-5a87-4a89-96f3-2d6b54390fe5")
+			(uuid "b98b6b20-55c7-436c-a4e7-59b02bd12a46")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20130,7 +20708,7 @@
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d892d645-265d-4008-8d60-374001216436")
+			(uuid "13dd31d8-8c02-45fd-80ec-2ea689a38adc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20141,6 +20719,12 @@
 		(path "/a9980814-ca5f-4ba5-922a-1a504b5f4f96")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20164,7 +20748,7 @@
 			(uuid "9bc38002-302a-4032-a287-6dcbbeedccdd")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -20204,7 +20788,7 @@
 			(uuid "0cea58b1-1a69-4bc1-94da-d0b740ae1a61")
 		)
 		(fp_line
-			(start -6 6.999999)
+			(start -6 6.999998)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -20314,7 +20898,7 @@
 			(uuid "9a8cc02b-10f7-46f5-8fbf-dd8cd5d1fdce")
 		)
 		(fp_line
-			(start 6 -6.999999)
+			(start 6 -6.999998)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -20334,7 +20918,7 @@
 			(uuid "058124c5-19b6-40e4-bb59-e1a2927e50b4")
 		)
 		(fp_line
-			(start 6.999999 6)
+			(start 6.999998 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -20386,7 +20970,7 @@
 			(uuid "0a321a7d-66b1-410c-83b9-94dcfa452ca7")
 		)
 		(fp_line
-			(start -6.999999 -6)
+			(start -6.999998 -6)
 			(end -7 -7)
 			(stroke
 				(width 0.1)
@@ -20406,7 +20990,7 @@
 			(uuid "c7020abd-5f72-4358-944e-790f6bac1951")
 		)
 		(fp_line
-			(start -6 6.999999)
+			(start -6 6.999998)
 			(end -7 7)
 			(stroke
 				(width 0.1)
@@ -20467,7 +21051,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999999 -3.7)
+			(end 0.999998 -3.7)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -20516,7 +21100,7 @@
 			(uuid "6d09d230-9d9b-4f56-955a-9a4b4f105a4b")
 		)
 		(fp_line
-			(start 6 -6.999999)
+			(start 6 -6.999998)
 			(end 7 -7)
 			(stroke
 				(width 0.1)
@@ -20566,7 +21150,7 @@
 			(uuid "19d769b5-2ef3-4fdb-a711-298b068871f5")
 		)
 		(fp_line
-			(start 6.999999 6)
+			(start 6.999998 6)
 			(end 7 7)
 			(stroke
 				(width 0.1)
@@ -20586,7 +21170,7 @@
 			(uuid "001b2fc7-a6b8-48f0-8538-d3fb03b1c196")
 		)
 		(fp_arc
-			(start 0.999999 -3.7)
+			(start 0.999998 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -20793,7 +21377,7 @@
 		)
 		(fp_line
 			(start -1.5 -3.7)
-			(end 0.999999 -3.7)
+			(end 0.999998 -3.7)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -20892,7 +21476,7 @@
 			(uuid "e217b02f-86e9-4644-9853-f3b979d54854")
 		)
 		(fp_arc
-			(start 0.999999 -3.7)
+			(start 0.999998 -3.7)
 			(mid 2.06066 -3.26066)
 			(end 2.5 -2.2)
 			(stroke
@@ -21321,7 +21905,7 @@
 			(at -3 0.1 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e6dcfe3e-3105-4ded-8ae9-38917635424a")
+			(uuid "cd91314a-72b6-4120-9179-4b6d366471eb")
 			(effects
 				(font
 					(size 1 1)
@@ -21332,7 +21916,7 @@
 		(property "Value" "MSK12C02"
 			(at 1.425 -2 0)
 			(layer "F.Fab")
-			(uuid "60703dab-fae5-4ebd-a365-566554485bc8")
+			(uuid "6382d3fe-ec96-4315-a430-834160d24bbb")
 			(effects
 				(font
 					(size 1 1)
@@ -21344,27 +21928,34 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65ebc70c-a5a8-412f-b1c0-483408472f4f")
+			(uuid "22179407-c6a0-4b0a-b0be-68296722936f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Switch, single pole double throw"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fb53ac3-945d-4c85-8a47-a70dd3ebdf2b")
+			(uuid "ee5cc35c-5b05-4f25-b32b-6aead75dabc5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(property ki_fp_filters "krylo:MSK12C02")
 		(path "/2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21504,7 +22095,7 @@
 			(at 0 -8.89 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d8e1fd8c-4736-4e87-8660-edef861bdd73")
+			(uuid "f3163216-28d2-4831-83a7-e72246d0b252")
 			(effects
 				(font
 					(size 1 1)
@@ -21516,7 +22107,7 @@
 			(at 0 9.9 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4274f4c1-9368-43eb-b7ac-d058a9a5e31b")
+			(uuid "b1d8bc21-6824-4e68-8fe0-98a1ae6d9e63")
 			(effects
 				(font
 					(size 1 1)
@@ -21528,7 +22119,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "51232fd6-14e2-48d2-bc62-98230ce3ec4f")
+			(uuid "4e4f17c9-3f87-4401-aaf6-0b7c33140c80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21539,7 +22130,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e1447696-5b95-4f5e-b4f1-ad61dfbf337e")
+			(uuid "3c68fcbf-e319-4bd1-81f9-f736818f9871")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21550,6 +22141,12 @@
 		(path "/aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22729,7 +23326,7 @@
 			(at 0 1.5 356)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b34650e6-f7d8-4b4a-af32-f6865f7d2b37")
+			(uuid "fe113195-6065-488a-a0c3-4b827f791393")
 			(effects
 				(font
 					(size 1 1)
@@ -22741,7 +23338,7 @@
 			(at 0 -1.2 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d537c69f-0d67-492f-9ccd-e0859086d68e")
+			(uuid "91beae10-ac3e-4c71-b422-69d32355fbad")
 			(effects
 				(font
 					(size 1 1)
@@ -22753,21 +23350,47 @@
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "889364c8-0d4c-4268-af01-c375bdd9a724")
+			(uuid "62e34023-c1a0-47f6-a4f5-664b919ea068")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Diode, small symbol"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2d669e2-c6ef-4421-b179-a728615fa46b")
+			(uuid "9821b94d-c00b-4d1c-9031-695f719c5a23")
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fb6c0c6-7410-4d2b-b49c-7cd0f11e02a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 356)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ae4c830-8d77-440a-8fe1-b4acd641bd77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -22775,6 +23398,12 @@
 		(path "/24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22902,7 +23531,7 @@
 			(at 0 -8.89 350)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e5703182-b18a-4f02-b05c-e07a782e3150")
+			(uuid "6552ce97-6394-4186-824a-efc0a5fc9c7d")
 			(effects
 				(font
 					(size 1 1)
@@ -22914,7 +23543,7 @@
 			(at 0 9.9 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "921cc87d-ea8a-49db-8e94-5a53aa8af89b")
+			(uuid "131d0955-482d-4bda-ac6e-730b7b7ae584")
 			(effects
 				(font
 					(size 1 1)
@@ -22926,7 +23555,7 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0952451f-6acc-4676-b491-b10aaa8a22a7")
+			(uuid "a1b6de64-19e8-451c-be66-569f3e9912d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22937,7 +23566,7 @@
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "229789af-a014-46a7-9c68-65b4dfa02c1f")
+			(uuid "ffa36503-aa0e-4d2e-9979-fffcd380b362")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22948,6 +23577,12 @@
 		(path "/92fbf0cb-13a5-442a-a697-7d0064a38422")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23284,7 +23919,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -23353,7 +23988,7 @@
 			(uuid "a05c638f-3f72-42c0-91f2-40c1cb3a481e")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -2.35)
 			(stroke
 				(width 0.1)
@@ -23496,7 +24131,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
+				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -23508,7 +24143,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -8.75 -8.250001) (xy 8.75 -8.25) (xy 8.75 8.250001) (xy -8.75 8.25)
+				(xy -8.75 -8.250002) (xy 8.75 -8.25) (xy 8.75 8.250002) (xy -8.75 8.25)
 			)
 			(stroke
 				(width 0.1)
@@ -23610,7 +24245,7 @@
 		)
 		(fp_line
 			(start 2.5 -1.5)
-			(end 7.000001 -1.5)
+			(end 7.000002 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -23649,7 +24284,7 @@
 			(uuid "4a62c6d5-9ea7-4fe8-863f-e6fb598710ef")
 		)
 		(fp_line
-			(start 7.000001 -1.5)
+			(start 7.000002 -1.5)
 			(end 7 -6.2)
 			(stroke
 				(width 0.1)
@@ -23733,7 +24368,7 @@
 			(uuid "2cb8341a-083d-403d-84cd-42a9de53a046")
 		)
 		(fp_line
-			(start -9.55 -2.499999)
+			(start -9.55 -2.499998)
 			(end -7 -2.5)
 			(stroke
 				(width 0.1)
@@ -23744,7 +24379,7 @@
 		)
 		(fp_line
 			(start -9.55 -5)
-			(end -9.55 -2.499999)
+			(end -9.55 -2.499998)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -23893,7 +24528,7 @@
 			(uuid "61098ff1-a305-4d78-8e82-97f27f9da656")
 		)
 		(fp_line
-			(start 4.549999 -5.957)
+			(start 4.549998 -5.957)
 			(end 4.55 -7.228)
 			(stroke
 				(width 0.1)
@@ -24123,12 +24758,12 @@
 	(footprint "krylo:Jumper"
 		(layer "B.Cu")
 		(uuid "07e255ff-51b9-4e26-8352-ebb6770c49ac")
-		(at 100.749743 105.749805 90)
+		(at 100.749743 105.749805 -90)
 		(property "Reference" "JP3"
-			(at -2.413 -0.127 270)
+			(at -2.413 -0.127 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "da7c8d7f-5c2a-4f59-a2d3-6a1706d94b97")
+			(uuid "23bad1ad-b2b1-4922-bfdd-d524fe47ce2f")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24138,10 +24773,10 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at -2.794 0 270)
+			(at -2.794 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "1dda3820-d8ba-4fa8-b8fa-98410571339b")
+			(uuid "b895a821-aa26-44e2-83a9-f57021155b15")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24151,10 +24786,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "97b39c04-8240-4e1b-bc6c-6e0f77fdff39")
+			(uuid "b7e8e18c-b3a3-4d33-9871-0a192ab07306")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24163,10 +24798,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e7007457-f28f-4d8a-902e-be7c2d7074ea")
+			(uuid "0c2fdfff-609d-43ab-ad48-462cf56b707e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24178,6 +24813,12 @@
 		(path "/f574c61c-2757-42be-8f64-9a7e500f8c33")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24203,20 +24844,20 @@
 			(uuid "be0773f6-4b89-47f3-befa-d9b0ca90da9e")
 		)
 		(pad "1" smd rect
-			(at -0.50038 0 90)
+			(at -0.50038 0 270)
 			(size 0.635 1.143)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "RESET_indirect")
+			(net "RESET")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(clearance 0.1905)
 			(uuid "8baaac1f-f1bb-4f42-a3cd-1072990b2ece")
 		)
 		(pad "2" smd rect
-			(at 0.50038 0 90)
+			(at 0.50038 0 270)
 			(size 0.635 1.143)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "RESET")
+			(net "/RESET_{indirect}")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(clearance 0.1905)
@@ -24232,7 +24873,7 @@
 			(at -2.413 -0.127 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "438913d3-f250-44f5-b403-028ddb72ff7c")
+			(uuid "98c0ea3f-bbf3-49d4-a265-787b2d5ef6d1")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24245,7 +24886,7 @@
 			(at -2.794 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "23c1e9b4-e0be-40e8-8e97-db5c3fa8526d")
+			(uuid "5eaf514b-c990-4334-9059-73028b72d91e")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24258,7 +24899,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c0c15afb-4b77-4969-a508-5858eeda76cf")
+			(uuid "25de9377-e1e4-41b8-9629-405ca99d8964")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24270,7 +24911,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "eadd2ac9-20b6-4eaf-b4eb-aacef76d4b2f")
+			(uuid "337825f4-8186-47ec-855f-835dd17daf8b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24282,6 +24923,12 @@
 		(path "/87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24331,12 +24978,12 @@
 	(footprint "krylo:Jumper"
 		(layer "B.Cu")
 		(uuid "77c00b9a-f244-4e2d-9a4c-8250d2478764")
-		(at 98.224743 105.749805 90)
+		(at 98.224743 105.749805 -90)
 		(property "Reference" "JP1"
-			(at -2.413 -0.127 270)
+			(at -2.413 -0.127 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "1f81e753-1673-4aa7-b536-28fba8b89c37")
+			(uuid "46024212-57c9-48f3-b1ac-6f804e87cfc0")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24346,10 +24993,10 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at -2.794 0 270)
+			(at -2.794 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "4b1237a1-cab0-46da-9a24-619bfeffe606")
+			(uuid "67ffaa58-6366-4e8c-b6cc-184d6d9b1135")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24359,10 +25006,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2e807c71-1c99-4173-ac8f-187a7437db69")
+			(uuid "7e9496a5-3860-4d13-a9dd-47c0dbd03f67")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24371,10 +25018,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cfd4ef42-0214-4a1c-a06f-7fd895628c16")
+			(uuid "26b71dac-3c0d-407f-9094-e58686994cb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24386,6 +25033,12 @@
 		(path "/1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24411,20 +25064,20 @@
 			(uuid "a75d20eb-12cf-4f5a-90da-599181af93b1")
 		)
 		(pad "1" smd rect
-			(at -0.50038 0 90)
+			(at -0.50038 0 270)
 			(size 0.635 1.143)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND_indirect")
+			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(clearance 0.1905)
 			(uuid "ad1451f3-12d8-4af6-9cb7-9800a454916c")
 		)
 		(pad "2" smd rect
-			(at 0.50038 0 90)
+			(at 0.50038 0 270)
 			(size 0.635 1.143)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "GND")
+			(net "/GND_{indirect}")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(clearance 0.1905)
@@ -24435,12 +25088,12 @@
 	(footprint "krylo:Jumper"
 		(layer "B.Cu")
 		(uuid "a4a772e0-a814-45ee-937d-e0c9c12b679b")
-		(at 103.274743 105.749805 90)
+		(at 103.274743 105.749805 -90)
 		(property "Reference" "JP9"
-			(at -2.413 -0.127 270)
+			(at -2.413 -0.127 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "58f3841e-ec27-45f7-ae85-0e5c74168d0d")
+			(uuid "41a3deea-c847-46cd-9e96-62e6c2ca065e")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24450,10 +25103,10 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at -2.794 0 270)
+			(at -2.794 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "6f138cfc-66ba-46b5-8af8-6631c46ce32d")
+			(uuid "d54ba085-8f12-45b9-8b6c-5dab646f8f15")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -24463,10 +25116,10 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6d0581c3-2825-48ed-aec3-59eaee98260f")
+			(uuid "f4c17a50-fe5a-4472-9f6c-392c99131f1e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24475,10 +25128,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0abf5723-b751-47d3-968a-8ea5abee401c")
+			(uuid "b170e457-5535-4797-a950-37ba618b98a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24490,6 +25143,12 @@
 		(path "/837f6c0c-0404-45c0-82cc-e00589df18e2")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24515,20 +25174,20 @@
 			(uuid "84aa19f1-e4b6-4c30-a285-6e72787a6e3c")
 		)
 		(pad "1" smd rect
-			(at -0.50038 0 90)
+			(at -0.50038 0 270)
 			(size 0.635 1.143)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "+BATT_indirect")
+			(net "+BATT")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(clearance 0.1905)
 			(uuid "0130c17a-0143-43f8-b0c0-9e9676f371d9")
 		)
 		(pad "2" smd rect
-			(at 0.50038 0 90)
+			(at 0.50038 0 270)
 			(size 0.635 1.143)
 			(layers "B.Cu" "B.Mask" "B.Paste")
-			(net "+BATT")
+			(net "/+BATT_{indirect}")
 			(pinfunction "2_2")
 			(pintype "passive")
 			(clearance 0.1905)
@@ -24544,7 +25203,7 @@
 			(at 0 -1.625 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "8f2dd632-12a3-4848-955e-1072deabe389")
+			(uuid "356cbedf-5b17-4241-a1f3-4f7df203e250")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -24557,7 +25216,7 @@
 			(at 0 0 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "32832d46-d2d8-4040-90d7-a67cfe286b00")
+			(uuid "9c2cc1f8-a94d-42fa-81fb-4ee10f3b4dd8")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -24570,7 +25229,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e68e7996-f0c2-4ef3-9f75-2d40f9f43b90")
+			(uuid "3e6cc779-79e2-43b7-a8d5-a384641ef145")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24582,7 +25241,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8e153dfe-d270-4859-9be0-ccee8836acb3")
+			(uuid "ae181ce0-ee12-4a42-87b5-b11557776da6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24594,6 +25253,14 @@
 		(path "/cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "6" "7" "8" "9" "10" "11" "12" "2" "14" "3" "15" "4" "16"
+					"13" "17" "18" "19" "20" "21" "22" "23" "24"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25209,7 +25876,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND_indirect")
+			(net "/GND_{indirect}")
 			(pinfunction "D0/P0.08_2")
 			(pintype "bidirectional")
 			(uuid "db0b5805-bf6e-4a66-8b98-d907945d0655")
@@ -25220,7 +25887,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "RESET_indirect")
+			(net "/RESET_{indirect}")
 			(pinfunction "GND_3")
 			(pintype "power_in")
 			(uuid "3a180adf-8fbf-4f1a-b3df-85313950c1aa")
@@ -25231,7 +25898,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+BATT_indirect")
+			(net "/+BATT_{indirect}")
 			(pinfunction "GND_4")
 			(pintype "power_in")
 			(uuid "d3f6cfe4-1edc-4cee-8706-98484916fbf0")
@@ -25341,7 +26008,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "GND_indirect")
+			(net "/GND_{indirect}")
 			(pinfunction "GND_14")
 			(pintype "power_in")
 			(uuid "607e0058-02d4-4ad9-b0b4-a0083e64a7c5")
@@ -25352,7 +26019,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "RESET_indirect")
+			(net "/RESET_{indirect}")
 			(pinfunction "RESET_15")
 			(pintype "input")
 			(uuid "62152913-3eac-4c3c-8ce2-f12caa29c85f")
@@ -25363,7 +26030,7 @@
 			(drill 1.0922)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+BATT_indirect")
+			(net "/+BATT_{indirect}")
 			(pinfunction "EXT_VCC_16")
 			(pintype "power_in")
 			(uuid "89f40fe6-82c2-4b01-970d-a83960d1641a")
@@ -25477,7 +26144,7 @@
 			(at -2.413 -0.127 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "6823fa15-403f-45c1-9dee-5bcfc22ebeb7")
+			(uuid "2904425f-0f87-4da6-a06b-73ca09f2837c")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -25490,7 +26157,7 @@
 			(at -2.794 0 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "c4351365-add3-45f8-8917-e7c8b6e0befc")
+			(uuid "ebe898c9-992b-49e0-a975-f3883624383c")
 			(effects
 				(font
 					(size 0.8128 0.8128)
@@ -25503,7 +26170,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "66856414-ff91-42d8-8f9c-f13e83c2aa38")
+			(uuid "3bed1dd7-03ed-4527-9bae-348543cf6286")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25515,7 +26182,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d56b502d-992e-4426-8266-3baef7dbd1f1")
+			(uuid "f70749cf-1014-45d1-b297-7b0bd73fb2db")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25527,6 +26194,12 @@
 		(path "/6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25912,22 +26585,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "41710fb6-fcd9-431d-be98-f12559b68227")
-	)
-	(segment
-		(start 103.282743 98.222391)
-		(end 103.282743 105.241425)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "+BATT_indirect")
-		(uuid "be2059e4-e91f-4718-ac65-2a169bf22e7d")
-	)
-	(segment
-		(start 103.282743 113.462391)
-		(end 103.282743 106.258185)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "+BATT_indirect")
-		(uuid "f8734c80-5065-4ed4-8632-6cf44b772a14")
 	)
 	(segment
 		(start 104.55 101.039449)
@@ -28167,22 +28824,6 @@
 		(uuid "fef84ff4-962e-47a2-9479-2e5c0b53186f")
 	)
 	(segment
-		(start 98.202743 98.222391)
-		(end 98.202743 105.227425)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "GND_indirect")
-		(uuid "73215a69-6701-4191-b7ea-6374baaa8bbc")
-	)
-	(segment
-		(start 98.202743 113.462391)
-		(end 98.202743 106.272185)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "GND_indirect")
-		(uuid "83897453-c25a-4a10-8aec-18bb55b4f9fe")
-	)
-	(segment
 		(start 105.5 78.75)
 		(end 107.6 78.75)
 		(width 0.25)
@@ -30225,22 +30866,6 @@
 		(uuid "fc7fac7a-4888-437b-91a1-0af32853f6d7")
 	)
 	(segment
-		(start 100.742743 98.222391)
-		(end 100.742743 105.242425)
-		(width 0.25)
-		(layer "F.Cu")
-		(net "RESET_indirect")
-		(uuid "0b8cf3ec-6318-4559-95e0-c9a52851ca39")
-	)
-	(segment
-		(start 100.742743 113.462391)
-		(end 100.742743 106.257185)
-		(width 0.25)
-		(layer "B.Cu")
-		(net "RESET_indirect")
-		(uuid "45891fb5-6bfc-424b-b437-30cd54607493")
-	)
-	(segment
 		(start 112.361607 74.6)
 		(end 117.5 74.6)
 		(width 0.25)
@@ -30344,6 +30969,54 @@
 		(layer "B.Cu")
 		(net "unconnected-(SW_PWR1-C-Pad1)")
 		(uuid "3ef037d4-2b4d-4682-8809-8147f0a425de")
+	)
+	(segment
+		(start 98.202743 98.222391)
+		(end 98.202743 105.227425)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/GND_{indirect}")
+		(uuid "73215a69-6701-4191-b7ea-6374baaa8bbc")
+	)
+	(segment
+		(start 98.202743 113.462391)
+		(end 98.202743 106.272185)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/GND_{indirect}")
+		(uuid "83897453-c25a-4a10-8aec-18bb55b4f9fe")
+	)
+	(segment
+		(start 100.742743 98.222391)
+		(end 100.742743 105.242425)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/RESET_{indirect}")
+		(uuid "0b8cf3ec-6318-4559-95e0-c9a52851ca39")
+	)
+	(segment
+		(start 100.742743 113.462391)
+		(end 100.742743 106.257185)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/RESET_{indirect}")
+		(uuid "45891fb5-6bfc-424b-b437-30cd54607493")
+	)
+	(segment
+		(start 103.282743 98.222391)
+		(end 103.282743 105.241425)
+		(width 0.25)
+		(layer "F.Cu")
+		(net "/+BATT_{indirect}")
+		(uuid "be2059e4-e91f-4718-ac65-2a169bf22e7d")
+	)
+	(segment
+		(start 103.282743 113.462391)
+		(end 103.282743 106.258185)
+		(width 0.25)
+		(layer "B.Cu")
+		(net "/+BATT_{indirect}")
+		(uuid "f8734c80-5065-4ed4-8632-6cf44b772a14")
 	)
 	(zone
 		(net "GND")
@@ -30498,7 +31171,7 @@
 				(xy 104.231044 125.293069) (xy 104.108457 125.170482) (xy 103.968203 125.068581) (xy 103.948618 125.058602)
 				(xy 103.813734 124.989874) (xy 103.813731 124.989873) (xy 103.648856 124.936303) (xy 103.47763 124.909183)
 				(xy 103.477625 124.909183) (xy 103.304261 124.909183) (xy 103.304256 124.909183) (xy 103.133029 124.936303)
-				(xy 102.968154 124.989873) (xy 102.968151 124.989874) (xy 102.813682 125.068581) (xy 102.733662 125.126719)
+				(xy 102.968154 124.989873) (xy 102.968151 124.989874) (xy 102.813682 125.068581) (xy 102.781141 125.092224)
 				(xy 102.673429 125.170482) (xy 102.673427 125.170484) (xy 102.673426 125.170484) (xy 102.550844 125.293066)
 				(xy 102.550844 125.293067) (xy 102.550842 125.293069) (xy 102.522743 125.331744) (xy 102.448941 125.433322)
 				(xy 102.370234 125.587791) (xy 102.370233 125.587794) (xy 102.316663 125.752669) (xy 102.289543 125.923895)
@@ -30831,7 +31504,7 @@
 				(xy 99.521605 125.805758) (xy 99.459798 125.725209) (xy 99.459792 125.725202) (xy 99.277659 125.543069)
 				(xy 99.277654 125.543065) (xy 99.073308 125.386265) (xy 99.073306 125.386263) (xy 99.0733 125.386259)
 				(xy 99.073295 125.386256) (xy 99.073292 125.386254) (xy 98.850231 125.257469) (xy 98.850214 125.257461)
-				(xy 98.612244 125.158891) (xy 98.429028 125.109799) (xy 98.363437 125.092224) (xy 98.331514 125.088021)
+				(xy 98.612244 125.158891) (xy 98.429024 125.109798) (xy 98.363437 125.092224) (xy 98.331514 125.088021)
 				(xy 98.108062 125.058602) (xy 98.108055 125.058602) (xy 97.850469 125.058602) (xy 97.850461 125.058602)
 				(xy 97.595087 125.092224) (xy 97.346279 125.158891) (xy 97.108309 125.257461) (xy 97.108292 125.257469)
 				(xy 96.885231 125.386254) (xy 96.885215 125.386265) (xy 96.680869 125.543065) (xy 96.680865 125.543069)
@@ -30869,64 +31542,65 @@
 				(xy 91.25093 127.356967) (xy 91.217961 127.333371) (xy 90.007946 126.123356) (xy 89.974461 126.062033)
 				(xy 89.979445 125.992341) (xy 90.021317 125.936408) (xy 90.078366 125.912883) (xy 90.813438 125.809576)
 				(xy 90.871577 125.794934) (xy 90.998113 125.726362) (xy 91.100203 125.624916) (xy 91.169578 125.498819)
-				(xy 91.200617 125.358283) (xy 91.198667 125.298361) (xy 91.192018 125.251054) (xy 91.20218 125.18193)
-				(xy 91.248102 125.129271) (xy 91.315203 125.109799) (xy 91.38218 125.129695) (xy 91.390298 125.135423)
-				(xy 91.496612 125.217002) (xy 91.496615 125.217003) (xy 91.496618 125.217006) (xy 91.695342 125.331739)
-				(xy 91.695347 125.331741) (xy 91.695353 125.331744) (xy 91.78671 125.369585) (xy 91.907343 125.419553)
-				(xy 92.128992 125.478943) (xy 92.356496 125.508895) (xy 92.356503 125.508895) (xy 92.585957 125.508895)
-				(xy 92.585964 125.508895) (xy 92.813468 125.478943) (xy 93.035117 125.419553) (xy 93.247118 125.331739)
-				(xy 93.445842 125.217006) (xy 93.627891 125.077314) (xy 93.627895 125.077309) (xy 93.6279 125.077306)
-				(xy 93.790141 124.915065) (xy 93.790144 124.91506) (xy 93.790149 124.915056) (xy 93.929841 124.733007)
-				(xy 94.044574 124.534283) (xy 94.132388 124.322282) (xy 94.191778 124.100633) (xy 94.22173 123.873129)
-				(xy 94.22173 123.643661) (xy 94.221237 123.63992) (xy 94.211969 123.569521) (xy 94.191778 123.416157)
-				(xy 94.132388 123.194508) (xy 94.075488 123.057139) (xy 94.044579 122.982518) (xy 94.044576 122.982512)
-				(xy 94.044574 122.982507) (xy 93.929841 122.783783) (xy 93.929838 122.78378) (xy 93.929837 122.783777)
-				(xy 93.808875 122.626138) (xy 93.790149 122.601734) (xy 93.790148 122.601733) (xy 93.790141 122.601725)
-				(xy 93.6279 122.439484) (xy 93.627891 122.439476) (xy 93.445847 122.299787) (xy 93.24712 122.185052)
-				(xy 93.247106 122.185045) (xy 93.035117 122.097237) (xy 93.019685 122.093102) (xy 92.813468 122.037847)
-				(xy 92.775445 122.032841) (xy 92.585971 122.007895) (xy 92.585964 122.007895) (xy 92.356496 122.007895)
-				(xy 92.356488 122.007895) (xy 92.139945 122.036404) (xy 92.128992 122.037847) (xy 92.035306 122.062949)
-				(xy 91.907342 122.097237) (xy 91.695353 122.185045) (xy 91.695339 122.185052) (xy 91.496612 122.299787)
-				(xy 91.314568 122.439476) (xy 91.152319 122.601725) (xy 91.152317 122.601726) (xy 91.051185 122.733522)
-				(xy 90.994757 122.774724) (xy 90.925011 122.778878) (xy 90.864091 122.744665) (xy 90.831338 122.682947)
-				(xy 90.830023 122.675332) (xy 90.823491 122.628851) (xy 90.808849 122.570712) (xy 90.740277 122.444176)
-				(xy 90.638831 122.342086) (xy 90.547478 122.291826) (xy 90.512736 122.272712) (xy 90.512735 122.272711)
-				(xy 90.372198 122.241672) (xy 90.372192 122.241671) (xy 90.312286 122.243621) (xy 90.312276 122.243621)
-				(xy 90.312276 122.243622) (xy 90.312274 122.243622) (xy 90.312267 122.243623) (xy 87.642773 122.618796)
-				(xy 87.642761 122.618799) (xy 87.584627 122.633439) (xy 87.470977 122.695028) (xy 87.402657 122.709662)
-				(xy 87.337271 122.685037) (xy 87.295578 122.62897) (xy 87.289106 122.603272) (xy 86.922199 119.992596)
-				(xy 86.932362 119.923472) (xy 86.978284 119.870813) (xy 87.027731 119.852549) (xy 89.336 119.528142)
-				(xy 89.336005 119.528143) (xy 89.364914 119.524079) (xy 89.364915 119.52408) (xy 89.495417 119.505739)
-				(xy 89.616725 119.454247) (xy 89.720572 119.373112) (xy 89.739083 119.348547) (xy 89.799883 119.267864)
-				(xy 89.799884 119.267861) (xy 91.657387 116.80287) (xy 91.668775 116.789778) (xy 91.684394 116.774174)
-				(xy 91.691861 116.761251) (xy 91.698323 116.750073) (xy 91.698324 116.75007) (xy 91.702105 116.743527)
-				(xy 91.723407 116.715261) (xy 91.734936 116.686723) (xy 91.750338 116.660076) (xy 91.759514 116.62589)
-				(xy 91.772774 116.593073) (xy 91.776524 116.562526) (xy 91.784505 116.532798) (xy 91.784521 116.497396)
-				(xy 91.788834 116.462271) (xy 91.784551 116.431797) (xy 91.787155 110.763713) (xy 127.0495 110.763713)
-				(xy 127.0495 110.976286) (xy 127.081951 111.181177) (xy 127.082754 111.186243) (xy 127.146946 111.383806)
-				(xy 127.148444 111.388414) (xy 127.244951 111.57782) (xy 127.36989 111.749786) (xy 127.520213 111.900109)
-				(xy 127.692179 112.025048) (xy 127.692181 112.025049) (xy 127.692184 112.025051) (xy 127.881588 112.121557)
-				(xy 128.083757 112.187246) (xy 128.293713 112.2205) (xy 128.293714 112.2205) (xy 128.506286 112.2205)
-				(xy 128.506287 112.2205) (xy 128.716243 112.187246) (xy 128.918412 112.121557) (xy 129.107816 112.025051)
-				(xy 129.143639 111.999024) (xy 129.279786 111.900109) (xy 129.279788 111.900106) (xy 129.279792 111.900104)
-				(xy 129.430104 111.749792) (xy 129.430106 111.749788) (xy 129.430109 111.749786) (xy 129.555048 111.57782)
-				(xy 129.555047 111.57782) (xy 129.555051 111.577816) (xy 129.651557 111.388412) (xy 129.717246 111.186243)
-				(xy 129.7505 110.976287) (xy 129.7505 110.763713) (xy 129.717246 110.553757) (xy 129.651557 110.351588)
-				(xy 129.555051 110.162184) (xy 129.555049 110.162181) (xy 129.555048 110.162179) (xy 129.430109 109.990213)
-				(xy 129.279786 109.83989) (xy 129.10782 109.714951) (xy 128.918414 109.618444) (xy 128.918413 109.618443)
-				(xy 128.918412 109.618443) (xy 128.716243 109.552754) (xy 128.716241 109.552753) (xy 128.71624 109.552753)
-				(xy 128.521547 109.521917) (xy 128.506287 109.5195) (xy 128.293713 109.5195) (xy 128.278453 109.521917)
-				(xy 128.08376 109.552753) (xy 127.881585 109.618444) (xy 127.692179 109.714951) (xy 127.520213 109.83989)
-				(xy 127.36989 109.990213) (xy 127.244951 110.162179) (xy 127.148444 110.351585) (xy 127.082753 110.55376)
-				(xy 127.0495 110.763713) (xy 91.787155 110.763713) (xy 91.789073 106.587387) (xy 97.453243 106.587387)
-				(xy 97.464845 106.645718) (xy 97.464846 106.645719) (xy 97.509051 106.711876) (xy 97.575208 106.756081)
-				(xy 97.575209 106.756082) (xy 97.63354 106.767684) (xy 97.633544 106.767685) (xy 97.974743 106.767685)
-				(xy 98.474743 106.767685) (xy 98.815942 106.767685) (xy 98.815945 106.767684) (xy 98.874276 106.756082)
-				(xy 98.874277 106.756081) (xy 98.940434 106.711876) (xy 98.984639 106.645719) (xy 98.98464 106.645718)
-				(xy 98.996242 106.587387) (xy 98.996243 106.587384) (xy 98.996243 106.500185) (xy 98.474743 106.500185)
-				(xy 98.474743 106.767685) (xy 97.974743 106.767685) (xy 97.974743 106.500185) (xy 97.453243 106.500185)
-				(xy 97.453243 106.587387) (xy 91.789073 106.587387) (xy 91.79344 97.081083) (xy 91.813155 97.014054)
-				(xy 91.86598 96.968323) (xy 91.917364 96.957141) (xy 94.657025 96.955571)
+				(xy 91.200617 125.358283) (xy 91.198667 125.298361) (xy 91.192018 125.251053) (xy 91.20218 125.181929)
+				(xy 91.248102 125.12927) (xy 91.315204 125.109798) (xy 91.38218 125.129694) (xy 91.390289 125.135416)
+				(xy 91.400258 125.143065) (xy 91.496613 125.217002) (xy 91.496616 125.217003) (xy 91.496619 125.217006)
+				(xy 91.695343 125.331739) (xy 91.695348 125.331741) (xy 91.695354 125.331744) (xy 91.786711 125.369585)
+				(xy 91.907344 125.419553) (xy 92.128993 125.478943) (xy 92.356497 125.508895) (xy 92.356504 125.508895)
+				(xy 92.585958 125.508895) (xy 92.585965 125.508895) (xy 92.813469 125.478943) (xy 93.035118 125.419553)
+				(xy 93.247119 125.331739) (xy 93.445843 125.217006) (xy 93.627892 125.077314) (xy 93.627896 125.077309)
+				(xy 93.627901 125.077306) (xy 93.790142 124.915065) (xy 93.790145 124.91506) (xy 93.79015 124.915056)
+				(xy 93.929842 124.733007) (xy 94.044575 124.534283) (xy 94.132389 124.322282) (xy 94.191779 124.100633)
+				(xy 94.221731 123.873129) (xy 94.221731 123.643661) (xy 94.221238 123.63992) (xy 94.21197 123.569521)
+				(xy 94.191779 123.416157) (xy 94.132389 123.194508) (xy 94.075489 123.057139) (xy 94.04458 122.982518)
+				(xy 94.044577 122.982512) (xy 94.044575 122.982507) (xy 93.929842 122.783783) (xy 93.929839 122.78378)
+				(xy 93.929838 122.783777) (xy 93.808876 122.626138) (xy 93.79015 122.601734) (xy 93.790149 122.601733)
+				(xy 93.790142 122.601725) (xy 93.627901 122.439484) (xy 93.627892 122.439476) (xy 93.445848 122.299787)
+				(xy 93.247121 122.185052) (xy 93.247107 122.185045) (xy 93.035118 122.097237) (xy 93.019686 122.093102)
+				(xy 92.813469 122.037847) (xy 92.775446 122.032841) (xy 92.585972 122.007895) (xy 92.585965 122.007895)
+				(xy 92.356497 122.007895) (xy 92.356489 122.007895) (xy 92.139946 122.036404) (xy 92.128993 122.037847)
+				(xy 92.035307 122.062949) (xy 91.907343 122.097237) (xy 91.695354 122.185045) (xy 91.69534 122.185052)
+				(xy 91.496613 122.299787) (xy 91.314569 122.439476) (xy 91.152312 122.601733) (xy 91.051186 122.733522)
+				(xy 90.994758 122.774725) (xy 90.925012 122.778879) (xy 90.864092 122.744666) (xy 90.83134 122.682948)
+				(xy 90.830018 122.675292) (xy 90.823492 122.628858) (xy 90.823491 122.628857) (xy 90.823491 122.628851)
+				(xy 90.808849 122.570712) (xy 90.740277 122.444176) (xy 90.638831 122.342086) (xy 90.547478 122.291826)
+				(xy 90.512736 122.272712) (xy 90.512735 122.272711) (xy 90.372198 122.241672) (xy 90.372192 122.241671)
+				(xy 90.312286 122.243621) (xy 90.312276 122.243621) (xy 90.312276 122.243622) (xy 90.312274 122.243622)
+				(xy 90.312267 122.243623) (xy 87.642773 122.618796) (xy 87.642761 122.618799) (xy 87.584627 122.633439)
+				(xy 87.470977 122.695028) (xy 87.402657 122.709662) (xy 87.337271 122.685037) (xy 87.295578 122.62897)
+				(xy 87.289106 122.603272) (xy 86.922199 119.992596) (xy 86.932362 119.923472) (xy 86.978284 119.870813)
+				(xy 87.027731 119.852549) (xy 89.336 119.528142) (xy 89.336005 119.528143) (xy 89.364914 119.524079)
+				(xy 89.364915 119.52408) (xy 89.495417 119.505739) (xy 89.616725 119.454247) (xy 89.720572 119.373112)
+				(xy 89.739083 119.348547) (xy 89.799883 119.267864) (xy 89.799884 119.267861) (xy 91.657387 116.80287)
+				(xy 91.668775 116.789778) (xy 91.684394 116.774174) (xy 91.691861 116.761251) (xy 91.698323 116.750073)
+				(xy 91.698324 116.75007) (xy 91.702105 116.743527) (xy 91.723407 116.715261) (xy 91.734936 116.686723)
+				(xy 91.750338 116.660076) (xy 91.759514 116.62589) (xy 91.772774 116.593073) (xy 91.776524 116.562526)
+				(xy 91.784505 116.532798) (xy 91.784521 116.497396) (xy 91.788834 116.462271) (xy 91.784551 116.431797)
+				(xy 91.787155 110.763713) (xy 127.0495 110.763713) (xy 127.0495 110.976286) (xy 127.081951 111.181177)
+				(xy 127.082754 111.186243) (xy 127.146946 111.383806) (xy 127.148444 111.388414) (xy 127.244951 111.57782)
+				(xy 127.36989 111.749786) (xy 127.520213 111.900109) (xy 127.692179 112.025048) (xy 127.692181 112.025049)
+				(xy 127.692184 112.025051) (xy 127.881588 112.121557) (xy 128.083757 112.187246) (xy 128.293713 112.2205)
+				(xy 128.293714 112.2205) (xy 128.506286 112.2205) (xy 128.506287 112.2205) (xy 128.716243 112.187246)
+				(xy 128.918412 112.121557) (xy 129.107816 112.025051) (xy 129.143639 111.999024) (xy 129.279786 111.900109)
+				(xy 129.279788 111.900106) (xy 129.279792 111.900104) (xy 129.430104 111.749792) (xy 129.430106 111.749788)
+				(xy 129.430109 111.749786) (xy 129.555048 111.57782) (xy 129.555047 111.57782) (xy 129.555051 111.577816)
+				(xy 129.651557 111.388412) (xy 129.717246 111.186243) (xy 129.7505 110.976287) (xy 129.7505 110.763713)
+				(xy 129.717246 110.553757) (xy 129.651557 110.351588) (xy 129.555051 110.162184) (xy 129.555049 110.162181)
+				(xy 129.555048 110.162179) (xy 129.430109 109.990213) (xy 129.279786 109.83989) (xy 129.10782 109.714951)
+				(xy 128.918414 109.618444) (xy 128.918413 109.618443) (xy 128.918412 109.618443) (xy 128.716243 109.552754)
+				(xy 128.716241 109.552753) (xy 128.71624 109.552753) (xy 128.521547 109.521917) (xy 128.506287 109.5195)
+				(xy 128.293713 109.5195) (xy 128.278453 109.521917) (xy 128.08376 109.552753) (xy 127.881585 109.618444)
+				(xy 127.692179 109.714951) (xy 127.520213 109.83989) (xy 127.36989 109.990213) (xy 127.244951 110.162179)
+				(xy 127.148444 110.351585) (xy 127.082753 110.55376) (xy 127.0495 110.763713) (xy 91.787155 110.763713)
+				(xy 91.789073 106.587387) (xy 97.453243 106.587387) (xy 97.464845 106.645718) (xy 97.464846 106.645719)
+				(xy 97.509051 106.711876) (xy 97.575208 106.756081) (xy 97.575209 106.756082) (xy 97.63354 106.767684)
+				(xy 97.633544 106.767685) (xy 97.974743 106.767685) (xy 98.474743 106.767685) (xy 98.815942 106.767685)
+				(xy 98.815945 106.767684) (xy 98.874276 106.756082) (xy 98.874277 106.756081) (xy 98.940434 106.711876)
+				(xy 98.984639 106.645719) (xy 98.98464 106.645718) (xy 98.996242 106.587387) (xy 98.996243 106.587384)
+				(xy 98.996243 106.500185) (xy 98.474743 106.500185) (xy 98.474743 106.767685) (xy 97.974743 106.767685)
+				(xy 97.974743 106.500185) (xy 97.453243 106.500185) (xy 97.453243 106.587387) (xy 91.789073 106.587387)
+				(xy 91.79344 97.081083) (xy 91.813155 97.014054) (xy 91.86598 96.968323) (xy 91.917364 96.957141)
+				(xy 94.657025 96.955571)
 			)
 		)
 		(filled_polygon
@@ -31531,126 +32205,127 @@
 				(xy 91.945837 120.021856) (xy 91.904862 120.159783) (xy 91.904407 120.303664) (xy 91.904407 120.303665)
 				(xy 92.085331 121.590998) (xy 92.085335 121.591018) (xy 92.111725 121.695802) (xy 92.111726 121.695804)
 				(xy 92.111727 121.695807) (xy 92.18028 121.822306) (xy 92.187805 121.829878) (xy 92.221096 121.891305)
-				(xy 92.215892 121.960981) (xy 92.173845 122.016783) (xy 92.13194 122.037057) (xy 91.907342 122.097237)
-				(xy 91.695353 122.185045) (xy 91.695339 122.185052) (xy 91.496612 122.299787) (xy 91.314568 122.439476)
-				(xy 91.152311 122.601733) (xy 91.012622 122.783777) (xy 90.897887 122.982504) (xy 90.89788 122.982518)
-				(xy 90.810072 123.194507) (xy 90.791344 123.264403) (xy 90.752025 123.411147) (xy 90.750683 123.416154)
-				(xy 90.750681 123.416165) (xy 90.72073 123.643653) (xy 90.72073 123.873136) (xy 90.735701 123.986843)
-				(xy 90.750682 124.100633) (xy 90.790207 124.248144) (xy 90.810072 124.322282) (xy 90.89788 124.534271)
-				(xy 90.897887 124.534285) (xy 91.012622 124.733012) (xy 91.152311 124.915056) (xy 91.152319 124.915065)
-				(xy 91.31456 125.077306) (xy 91.314568 125.077313) (xy 91.496612 125.217002) (xy 91.496615 125.217003)
-				(xy 91.496618 125.217006) (xy 91.695342 125.331739) (xy 91.695347 125.331741) (xy 91.695353 125.331744)
-				(xy 91.751624 125.355052) (xy 91.907343 125.419553) (xy 92.128992 125.478943) (xy 92.356496 125.508895)
-				(xy 92.356503 125.508895) (xy 92.585957 125.508895) (xy 92.585964 125.508895) (xy 92.813468 125.478943)
-				(xy 93.035117 125.419553) (xy 93.247118 125.331739) (xy 93.445842 125.217006) (xy 93.627891 125.077314)
-				(xy 93.627895 125.077309) (xy 93.6279 125.077306) (xy 93.790141 124.915065) (xy 93.790144 124.91506)
-				(xy 93.790149 124.915056) (xy 93.929841 124.733007) (xy 94.044574 124.534283) (xy 94.132388 124.322282)
-				(xy 94.191778 124.100633) (xy 94.22173 123.873129) (xy 94.22173 123.643661) (xy 94.191778 123.416157)
-				(xy 94.151116 123.264402) (xy 94.152779 123.194553) (xy 94.191942 123.136691) (xy 94.253631 123.109518)
-				(xy 94.333244 123.098329) (xy 94.40237 123.108492) (xy 94.455028 123.154414) (xy 94.4745 123.221122)
-				(xy 94.4745 129.815891) (xy 94.454815 129.88293) (xy 94.402011 129.928685) (xy 94.332853 129.938629)
-				(xy 94.294206 129.926376) (xy 94.104125 129.829526) (xy 94.104122 129.829525) (xy 94.10412 129.829524)
-				(xy 93.877101 129.755761) (xy 93.877099 129.75576) (xy 93.877097 129.75576) (xy 93.675544 129.723837)
-				(xy 93.641337 129.718419) (xy 93.402635 129.718419) (xy 93.368428 129.723837) (xy 93.166874 129.75576)
-				(xy 93.166873 129.75576) (xy 92.939849 129.829525) (xy 92.727166 129.937892) (xy 92.693243 129.962539)
-				(xy 92.534053 130.078198) (xy 92.534051 130.0782) (xy 92.53405 130.0782) (xy 92.365267 130.246983)
-				(xy 92.365267 130.246984) (xy 92.365265 130.246986) (xy 92.305008 130.329921) (xy 92.224959 130.440099)
-				(xy 92.116592 130.652782) (xy 92.042827 130.879806) (xy 92.042827 130.879807) (xy 92.005486 131.115568)
-				(xy 92.005486 131.354269) (xy 92.042827 131.59003) (xy 92.042827 131.590031) (xy 92.042828 131.590034)
-				(xy 92.072138 131.680242) (xy 92.116592 131.817055) (xy 92.132884 131.84903) (xy 92.224959 132.029738)
-				(xy 92.365265 132.222852) (xy 92.534053 132.39164) (xy 92.727167 132.531946) (xy 92.939852 132.640314)
-				(xy 93.166871 132.714077) (xy 93.402635 132.751419) (xy 93.402636 132.751419) (xy 93.641336 132.751419)
-				(xy 93.641337 132.751419) (xy 93.877101 132.714077) (xy 94.10412 132.640314) (xy 94.316805 132.531946)
-				(xy 94.509919 132.39164) (xy 94.678707 132.222852) (xy 94.73668 132.143058) (xy 94.792006 132.100396)
-				(xy 94.861619 132.094417) (xy 94.923415 132.127022) (xy 94.924676 132.128266) (xy 95.875946 133.079536)
-				(xy 95.875975 133.079567) (xy 95.966193 133.169785) (xy 95.966197 133.169788) (xy 96.068637 133.238237)
-				(xy 96.068643 133.23824) (xy 96.068644 133.238241) (xy 96.182478 133.285393) (xy 96.242901 133.297411)
-				(xy 96.303323 133.30943) (xy 96.303324 133.30943) (xy 97.339583 133.30943) (xy 97.406622 133.329115)
-				(xy 97.450068 133.377137) (xy 97.468558 133.413428) (xy 97.468561 133.413433) (xy 97.468563 133.413436)
-				(xy 97.608869 133.60655) (xy 97.777657 133.775338) (xy 97.970771 133.915644) (xy 98.183456 134.024012)
-				(xy 98.410475 134.097775) (xy 98.646239 134.135117) (xy 98.64624 134.135117) (xy 98.88494 134.135117)
-				(xy 98.884941 134.135117) (xy 99.120705 134.097775) (xy 99.347724 134.024012) (xy 99.560409 133.915644)
-				(xy 99.753523 133.775338) (xy 99.922311 133.60655) (xy 100.062617 133.413436) (xy 100.170985 133.200751)
-				(xy 100.244748 132.973732) (xy 100.28209 132.737968) (xy 100.28209 132.499266) (xy 100.244748 132.263502)
-				(xy 100.178116 132.05843) (xy 100.16957 132.032127) (xy 100.167575 131.962286) (xy 100.203656 131.902453)
-				(xy 100.266357 131.871625) (xy 100.287501 131.869809) (xy 115.05765 131.869809) (xy 115.124689 131.889494)
-				(xy 115.126541 131.890707) (xy 115.220821 131.953703) (xy 115.220823 131.953704) (xy 115.220827 131.953706)
-				(xy 115.366498 132.014044) (xy 115.366503 132.014046) (xy 115.504628 132.041521) (xy 115.521153 132.044808)
-				(xy 115.521156 132.044809) (xy 115.521158 132.044809) (xy 115.678844 132.044809) (xy 115.678845 132.044808)
-				(xy 115.833497 132.014046) (xy 115.979179 131.953703) (xy 116.110289 131.866098) (xy 116.117057 131.85933)
-				(xy 116.178378 131.825842) (xy 116.24807 131.830823) (xy 116.277628 131.846689) (xy 116.280846 131.849027)
-				(xy 116.280849 131.84903) (xy 116.473963 131.989336) (xy 116.686648 132.097704) (xy 116.913667 132.171467)
-				(xy 117.149431 132.208809) (xy 117.149432 132.208809) (xy 117.388132 132.208809) (xy 117.388133 132.208809)
-				(xy 117.623897 132.171467) (xy 117.850916 132.097704) (xy 118.063601 131.989336) (xy 118.256715 131.84903)
-				(xy 118.425503 131.680242) (xy 118.565809 131.487128) (xy 118.674177 131.274443) (xy 118.74794 131.047424)
-				(xy 118.785282 130.81166) (xy 118.785282 130.572958) (xy 118.74794 130.337194) (xy 118.674177 130.110175)
-				(xy 118.565809 129.89749) (xy 118.425503 129.704376) (xy 118.256715 129.535588) (xy 118.063601 129.395282)
-				(xy 117.850916 129.286914) (xy 117.623897 129.213151) (xy 117.623895 129.21315) (xy 117.623893 129.21315)
-				(xy 117.442721 129.184455) (xy 117.388133 129.175809) (xy 117.149431 129.175809) (xy 117.094843 129.184455)
-				(xy 116.91367 129.21315) (xy 116.913669 129.21315) (xy 116.686645 129.286915) (xy 116.473955 129.395285)
-				(xy 116.466814 129.400474) (xy 116.455996 129.404333) (xy 116.447451 129.412009) (xy 116.423683 129.41586)
-				(xy 116.401007 129.42395) (xy 116.389819 129.421347) (xy 116.378481 129.423185) (xy 116.356405 129.413575)
-				(xy 116.332954 129.408121) (xy 116.323302 129.399166) (xy 116.314418 129.395299) (xy 116.290833 129.369042)
-				(xy 116.246398 129.30254) (xy 116.22552 129.235863) (xy 116.2255 129.23365) (xy 116.2255 129.215308)
-				(xy 116.245185 129.148269) (xy 116.297989 129.102514) (xy 116.340845 129.091611) (xy 116.471075 129.082505)
-				(xy 116.530094 129.071954) (xy 116.661105 129.012375) (xy 116.770023 128.918298) (xy 116.848026 128.797347)
-				(xy 116.888792 128.659319) (xy 116.891027 128.599407) (xy 116.835085 127.799399) (xy 116.789514 127.147702)
-				(xy 116.804474 127.079453) (xy 116.853958 127.030126) (xy 116.913212 127.015052) (xy 117.10187 127.015052)
-				(xy 117.101877 127.015052) (xy 117.247469 126.995884) (xy 117.316504 127.006649) (xy 117.36876 127.053029)
-				(xy 117.387352 127.110173) (xy 117.488569 128.557623) (xy 117.499119 128.616639) (xy 117.558697 128.74765)
-				(xy 117.5587 128.747654) (xy 117.651638 128.855253) (xy 117.652776 128.85657) (xy 117.773727 128.934573)
-				(xy 117.911755 128.975339) (xy 117.931725 128.976084) (xy 117.971662 128.977574) (xy 117.971663 128.977573)
-				(xy 117.971666 128.977574) (xy 119.181608 128.892965) (xy 119.189037 128.893865) (xy 119.193406 128.892703)
-				(xy 119.212005 128.896649) (xy 119.228202 128.898612) (xy 119.233015 128.900159) (xy 119.262009 128.912169)
-				(xy 119.317055 128.93497) (xy 119.37368 128.946233) (xy 119.437898 128.959006) (xy 119.437899 128.959007)
-				(xy 119.4379 128.959007) (xy 119.437901 128.959007) (xy 120.692737 128.959007) (xy 120.759776 128.978692)
-				(xy 120.803222 129.026712) (xy 120.83165 129.082505) (xy 120.854997 129.128326) (xy 120.995303 129.32144)
-				(xy 121.164091 129.490228) (xy 121.357205 129.630534) (xy 121.56989 129.738902) (xy 121.796909 129.812665)
-				(xy 122.032673 129.850007) (xy 122.032674 129.850007) (xy 122.271374 129.850007) (xy 122.271375 129.850007)
-				(xy 122.507139 129.812665) (xy 122.734158 129.738902) (xy 122.946843 129.630534) (xy 123.139957 129.490228)
-				(xy 123.308745 129.32144) (xy 123.449051 129.128326) (xy 123.557419 128.915641) (xy 123.631182 128.688622)
-				(xy 123.668524 128.452858) (xy 123.668524 128.214156) (xy 123.631182 127.978392) (xy 123.557419 127.751373)
-				(xy 123.557419 127.751372) (xy 123.522642 127.683117) (xy 123.509746 127.614448) (xy 123.536023 127.549708)
-				(xy 123.545437 127.539151) (xy 125.426129 125.65846) (xy 125.426133 125.658458) (xy 125.513258 125.571333)
-				(xy 125.581711 125.468886) (xy 125.581712 125.468885) (xy 125.609332 125.402203) (xy 125.628863 125.355052)
-				(xy 125.6529 125.234206) (xy 125.6529 122.510314) (xy 125.672585 122.443275) (xy 125.725389 122.39752)
-				(xy 125.770407 122.386484) (xy 126.37069 122.355024) (xy 126.438665 122.371173) (xy 126.487121 122.42151)
-				(xy 126.501177 122.478816) (xy 126.504286 132.637305) (xy 126.484622 132.704351) (xy 126.431832 132.750122)
-				(xy 126.39328 132.76066) (xy 89.385571 136.660268) (xy 89.316838 136.647717) (xy 89.265802 136.599999)
-				(xy 89.249784 136.554208) (xy 87.972686 127.46719) (xy 87.970945 127.454799) (xy 91.396595 127.454799)
-				(xy 91.396595 127.628174) (xy 91.423715 127.7994) (xy 91.477285 127.964275) (xy 91.477286 127.964278)
-				(xy 91.537697 128.08284) (xy 91.555993 128.118747) (xy 91.657894 128.259001) (xy 91.780481 128.381588)
-				(xy 91.920735 128.483489) (xy 91.956584 128.501755) (xy 92.075203 128.562195) (xy 92.075206 128.562196)
-				(xy 92.157643 128.588981) (xy 92.240083 128.615767) (xy 92.306795 128.626333) (xy 92.411308 128.642887)
-				(xy 92.411313 128.642887) (xy 92.584682 128.642887) (xy 92.667893 128.629707) (xy 92.755907 128.615767)
-				(xy 92.920786 128.562195) (xy 93.075255 128.483489) (xy 93.215509 128.381588) (xy 93.338096 128.259001)
-				(xy 93.439997 128.118747) (xy 93.518703 127.964278) (xy 93.572275 127.799399) (xy 93.590692 127.683117)
-				(xy 93.599395 127.628174) (xy 93.599395 127.454799) (xy 93.58127 127.340367) (xy 93.572275 127.283575)
-				(xy 93.537578 127.176788) (xy 93.518704 127.118698) (xy 93.518703 127.118695) (xy 93.448762 126.98143)
-				(xy 93.439997 126.964227) (xy 93.338096 126.823973) (xy 93.215509 126.701386) (xy 93.075255 126.599485)
-				(xy 93.068998 126.596297) (xy 92.920786 126.520778) (xy 92.920783 126.520777) (xy 92.755908 126.467207)
-				(xy 92.584682 126.440087) (xy 92.584677 126.440087) (xy 92.411313 126.440087) (xy 92.411308 126.440087)
-				(xy 92.240081 126.467207) (xy 92.075206 126.520777) (xy 92.075203 126.520778) (xy 91.920734 126.599485)
-				(xy 91.843567 126.655551) (xy 91.780481 126.701386) (xy 91.780479 126.701388) (xy 91.780478 126.701388)
-				(xy 91.657896 126.82397) (xy 91.657896 126.823971) (xy 91.657894 126.823973) (xy 91.614131 126.884206)
-				(xy 91.555993 126.964226) (xy 91.477286 127.118695) (xy 91.477285 127.118698) (xy 91.423715 127.283573)
-				(xy 91.396595 127.454799) (xy 87.970945 127.454799) (xy 87.418412 123.523334) (xy 86.922199 119.992596)
-				(xy 86.932362 119.923472) (xy 86.978284 119.870813) (xy 87.027731 119.852549) (xy 89.336 119.528142)
-				(xy 89.336005 119.528143) (xy 89.364914 119.524079) (xy 89.364915 119.52408) (xy 89.495417 119.505739)
-				(xy 89.616725 119.454247) (xy 89.720572 119.373112) (xy 89.722421 119.370659) (xy 89.739076 119.348556)
-				(xy 89.739083 119.348547) (xy 89.799883 119.267864) (xy 89.799884 119.267861) (xy 91.657387 116.80287)
-				(xy 91.668775 116.789778) (xy 91.684394 116.774174) (xy 91.691861 116.761251) (xy 91.698323 116.750073)
-				(xy 91.698324 116.75007) (xy 91.702105 116.743527) (xy 91.723407 116.715261) (xy 91.734936 116.686723)
-				(xy 91.750338 116.660076) (xy 91.759514 116.62589) (xy 91.772774 116.593073) (xy 91.776524 116.562526)
-				(xy 91.784505 116.532798) (xy 91.784521 116.497396) (xy 91.788834 116.462271) (xy 91.784551 116.431797)
-				(xy 91.789843 104.912222) (xy 97.453243 104.912222) (xy 97.453243 104.999425) (xy 97.974743 104.999425)
-				(xy 98.474743 104.999425) (xy 98.996243 104.999425) (xy 98.996243 104.912226) (xy 98.996242 104.912222)
-				(xy 98.98464 104.853891) (xy 98.984639 104.85389) (xy 98.940434 104.787733) (xy 98.874277 104.743528)
-				(xy 98.874276 104.743527) (xy 98.815945 104.731925) (xy 98.474743 104.731925) (xy 98.474743 104.999425)
-				(xy 97.974743 104.999425) (xy 97.974743 104.731925) (xy 97.63354 104.731925) (xy 97.575209 104.743527)
-				(xy 97.575208 104.743528) (xy 97.509051 104.787733) (xy 97.464846 104.85389) (xy 97.464845 104.853891)
-				(xy 97.453243 104.912222) (xy 91.789843 104.912222) (xy 91.79344 97.081083) (xy 91.813155 97.014054)
-				(xy 91.86598 96.968323) (xy 91.917364 96.957141) (xy 94.657025 96.955571)
+				(xy 92.215892 121.960981) (xy 92.173845 122.016783) (xy 92.131941 122.037057) (xy 92.128993 122.037847)
+				(xy 91.907344 122.097237) (xy 91.907342 122.097237) (xy 91.907341 122.097238) (xy 91.695354 122.185045)
+				(xy 91.69534 122.185052) (xy 91.496613 122.299787) (xy 91.314569 122.439476) (xy 91.152312 122.601733)
+				(xy 91.012623 122.783777) (xy 90.897888 122.982504) (xy 90.897881 122.982518) (xy 90.810073 123.194507)
+				(xy 90.791345 123.264403) (xy 90.752026 123.411147) (xy 90.750684 123.416154) (xy 90.750682 123.416165)
+				(xy 90.720731 123.643653) (xy 90.720731 123.873136) (xy 90.735702 123.986843) (xy 90.750683 124.100633)
+				(xy 90.790208 124.248144) (xy 90.810073 124.322282) (xy 90.897881 124.534271) (xy 90.897888 124.534285)
+				(xy 91.012623 124.733012) (xy 91.152312 124.915056) (xy 91.15232 124.915065) (xy 91.314561 125.077306)
+				(xy 91.314569 125.077313) (xy 91.496613 125.217002) (xy 91.496616 125.217003) (xy 91.496619 125.217006)
+				(xy 91.695343 125.331739) (xy 91.695348 125.331741) (xy 91.695354 125.331744) (xy 91.751625 125.355052)
+				(xy 91.907344 125.419553) (xy 92.128993 125.478943) (xy 92.356497 125.508895) (xy 92.356504 125.508895)
+				(xy 92.585958 125.508895) (xy 92.585965 125.508895) (xy 92.813469 125.478943) (xy 93.035118 125.419553)
+				(xy 93.247119 125.331739) (xy 93.445843 125.217006) (xy 93.627892 125.077314) (xy 93.627896 125.077309)
+				(xy 93.627901 125.077306) (xy 93.790142 124.915065) (xy 93.790145 124.91506) (xy 93.79015 124.915056)
+				(xy 93.929842 124.733007) (xy 94.044575 124.534283) (xy 94.132389 124.322282) (xy 94.191779 124.100633)
+				(xy 94.221731 123.873129) (xy 94.221731 123.643661) (xy 94.191779 123.416157) (xy 94.151117 123.264402)
+				(xy 94.15278 123.194553) (xy 94.191943 123.136691) (xy 94.253633 123.109517) (xy 94.333244 123.098329)
+				(xy 94.402369 123.108492) (xy 94.455028 123.154414) (xy 94.4745 123.221122) (xy 94.4745 129.815891)
+				(xy 94.454815 129.88293) (xy 94.402011 129.928685) (xy 94.332853 129.938629) (xy 94.294206 129.926376)
+				(xy 94.104125 129.829526) (xy 94.104122 129.829525) (xy 94.10412 129.829524) (xy 93.877101 129.755761)
+				(xy 93.877099 129.75576) (xy 93.877097 129.75576) (xy 93.675544 129.723837) (xy 93.641337 129.718419)
+				(xy 93.402635 129.718419) (xy 93.368428 129.723837) (xy 93.166874 129.75576) (xy 93.166873 129.75576)
+				(xy 92.939849 129.829525) (xy 92.727166 129.937892) (xy 92.693243 129.962539) (xy 92.534053 130.078198)
+				(xy 92.534051 130.0782) (xy 92.53405 130.0782) (xy 92.365267 130.246983) (xy 92.365267 130.246984)
+				(xy 92.365265 130.246986) (xy 92.305008 130.329921) (xy 92.224959 130.440099) (xy 92.116592 130.652782)
+				(xy 92.042827 130.879806) (xy 92.042827 130.879807) (xy 92.005486 131.115568) (xy 92.005486 131.354269)
+				(xy 92.042827 131.59003) (xy 92.042827 131.590031) (xy 92.042828 131.590034) (xy 92.072138 131.680242)
+				(xy 92.116592 131.817055) (xy 92.132884 131.84903) (xy 92.224959 132.029738) (xy 92.365265 132.222852)
+				(xy 92.534053 132.39164) (xy 92.727167 132.531946) (xy 92.939852 132.640314) (xy 93.166871 132.714077)
+				(xy 93.402635 132.751419) (xy 93.402636 132.751419) (xy 93.641336 132.751419) (xy 93.641337 132.751419)
+				(xy 93.877101 132.714077) (xy 94.10412 132.640314) (xy 94.316805 132.531946) (xy 94.509919 132.39164)
+				(xy 94.678707 132.222852) (xy 94.73668 132.143058) (xy 94.792006 132.100396) (xy 94.861619 132.094417)
+				(xy 94.923415 132.127022) (xy 94.924676 132.128266) (xy 95.875946 133.079536) (xy 95.875975 133.079567)
+				(xy 95.966193 133.169785) (xy 95.966197 133.169788) (xy 96.068637 133.238237) (xy 96.068643 133.23824)
+				(xy 96.068644 133.238241) (xy 96.182478 133.285393) (xy 96.242901 133.297411) (xy 96.303323 133.30943)
+				(xy 96.303324 133.30943) (xy 97.339583 133.30943) (xy 97.406622 133.329115) (xy 97.450068 133.377137)
+				(xy 97.468558 133.413428) (xy 97.468561 133.413433) (xy 97.468563 133.413436) (xy 97.608869 133.60655)
+				(xy 97.777657 133.775338) (xy 97.970771 133.915644) (xy 98.183456 134.024012) (xy 98.410475 134.097775)
+				(xy 98.646239 134.135117) (xy 98.64624 134.135117) (xy 98.88494 134.135117) (xy 98.884941 134.135117)
+				(xy 99.120705 134.097775) (xy 99.347724 134.024012) (xy 99.560409 133.915644) (xy 99.753523 133.775338)
+				(xy 99.922311 133.60655) (xy 100.062617 133.413436) (xy 100.170985 133.200751) (xy 100.244748 132.973732)
+				(xy 100.28209 132.737968) (xy 100.28209 132.499266) (xy 100.244748 132.263502) (xy 100.178116 132.05843)
+				(xy 100.16957 132.032127) (xy 100.167575 131.962286) (xy 100.203656 131.902453) (xy 100.266357 131.871625)
+				(xy 100.287501 131.869809) (xy 115.05765 131.869809) (xy 115.124689 131.889494) (xy 115.126541 131.890707)
+				(xy 115.220821 131.953703) (xy 115.220823 131.953704) (xy 115.220827 131.953706) (xy 115.366498 132.014044)
+				(xy 115.366503 132.014046) (xy 115.504628 132.041521) (xy 115.521153 132.044808) (xy 115.521156 132.044809)
+				(xy 115.521158 132.044809) (xy 115.678844 132.044809) (xy 115.678845 132.044808) (xy 115.833497 132.014046)
+				(xy 115.979179 131.953703) (xy 116.110289 131.866098) (xy 116.117057 131.85933) (xy 116.178378 131.825842)
+				(xy 116.24807 131.830823) (xy 116.277628 131.846689) (xy 116.280846 131.849027) (xy 116.280849 131.84903)
+				(xy 116.473963 131.989336) (xy 116.686648 132.097704) (xy 116.913667 132.171467) (xy 117.149431 132.208809)
+				(xy 117.149432 132.208809) (xy 117.388132 132.208809) (xy 117.388133 132.208809) (xy 117.623897 132.171467)
+				(xy 117.850916 132.097704) (xy 118.063601 131.989336) (xy 118.256715 131.84903) (xy 118.425503 131.680242)
+				(xy 118.565809 131.487128) (xy 118.674177 131.274443) (xy 118.74794 131.047424) (xy 118.785282 130.81166)
+				(xy 118.785282 130.572958) (xy 118.74794 130.337194) (xy 118.674177 130.110175) (xy 118.565809 129.89749)
+				(xy 118.425503 129.704376) (xy 118.256715 129.535588) (xy 118.063601 129.395282) (xy 117.850916 129.286914)
+				(xy 117.623897 129.213151) (xy 117.623895 129.21315) (xy 117.623893 129.21315) (xy 117.442721 129.184455)
+				(xy 117.388133 129.175809) (xy 117.149431 129.175809) (xy 117.094843 129.184455) (xy 116.91367 129.21315)
+				(xy 116.913669 129.21315) (xy 116.686645 129.286915) (xy 116.473955 129.395285) (xy 116.466814 129.400474)
+				(xy 116.455996 129.404333) (xy 116.447451 129.412009) (xy 116.423683 129.41586) (xy 116.401007 129.42395)
+				(xy 116.389819 129.421347) (xy 116.378481 129.423185) (xy 116.356405 129.413575) (xy 116.332954 129.408121)
+				(xy 116.323302 129.399166) (xy 116.314418 129.395299) (xy 116.290833 129.369042) (xy 116.246398 129.30254)
+				(xy 116.22552 129.235863) (xy 116.2255 129.23365) (xy 116.2255 129.215308) (xy 116.245185 129.148269)
+				(xy 116.297989 129.102514) (xy 116.340845 129.091611) (xy 116.471075 129.082505) (xy 116.530094 129.071954)
+				(xy 116.661105 129.012375) (xy 116.770023 128.918298) (xy 116.848026 128.797347) (xy 116.888792 128.659319)
+				(xy 116.891027 128.599407) (xy 116.835085 127.799399) (xy 116.789514 127.147702) (xy 116.804474 127.079453)
+				(xy 116.853958 127.030126) (xy 116.913212 127.015052) (xy 117.10187 127.015052) (xy 117.101877 127.015052)
+				(xy 117.247469 126.995884) (xy 117.316504 127.006649) (xy 117.36876 127.053029) (xy 117.387352 127.110173)
+				(xy 117.488569 128.557623) (xy 117.499119 128.616639) (xy 117.558697 128.74765) (xy 117.5587 128.747654)
+				(xy 117.651638 128.855253) (xy 117.652776 128.85657) (xy 117.773727 128.934573) (xy 117.911755 128.975339)
+				(xy 117.931725 128.976084) (xy 117.971662 128.977574) (xy 117.971663 128.977573) (xy 117.971666 128.977574)
+				(xy 119.181608 128.892965) (xy 119.189037 128.893865) (xy 119.193406 128.892703) (xy 119.212005 128.896649)
+				(xy 119.228202 128.898612) (xy 119.233015 128.900159) (xy 119.262009 128.912169) (xy 119.317055 128.93497)
+				(xy 119.37368 128.946233) (xy 119.437898 128.959006) (xy 119.437899 128.959007) (xy 119.4379 128.959007)
+				(xy 119.437901 128.959007) (xy 120.692737 128.959007) (xy 120.759776 128.978692) (xy 120.803222 129.026712)
+				(xy 120.83165 129.082505) (xy 120.854997 129.128326) (xy 120.995303 129.32144) (xy 121.164091 129.490228)
+				(xy 121.357205 129.630534) (xy 121.56989 129.738902) (xy 121.796909 129.812665) (xy 122.032673 129.850007)
+				(xy 122.032674 129.850007) (xy 122.271374 129.850007) (xy 122.271375 129.850007) (xy 122.507139 129.812665)
+				(xy 122.734158 129.738902) (xy 122.946843 129.630534) (xy 123.139957 129.490228) (xy 123.308745 129.32144)
+				(xy 123.449051 129.128326) (xy 123.557419 128.915641) (xy 123.631182 128.688622) (xy 123.668524 128.452858)
+				(xy 123.668524 128.214156) (xy 123.631182 127.978392) (xy 123.557419 127.751373) (xy 123.557419 127.751372)
+				(xy 123.522642 127.683117) (xy 123.509746 127.614448) (xy 123.536023 127.549708) (xy 123.545437 127.539151)
+				(xy 125.426129 125.65846) (xy 125.426133 125.658458) (xy 125.513258 125.571333) (xy 125.581711 125.468886)
+				(xy 125.581712 125.468885) (xy 125.609332 125.402203) (xy 125.628863 125.355052) (xy 125.6529 125.234206)
+				(xy 125.6529 122.510314) (xy 125.672585 122.443275) (xy 125.725389 122.39752) (xy 125.770407 122.386484)
+				(xy 126.37069 122.355024) (xy 126.438665 122.371173) (xy 126.487121 122.42151) (xy 126.501177 122.478816)
+				(xy 126.504286 132.637305) (xy 126.484622 132.704351) (xy 126.431832 132.750122) (xy 126.39328 132.76066)
+				(xy 89.385571 136.660268) (xy 89.316838 136.647717) (xy 89.265802 136.599999) (xy 89.249784 136.554208)
+				(xy 87.972686 127.46719) (xy 87.970945 127.454799) (xy 91.396595 127.454799) (xy 91.396595 127.628174)
+				(xy 91.423715 127.7994) (xy 91.477285 127.964275) (xy 91.477286 127.964278) (xy 91.537697 128.08284)
+				(xy 91.555993 128.118747) (xy 91.657894 128.259001) (xy 91.780481 128.381588) (xy 91.920735 128.483489)
+				(xy 91.956584 128.501755) (xy 92.075203 128.562195) (xy 92.075206 128.562196) (xy 92.157643 128.588981)
+				(xy 92.240083 128.615767) (xy 92.306795 128.626333) (xy 92.411308 128.642887) (xy 92.411313 128.642887)
+				(xy 92.584682 128.642887) (xy 92.667893 128.629707) (xy 92.755907 128.615767) (xy 92.920786 128.562195)
+				(xy 93.075255 128.483489) (xy 93.215509 128.381588) (xy 93.338096 128.259001) (xy 93.439997 128.118747)
+				(xy 93.518703 127.964278) (xy 93.572275 127.799399) (xy 93.590692 127.683117) (xy 93.599395 127.628174)
+				(xy 93.599395 127.454799) (xy 93.58127 127.340367) (xy 93.572275 127.283575) (xy 93.537578 127.176788)
+				(xy 93.518704 127.118698) (xy 93.518703 127.118695) (xy 93.448762 126.98143) (xy 93.439997 126.964227)
+				(xy 93.338096 126.823973) (xy 93.215509 126.701386) (xy 93.075255 126.599485) (xy 93.068998 126.596297)
+				(xy 92.920786 126.520778) (xy 92.920783 126.520777) (xy 92.755908 126.467207) (xy 92.584682 126.440087)
+				(xy 92.584677 126.440087) (xy 92.411313 126.440087) (xy 92.411308 126.440087) (xy 92.240081 126.467207)
+				(xy 92.075206 126.520777) (xy 92.075203 126.520778) (xy 91.920734 126.599485) (xy 91.843567 126.655551)
+				(xy 91.780481 126.701386) (xy 91.780479 126.701388) (xy 91.780478 126.701388) (xy 91.657896 126.82397)
+				(xy 91.657896 126.823971) (xy 91.657894 126.823973) (xy 91.614131 126.884206) (xy 91.555993 126.964226)
+				(xy 91.477286 127.118695) (xy 91.477285 127.118698) (xy 91.423715 127.283573) (xy 91.396595 127.454799)
+				(xy 87.970945 127.454799) (xy 87.418412 123.523334) (xy 86.922199 119.992596) (xy 86.932362 119.923472)
+				(xy 86.978284 119.870813) (xy 87.027731 119.852549) (xy 89.336 119.528142) (xy 89.336005 119.528143)
+				(xy 89.364914 119.524079) (xy 89.364915 119.52408) (xy 89.495417 119.505739) (xy 89.616725 119.454247)
+				(xy 89.720572 119.373112) (xy 89.722421 119.370659) (xy 89.739076 119.348556) (xy 89.739083 119.348547)
+				(xy 89.799883 119.267864) (xy 89.799884 119.267861) (xy 91.657387 116.80287) (xy 91.668775 116.789778)
+				(xy 91.684394 116.774174) (xy 91.691861 116.761251) (xy 91.698323 116.750073) (xy 91.698324 116.75007)
+				(xy 91.702105 116.743527) (xy 91.723407 116.715261) (xy 91.734936 116.686723) (xy 91.750338 116.660076)
+				(xy 91.759514 116.62589) (xy 91.772774 116.593073) (xy 91.776524 116.562526) (xy 91.784505 116.532798)
+				(xy 91.784521 116.497396) (xy 91.788834 116.462271) (xy 91.784551 116.431797) (xy 91.789843 104.912222)
+				(xy 97.453243 104.912222) (xy 97.453243 104.999425) (xy 97.974743 104.999425) (xy 98.474743 104.999425)
+				(xy 98.996243 104.999425) (xy 98.996243 104.912226) (xy 98.996242 104.912222) (xy 98.98464 104.853891)
+				(xy 98.984639 104.85389) (xy 98.940434 104.787733) (xy 98.874277 104.743528) (xy 98.874276 104.743527)
+				(xy 98.815945 104.731925) (xy 98.474743 104.731925) (xy 98.474743 104.999425) (xy 97.974743 104.999425)
+				(xy 97.974743 104.731925) (xy 97.63354 104.731925) (xy 97.575209 104.743527) (xy 97.575208 104.743528)
+				(xy 97.509051 104.787733) (xy 97.464846 104.85389) (xy 97.464845 104.853891) (xy 97.453243 104.912222)
+				(xy 91.789843 104.912222) (xy 91.79344 97.081083) (xy 91.813155 97.014054) (xy 91.86598 96.968323)
+				(xy 91.917364 96.957141) (xy 94.657025 96.955571)
 			)
 		)
 		(filled_polygon
