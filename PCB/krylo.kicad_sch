@@ -68,18 +68,18 @@
 					)
 				)
 			)
-(property "Description" "1N4148W SMD diode"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(property "Description" "1N4148W SMD diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
-		)
-		(property "Sim.Device" "D"
+			(property "Sim.Device" "D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -258,18 +258,18 @@
 					)
 				)
 			)
-(property "Description" "JST PH 2-pin battery connector"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(property "Description" "JST PH 2-pin battery connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
-		)
-		(property "ki_keywords" "battery cell"
+			(property "ki_keywords" "battery cell"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -594,18 +594,18 @@
 					)
 				)
 			)
-(property "Description" "MSK12C02 SPDT slide switch"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(property "Description" "MSK12C02 SPDT slide switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
-		)
-		(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -794,18 +794,18 @@
 					)
 				)
 			)
-(property "Description" "M2 mounting hole"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(property "Description" "M2 mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
-		)
-		(property "ki_keywords" "mounting hole"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -898,18 +898,18 @@
 					)
 				)
 			)
-(property "Description" "Tactile reset button"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
+			(property "Description" "Tactile reset button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
-		)
-		(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3992,7 +3992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06715cf7-24cb-4723-a593-b665aac8f9ba")
-		(property "Reference" "#FLG06"
+		(property "Reference" "#FLG6"
 			(at 62.865 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4053,7 +4053,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG06")
+					(reference "#FLG6")
 					(unit 1)
 				)
 			)
@@ -5240,7 +5240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c7a5561-5148-416d-a58b-59df76e8b187")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG2"
 			(at 46.355 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5301,7 +5301,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG02")
+					(reference "#FLG2")
 					(unit 1)
 				)
 			)
@@ -5473,7 +5473,7 @@
 		(dnp no)
 		(uuid "4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(property "Reference" "JP8"
-			(at 51.562 74.93 0)
+			(at 47.498 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6211,7 +6211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67e14b39-9719-409d-85e6-ab7d61105935")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG4"
 			(at 61.595 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6272,7 +6272,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "#FLG04")
+					(reference "#FLG4")
 					(unit 1)
 				)
 			)
@@ -6542,7 +6542,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 55.88 126.9999 90)
+			(at 55.88 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6550,7 +6550,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6872,7 +6871,7 @@
 		(dnp no)
 		(uuid "7dcb223b-3203-46e5-b917-f870accb5b07")
 		(property "Reference" "JP10"
-			(at 66.802 74.93 0)
+			(at 62.738 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7804,7 +7803,7 @@
 		(dnp no)
 		(uuid "acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(property "Reference" "JP2"
-			(at 35.052 74.93 0)
+			(at 30.988 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
