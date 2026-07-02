@@ -42,7 +42,7 @@ All in `krylo.pretty/` as `.kicad_mod`:
 
 **Naming is consistent:** each footprint name matches its file name and its symbol name in `krylo.kicad_sym`.
 
-Plus 6 `.step` 3D model files in `krylo.pretty/`. Four match their footprint name (`Switch.step`, `nice_nano.step`, `MSK12C02.step`, `ResetSW.step`); `keycap.step` and `hot_swap_socket.step` are extra models attached to the Switch footprint.
+Plus 6 `.step` 3D model files in `krylo.pretty/`. Two match their footprint name (`nice_nano.step`, `MSK12C02.step`); two are lowercased variants (`switch.step`, `reset_sw.step` — resolves correctly on case-insensitive systems and in the footprint references); `keycap.step` and `hot_swap_socket.step` are extra models attached to the Switch footprint.
 
 ## Custom symbols
 
