@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.0,
-          "width": 0.7
+          "height": 1.143,
+          "width": 0.635
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -85,6 +85,10 @@
         [
           "unconnected_items|103274743|105249425|F.Cu|4|71495759-8c6c-4fe1-bd16-3fefd683632d|367b288c-0054-479c-b287-4a34e7bf0b24",
           "Intentional layer split. Used to configure for which side of the split the PCB is used"
+        ],
+        [
+          "unconnected_items|107400000|93750000|F.Cu|4|51d0b1c6-d09e-46d5-ac11-4e6850efcc42|3ef037d4-2b4d-4682-8809-8147f0a425de",
+          "Intentional split. Double sided-PCB side effect"
         ],
         [
           "unconnected_items|98224743|106250185|F.Cu|4|ab4158de-b18e-491a-85ae-72e3387dcaed|8fe1fefc-3044-453c-8fb6-ea6a34a93458",
@@ -588,7 +592,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
