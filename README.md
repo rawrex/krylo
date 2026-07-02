@@ -1,6 +1,6 @@
 ![krylo split keyboard](krylo.png)
 
-Krylo (means "wing" in Russian) is a 32 key column-staggered split keyboard running [ZMK](https://zmk.dev/)
+**Krylo** (*"wing"* in Russian) is a 32 key column-staggered split keyboard running [ZMK](https://zmk.dev/)
 
 Core ideas that motivated the project:
 - (My) pinky moves to the side better than it reaches forward to the upper row.
