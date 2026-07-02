@@ -77,6 +77,50 @@ Plus 6 `.step` 3D model files in `krylo.pretty/`. Four match their footprint nam
 - **DRC:** min track 0.127 mm, min clearance 0.0 mm, min copper-to-edge 0.5 mm. Violations are `error` severity.
 - **Default net class:** track 0.25 mm, via 0.6/0.3 mm, clearance 0.127 mm.
 
+## Field sync workflow
+
+KiCad has a three-layer field system. Fields (Description, Datasheet, etc.) exist at **symbol library**, **footprint library**, and **instance** levels. To avoid back-and-forth diffs, all three must stay in sync.
+
+### Authoritative sources
+
+| Layer | File | Editable directly? |
+|---|---|---|
+| **Symbol library** (authoritative) | `krylo.pretty/krylo.kicad_sym` | ✅ Safe to edit (text or Symbol Editor) |
+| **Footprint library** | `krylo.pretty/*.kicad_mod` | ✅ Safe to edit (text or Footprint Editor) |
+| **Embedded symbol cache** | Inside `krylo.kicad_sch` (the `lib_symbols` block) | ❌ **Do not edit directly** — KiCad overwrites from `krylo.kicad_sym` on save |
+| **Component instances** | Inside `krylo.kicad_sch` (placed symbols) | ❌ **Do not edit directly** — KiCad overwrites from cache |
+| **PCB instances** | Inside `krylo.kicad_pcb` (placed footprints) | ❌ **Do not edit directly** — KiCad overwrites on forward-annotate or save |
+
+### Correct workflow for changing symbol fields (Description, Datasheet)
+
+```
+  1. Edit ───────────► krylo.pretty/krylo.kicad_sym
+     (KiCad Symbol Editor or safe text edit — this is the source of truth)
+
+  2. Sync schematic ─► Tools → Update Symbols from Library
+     (in schematic editor — updates embedded cache + all instances)
+
+  3. Sync PCB ───────► Tools → Update PCB from Schematic (F8)
+     (in PCB editor — pushes field values to footprint instances)
+```
+
+### Correct workflow for changing footprint fields
+
+```
+  1. Edit ───────────► krylo.pretty/*.kicad_mod
+     (KiCad Footprint Editor or safe text edit)
+
+  2. Sync PCB ───────► Tools → Update Footprints from Library
+     (in PCB editor — syncs instance fields from library)
+```
+
+### Rules of thumb
+
+- **Text edits are safe** for `.kicad_sym` and `.kicad_mod` files — KiCad reads these fresh from disk.
+- **Text edits are NOT safe** for `.kicad_sch` or `.kicad_pcb` — KiCad holds state in memory and overwrites on save.
+- After changing a symbol in `krylo.kicad_sym`, always run **Update Symbols from Library** in the schematic editor, then **Update PCB from Schematic** in the PCB editor.
+- When `krylo.kicad_sch` is re-saved by KiCad, any symbol fields that differ between the embedded cache and the external `krylo.kicad_sym` will be **overwritten with the external library's values**. Keep the external library as the single source of truth.
+
 ## What not to modify
 
 - `PCB/.history/`, `PCB/~*.lck`, `PCB/krylo.round-tracks-config` — auto-save and lock files (gitignored)

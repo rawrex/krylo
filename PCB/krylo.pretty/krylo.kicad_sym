@@ -59,7 +59,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -249,7 +249,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "JST PH 2-pin battery connector"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -585,7 +585,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "MSK12C02 SPDT slide switch"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -785,7 +785,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "M2 mounting hole"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -889,7 +889,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Tactile reset button"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
