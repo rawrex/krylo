@@ -41,11 +41,46 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "1N4148W SMD diode"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "03368e94-ebff-4ab9-af5e-5bacab0cf990")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Sim.Device" "D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f3e3ed00-dd9d-454b-80a6-20626bd40b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Sim.Pins" "1=K 2=A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0adea747-be78-47ec-bf1f-e9a5880f5605")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "krylo:D_SOD123"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "55e2c0e0-ce16-412a-9244-5542fa00631d")
 		(effects
 			(font
 				(size 1.27 1.27)

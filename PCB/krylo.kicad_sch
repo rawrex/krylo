@@ -68,18 +68,18 @@
 					)
 				)
 			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+(property "Description" "1N4148W SMD diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(property "Sim.Device" "D"
+		)
+		(property "Sim.Device" "D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -258,18 +258,18 @@
 					)
 				)
 			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+(property "Description" "JST PH 2-pin battery connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(property "ki_keywords" "battery cell"
+		)
+		(property "ki_keywords" "battery cell"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -594,18 +594,18 @@
 					)
 				)
 			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+(property "Description" "MSK12C02 SPDT slide switch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+		)
+		(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -794,18 +794,18 @@
 					)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+(property "Description" "M2 mounting hole"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+		)
+		(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -898,18 +898,18 @@
 					)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+(property "Description" "Tactile reset button"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+		)
+		(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3879,7 +3879,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "M2 mounting hole"
 			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4116,7 +4116,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4379,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 132.08 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4564,7 +4564,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 99.06 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -4669,7 +4669,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 132.08 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4855,7 +4855,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 110.49 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4957,7 @@
 				)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "MSK12C02 SPDT slide switch"
 			(at 57.15 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5123,7 +5123,7 @@
 				)
 			)
 		)
-		(property "Description" "Single-cell battery"
+		(property "Description" "JST PH 2-pin battery connector"
 			(at 33.02 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -5363,7 +5363,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "M2 mounting hole"
 			(at 170.18 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5597,7 +5597,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "M2 mounting hole"
 			(at 170.18 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -5674,7 +5674,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 110.49 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5779,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 143.51 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5883,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "Tactile reset button"
 			(at 175.26 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -5966,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 110.49 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6071,7 +6071,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 121.92 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6655,7 +6655,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 99.06 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -6840,7 +6840,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" "M2 mounting hole"
 			(at 170.18 47.244 0)
 			(hide yes)
 			(show_name no)
@@ -7396,7 +7396,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 99.06 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7663,7 +7663,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 132.08 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8010,7 +8010,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 121.92 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8495,7 +8495,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 121.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8600,7 +8600,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8867,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Description" "Diode, small symbol"
+		(property "Description" "1N4148W SMD diode"
 			(at 143.51 38.1 0)
 			(hide yes)
 			(show_name no)

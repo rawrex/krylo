@@ -49,6 +49,17 @@
 			)
 		)
 	)
+	(property ki_fp_filters "krylo:nice_nano"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6fd6fb9-45d2-4611-bd6c-f4f2a0bc1cd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect

@@ -37,11 +37,22 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "MSK12C02 SPDT slide switch"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "52ff1c5c-679a-45b9-b824-7c013952c461")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "krylo:MSK12C02"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a465f2a6-e28f-4ad3-a715-de637c5249d2")
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -49,6 +49,17 @@
 			)
 		)
 	)
+	(property ki_fp_filters "krylo:Jumper"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1c35350-76de-4e4d-a2e3-26c0e788a1e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect

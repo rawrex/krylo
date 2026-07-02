@@ -38,11 +38,22 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Tactile reset button"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "c83d0f64-ee78-4b85-9f11-5d48b0f7ac47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "krylo:ResetSW"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30e7ffc9-ef5f-48d7-ab16-2e8727384e08")
 		(effects
 			(font
 				(size 1.27 1.27)

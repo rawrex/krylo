@@ -39,11 +39,22 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "JST PH 2-pin battery connector"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "4b065083-288c-4648-9f86-feecc649766e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property ki_fp_filters "krylo:JST_PH"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbe37ae1-3d4f-44fd-a9d9-b97bdc1d0592")
 		(effects
 			(font
 				(size 1.27 1.27)

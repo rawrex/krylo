@@ -51,6 +51,17 @@
 			)
 		)
 	)
+	(property ki_fp_filters "krylo:Switch"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8be5e7af-dbbb-4b34-8673-3412fc9b7a17")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
