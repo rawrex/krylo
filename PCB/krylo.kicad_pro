@@ -316,20 +316,24 @@
   "erc": {
     "erc_exclusions": [
       [
-        "ground_pin_not_ground|444500|723900|97e32b04-14c3-4dbb-8a54-108a0eb5a2bb|00000000-0000-0000-0000-000000000000|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
-        "Not intentionally not connected. The GND pin here is referenced due to it being a mirrored RESET pin if we view the MCU from the bottom. Another double-sided PCB side-effect"
+        "ground_pin_not_ground|431800|723900|97e32b04-14c3-4dbb-8a54-108a0eb5a2bb|00000000-0000-0000-0000-000000000000|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
+        "For the front side GND is not connected. Double sided PCB side effect"
       ],
       [
-        "ground_pin_not_ground|596900|723900|78cf9943-7c28-4b03-8cf5-c47e99afb4f9|00000000-0000-0000-0000-000000000000|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
-        "Not intentionally not connected. The GND pin here is referenced due to it being a mirrored RESET pin if we view the MCU from the bottom. Another double-sided PCB side-effect"
+        "ground_pin_not_ground|584200|723900|78cf9943-7c28-4b03-8cf5-c47e99afb4f9|00000000-0000-0000-0000-000000000000|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
+        "For the front side GND is not connected. Double sided PCB side effect"
       ],
       [
-        "pin_to_pin|279400|723900|b4ceec7c-5ad6-4ca4-9a61-b7d1e518e66b|ea2ef9a4-930d-4b90-a397-efa03b1162ae|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca",
-        "Not connected in reality. Only one of the jumpers should be soldered"
+        "no_connect_connected|584200|774700|637583e2-d5dd-4ee7-b746-9d7f0995cc5c|6c14b238-3dfd-4257-af57-05f949d4b9d2|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
+        "Double sided PCB side effect"
       ],
       [
-        "pin_to_pin|596900|723900|bbd082ea-2f66-4228-8dda-668216254778|b2794e5d-4a72-464f-869a-82a2e3206a55|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca",
-        "Not connected in reality. Only one of the jumpers should be soldered"
+        "pin_to_pin|266700|723900|b4ceec7c-5ad6-4ca4-9a61-b7d1e518e66b|ea2ef9a4-930d-4b90-a397-efa03b1162ae|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca",
+        "Not connected in reality. Only one jumper is connected. Double sided PCB side effect"
+      ],
+      [
+        "pin_to_pin|584200|723900|bbd082ea-2f66-4228-8dda-668216254778|b2794e5d-4a72-464f-869a-82a2e3206a55|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca",
+        "Not connected in reality. Only one jumper is connected. Double sided PCB side effect"
       ]
     ],
     "meta": {
