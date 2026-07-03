@@ -328,6 +328,10 @@
         "Double sided PCB side effect"
       ],
       [
+        "no_connect_connected|635000|774700|a9012a26-df64-46e8-977f-4e2cf588b168|6c14b238-3dfd-4257-af57-05f949d4b9d2|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
+        "Double sided PCB side effect"
+      ],
+      [
         "pin_to_pin|266700|723900|b4ceec7c-5ad6-4ca4-9a61-b7d1e518e66b|ea2ef9a4-930d-4b90-a397-efa03b1162ae|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca",
         "Not connected in reality. Only one jumper is connected. Double sided PCB side effect"
       ],
