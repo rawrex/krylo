@@ -2334,13 +2334,13 @@
 		(uuid "3f914413-e4ce-4907-8006-42b899a17e66")
 	)
 	(junction
-		(at 62.23 78.74)
+		(at 60.96 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45615a34-891a-4d94-9d48-1b8c62448242")
 	)
 	(junction
-		(at 27.94 72.39)
+		(at 26.67 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53b732dd-a88a-4b8d-a216-f50408f65b25")
@@ -2352,7 +2352,7 @@
 		(uuid "54b0e829-651e-4940-a0e4-9e54bc34de4c")
 	)
 	(junction
-		(at 62.23 77.47)
+		(at 60.96 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "675d1691-1ae3-4185-b853-40efcda866c8")
@@ -2382,19 +2382,19 @@
 		(uuid "89e21c7b-061c-45d8-81b2-c34eb989e42a")
 	)
 	(junction
-		(at 30.48 77.47)
+		(at 29.21 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ef7df82-465d-43c0-88ec-e7c04052700a")
 	)
 	(junction
-		(at 46.99 77.47)
+		(at 45.72 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "910cadbd-a7de-4e09-92bd-8a3c5bcc5e91")
 	)
 	(junction
-		(at 49.53 72.39)
+		(at 48.26 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9283bce7-5de4-40fc-8327-da04c7b81dc2")
@@ -2418,7 +2418,7 @@
 		(uuid "a5826da8-9c1c-4804-befd-735d827e6efc")
 	)
 	(junction
-		(at 64.77 72.39)
+		(at 63.5 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0b7c0dd-f884-4787-9d89-066b4fe9c84a")
@@ -2430,7 +2430,7 @@
 		(uuid "b4956055-e5b8-4594-acfe-25c5cb382de7")
 	)
 	(junction
-		(at 33.02 72.39)
+		(at 31.75 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b82fe079-0135-461d-bbf3-79c120ca868e")
@@ -2472,7 +2472,7 @@
 		(uuid "eb9d28c9-9cf8-4e19-a79a-5a7429954109")
 	)
 	(junction
-		(at 44.45 72.39)
+		(at 43.18 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "edcc76de-17a6-43dc-b971-5eab32e06cd4")
@@ -2484,7 +2484,7 @@
 		(uuid "ede8b73c-cf5d-40c6-befb-8caf1530c279")
 	)
 	(junction
-		(at 59.69 72.39)
+		(at 58.42 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee40918b-644e-4690-8083-24a117190276")
@@ -2508,11 +2508,11 @@
 		(uuid "f8c6c6f8-96ad-4bd8-91f6-5cf0af9f9263")
 	)
 	(no_connect
-		(at 71.12 48.26)
+		(at 20.32 48.26)
 		(uuid "2cc6ceae-1864-4b9b-837d-c51d1ee6abe6")
 	)
 	(no_connect
-		(at 71.12 43.18)
+		(at 20.32 43.18)
 		(uuid "3c8389a5-2c88-45ae-b3a5-72568356db36")
 	)
 	(no_connect
@@ -2520,11 +2520,11 @@
 		(uuid "59861cfa-54c8-44f7-9136-f800e7171708")
 	)
 	(no_connect
-		(at 71.12 35.56)
+		(at 20.32 35.56)
 		(uuid "5bfb4af5-f4e7-495e-b667-f4abef88463a")
 	)
 	(no_connect
-		(at 71.12 38.1)
+		(at 20.32 38.1)
 		(uuid "6b910313-05d9-4ccf-bede-cb622c1bc6e0")
 	)
 	(no_connect
@@ -2532,23 +2532,23 @@
 		(uuid "6c14b238-3dfd-4257-af57-05f949d4b9d2")
 	)
 	(no_connect
-		(at 21.59 33.02)
+		(at 20.32 33.02)
 		(uuid "9a16459f-0e3e-473f-906c-083b03fbe9fc")
 	)
 	(no_connect
-		(at 71.12 40.64)
+		(at 20.32 40.64)
 		(uuid "c1adda25-89c6-4c49-b4c2-e1e930efbf43")
 	)
 	(no_connect
-		(at 71.12 33.02)
+		(at 69.85 33.02)
 		(uuid "cde5c2d2-3b4d-4068-bdfd-91f8347a1d39")
 	)
 	(no_connect
-		(at 71.12 50.8)
+		(at 20.32 50.8)
 		(uuid "d0791f51-795b-4b25-b6a8-007ac3a46a6c")
 	)
 	(no_connect
-		(at 71.12 45.72)
+		(at 20.32 45.72)
 		(uuid "f323bf7c-94b7-4517-8e9d-38f5c5b5a4b2")
 	)
 	(wire
@@ -2603,7 +2603,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 77.47) (xy 62.23 78.74)
+			(xy 60.96 77.47) (xy 60.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 90.17) (xy 68.58 72.39)
+			(xy 67.31 90.17) (xy 67.31 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2633,7 +2633,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 90.17) (xy 36.83 90.17)
+			(xy 22.86 90.17) (xy 35.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2693,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 77.47) (xy 64.77 77.47)
+			(xy 60.96 77.47) (xy 63.5 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2713,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 77.47) (xy 49.53 77.47)
+			(xy 45.72 77.47) (xy 48.26 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 55.88 72.39)
+			(xy 54.61 90.17) (xy 54.61 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2753,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 72.39) (xy 27.94 72.39)
+			(xy 22.86 72.39) (xy 26.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2773,7 +2773,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 90.17) (xy 40.64 72.39)
+			(xy 39.37 90.17) (xy 39.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2853,7 +2853,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 72.39) (xy 33.02 72.39)
+			(xy 35.56 72.39) (xy 31.75 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2863,7 +2863,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 90.17) (xy 53.34 72.39)
+			(xy 52.07 90.17) (xy 52.07 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2883,7 +2883,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 72.39) (xy 64.77 72.39)
+			(xy 67.31 72.39) (xy 63.5 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2893,7 +2893,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 72.39) (xy 49.53 72.39)
+			(xy 52.07 72.39) (xy 48.26 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2913,7 +2913,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 77.47) (xy 30.48 77.47)
+			(xy 26.67 77.47) (xy 29.21 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2923,7 +2923,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 72.39) (xy 59.69 72.39)
+			(xy 54.61 72.39) (xy 58.42 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2983,7 +2983,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 78.74) (xy 46.99 77.47)
+			(xy 45.72 78.74) (xy 45.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2993,7 +2993,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 77.47) (xy 46.99 77.47)
+			(xy 43.18 77.47) (xy 45.72 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3023,7 +3023,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 72.39) (xy 24.13 90.17)
+			(xy 22.86 72.39) (xy 22.86 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3083,7 +3083,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 90.17) (xy 36.83 72.39)
+			(xy 35.56 90.17) (xy 35.56 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3093,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 77.47) (xy 33.02 77.47)
+			(xy 29.21 77.47) (xy 31.75 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3153,7 +3153,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 77.47) (xy 62.23 77.47)
+			(xy 58.42 77.47) (xy 60.96 77.47)
 		)
 		(stroke
 			(width 0)
@@ -3203,7 +3203,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 72.39) (xy 44.45 72.39)
+			(xy 39.37 72.39) (xy 43.18 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 90.17) (xy 68.58 90.17)
+			(xy 54.61 90.17) (xy 67.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3253,7 +3253,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 90.17) (xy 53.34 90.17)
+			(xy 39.37 90.17) (xy 52.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3372,7 +3372,7 @@
 		(uuid "8c0094b9-4510-430d-aea8-7bd65d14b845")
 	)
 	(label "+BATT_{indirect}"
-		(at 57.15 90.17 0)
+		(at 55.88 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3392,7 +3392,7 @@
 		(uuid "9f9f75e8-5c71-4811-a30a-aee9f537e7ae")
 	)
 	(label "GND_{indirect}"
-		(at 24.13 90.17 0)
+		(at 22.86 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,7 +3402,7 @@
 		(uuid "adb88cba-80e1-4aad-863c-0ada6682e93f")
 	)
 	(label "RESET_{indirect}"
-		(at 40.64 90.17 0)
+		(at 39.37 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3509,7 +3509,7 @@
 	)
 	(global_label "RESET"
 		(shape input)
-		(at 46.99 78.74 270)
+		(at 45.72 78.74 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3519,7 +3519,7 @@
 		)
 		(uuid "356f7a01-9af5-4ec3-b7d2-e7052e0556e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 87.4703 90)
+			(at 45.72 87.4703 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3557,17 +3557,17 @@
 	)
 	(global_label "col_E"
 		(shape input)
-		(at 21.59 35.56 180)
+		(at 69.85 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3c11af96-fc51-4de8-a246-f8ac472505d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.5854 35.56 0)
+			(at 77.8546 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,23 +3575,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "col_A"
 		(shape input)
-		(at 21.59 45.72 180)
+		(at 69.85 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5320e57d-12e7-435c-8785-b2700d53a879")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.6458 45.72 0)
+			(at 77.7942 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3599,23 +3599,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "col_D"
 		(shape input)
-		(at 21.59 38.1 180)
+		(at 69.85 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "54e3226a-6776-4aa9-9744-6524d84c76ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.4644 38.1 0)
+			(at 77.9756 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,23 +3623,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "row_C"
 		(shape input)
-		(at 21.59 53.34 180)
+		(at 69.85 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5810ff2e-10f3-4a31-8ca3-7e9aa9cf303a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.1015 53.34 0)
+			(at 78.3385 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3647,7 +3647,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3677,17 +3677,17 @@
 	)
 	(global_label "col_B"
 		(shape input)
-		(at 21.59 43.18 180)
+		(at 69.85 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8d21cd17-f4cb-438f-9443-79f52797e605")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.4644 43.18 0)
+			(at 77.9756 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3695,23 +3695,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "row_A"
 		(shape input)
-		(at 21.59 48.26 180)
+		(at 69.85 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b38e531e-48b5-43f2-8b3a-ae92f2b3f625")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.2829 48.26 0)
+			(at 78.1571 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3719,23 +3719,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
 	(global_label "row_B"
 		(shape input)
-		(at 21.59 50.8 180)
+		(at 69.85 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "c1701931-d6c7-48f4-ac0f-7ab622b957a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.1015 50.8 0)
+			(at 78.3385 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3743,7 +3743,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -3821,17 +3821,17 @@
 	)
 	(global_label "row_D"
 		(shape input)
-		(at 71.12 53.34 0)
+		(at 20.32 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d22184c1-7062-4b2b-988b-d84697fec47a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.6085 53.34 0)
+			(at 11.8315 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3839,7 +3839,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -3869,17 +3869,17 @@
 	)
 	(global_label "col_C"
 		(shape input)
-		(at 21.59 40.64 180)
+		(at 69.85 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "eb0c03a9-e7bf-4cfa-b89d-a31533b8de03")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.4644 40.64 0)
+			(at 77.9756 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3887,7 +3887,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -4129,7 +4129,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 64.77 72.39 90)
+		(at 63.5 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4140,7 +4140,7 @@
 		(fields_autoplaced yes)
 		(uuid "06715cf7-24cb-4723-a593-b665aac8f9ba")
 		(property "Reference" "#FLG6"
-			(at 62.865 72.39 0)
+			(at 61.595 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,7 +4151,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 60.96 72.39 0)
+			(at 59.69 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,7 +4162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 72.39 0)
+			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4173,7 +4173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 72.39 0)
+			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4184,7 +4184,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 64.77 72.39 0)
+			(at 63.5 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4576,7 +4576,7 @@
 	)
 	(symbol
 		(lib_id "krylo:Jumper")
-		(at 27.94 74.93 90)
+		(at 26.67 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4586,7 +4586,7 @@
 		(dnp no)
 		(uuid "1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
 		(property "Reference" "JP1"
-			(at 25.908 74.93 0)
+			(at 24.638 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4596,7 +4596,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 31.242 74.422 0)
+			(at 29.972 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4607,7 +4607,7 @@
 			)
 		)
 		(property "Footprint" "krylo:Jumper"
-			(at 23.368 74.676 0)
+			(at 22.098 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4618,7 +4618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 74.93 0)
+			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4629,7 +4629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 27.94 74.93 0)
+			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5307,7 +5307,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 62.23 78.74 270)
+		(at 60.96 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5318,7 +5318,7 @@
 		(fields_autoplaced yes)
 		(uuid "37a701e0-db30-4951-906e-cd6c8ae463d2")
 		(property "Reference" "#FLG5"
-			(at 64.135 78.74 0)
+			(at 62.865 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5329,7 +5329,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 66.04 78.74 0)
+			(at 64.77 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +5340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 78.74 0)
+			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5351,7 +5351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 78.74 0)
+			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5362,7 +5362,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 62.23 78.74 0)
+			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5386,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 44.45 72.39 270)
+		(at 43.18 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5397,7 +5397,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c7a5561-5148-416d-a58b-59df76e8b187")
 		(property "Reference" "#FLG2"
-			(at 46.355 72.39 0)
+			(at 45.085 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5408,7 +5408,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 48.26 72.39 0)
+			(at 46.99 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5419,7 +5419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 72.39 0)
+			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5430,7 +5430,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 72.39 0)
+			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5441,7 +5441,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 72.39 0)
+			(at 43.18 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5541,7 +5541,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 33.02 72.39 90)
+		(at 31.75 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5551,7 +5551,7 @@
 		(dnp no)
 		(uuid "46124236-c10f-427c-a0d7-a5696417f434")
 		(property "Reference" "#FLG1"
-			(at 31.115 72.39 0)
+			(at 29.845 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5562,7 +5562,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 29.21 72.39 0)
+			(at 27.94 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5573,7 +5573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 72.39 0)
+			(at 31.75 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5584,7 +5584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 72.39 0)
+			(at 31.75 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5595,7 +5595,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 33.02 72.39 0)
+			(at 31.75 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5619,7 +5619,7 @@
 	)
 	(symbol
 		(lib_id "krylo:Jumper")
-		(at 49.53 74.93 90)
+		(at 48.26 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5629,7 +5629,7 @@
 		(dnp no)
 		(uuid "4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(property "Reference" "JP8"
-			(at 47.498 74.93 0)
+			(at 46.228 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5639,7 +5639,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 52.832 74.422 0)
+			(at 51.562 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5650,7 +5650,7 @@
 			)
 		)
 		(property "Footprint" "krylo:Jumper"
-			(at 44.958 74.676 0)
+			(at 43.688 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5661,7 +5661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 74.93 0)
+			(at 48.26 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5672,7 +5672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 74.93 0)
+			(at 48.26 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6357,7 +6357,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 59.69 72.39 270)
+		(at 58.42 72.39 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6368,7 +6368,7 @@
 		(fields_autoplaced yes)
 		(uuid "67e14b39-9719-409d-85e6-ab7d61105935")
 		(property "Reference" "#FLG4"
-			(at 61.595 72.39 0)
+			(at 60.325 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6379,7 +6379,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 63.5 72.39 0)
+			(at 62.23 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6390,7 +6390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 72.39 0)
+			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6401,7 +6401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 72.39 0)
+			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6412,7 +6412,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 59.69 72.39 0)
+			(at 58.42 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7017,7 +7017,7 @@
 	)
 	(symbol
 		(lib_id "krylo:Jumper")
-		(at 64.77 74.93 90)
+		(at 63.5 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7027,7 +7027,7 @@
 		(dnp no)
 		(uuid "7dcb223b-3203-46e5-b917-f870accb5b07")
 		(property "Reference" "JP10"
-			(at 62.738 74.93 0)
+			(at 61.468 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7037,7 +7037,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 68.072 74.422 0)
+			(at 66.802 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,7 +7048,7 @@
 			)
 		)
 		(property "Footprint" "krylo:Jumper"
-			(at 60.198 74.676 0)
+			(at 58.928 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7059,7 +7059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 74.93 0)
+			(at 63.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7070,7 +7070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 74.93 0)
+			(at 63.5 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7097,7 +7097,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 62.23 78.74 180)
+		(at 60.96 78.74 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7107,7 +7107,7 @@
 		(dnp no)
 		(uuid "7ea15999-0781-4c2e-a266-2adaf5a39946")
 		(property "Reference" "#PWR4"
-			(at 62.23 74.93 0)
+			(at 60.96 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7118,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 62.23 82.296 0)
+			(at 60.96 82.296 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7128,7 +7128,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 78.74 0)
+			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7139,7 +7139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 78.74 0)
+			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7150,7 +7150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 62.23 78.74 0)
+			(at 60.96 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7255,7 +7255,7 @@
 	)
 	(symbol
 		(lib_id "krylo:Jumper")
-		(at 59.69 74.93 90)
+		(at 58.42 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7265,7 +7265,7 @@
 		(dnp no)
 		(uuid "837f6c0c-0404-45c0-82cc-e00589df18e2")
 		(property "Reference" "JP9"
-			(at 57.658 74.93 0)
+			(at 56.388 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7275,7 +7275,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 62.992 74.422 0)
+			(at 61.722 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7286,7 +7286,7 @@
 			)
 		)
 		(property "Footprint" "krylo:Jumper"
-			(at 55.118 74.676 0)
+			(at 53.848 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +7297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 74.93 0)
+			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7308,7 +7308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 74.93 0)
+			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7949,7 +7949,7 @@
 	)
 	(symbol
 		(lib_id "krylo:Jumper")
-		(at 33.02 74.93 90)
+		(at 31.75 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7959,7 +7959,7 @@
 		(dnp no)
 		(uuid "acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(property "Reference" "JP2"
-			(at 30.988 74.93 0)
+			(at 29.718 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7969,7 +7969,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 36.322 74.422 0)
+			(at 35.052 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7980,7 +7980,7 @@
 			)
 		)
 		(property "Footprint" "krylo:Jumper"
-			(at 28.448 74.676 0)
+			(at 27.178 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7991,7 +7991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 74.93 0)
+			(at 31.75 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8002,7 +8002,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.02 74.93 0)
+			(at 31.75 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8215,7 +8215,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 77.47 0)
+		(at 29.21 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8225,7 +8225,7 @@
 		(dnp no)
 		(uuid "c516236d-7229-4a01-a069-eb1adad5e9b6")
 		(property "Reference" "#PWR1"
-			(at 30.48 83.82 0)
+			(at 29.21 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8236,7 +8236,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 81.28 0)
+			(at 29.21 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8246,7 +8246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 77.47 0)
+			(at 29.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8257,7 +8257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 77.47 0)
+			(at 29.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8268,7 +8268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 77.47 0)
+			(at 29.21 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8373,7 +8373,7 @@
 	)
 	(symbol
 		(lib_id "krylo:nice_nano")
-		(at 46.99 48.26 0)
+		(at 45.72 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8383,7 +8383,7 @@
 		(dnp no)
 		(uuid "cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(property "Reference" "U1"
-			(at 27.432 25.146 0)
+			(at 26.162 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8393,7 +8393,7 @@
 			)
 		)
 		(property "Value" "nice_nano"
-			(at 32.004 27.686 0)
+			(at 30.734 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8403,7 +8403,7 @@
 			)
 		)
 		(property "Footprint" "krylo:nice_nano"
-			(at 52.578 27.686 0)
+			(at 51.308 27.686 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8414,7 +8414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 72.39 0)
+			(at 43.18 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8424,7 +8424,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 45.72 0)
+			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9231,7 +9231,7 @@
 	)
 	(symbol
 		(lib_id "krylo:Jumper")
-		(at 44.45 74.93 90)
+		(at 43.18 74.93 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9241,7 +9241,7 @@
 		(dnp no)
 		(uuid "f574c61c-2757-42be-8f64-9a7e500f8c33")
 		(property "Reference" "JP3"
-			(at 42.418 74.93 0)
+			(at 41.148 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9251,7 +9251,7 @@
 			)
 		)
 		(property "Value" "Jumper"
-			(at 47.752 74.422 0)
+			(at 46.482 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9262,7 +9262,7 @@
 			)
 		)
 		(property "Footprint" "krylo:Jumper"
-			(at 39.878 74.676 0)
+			(at 38.608 74.676 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9273,7 +9273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 74.93 0)
+			(at 43.18 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9284,7 +9284,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 74.93 0)
+			(at 43.18 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
