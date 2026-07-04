@@ -176,6 +176,12 @@
 		(path "/7dcb223b-3203-46e5-b917-f870accb5b07")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -303,6 +309,12 @@
 		(path "/b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7852,6 +7864,12 @@
 		(path "/2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8049,6 +8067,12 @@
 		(path "/ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8151,6 +8175,12 @@
 		(path "/2f95d38e-a03f-4cf7-9731-498d6751a3a3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9400,6 +9430,12 @@
 		(path "/e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9599,6 +9635,12 @@
 		(path "/9f6aa6fa-3191-4b10-803e-e75e33001f85")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10827,6 +10869,12 @@
 		(path "/8188caea-8de6-4fbc-a456-b632b8bf6731")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12049,6 +12097,12 @@
 		(path "/acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12176,6 +12230,12 @@
 		(path "/78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12400,6 +12460,12 @@
 		(path "/0ecf4455-e900-453c-94e8-f99082fd818c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12599,6 +12665,12 @@
 		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12860,6 +12932,12 @@
 		(path "/cafe9b5c-8d4c-4967-a3f1-359d5108b504")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14084,23 +14162,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4e153082-d451-4ed0-9072-d33505a7afd4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -14214,6 +14286,12 @@
 		(path "/5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14413,6 +14491,12 @@
 		(path "/05f348eb-9a05-40e8-9e2d-51b3642a08b7")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15633,23 +15717,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3bd248af-18ea-41b9-8deb-2ea9bb6a2a56")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -15738,6 +15816,12 @@
 		(path "/7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16966,6 +17050,12 @@
 		(path "/25dd9609-789f-4f3c-89e7-04c67e5f906d")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18194,6 +18284,12 @@
 		(path "/72154ec9-0d68-4d25-a464-427bd5d96a7b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19418,6 +19514,12 @@
 		(path "/72debe4c-353b-441e-948e-ae12758310db")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20671,6 +20773,12 @@
 		(path "/5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20866,23 +20974,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "5dafa17f-39e6-476b-a5ca-74a59c4c122c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -20996,6 +21098,12 @@
 		(path "/1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21193,6 +21301,12 @@
 		(path "/5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21451,6 +21565,12 @@
 		(path "/e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21578,6 +21698,12 @@
 		(path "/dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21802,6 +21928,12 @@
 		(path "/df35e296-ea0f-4574-b225-3389ca777371")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22026,6 +22158,12 @@
 		(path "/8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22250,6 +22388,12 @@
 		(path "/5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22449,6 +22593,12 @@
 		(path "/1379ae49-5f43-4487-ba64-820f99c87628")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23673,23 +23823,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "83b9a303-7351-48f3-8cca-425e85c24a65")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -23803,6 +23947,12 @@
 		(path "/549837fd-742e-4acb-9954-b1cc01668088")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24002,6 +24152,12 @@
 		(path "/e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25226,6 +25382,12 @@
 		(path "/e2ceac69-a5d5-462f-b8e7-24123de35429")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26448,6 +26610,12 @@
 		(path "/4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26575,6 +26743,12 @@
 		(path "/1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26799,6 +26973,12 @@
 		(path "/a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -26998,6 +27178,12 @@
 		(path "/8bb89a93-d7e1-42e7-b46e-e080be939965")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28222,6 +28408,12 @@
 		(path "/a9980814-ca5f-4ba5-922a-1a504b5f4f96")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29448,6 +29640,12 @@
 		(path "/2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2F" "2B" "3F" "1F" "3B" "1B")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29659,6 +29857,12 @@
 		(path "/aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30881,6 +31085,14 @@
 		(path "/cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "6" "7" "8" "9" "10" "11" "12" "2" "14" "3" "15" "4" "16"
+					"13" "17" "18" "19" "20" "21" "22" "23" "24"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30940,6 +31152,18 @@
 			)
 		)
 		(fp_text user "X"
+			(at -5.612477 -12 90)
+			(layer "F.SilkS")
+			(uuid "3f27dca0-9a7f-46e1-9fb0-ece557b3b02e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(fp_text user "X"
 			(at 5.535952 -11.97 90)
 			(layer "F.SilkS")
 			(uuid "26132336-eb6b-4057-80bf-135d73893dae")
@@ -30952,19 +31176,7 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.612477 -11.97 90)
-			(layer "F.SilkS")
-			(uuid "022fd739-c0ef-4ca7-812a-111eb44f699e")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(fp_text user "X"
-			(at -5.612477 -9.5 90)
+			(at -5.64 -9.457273 90)
 			(layer "F.SilkS")
 			(uuid "b10f904b-0692-4a9f-8df2-ae0b239508ee")
 			(effects
@@ -30976,7 +31188,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 5.223809 -9.43 90)
+			(at 5.223809 -9.427273 90)
 			(layer "F.SilkS")
 			(uuid "77494cef-04bf-4cf7-b0ac-ba206b74e1e6")
 			(effects
@@ -30986,65 +31198,8 @@
 				)
 			)
 		)
-		(fp_text user "RST"
-			(at 5.357142 -6.89 90)
-			(layer "F.SilkS")
-			(uuid "87cfb340-2de3-412f-b8e0-fd6b6423eb02")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "X"
-			(at -5.612477 -6.89 90)
-			(layer "F.SilkS")
-			(uuid "da58d843-fa2a-4133-a4d0-2858d05c72a9")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(fp_text user "VCC"
-			(at 5.3 -4.35 90)
-			(layer "F.SilkS")
-			(uuid "dd11bb53-af76-4be6-9e71-8c73519465b2")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "X"
-			(at -5.612477 -4.35 90)
-			(layer "F.SilkS")
-			(uuid "be2a6fff-657f-4275-8a3e-18b6e7598527")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(fp_text user "COL_E"
-			(at 4.633333 -1.81 90)
-			(layer "F.SilkS")
-			(uuid "27325c88-33f9-497f-a1fa-a120083ecdc4")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "X"
-			(at -5.612477 -1.8 90)
+			(at -5.64 -6.914545 90)
 			(layer "F.SilkS")
 			(uuid "9695862d-e989-49f7-a7dc-bd7a51d7494d")
 			(effects
@@ -31055,10 +31210,10 @@
 				(justify right)
 			)
 		)
-		(fp_text user "COL_D"
-			(at 4.595238 0.73 90)
+		(fp_text user "RST"
+			(at 5.357142 -6.884545 90)
 			(layer "F.SilkS")
-			(uuid "7a3e871f-295f-4a90-98db-ba8fcecd03d4")
+			(uuid "87cfb340-2de3-412f-b8e0-fd6b6423eb02")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31067,9 +31222,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.612477 0.8 90)
+			(at -5.64 -4.371818 90)
 			(layer "F.SilkS")
-			(uuid "d332601b-fce5-46e2-912c-8edb2f073b25")
+			(uuid "022fd739-c0ef-4ca7-812a-111eb44f699e")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31078,10 +31233,10 @@
 				(justify right)
 			)
 		)
-		(fp_text user "COL_C"
-			(at 4.595238 3.27 90)
+		(fp_text user "VCC"
+			(at 5.3 -4.341818 90)
 			(layer "F.SilkS")
-			(uuid "a8248e44-32ff-42e4-9182-307e39ee15ec")
+			(uuid "dd11bb53-af76-4be6-9e71-8c73519465b2")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31090,53 +31245,7 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.612477 3.3 90)
-			(layer "F.SilkS")
-			(uuid "46111deb-71b9-4e69-89f7-bddad5e8745f")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(fp_text user "COL_B"
-			(at 4.595238 5.81 90)
-			(layer "F.SilkS")
-			(uuid "033e9206-710c-44d0-b60c-66a6b38da020")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "X"
-			(at -5.612477 5.81 90)
-			(layer "F.SilkS")
-			(uuid "3f27dca0-9a7f-46e1-9fb0-ece557b3b02e")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
-		(fp_text user "COL_A"
-			(at 4.652381 8.35 90)
-			(layer "F.SilkS")
-			(uuid "9dd5dc1c-46e9-43aa-8392-6750b7e84468")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "X"
-			(at -5.612477 8.35 90)
+			(at -5.64 -1.829091 90)
 			(layer "F.SilkS")
 			(uuid "cbafa314-eb42-44f6-b128-94d1c68a874c")
 			(effects
@@ -31147,10 +31256,10 @@
 				(justify right)
 			)
 		)
-		(fp_text user "ROW_A"
-			(at 4.519047 10.89 90)
+		(fp_text user "COL_E"
+			(at 4.633333 -1.799091 90)
 			(layer "F.SilkS")
-			(uuid "05f1d626-9b8d-45d6-aad9-487411ff541d")
+			(uuid "27325c88-33f9-497f-a1fa-a120083ecdc4")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31159,7 +31268,99 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.612477 10.9 90)
+			(at -5.64 0.713636 90)
+			(layer "F.SilkS")
+			(uuid "46111deb-71b9-4e69-89f7-bddad5e8745f")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(fp_text user "COL_D"
+			(at 4.595238 0.743636 90)
+			(layer "F.SilkS")
+			(uuid "7a3e871f-295f-4a90-98db-ba8fcecd03d4")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "X"
+			(at -5.64 3.256364 90)
+			(layer "F.SilkS")
+			(uuid "528ef68f-f015-4119-a73a-d40b03787aa8")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(fp_text user "COL_C"
+			(at 4.595238 3.286364 90)
+			(layer "F.SilkS")
+			(uuid "a8248e44-32ff-42e4-9182-307e39ee15ec")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "X"
+			(at -5.64 5.799091 90)
+			(layer "F.SilkS")
+			(uuid "d332601b-fce5-46e2-912c-8edb2f073b25")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(fp_text user "COL_B"
+			(at 4.595238 5.829091 90)
+			(layer "F.SilkS")
+			(uuid "033e9206-710c-44d0-b60c-66a6b38da020")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "X"
+			(at -5.64 8.341818 90)
+			(layer "F.SilkS")
+			(uuid "be2a6fff-657f-4275-8a3e-18b6e7598527")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(fp_text user "COL_A"
+			(at 4.652381 8.371818 90)
+			(layer "F.SilkS")
+			(uuid "9dd5dc1c-46e9-43aa-8392-6750b7e84468")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "X"
+			(at -5.64 10.884545 90)
 			(layer "F.SilkS")
 			(uuid "6927d3e0-86ef-4be5-b726-d5da31ce76a9")
 			(effects
@@ -31170,8 +31371,31 @@
 				(justify right)
 			)
 		)
+		(fp_text user "ROW_A"
+			(at 4.519047 10.914545 90)
+			(layer "F.SilkS")
+			(uuid "05f1d626-9b8d-45d6-aad9-487411ff541d")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "X"
+			(at -5.64 13.427273 90)
+			(layer "F.SilkS")
+			(uuid "da58d843-fa2a-4133-a4d0-2858d05c72a9")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
 		(fp_text user "ROW_B"
-			(at 4.461904 13.43 90)
+			(at 4.461904 13.457273 90)
 			(layer "F.SilkS")
 			(uuid "61019e34-851f-409e-a3d4-749949979904")
 			(effects
@@ -31181,10 +31405,10 @@
 				)
 			)
 		)
-		(fp_text user "X"
-			(at -5.612477 13.43 90)
+		(fp_text user "ROW_D"
+			(at -2.44 15.97 90)
 			(layer "F.SilkS")
-			(uuid "528ef68f-f015-4119-a73a-d40b03787aa8")
+			(uuid "513d6286-ffc3-4228-b36c-de9c493aca82")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31204,18 +31428,6 @@
 				)
 			)
 		)
-		(fp_text user "ROW_D"
-			(at -2.412477 16 90)
-			(layer "F.SilkS")
-			(uuid "513d6286-ffc3-4228-b36c-de9c493aca82")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right)
-			)
-		)
 		(fp_text user "L"
 			(at 7.58 -14.85 0)
 			(unlocked yes)
@@ -31230,18 +31442,6 @@
 			)
 		)
 		(fp_text user "X"
-			(at 5.6 -12 90)
-			(layer "B.SilkS")
-			(uuid "de847695-d9aa-4655-a478-5f8059424949")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right mirror)
-			)
-		)
-		(fp_text user "X"
 			(at -5.612477 -12 90)
 			(layer "B.SilkS")
 			(uuid "975370fa-e400-4b88-980e-72bac964f2e6")
@@ -31253,8 +31453,20 @@
 				(justify left mirror)
 			)
 		)
+		(fp_text user "X"
+			(at 5.535952 -11.975 90)
+			(layer "B.SilkS")
+			(uuid "85b84534-d0e6-4288-80e0-64ce839cce39")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right mirror)
+			)
+		)
 		(fp_text user "GND"
-			(at -3.96381 -9.53 90)
+			(at -3.96381 -9.457273 90)
 			(layer "B.SilkS")
 			(uuid "61648609-389a-4e4a-aafe-c4a633a0ff46")
 			(effects
@@ -31266,7 +31478,7 @@
 			)
 		)
 		(fp_text user "X"
-			(at 5.6 -9.46 90)
+			(at 5.535952 -9.432273 90)
 			(layer "B.SilkS")
 			(uuid "e45c3ad7-3697-44f8-89d1-ae064eccd473")
 			(effects
@@ -31277,20 +31489,8 @@
 				(justify right mirror)
 			)
 		)
-		(fp_text user "X"
-			(at 5.6 -6.92 90)
-			(layer "B.SilkS")
-			(uuid "996ded5f-9bac-4b6a-9a8e-cd36afc3531a")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right mirror)
-			)
-		)
 		(fp_text user "RST"
-			(at -4.230476 -6.92 90)
+			(at -4.230476 -6.914545 90)
 			(layer "B.SilkS")
 			(uuid "fcc66682-df0b-4df7-9ecd-b1ac457b93c8")
 			(effects
@@ -31302,9 +31502,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at 5.6 -4.38 90)
+			(at 5.535952 -6.889545 90)
 			(layer "B.SilkS")
-			(uuid "85b84534-d0e6-4288-80e0-64ce839cce39")
+			(uuid "de847695-d9aa-4655-a478-5f8059424949")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31314,7 +31514,7 @@
 			)
 		)
 		(fp_text user "VCC"
-			(at -4.116191 -4.38 90)
+			(at -4.116191 -4.371818 90)
 			(layer "B.SilkS")
 			(uuid "80ed32f8-6ca5-4885-8b3f-9982a49b1545")
 			(effects
@@ -31325,8 +31525,32 @@
 				(justify left mirror)
 			)
 		)
+		(fp_text user "X"
+			(at 5.535952 -4.346818 90)
+			(layer "B.SilkS")
+			(uuid "996ded5f-9bac-4b6a-9a8e-cd36afc3531a")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right mirror)
+			)
+		)
+		(fp_text user "X"
+			(at -5.64 -1.829091 90)
+			(layer "B.SilkS")
+			(uuid "ce6f69f1-dbef-4542-8b09-cc9aeb3c226f")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify left mirror)
+			)
+		)
 		(fp_text user "COL_E"
-			(at 2.777238 -1.84 90)
+			(at 2.678809 -1.804091 90)
 			(layer "B.SilkS")
 			(uuid "48184a08-dc0b-46ed-a0ea-cccd02815106")
 			(effects
@@ -31338,9 +31562,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.64 -1.83 90)
+			(at -5.64 0.713636 90)
 			(layer "B.SilkS")
-			(uuid "40a538eb-eaf9-4d07-9870-432ab4cb2ff3")
+			(uuid "0cb8fc61-71d4-4832-855b-ba61dd71bf03")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31350,7 +31574,7 @@
 			)
 		)
 		(fp_text user "COL_D"
-			(at 2.701048 0.7 90)
+			(at 2.602619 0.738636 90)
 			(layer "B.SilkS")
 			(uuid "6daca896-e16e-4881-a9b6-e9af1420c268")
 			(effects
@@ -31362,9 +31586,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.64 0.77 90)
+			(at -5.64 3.256364 90)
 			(layer "B.SilkS")
-			(uuid "0cb8fc61-71d4-4832-855b-ba61dd71bf03")
+			(uuid "2cb2482e-08d6-4382-a44e-6f897e4bfecb")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31374,7 +31598,7 @@
 			)
 		)
 		(fp_text user "COL_C"
-			(at 2.701048 3.24 90)
+			(at 2.602619 3.281364 90)
 			(layer "B.SilkS")
 			(uuid "91098534-fb25-4611-bbfb-4c1c11e232f9")
 			(effects
@@ -31386,9 +31610,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.64 3.27 90)
+			(at -5.64 5.799091 90)
 			(layer "B.SilkS")
-			(uuid "023acbe6-997e-4f4b-81da-f429fc836438")
+			(uuid "40a538eb-eaf9-4d07-9870-432ab4cb2ff3")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31398,7 +31622,7 @@
 			)
 		)
 		(fp_text user "COL_B"
-			(at 2.701048 5.78 90)
+			(at 2.602619 5.824091 90)
 			(layer "B.SilkS")
 			(uuid "2746d46e-bcb0-4fdd-9252-7fbd5553bc3d")
 			(effects
@@ -31410,9 +31634,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.64 5.78 90)
+			(at -5.64 8.341818 90)
 			(layer "B.SilkS")
-			(uuid "428136a9-c199-4214-a96d-68417690ddba")
+			(uuid "a2041b4f-c36e-418c-8009-bf43e66e5de5")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31422,7 +31646,7 @@
 			)
 		)
 		(fp_text user "COL_A"
-			(at 2.815334 8.32 90)
+			(at 2.716905 8.366818 90)
 			(layer "B.SilkS")
 			(uuid "d901c213-a412-4fb0-862d-556285d4d3b5")
 			(effects
@@ -31434,9 +31658,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.64 8.32 90)
+			(at -5.64 10.884545 90)
 			(layer "B.SilkS")
-			(uuid "ce6f69f1-dbef-4542-8b09-cc9aeb3c226f")
+			(uuid "428136a9-c199-4214-a96d-68417690ddba")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31446,7 +31670,7 @@
 			)
 		)
 		(fp_text user "ROW_A"
-			(at 2.548667 10.86 90)
+			(at 2.450238 10.909545 90)
 			(layer "B.SilkS")
 			(uuid "61e986fe-cae6-4b18-a9a4-1f906161e066")
 			(effects
@@ -31458,9 +31682,9 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.64 10.87 90)
+			(at -5.64 13.427273 90)
 			(layer "B.SilkS")
-			(uuid "a2041b4f-c36e-418c-8009-bf43e66e5de5")
+			(uuid "023acbe6-997e-4f4b-81da-f429fc836438")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31470,33 +31694,9 @@
 			)
 		)
 		(fp_text user "ROW_B"
-			(at 2.434381 13.4 90)
+			(at 2.335952 13.452273 90)
 			(layer "B.SilkS")
 			(uuid "6b386763-4a76-4ef4-a8c4-9d0d69a0956d")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify right mirror)
-			)
-		)
-		(fp_text user "X"
-			(at -5.64 13.4 90)
-			(layer "B.SilkS")
-			(uuid "2cb2482e-08d6-4382-a44e-6f897e4bfecb")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.15)
-				)
-				(justify left mirror)
-			)
-		)
-		(fp_text user "ROW_C"
-			(at 2.434381 15.97 90)
-			(layer "B.SilkS")
-			(uuid "405ef38a-e1af-4806-ab7d-462657578e91")
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -31515,6 +31715,18 @@
 					(thickness 0.15)
 				)
 				(justify left mirror)
+			)
+		)
+		(fp_text user "ROW_C"
+			(at 2.335952 15.995 90)
+			(layer "B.SilkS")
+			(uuid "405ef38a-e1af-4806-ab7d-462657578e91")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right mirror)
 			)
 		)
 		(pad "1" thru_hole circle
@@ -31875,6 +32087,12 @@
 		(path "/24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -32074,6 +32292,12 @@
 		(path "/92fbf0cb-13a5-442a-a697-7d0064a38422")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33304,6 +33528,12 @@
 		(path "/f574c61c-2757-42be-8f64-9a7e500f8c33")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33408,6 +33638,12 @@
 		(path "/87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33512,6 +33748,12 @@
 		(path "/1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33616,6 +33858,12 @@
 		(path "/837f6c0c-0404-45c0-82cc-e00589df18e2")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33720,6 +33968,12 @@
 		(path "/6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
