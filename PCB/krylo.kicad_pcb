@@ -29451,8 +29451,8 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -0.025 0.5)
-			(end 2.625 7.25)
+			(start -0.025 0.43775)
+			(end 2.625 7.18775)
 			(stroke
 				(width 0.15)
 				(type default)
@@ -29480,7 +29480,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 				(justify bottom)
 			)
@@ -29493,7 +29493,7 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 				(justify bottom mirror)
 			)
@@ -30927,6 +30927,18 @@
 			(layer "F.Fab")
 			(uuid "f8470126-d03d-448d-92f3-2285ea8e1154")
 		)
+		(fp_text user "R"
+			(at 7.58 -14.85 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "681a0dc4-fb1f-4849-a4e8-9ffa79b2e002")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(fp_text user "X"
 			(at 5.535952 -11.97 90)
 			(layer "F.SilkS")
@@ -31204,6 +31216,19 @@
 				(justify right)
 			)
 		)
+		(fp_text user "L"
+			(at 7.58 -14.85 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "df313b26-fd2c-41a3-8f42-0d0725411080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(fp_text user "X"
 			(at 5.6 -12 90)
 			(layer "B.SilkS")
@@ -31217,7 +31242,7 @@
 			)
 		)
 		(fp_text user "X"
-			(at -5.64 -12 90)
+			(at -5.612477 -12 90)
 			(layer "B.SilkS")
 			(uuid "975370fa-e400-4b88-980e-72bac964f2e6")
 			(effects
