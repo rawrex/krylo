@@ -176,6 +176,12 @@
 		(path "/7dcb223b-3203-46e5-b917-f870accb5b07")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -292,6 +298,12 @@
 		(path "/b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7841,6 +7853,12 @@
 		(path "/2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8038,6 +8056,12 @@
 		(path "/ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8129,6 +8153,12 @@
 		(path "/2f95d38e-a03f-4cf7-9731-498d6751a3a3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8659,6 +8689,32 @@
 			(layer "F.Fab")
 			(uuid "6c78d5da-31f9-4d84-9e60-6889a70e2651")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e6551f92-5787-4801-a9f7-63469e9bc9d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "e6d30db3-6feb-4760-8d69-4bde5c5dd217")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -8914,6 +8970,12 @@
 		(path "/e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9113,6 +9175,12 @@
 		(path "/9f6aa6fa-3191-4b10-803e-e75e33001f85")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9647,6 +9715,32 @@
 			(layer "F.Fab")
 			(uuid "db5a9af1-2b2f-41c4-ade5-5d8de0291697")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 350)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3882f63d-97ff-438f-96a7-b3ddbd595b45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 350)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "854a0615-17e0-409b-9311-d1461f69eb76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
 			(size 1.7018 1.7018)
@@ -9877,6 +9971,12 @@
 		(path "/8188caea-8de6-4fbc-a456-b632b8bf6731")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10407,6 +10507,32 @@
 			(layer "F.Fab")
 			(uuid "fed8922a-75ac-4c38-8efb-3dfe32f46f23")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e63f21b4-1ead-4626-ad89-09cd648ad56c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "d95fdbd2-aa30-4d36-bcdb-fcb471cb9a53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -10635,6 +10761,12 @@
 		(path "/acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10751,6 +10883,12 @@
 		(path "/78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10975,6 +11113,12 @@
 		(path "/0ecf4455-e900-453c-94e8-f99082fd818c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11174,6 +11318,12 @@
 		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -11375,6 +11525,12 @@
 		(path "/cafe9b5c-8d4c-4967-a3f1-359d5108b504")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11909,6 +12065,32 @@
 			(layer "F.Fab")
 			(uuid "3e58ef41-da6e-431f-9249-0dd7755d0e77")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 356)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7d153f3d-1809-4f96-a16d-a31ba5c53399")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 356)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "a5055685-5356-4bae-b6da-c7aa7b0e241a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
 			(size 1.7018 1.7018)
@@ -12135,23 +12317,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "21456938-6db5-4a78-a923-ef68ea9a6378")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -12265,6 +12441,12 @@
 		(path "/5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12464,6 +12646,12 @@
 		(path "/05f348eb-9a05-40e8-9e2d-51b3642a08b7")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12994,6 +13182,32 @@
 			(layer "F.Fab")
 			(uuid "84cd7cc2-526f-4e1f-9e0c-7501097cd33f")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4f3557de-5b36-4437-8fe0-2527b7758ba6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "626fe520-5531-4def-b566-b362fdeaa98f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -13220,23 +13434,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "fc2b7644-a475-4757-8d65-05c03358f4fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13325,6 +13533,12 @@
 		(path "/7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13859,6 +14073,32 @@
 			(layer "F.Fab")
 			(uuid "38a55df7-630d-4273-8d9c-d836314f8798")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 356)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ea327fe3-3709-4c1e-b0cb-ca1edde738ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 356)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "fde39fa0-0f68-4ee6-a8a2-14bde593f70e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
 			(size 1.7018 1.7018)
@@ -14089,6 +14329,12 @@
 		(path "/25dd9609-789f-4f3c-89e7-04c67e5f906d")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14623,6 +14869,32 @@
 			(layer "F.Fab")
 			(uuid "ad40554d-f495-4688-8569-a20c30089c89")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 356)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b4cd32b4-f3ef-4b6c-88d4-5e16a8b51a91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 356)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "c3a40073-30f2-4cf8-a4fb-e1f1f6e79d77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 356)
 			(size 1.7018 1.7018)
@@ -14853,6 +15125,12 @@
 		(path "/72154ec9-0d68-4d25-a464-427bd5d96a7b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15383,6 +15661,32 @@
 			(layer "F.Fab")
 			(uuid "56b5036b-789c-44d7-b32e-522fc970513a")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7e60810e-0f70-4a7e-bdcc-1a18e1302c76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "93e847e9-2df8-48a1-9a3f-1ff7b0b9e68a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -15613,6 +15917,12 @@
 		(path "/72debe4c-353b-441e-948e-ae12758310db")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16147,6 +16457,32 @@
 			(layer "F.Fab")
 			(uuid "335ff06b-9bff-4739-a57d-49ba4bbd4ee5")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 8)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "44be8f40-d6eb-45a3-b210-fc3e1493b7dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225001 8)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "fb8e7bdf-747f-491f-a9c9-7e37e92b9539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 8)
 			(size 1.7018 1.7018)
@@ -16402,6 +16738,12 @@
 		(path "/5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16597,23 +16939,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "03d6194f-30c6-40eb-af49-af2d4f88a509")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -16727,6 +17063,12 @@
 		(path "/1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16924,6 +17266,12 @@
 		(path "/5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17062,6 +17410,12 @@
 		(path "/e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17178,6 +17532,12 @@
 		(path "/dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17402,6 +17762,12 @@
 		(path "/df35e296-ea0f-4574-b225-3389ca777371")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17626,6 +17992,12 @@
 		(path "/8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17850,6 +18222,12 @@
 		(path "/5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18049,6 +18427,12 @@
 		(path "/1379ae49-5f43-4487-ba64-820f99c87628")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18583,6 +18967,32 @@
 			(layer "F.Fab")
 			(uuid "09448296-bb2e-432f-9049-2a63dbef3079")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 350)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ae01e9f3-7b80-442b-be13-6d9f6ddfcecf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 350)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "640bb7f4-9373-415f-9ca8-a8a78e97cd6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
 			(size 1.7018 1.7018)
@@ -18809,23 +19219,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3a686a26-b35d-44d4-8ed8-387551ea6467")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18939,6 +19343,12 @@
 		(path "/549837fd-742e-4acb-9954-b1cc01668088")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19138,6 +19548,12 @@
 		(path "/e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19668,6 +20084,32 @@
 			(layer "F.Fab")
 			(uuid "1a1f0a9c-ee53-4fd4-b8c2-b26971a190a7")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c9da3c38-c514-4028-9693-0de3063c51bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "c9984891-1afe-42e7-9f34-4fcf04b6429e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -19898,6 +20340,12 @@
 		(path "/e2ceac69-a5d5-462f-b8e7-24123de35429")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20428,6 +20876,32 @@
 			(layer "F.Fab")
 			(uuid "26930aff-a10e-4647-af70-992e922454fa")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ad3202b4-c695-4c85-a544-293ee3848e61")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b6fed7cc-958a-44d7-be5f-b1a5c40e2f20")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -20656,6 +21130,12 @@
 		(path "/4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20772,6 +21252,12 @@
 		(path "/1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20996,6 +21482,12 @@
 		(path "/a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21195,6 +21687,12 @@
 		(path "/8bb89a93-d7e1-42e7-b46e-e080be939965")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21725,6 +22223,32 @@
 			(layer "F.Fab")
 			(uuid "0bf90687-3495-4d33-9154-787d8238440f")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3cb0597c-2b17-421e-ab24-bac73d9ffa16")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "e16af1ee-2813-4df6-85c3-7fde634f1dfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -21955,6 +22479,12 @@
 		(path "/a9980814-ca5f-4ba5-922a-1a504b5f4f96")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22489,6 +23019,32 @@
 			(layer "F.Fab")
 			(uuid "64b58b4e-95ba-470b-ae7c-c14d2e20c66d")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 3)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bf613864-f995-4bbb-bfda-d1f082892a06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 3)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "66f29923-50d1-4a6c-8dae-4c57376532eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 3)
 			(size 1.7018 1.7018)
@@ -22717,6 +23273,12 @@
 		(path "/2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2F" "2B" "3F" "1F" "3B" "1B")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22928,6 +23490,12 @@
 		(path "/aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23458,6 +24026,32 @@
 			(layer "F.Fab")
 			(uuid "e10a6b04-bf15-42d1-889e-4d917c3a2ee1")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ce738382-1030-4861-bdf5-0b15ffffff21")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b8bd30c9-4dc4-4d10-9141-9c529b6a3418")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0)
 			(size 1.7018 1.7018)
@@ -23686,6 +24280,14 @@
 		(path "/cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "6" "7" "8" "9" "10" "11" "12" "2" "14" "3" "15" "4" "16"
+					"13" "17" "18" "19" "20" "21" "22" "23" "24"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24680,6 +25282,12 @@
 		(path "/24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24879,6 +25487,12 @@
 		(path "/92fbf0cb-13a5-442a-a697-7d0064a38422")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25413,6 +26027,32 @@
 			(layer "F.Fab")
 			(uuid "fb386dd1-dd1a-4d3c-ba71-f1104ef3c748")
 		)
+		(fp_text user "L"
+			(at -3.029762 -4.225 350)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "b67a0c2f-e9da-494f-8761-fb1a182d1ed0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "R"
+			(at 3.125 -4.225 350)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "ccb78ddb-ae2f-49f3-9488-cde6b6e124be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom mirror)
+			)
+		)
 		(pad "" np_thru_hole circle
 			(at -5.5 0 350)
 			(size 1.7018 1.7018)
@@ -25645,6 +26285,12 @@
 		(path "/f574c61c-2757-42be-8f64-9a7e500f8c33")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25738,6 +26384,12 @@
 		(path "/87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25831,6 +26483,12 @@
 		(path "/1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25924,6 +26582,12 @@
 		(path "/837f6c0c-0404-45c0-82cc-e00589df18e2")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26017,6 +26681,12 @@
 		(path "/6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
