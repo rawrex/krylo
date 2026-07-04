@@ -7,7 +7,7 @@
 		(at 0 2.55 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3a111dac-91b6-4aac-ba03-93f3e4a35e55")
+		(uuid "75ebf31c-63c3-4fe9-8e7e-6e32f6cebbec")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 -2.55 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "88878f6d-5c03-4546-a0b3-ba0b88b5dfb7")
+		(uuid "968413f5-8067-490d-ae53-7fa3036f58e5")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d996fa6e-a1fe-48cd-bcb8-cafd84a37b2a")
+		(uuid "7e859e97-d892-4de9-90af-1ed79db59e0e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,24 +42,14 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c83d0f64-ee78-4b85-9f11-5d48b0f7ac47")
+		(uuid "c30efece-95a6-4502-9ecd-9585880bc86b")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property ki_fp_filters "krylo:ResetSW"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "30e7ffc9-ef5f-48d7-ab16-2e8727384e08")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
+	(property ki_fp_filters "krylo:ResetSW")
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
@@ -70,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1092e398-8b81-452e-a594-ab4e386f3d4f")
+		(uuid "493a7d81-650e-4399-8204-d03fac87220c")
 	)
 	(fp_line
 		(start -3 -1.75)
@@ -80,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "60bed05a-d3ae-4c54-bc87-aa799e641942")
+		(uuid "1476cb88-83d6-43a6-bba7-3789b7e97d65")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -90,7 +80,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c9242344-fd3f-47cf-875b-14c8156e9308")
+		(uuid "f73ee93b-9142-4449-b50a-15dbd4b905cb")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -100,7 +90,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a260d70e-78fb-49a7-8aa9-50ff5ea6a01a")
+		(uuid "5808f31a-9596-4d72-a788-70dd14acde0b")
 	)
 	(fp_line
 		(start 3 -1.75)
@@ -110,7 +100,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "23ab212a-cc69-491d-b4f4-43a1d70a712a")
+		(uuid "adab13a1-123c-4165-825d-9efc56b51871")
 	)
 	(fp_line
 		(start 3 1.75)
@@ -120,7 +110,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b127587c-03ad-4373-89e5-5d9e534f1cd4")
+		(uuid "f7443ab2-5761-4000-8496-500e08f1f23d")
 	)
 	(fp_line
 		(start -3 -1.75)
@@ -130,7 +120,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "e3d4a651-9e90-42df-a59b-fd61a68d0985")
+		(uuid "c52c8b34-d7ff-46a9-9b6e-631c83f03d55")
 	)
 	(fp_line
 		(start -3 -1.5)
@@ -140,7 +130,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "b23a2e4b-b30c-4f88-9949-dce5b75103d2")
+		(uuid "002add2a-caf9-4934-adca-d682b836ae77")
 	)
 	(fp_line
 		(start -3 1.75)
@@ -150,7 +140,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "99cae3d1-ac03-4cbf-bb54-e85a9c301b89")
+		(uuid "e95ab57a-b25b-41a6-a408-aebb24e08ae8")
 	)
 	(fp_line
 		(start 3 -1.75)
@@ -160,7 +150,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "c06b52db-5f41-4462-a5a8-9db0bdf10c3f")
+		(uuid "8cee27f9-ff36-4386-989c-d31db45bc5bd")
 	)
 	(fp_line
 		(start 3 1.5)
@@ -170,7 +160,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "c86a56ab-9ab8-49f8-9fd0-791b4bd30389")
+		(uuid "8e67ff7e-71e6-4707-9d8d-404afd18f06f")
 	)
 	(fp_line
 		(start 3 1.75)
@@ -180,7 +170,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "da7f8297-aedc-4c75-a03d-370ee0109a63")
+		(uuid "5dd15a32-60ad-4852-aab7-ea2432edb6d2")
 	)
 	(fp_rect
 		(start -3 -1.75)
@@ -191,7 +181,7 @@
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "310bbe43-3481-4a5a-b46b-a9cd22aeed5b")
+		(uuid "7fc8eaef-96aa-4d27-89e5-34480f214bbf")
 	)
 	(fp_rect
 		(start -3 -1.75)
@@ -202,12 +192,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "dd88e9b0-63f2-443b-8722-7e73daf1bfbe")
+		(uuid "c4de4257-6bee-4eff-9362-6d703c2c26da")
 	)
-	(fp_text user "RESET"
-		(at -0.05 0.05 0)
+	(fp_text user "R"
+		(at 0 0 270)
+		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b76a07e6-482a-4783-8d92-0c22b4324400")
+		(uuid "79e62a14-98cc-4f28-a674-eaf8c826fda2")
 		(effects
 			(font
 				(size 1 1)
@@ -215,10 +206,11 @@
 			)
 		)
 	)
-	(fp_text user "RESET"
-		(at 0.05 0.05 0)
+	(fp_text user "L"
+		(at 0 0 270)
+		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "0ffc25a3-6ba4-45fa-8705-569b0d5df412")
+		(uuid "64503f13-28d0-49f6-87e4-1727aaa2ec0e")
 		(effects
 			(font
 				(size 1 1)
@@ -233,7 +225,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d60f7a62-d270-4372-aaf7-9e4317638a74")
+		(uuid "bb52a5de-a18e-49df-9715-43e7f171ee77")
 	)
 	(pad "2" thru_hole circle
 		(at -3.25 0)
@@ -241,7 +233,7 @@
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fc80467a-a588-431d-abfd-94af5497bf47")
+		(uuid "81228835-5933-4a22-8399-7caf922b6268")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/krylo.pretty/reset_sw.step"
