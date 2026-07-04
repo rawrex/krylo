@@ -7,7 +7,7 @@
 		(at -2.413 0.127 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "38e3419d-787c-4f80-9219-87ea81998cf4")
+		(uuid "d4c061fd-309a-40b1-8f09-0736804fe661")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -19,7 +19,7 @@
 		(at -2.794 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "fa7fe1b1-6cd3-4d9c-9e97-d6ecb3eb9dcf")
+		(uuid "66826e1a-1e23-46fb-8b0d-cb1e885d0f51")
 		(effects
 			(font
 				(size 0.8128 0.8128)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "99d179bf-ad6b-4d58-ba90-420736da2324")
+		(uuid "5aee296e-8e71-4775-ae7e-1c41392dd4a7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,37 +42,16 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "30bbd761-a0db-4b6b-a43e-94895fb98e83")
+		(uuid "5e272b9c-a7c5-4310-b34c-ad0cd80fed8e")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property ki_fp_filters "krylo:Jumper"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f1c35350-76de-4e4d-a2e3-26c0e788a1e4")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
+	(property ki_fp_filters "krylo:Jumper")
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_rect
-		(start -1.1455 -0.889)
-		(end 1.1405 0.889)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "9c57afdc-521a-4841-9852-50c008f64483")
-	)
 	(fp_rect
 		(start -0.825 -0.575)
 		(end 0.82 0.575)
@@ -82,21 +61,21 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "0c411ae4-759f-44a9-b864-8cb7f0812df5")
+		(uuid "96fa6ded-a3a3-40c7-9a2a-7b6bba854507")
 	)
 	(pad "1" smd rect
 		(at -0.50038 0)
 		(size 0.635 1.143)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.1905)
-		(uuid "2e79c72e-3e75-42e6-9129-816b73e79bd6")
+		(uuid "2eb6fdcb-2fab-4974-bc26-8125f65b5715")
 	)
 	(pad "2" smd rect
 		(at 0.50038 0)
 		(size 0.635 1.143)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(clearance 0.1905)
-		(uuid "fb522fed-c6b8-4545-b4a7-72c5642399e5")
+		(uuid "94f2f92e-9556-43e8-8f21-35b78da9da2e")
 	)
 	(embedded_fonts no)
 )
