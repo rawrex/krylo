@@ -79,15 +79,11 @@
       ],
       "drc_exclusions": [
         [
-          "courtyards_overlap|100179743|104929805|07e255ff-51b9-4e26-8352-ebb6770c49ac|d4db7f11-8cfe-40d2-b021-b36f05241701",
-          "No conflict, an MCU and a soldered jumper will be on the different sides"
-        ],
-        [
           "courtyards_overlap|100179743|104934805|a12f4b38-566b-4645-ba76-4db8f75f6c9f|d4db7f11-8cfe-40d2-b021-b36f05241701",
           "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
         [
-          "courtyards_overlap|102704743|104929805|a4a772e0-a814-45ee-937d-e0c9c12b679b|d4db7f11-8cfe-40d2-b021-b36f05241701",
+          "courtyards_overlap|100179743|104939805|07e255ff-51b9-4e26-8352-ebb6770c49ac|d4db7f11-8cfe-40d2-b021-b36f05241701",
           "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
         [
@@ -95,31 +91,35 @@
           "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
         [
-          "courtyards_overlap|97654743|104929805|77c00b9a-f244-4e2d-9a4c-8250d2478764|d4db7f11-8cfe-40d2-b021-b36f05241701",
+          "courtyards_overlap|102704743|104939805|a4a772e0-a814-45ee-937d-e0c9c12b679b|d4db7f11-8cfe-40d2-b021-b36f05241701",
           "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
         [
-          "courtyards_overlap|97654743|104934805|30a8cae3-0d19-440d-bcda-2517d5e3d239|d4db7f11-8cfe-40d2-b021-b36f05241701",
+          "courtyards_overlap|97654743|104929805|30a8cae3-0d19-440d-bcda-2517d5e3d239|d4db7f11-8cfe-40d2-b021-b36f05241701",
           "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
         [
-          "unconnected_items|100749743|106250185|F.Cu|4|e92a1a67-73a4-4aeb-a443-33d304ce3cf9|ceae0cc5-1cef-49d9-836d-fbe4f1f838fd",
-          "Intentional layer split. Used to configure for which side of the split the PCB is used"
+          "courtyards_overlap|97654743|104934805|77c00b9a-f244-4e2d-9a4c-8250d2478764|d4db7f11-8cfe-40d2-b021-b36f05241701",
+          "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
         [
-          "unconnected_items|103274743|105249425|F.Cu|4|71495759-8c6c-4fe1-bd16-3fefd683632d|367b288c-0054-479c-b287-4a34e7bf0b24",
-          "Intentional layer split. Used to configure for which side of the split the PCB is used"
+          "unconnected_items|100749743|106255185|F.Cu|4|ceae0cc5-1cef-49d9-836d-fbe4f1f838fd|e92a1a67-73a4-4aeb-a443-33d304ce3cf9",
+          "Intentional layre split"
         ],
         [
-          "unconnected_items|107400000|89250000|F.Cu|4|a4cd7e04-bae6-437d-b0b4-87662d63747f|e1ba055f-153b-401f-9028-c577b6983ee7",
+          "unconnected_items|103274743|105254425|F.Cu|4|367b288c-0054-479c-b287-4a34e7bf0b24|71495759-8c6c-4fe1-bd16-3fefd683632d",
+          "Intentional layre split"
+        ],
+        [
+          "unconnected_items|107400000|89250000|F.Cu|4|d5e1529b-dbc2-4568-b1a2-df453a29c717|a4cd7e04-bae6-437d-b0b4-87662d63747f",
           "Intentional split. Double sided-PCB side effect of power routing"
         ],
         [
-          "unconnected_items|107400000|93750000|F.Cu|4|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9|4806deb6-1110-4b50-af67-f209967610fb",
+          "unconnected_items|107400000|93750000|F.Cu|4|51d0b1c6-d09e-46d5-ac11-4e6850efcc42|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9",
           "Intentional split. Double sided-PCB side effect of power routing"
         ],
         [
-          "unconnected_items|98224743|106250185|F.Cu|4|ab4158de-b18e-491a-85ae-72e3387dcaed|8fe1fefc-3044-453c-8fb6-ea6a34a93458",
+          "unconnected_items|98224743|106250185|F.Cu|4|8fe1fefc-3044-453c-8fb6-ea6a34a93458|ab4158de-b18e-491a-85ae-72e3387dcaed",
           "Intentional layer split. Used to configure for which side of the split the PCB is used"
         ]
       ],
@@ -350,6 +350,10 @@
       [
         "no_connect_connected|584200|774700|637583e2-d5dd-4ee7-b746-9d7f0995cc5c|6c14b238-3dfd-4257-af57-05f949d4b9d2|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
         "Double sided PCB side effect"
+      ],
+      [
+        "no_connect_connected|609600|787400|500298f6-b9ed-4e53-bde6-024545f1a90a|6c14b238-3dfd-4257-af57-05f949d4b9d2|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
+        "No conflict, an MCU and a soldered jumper will be on the different sides"
       ],
       [
         "no_connect_connected|635000|774700|a9012a26-df64-46e8-977f-4e2cf588b168|6c14b238-3dfd-4257-af57-05f949d4b9d2|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
