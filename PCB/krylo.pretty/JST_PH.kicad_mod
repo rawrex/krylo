@@ -5,11 +5,11 @@
 	(layer "F.Cu")
 	(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 	(tags "connector JST PH top entry")
-	(property "Reference" ""
+	(property "Reference" "Ref**"
 		(at 1 -2.55 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "578ff0d0-d32c-41a5-b663-b044abfa5191")
+		(uuid "5534de38-b79c-491c-8b63-03eeb420b5b0")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 1.25 -3.35 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "128f4256-4c77-4dc0-9614-79acde4325a7")
+		(uuid "23b085f3-f2cb-4f38-93f6-41650be806bb")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0c51925f-a1e3-46ad-9067-27237bc3b9f8")
+		(uuid "30fb8f7a-ae74-48f5-8767-c33f3f47f45f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a3e789c2-99cc-4838-ac9c-1ef0b0f42367")
+		(uuid "6993152a-b1d5-4dd1-8371-2fa4eedc5150")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "92a70629-9e04-43ab-a5a9-905d6f363b68")
+		(uuid "45213d1f-b9fb-447c-8490-eb40574eed78")
 	)
 	(fp_rect
 		(start -2 -0.9)
@@ -74,17 +74,33 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "b088702c-d108-4e59-8fc3-d9697efdd13d")
+		(uuid "79eecc18-1ee4-4f39-aff6-3c212b28bb78")
 	)
 	(fp_text user "R"
 		(at 1 1.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1d71bbe8-2abb-4fa4-8bb2-a8c3c3faedda")
+		(uuid "8cc72bab-22fc-4142-b6bb-968fc3e3a932")
 		(effects
 			(font
+				(face "JetBrainsMonoNL NF")
 				(size 1 1)
 				(thickness 0.15)
+			)
+		)
+		(render_cache "R" 0
+			(polygon
+				(pts
+					(xy 1.084955 0.898056) (xy 1.137749 0.910584) (xy 1.184769 0.930823) (xy 1.227342 0.958949) (xy 1.26255 0.993063)
+					(xy 1.291076 1.033649) (xy 1.311692 1.078843) (xy 1.324437 1.12975) (xy 1.328873 1.187522) (xy 1.322669 1.254801)
+					(xy 1.30482 1.313471) (xy 1.275689 1.365209) (xy 1.23636 1.409672) (xy 1.189624 1.443955) (xy 1.134394 1.468707)
+					(xy 1.342856 1.915) (xy 1.20437 1.915) (xy 1.004274 1.481285) (xy 0.835014 1.481285) (xy 0.835014 1.915)
+					(xy 0.710511 1.915) (xy 0.710511 1.367957) (xy 0.835014 1.367957) (xy 1.025279 1.367957) (xy 1.075387 1.36212)
+					(xy 1.116689 1.345529) (xy 1.151186 1.318314) (xy 1.177122 1.28264) (xy 1.193102 1.239719) (xy 1.198752 1.187522)
+					(xy 1.193053 1.134396) (xy 1.177033 1.091288) (xy 1.151186 1.055997) (xy 1.116739 1.02918) (xy 1.075436 1.012797)
+					(xy 1.025279 1.007027) (xy 0.835014 1.007027) (xy 0.835014 1.367957) (xy 0.710511 1.367957) (xy 0.710511 0.893698)
+					(xy 1.025279 0.893698)
+				)
 			)
 		)
 	)
@@ -92,13 +108,22 @@
 		(at 1 1.5 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "bdea4a3b-6528-40e8-b255-054525cfe04c")
+		(uuid "fb42748e-5c40-4438-9a3d-aa5fdc393431")
 		(effects
 			(font
+				(face "JetBrainsMonoNL NF")
 				(size 1 1)
 				(thickness 0.15)
 			)
 			(justify mirror)
+		)
+		(render_cache "L" 0
+			(polygon
+				(pts
+					(xy 1.237709 1.915) (xy 1.237709 0.893698) (xy 1.111801 0.893698) (xy 1.111801 1.800266) (xy 0.650121 1.800266)
+					(xy 0.650121 1.915)
+				)
+			)
 		)
 	)
 	(pad "1" thru_hole oval
@@ -107,7 +132,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0e3f6044-b9a4-42a4-b6ce-418e8806c222")
+		(uuid "278a778d-d6e4-4632-9d0a-6ee0d3dbaf2b")
 	)
 	(pad "2" thru_hole oval
 		(at 2 0)
@@ -115,7 +140,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8e32aa19-51de-4cfa-af28-f513cc0e2cb0")
+		(uuid "1d4e84cc-ec35-4fa0-9d8b-9cf75d72ff01")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
