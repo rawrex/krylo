@@ -176,6 +176,12 @@
 		(path "/837f6c0c-0404-45c0-82cc-e00589df18e2")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -292,6 +298,12 @@
 		(path "/b51804ed-dff9-4f3e-a403-4b992f5ceee6")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7867,6 +7879,12 @@
 		(path "/2a94d55a-c76c-4cac-b94d-20988e82d02b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8090,6 +8108,12 @@
 		(path "/6408c83e-07f0-4b01-a210-df46218e7ad9")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8181,6 +8205,12 @@
 		(path "/2f95d38e-a03f-4cf7-9731-498d6751a3a3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9017,6 +9047,12 @@
 		(path "/e65964e6-27db-4a93-b492-71879cc4fcc1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -9243,6 +9279,12 @@
 		(path "/9f6aa6fa-3191-4b10-803e-e75e33001f85")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10059,6 +10101,12 @@
 		(path "/8188caea-8de6-4fbc-a456-b632b8bf6731")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10868,6 +10916,12 @@
 		(path "/1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10984,6 +11038,12 @@
 		(path "/78b7a4c5-5b52-49ec-8317-d1d28ca53bda")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11234,6 +11294,12 @@
 		(path "/0ecf4455-e900-453c-94e8-f99082fd818c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11459,6 +11525,12 @@
 		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11484,7 +11556,7 @@
 			(uuid "eed42462-52ab-43b6-a029-8b19a3d96308")
 		)
 		(fp_text user "R"
-			(at 1 1.5 0)
+			(at 1 2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "766592c0-825d-4ce2-b2c9-158dbb4d3845")
@@ -11498,23 +11570,23 @@
 			(render_cache "R" 0
 				(polygon
 					(pts
-						(xy 153.404305 103.598056) (xy 153.457099 103.610584) (xy 153.504119 103.630823) (xy 153.546692 103.658949)
-						(xy 153.5819 103.693063) (xy 153.610426 103.733649) (xy 153.631042 103.778843) (xy 153.643787 103.82975)
-						(xy 153.648223 103.887522) (xy 153.642019 103.954801) (xy 153.62417 104.013471) (xy 153.595039 104.065209)
-						(xy 153.55571 104.109672) (xy 153.508974 104.143955) (xy 153.453744 104.168707) (xy 153.662206 104.615)
-						(xy 153.52372 104.615) (xy 153.323624 104.181285) (xy 153.154364 104.181285) (xy 153.154364 104.615)
-						(xy 153.029861 104.615) (xy 153.029861 104.067957) (xy 153.154364 104.067957) (xy 153.344629 104.067957)
-						(xy 153.394737 104.06212) (xy 153.436039 104.045529) (xy 153.470536 104.018314) (xy 153.496472 103.98264)
-						(xy 153.512452 103.939719) (xy 153.518102 103.887522) (xy 153.512403 103.834396) (xy 153.496383 103.791288)
-						(xy 153.470536 103.755997) (xy 153.436089 103.72918) (xy 153.394786 103.712797) (xy 153.344629 103.707027)
-						(xy 153.154364 103.707027) (xy 153.154364 104.067957) (xy 153.029861 104.067957) (xy 153.029861 103.593698)
-						(xy 153.344629 103.593698)
+						(xy 153.404305 104.098056) (xy 153.457099 104.110584) (xy 153.504119 104.130823) (xy 153.546692 104.158949)
+						(xy 153.5819 104.193063) (xy 153.610426 104.233649) (xy 153.631042 104.278843) (xy 153.643787 104.32975)
+						(xy 153.648223 104.387522) (xy 153.642019 104.454801) (xy 153.62417 104.513471) (xy 153.595039 104.565209)
+						(xy 153.55571 104.609672) (xy 153.508974 104.643955) (xy 153.453744 104.668707) (xy 153.662206 105.115)
+						(xy 153.52372 105.115) (xy 153.323624 104.681285) (xy 153.154364 104.681285) (xy 153.154364 105.115)
+						(xy 153.029861 105.115) (xy 153.029861 104.567957) (xy 153.154364 104.567957) (xy 153.344629 104.567957)
+						(xy 153.394737 104.56212) (xy 153.436039 104.545529) (xy 153.470536 104.518314) (xy 153.496472 104.48264)
+						(xy 153.512452 104.439719) (xy 153.518102 104.387522) (xy 153.512403 104.334396) (xy 153.496383 104.291288)
+						(xy 153.470536 104.255997) (xy 153.436089 104.22918) (xy 153.394786 104.212797) (xy 153.344629 104.207027)
+						(xy 153.154364 104.207027) (xy 153.154364 104.567957) (xy 153.029861 104.567957) (xy 153.029861 104.093698)
+						(xy 153.344629 104.093698)
 					)
 				)
 			)
 		)
 		(fp_text user "L"
-			(at 1 1.5 0)
+			(at 1 2 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "c3123aa1-7aae-41b2-b0b2-6b5fa3dd975d")
@@ -11529,8 +11601,8 @@
 			(render_cache "L" 0
 				(polygon
 					(pts
-						(xy 153.557059 104.615) (xy 153.557059 103.593698) (xy 153.431151 103.593698) (xy 153.431151 104.500266)
-						(xy 152.969471 104.500266) (xy 152.969471 104.615)
+						(xy 153.557059 105.115) (xy 153.557059 104.093698) (xy 153.431151 104.093698) (xy 153.431151 105.000266)
+						(xy 152.969471 105.000266) (xy 152.969471 105.115)
 					)
 				)
 			)
@@ -11650,6 +11722,12 @@
 		(path "/cafe9b5c-8d4c-4967-a3f1-359d5108b504")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12462,23 +12540,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "cd7c6bb3-3dcc-4cb1-a765-016642ce7026")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/43035051-17df-4ee6-931b-905cd39262eb")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -12592,6 +12664,12 @@
 		(path "/5729a454-d6c4-4b8e-be24-83cbb093d9a5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -12818,6 +12896,12 @@
 		(path "/05f348eb-9a05-40e8-9e2d-51b3642a08b7")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -13625,23 +13709,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "81d68f3e-a2a2-4b6c-8996-415fee5161e9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -13730,6 +13808,12 @@
 		(path "/7aea9b81-0e0d-4c72-9f77-6478ce030b3c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14546,6 +14630,12 @@
 		(path "/25dd9609-789f-4f3c-89e7-04c67e5f906d")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15362,6 +15452,12 @@
 		(path "/72154ec9-0d68-4d25-a464-427bd5d96a7b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16173,6 +16269,12 @@
 		(path "/72debe4c-353b-441e-948e-ae12758310db")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17014,6 +17116,12 @@
 		(path "/5c45332f-0c76-47b8-b137-a6dd1fca1155")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17235,23 +17343,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "1a2824fc-a6dd-4d4f-8d6a-7add7236330e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -17365,6 +17467,12 @@
 		(path "/1a3f465a-e327-4540-b6f3-33c32a4901da")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17589,6 +17697,12 @@
 		(path "/5b6b1593-51f1-40c8-89c3-442c47f55797")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17754,6 +17868,12 @@
 		(path "/87c8d739-4d64-486a-ae0f-65d6560d5c4e")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17870,6 +17990,12 @@
 		(path "/dfaaaff2-7538-49e3-9b6b-4e76a547a158")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18121,6 +18247,12 @@
 		(path "/df35e296-ea0f-4574-b225-3389ca777371")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18371,6 +18503,12 @@
 		(path "/8d69ffcf-0145-4967-ad3d-625d583744bf")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18622,6 +18760,12 @@
 		(path "/5c0af6dd-f511-42cb-8803-6251b4a90cae")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18848,6 +18992,12 @@
 		(path "/1379ae49-5f43-4487-ba64-820f99c87628")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19660,23 +19810,17 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "mounting_hardware/mounting_hole"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4cca18fa-3dfb-4776-841f-6746886a679c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "krylo:MountingHole")
 		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19790,6 +19934,12 @@
 		(path "/549837fd-742e-4acb-9954-b1cc01668088")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20015,6 +20165,12 @@
 		(path "/e4b82ad0-bb70-48fe-89ce-f43bb6879a1b")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20826,6 +20982,12 @@
 		(path "/e2ceac69-a5d5-462f-b8e7-24123de35429")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21635,6 +21797,12 @@
 		(path "/f574c61c-2757-42be-8f64-9a7e500f8c33")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21751,6 +21919,12 @@
 		(path "/1d754e0c-acf6-465b-80d5-bfef0a959315")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22001,6 +22175,12 @@
 		(path "/a80a66ba-5aa0-44ca-b2a5-5ac1e1c591f1")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -22227,6 +22407,12 @@
 		(path "/8bb89a93-d7e1-42e7-b46e-e080be939965")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23038,6 +23224,12 @@
 		(path "/a9980814-ca5f-4ba5-922a-1a504b5f4f96")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23852,6 +24044,12 @@
 		(path "/2b2283d2-68f9-40a8-9a40-e386244682ad")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2F" "2B" "3F" "1F" "3B" "1B")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24089,6 +24287,12 @@
 		(path "/aed9ad26-03d8-466e-bbb8-c8679a6db2d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -24898,6 +25102,14 @@
 		(path "/cb012163-f5a4-4b05-becc-3eb0709f98dc")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "5" "6" "7" "8" "9" "10" "11" "12" "2" "14" "3" "15" "4" "16"
+					"13" "17" "18" "19" "20" "21" "22" "23" "24"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27659,6 +27871,12 @@
 		(path "/24b8988e-c3ed-4a2a-967e-961ace4002d5")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -27885,6 +28103,12 @@
 		(path "/92fbf0cb-13a5-442a-a697-7d0064a38422")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -28703,6 +28927,12 @@
 		(path "/4ca40658-9f7a-40d7-9fd1-2719bafc3242")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28796,6 +29026,12 @@
 		(path "/e7334379-accd-4a58-80ec-7fef8c9e140c")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28889,6 +29125,12 @@
 		(path "/acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28982,6 +29224,12 @@
 		(path "/7dcb223b-3203-46e5-b917-f870accb5b07")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29075,6 +29323,12 @@
 		(path "/ec210dc4-47a6-4df0-bdc9-59319d61eb76")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
