@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(property "Reference" "JP6"
+	(property "Reference" "JP"
 		(at -2.413 0.127 0)
 		(layer "F.SilkS")
 		(hide yes)

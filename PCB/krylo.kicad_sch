@@ -4585,7 +4585,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1ce38e89-0beb-4a5c-a8af-f2d1e80acaa3")
-		(property "Reference" "JP1"
+		(property "Reference" "JP5"
 			(at 24.638 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4648,7 +4648,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "JP1")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -6286,7 +6286,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6408c83e-07f0-4b01-a210-df46218e7ad9")
-		(property "Reference" "JP6"
+		(property "Reference" "JP3"
 			(at 45.72 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6349,7 +6349,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "JP6")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87c8d739-4d64-486a-ae0f-65d6560d5c4e")
-		(property "Reference" "JP4"
+		(property "Reference" "JP1"
 			(at 45.72 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7407,7 +7407,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "JP4")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -7958,7 +7958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acde9eb7-7d5d-4e08-9b9f-750b1ef5d507")
-		(property "Reference" "JP2"
+		(property "Reference" "JP6"
 			(at 29.718 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8021,7 +8021,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "JP2")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -9080,7 +9080,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7334379-accd-4a58-80ec-7fef8c9e140c")
-		(property "Reference" "JP7"
+		(property "Reference" "JP4"
 			(at 45.72 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9143,7 +9143,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "JP7")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -9160,7 +9160,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec210dc4-47a6-4df0-bdc9-59319d61eb76")
-		(property "Reference" "JP5"
+		(property "Reference" "JP2"
 			(at 45.72 114.808 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9223,7 +9223,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "JP5")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -9240,7 +9240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f574c61c-2757-42be-8f64-9a7e500f8c33")
-		(property "Reference" "JP3"
+		(property "Reference" "JP7"
 			(at 41.148 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9303,7 +9303,7 @@
 		(instances
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "JP3")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
