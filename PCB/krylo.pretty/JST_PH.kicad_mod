@@ -9,7 +9,7 @@
 		(at 1 -2.55 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8322461b-9abd-441b-b050-66d83ba90119")
+		(uuid "ef0f9780-c3f2-4c38-8e9b-70e61927c7e9")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 1.25 -3.35 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3352a261-955b-4712-a0d0-d969830f2361")
+		(uuid "1d21c0e2-defe-4a5d-b6db-43cea445b41f")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0dc57f67-a4f0-4ffd-bc26-1e37879d1f65")
+		(uuid "a0863723-0630-4b8c-a234-1bb492ea31f8")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b5822cd4-b9fb-49c4-a430-4458bd72a2a6")
+		(uuid "ced56542-bdf2-401d-81dd-b85373c0afc1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "8bc166e1-058b-4762-9700-87463adad137")
+		(uuid "eebb592f-5fd4-4904-ac03-bc6b618690f2")
 	)
 	(fp_rect
 		(start -2 -0.9)
@@ -74,13 +74,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8ab93d8d-6933-4715-8c6f-9ad6b4f7dd6b")
+		(uuid "f2b331c4-89e9-4573-988c-269c24ee867f")
 	)
 	(fp_text user "R"
 		(at 1 2 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "85ca7ee1-600c-4c5e-89de-bbc830f799a7")
+		(uuid "7800f5d7-82f5-4a90-9747-1fab520bc7d2")
 		(effects
 			(font
 				(face "JetBrainsMono NFM ExtraBold")
@@ -108,7 +108,7 @@
 		(at 1 2 0)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "562c3470-328d-4f29-a46b-0bd70062ebc7")
+		(uuid "e61c2536-c5f6-45c4-9295-1c5005bc4ecf")
 		(effects
 			(font
 				(face "JetBrainsMono NFM ExtraBold")
@@ -130,20 +130,21 @@
 		(at 2 1.4 0)
 		(unlocked yes)
 		(layer "B.Fab")
-		(uuid "96ae0f3d-50d8-436e-96d9-2cf4336c355c")
+		(uuid "2b434415-cfdb-4a34-8661-224b3c452624")
 		(effects
 			(font
 				(face "JetBrainsMono NFM ExtraBold")
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify mirror)
 		)
 		(render_cache "+" 0
 			(polygon
 				(pts
-					(xy 1.895158 1.689092) (xy 1.895158 1.451261) (xy 1.657327 1.451261) (xy 1.657327 1.255378) (xy 1.895158 1.255378)
-					(xy 1.895158 1.017547) (xy 2.105024 1.017547) (xy 2.105024 1.255378) (xy 2.342856 1.255378) (xy 2.342856 1.451261)
-					(xy 2.105024 1.451261) (xy 2.105024 1.689092)
+					(xy 2.104841 1.689092) (xy 2.104841 1.451261) (xy 2.342672 1.451261) (xy 2.342672 1.255378) (xy 2.104841 1.255378)
+					(xy 2.104841 1.017547) (xy 1.894975 1.017547) (xy 1.894975 1.255378) (xy 1.657143 1.255378) (xy 1.657143 1.451261)
+					(xy 1.894975 1.451261) (xy 1.894975 1.689092)
 				)
 			)
 		)
@@ -152,7 +153,7 @@
 		(at 0 1.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "eaa835ab-5ce0-4b27-98b7-4f529fdde4b6")
+		(uuid "2d7c2832-bf5d-4903-81c3-3ca9d28ade32")
 		(effects
 			(font
 				(face "JetBrainsMono NFM ExtraBold")
@@ -176,7 +177,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fb9cb9b8-ce82-4082-8238-8a1aeb393f76")
+		(uuid "8f635188-e247-4f82-b02f-e807621984d9")
 	)
 	(pad "2" thru_hole oval
 		(at 2 0)
@@ -184,7 +185,7 @@
 		(drill 0.75)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2620884a-c8e6-4f43-acc0-d8d6816d6fb6")
+		(uuid "7035a8fd-7c62-4b06-b855-b14dfee1afcd")
 	)
 	(embedded_fonts no)
 	(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
