@@ -4004,7 +4004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "krylo:MountingHole"
+		(property "Footprint" "krylo:SMT_M2"
 			(at 170.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5497,7 +5497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "krylo:MountingHole"
+		(property "Footprint" "krylo:SMT_M2"
 			(at 170.18 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -5731,7 +5731,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "krylo:MountingHole"
+		(property "Footprint" "krylo:SMT_M2"
 			(at 170.18 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -6973,7 +6973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "krylo:MountingHole"
+		(property "Footprint" "krylo:SMT_M2"
 			(at 170.18 47.244 0)
 			(hide yes)
 			(show_name no)
