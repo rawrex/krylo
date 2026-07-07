@@ -115,16 +115,8 @@
           "Intentional split. Double sided-PCB side effect of power routing"
         ],
         [
-          "unconnected_items|107400000|93750000|F.Cu|4|51d0b1c6-d09e-46d5-ac11-4e6850efcc42|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9",
+          "unconnected_items|107400000|93750000|F.Cu|4|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9|4806deb6-1110-4b50-af67-f209967610fb",
           "Intentional split. Double sided-PCB side effect of power routing"
-        ],
-        [
-          "unconnected_items|152350000|102706851|F.Cu|4|32ff0656-ddd1-46fc-bbc8-6e36b21a0578|f329f151-ef67-45a7-a54c-6ed42474f934",
-          "Intentional layer split"
-        ],
-        [
-          "unconnected_items|153549999|102706851|F.Cu|4|c7e445ab-0bc5-4dd6-9daa-c2fe1722ba86|f10d57e1-df29-48f7-bc6a-6f62971c27a4",
-          "Intentional layer split"
         ],
         [
           "unconnected_items|98224743|106250185|F.Cu|4|8fe1fefc-3044-453c-8fb6-ea6a34a93458|ab4158de-b18e-491a-85ae-72e3387dcaed",
