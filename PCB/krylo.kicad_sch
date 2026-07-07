@@ -5257,7 +5257,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "krylo:JST_PH"
+		(property "Footprint" "krylo:Molex_connector"
 			(at 33.02 120.396 90)
 			(hide yes)
 			(show_name no)
