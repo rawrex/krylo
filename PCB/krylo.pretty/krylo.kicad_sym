@@ -192,208 +192,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "JST_PH"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-			(hide yes)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "BT"
-			(at 2.54 2.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_PH"
-			(at 2.54 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "krylo:JST_PH"
-			(at 0 1.524 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 1.524 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "JST PH 2-pin battery connector"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "battery cell"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "krylo:JST_PH"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "JST_PH_0_1"
-			(rectangle
-				(start -2.286 1.778)
-				(end 2.286 1.524)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(rectangle
-				(start -1.524 1.016)
-				(end 1.524 0.508)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type outline)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.778) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 0.762) (xy 0 0)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0.762 3.048) (xy 1.778 3.048)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 3.556) (xy 1.27 2.54)
-				)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "JST_PH_1_1"
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -2.54 90)
-				(length 2.54)
-				(name "-"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
 	(symbol "Jumper"
 		(pin_numbers
 			(hide yes)
@@ -516,6 +314,208 @@
 				(at 2.54 0 180)
 				(length 1.016)
 				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MOLEX_C"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "BT"
+			(at 2.54 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOLEX_C"
+			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "krylo:Molex_connector"
+			(at 0 1.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 1.524 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOLEX 781710002 2-pin battery connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "battery cell"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "krylo:JST_PH"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MOLEX_C_0_1"
+			(rectangle
+				(start -2.286 1.778)
+				(end 2.286 1.524)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -1.524 1.016)
+				(end 1.524 0.508)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.778) (xy 0 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0.762) (xy 0 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 3.048) (xy 1.778 3.048)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 3.556) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "MOLEX_C_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -2.54 90)
+				(length 2.54)
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -845,7 +845,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MountingHole"
+	(symbol "Mount"
 		(pin_names
 			(offset 1.016)
 		)
@@ -864,7 +864,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mount"
 			(at 0 3.175 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -874,7 +874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "krylo:MountingHole"
+		(property "Footprint" "krylo:SMT_M2"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -907,7 +907,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "mounting hole"
+		(property "ki_keywords" "SMT M2 mount pad"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -929,7 +929,7 @@
 				)
 			)
 		)
-		(symbol "MountingHole_0_1"
+		(symbol "Mount_0_1"
 			(circle
 				(center 0 0)
 				(radius 1.27)

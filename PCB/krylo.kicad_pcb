@@ -9243,7 +9243,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mount"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9283,7 +9283,7 @@
 			)
 		)
 		(property ki_fp_filters "krylo:MountingHole")
-		(path "/7988435e-93f9-44c9-b2bc-3ec4c4c10eb4")
+		(path "/a31fcea3-7ce2-4e39-87eb-b52c43add07a")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
 		(units
@@ -11604,7 +11604,7 @@
 				)
 			)
 		)
-		(property "Value" "JST_PH"
+		(property "Value" "MOLEX_C"
 			(at 0 -2.0829 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11628,7 +11628,7 @@
 				)
 			)
 		)
-		(property "Description" "JST PH 2-pin battery connector"
+		(property "Description" "MOLEX 781710002 2-pin battery connector"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11640,7 +11640,7 @@
 			)
 		)
 		(property ki_fp_filters "krylo:JST_PH")
-		(path "/303b52eb-2229-442e-bdef-ad8604aaf819")
+		(path "/e62af31f-7c0b-446d-875f-3587e0b06d93")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
 		(units
@@ -12730,7 +12730,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mount"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12770,7 +12770,7 @@
 			)
 		)
 		(property ki_fp_filters "krylo:MountingHole")
-		(path "/43035051-17df-4ee6-931b-905cd39262eb")
+		(path "/2a1b8ff7-5584-45e9-8aa0-4e563d6f0060")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
 		(units
@@ -13916,7 +13916,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mount"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13956,7 +13956,7 @@
 			)
 		)
 		(property ki_fp_filters "krylo:MountingHole")
-		(path "/052312c8-7082-4730-8fdc-be45b9c7b119")
+		(path "/83b84e59-590e-43af-b943-7897149b4884")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
 		(units
@@ -17568,7 +17568,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mount"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17608,7 +17608,7 @@
 			)
 		)
 		(property ki_fp_filters "krylo:MountingHole")
-		(path "/7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
+		(path "/80162153-805d-487c-8fa4-e42a5c1a57ab")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
 		(units
@@ -20052,7 +20052,7 @@
 				)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "Mount"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20092,7 +20092,7 @@
 			)
 		)
 		(property ki_fp_filters "krylo:MountingHole")
-		(path "/4dd64f6f-fadd-49ee-8597-dc3eafed6409")
+		(path "/a969f207-8630-4554-82e4-4e84f5e70931")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
 		(units

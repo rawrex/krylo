@@ -201,208 +201,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "krylo:JST_PH"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "JST_PH"
-				(at 2.54 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "krylo:JST_PH"
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 1.524 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "JST PH 2-pin battery connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "krylo:JST_PH"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JST_PH_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "JST_PH_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "krylo:Jumper"
 			(pin_numbers
 				(hide yes)
@@ -525,6 +323,208 @@
 					(at 2.54 0 180)
 					(length 1.016)
 					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "krylo:MOLEX_C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MOLEX_C"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "krylo:Molex_connector"
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "MOLEX 781710002 2-pin battery connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "krylo:JST_PH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MOLEX_C_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MOLEX_C_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -854,7 +854,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "krylo:MountingHole"
+		(symbol "krylo:Mount"
 			(pin_names
 				(offset 1.016)
 			)
@@ -873,7 +873,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole"
+			(property "Value" "Mount"
 				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -883,7 +883,7 @@
 					)
 				)
 			)
-			(property "Footprint" "krylo:MountingHole"
+			(property "Footprint" "krylo:SMT_M2"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -916,7 +916,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "mounting hole"
+			(property "ki_keywords" "SMT M2 mount pad"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -938,7 +938,7 @@
 					)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "Mount_0_1"
 				(circle
 					(center 0 0)
 					(radius 1.27)
@@ -2406,12 +2406,6 @@
 		(uuid "97624386-769f-4269-bb45-73ede8cfeded")
 	)
 	(junction
-		(at 40.64 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9dbd0d4c-794e-4a1e-ad7d-ba0c5bccd988")
-	)
-	(junction
 		(at 68.58 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2440,6 +2434,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba05fc8b-6e7b-4e0a-a19e-9fbee0a092ce")
+	)
+	(junction
+		(at 40.64 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be4f2fdc-abb5-41fc-a424-43cdc22e67a6")
 	)
 	(junction
 		(at 116.84 48.26)
@@ -2683,7 +2683,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 125.73) (xy 40.64 125.73)
+			(xy 34.29 125.73) (xy 40.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2953,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 125.73) (xy 33.02 124.46)
+			(xy 34.29 125.73) (xy 34.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3073,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 116.84) (xy 40.64 116.84)
+			(xy 34.29 116.84) (xy 40.64 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3971,82 +3971,6 @@
 		)
 	)
 	(symbol
-		(lib_id "krylo:MountingHole")
-		(at 170.18 36.576 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "052312c8-7082-4730-8fdc-be45b9c7b119")
-		(property "Reference" "H3"
-			(at 172.72 35.3059 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.72 37.8459 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "krylo:SMT_M2"
-			(at 170.18 36.576 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 36.576 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M2 mounting hole"
-			(at 170.18 36.576 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "krylo"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "krylo:Switch")
 		(at 119.38 50.8 0)
 		(unit 1)
@@ -4415,12 +4339,12 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 74.168 119.38 90)
+			(at 72.136 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4946,6 +4870,82 @@
 		)
 	)
 	(symbol
+		(lib_id "krylo:Mount")
+		(at 172.72 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a1b8ff7-5584-45e9-8aa0-4e563d6f0060")
+		(property "Reference" "H2"
+			(at 175.26 29.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount"
+			(at 175.26 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "krylo:SMT_M2"
+			(at 172.72 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M2 mounting hole"
+			(at 172.72 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "krylo"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "krylo:D_SOD123")
 		(at 110.49 74.93 90)
 		(unit 1)
@@ -5067,7 +5067,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5218,88 +5218,6 @@
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "krylo:JST_PH")
-		(at 33.02 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "303b52eb-2229-442e-bdef-ad8604aaf819")
-		(property "Reference" "BT1"
-			(at 35.56 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST_PH"
-			(at 35.56 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "krylo:Molex_connector"
-			(at 33.02 120.396 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 33.02 120.396 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "JST PH 2-pin battery connector"
-			(at 33.02 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "373e38ec-419c-4a25-bb4e-22a9ec751438")
-		)
-		(pin "2"
-			(uuid "a9b4a49f-1c06-4ece-bef0-0997a3b93b9e")
-		)
-		(instances
-			(project "krylo"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -5464,82 +5382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "krylo:MountingHole")
-		(at 170.18 30.226 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43035051-17df-4ee6-931b-905cd39262eb")
-		(property "Reference" "H2"
-			(at 172.72 28.9559 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.72 31.4959 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "krylo:SMT_M2"
-			(at 170.18 30.226 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 30.226 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M2 mounting hole"
-			(at 170.18 30.226 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "krylo"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 31.75 72.39 90)
 		(unit 1)
@@ -5692,82 +5534,6 @@
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "JP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "krylo:MountingHole")
-		(at 170.18 23.876 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4dd64f6f-fadd-49ee-8597-dc3eafed6409")
-		(property "Reference" "H1"
-			(at 172.72 22.6059 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.72 25.1459 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "krylo:SMT_M2"
-			(at 170.18 23.876 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 23.876 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M2 mounting hole"
-			(at 170.18 23.876 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "krylo"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -6292,7 +6058,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6544,7 +6310,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -6859,82 +6625,6 @@
 		)
 	)
 	(symbol
-		(lib_id "krylo:MountingHole")
-		(at 170.18 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7988435e-93f9-44c9-b2bc-3ec4c4c10eb4")
-		(property "Reference" "H5"
-			(at 172.72 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.72 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "krylo:SMT_M2"
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M2 mounting hole"
-			(at 170.18 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "krylo"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "krylo:Switch")
 		(at 129.54 33.02 0)
 		(unit 1)
@@ -7010,82 +6700,6 @@
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "SW11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "krylo:MountingHole")
-		(at 170.18 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b8a12ea-b0d0-471c-a5bc-201dbda0b5fd")
-		(property "Reference" "H4"
-			(at 172.72 41.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 172.72 44.4499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "krylo:SMT_M2"
-			(at 170.18 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M2 mounting hole"
-			(at 170.18 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "krylo"
-				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
-					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7243,6 +6857,82 @@
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "#PWR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "krylo:Mount")
+		(at 172.72 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80162153-805d-487c-8fa4-e42a5c1a57ab")
+		(property "Reference" "H4"
+			(at 175.26 41.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount"
+			(at 175.26 44.4499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "krylo:SMT_M2"
+			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M2 mounting hole"
+			(at 172.72 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "krylo"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7410,6 +7100,82 @@
 		)
 	)
 	(symbol
+		(lib_id "krylo:Mount")
+		(at 172.72 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83b84e59-590e-43af-b943-7897149b4884")
+		(property "Reference" "H3"
+			(at 175.26 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount"
+			(at 175.26 38.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "krylo:SMT_M2"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M2 mounting hole"
+			(at 172.72 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "krylo"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "krylo:Jumper")
 		(at 45.72 113.03 0)
 		(unit 1)
@@ -7426,7 +7192,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -7838,6 +7604,82 @@
 		)
 	)
 	(symbol
+		(lib_id "krylo:Mount")
+		(at 172.72 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a31fcea3-7ce2-4e39-87eb-b52c43add07a")
+		(property "Reference" "H5"
+			(at 175.26 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount"
+			(at 175.26 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "krylo:SMT_M2"
+			(at 172.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M2 mounting hole"
+			(at 172.72 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "krylo"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "krylo:D_SOD123")
 		(at 132.08 38.1 90)
 		(unit 1)
@@ -7937,6 +7779,82 @@
 			(project "krylo"
 				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "krylo:Mount")
+		(at 172.72 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a969f207-8630-4554-82e4-4e84f5e70931")
+		(property "Reference" "H1"
+			(at 175.26 22.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Mount"
+			(at 175.26 25.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "krylo:SMT_M2"
+			(at 172.72 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "M2 mounting hole"
+			(at 172.72 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "krylo"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -8614,12 +8532,12 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 109.474 0)
+			(at 49.53 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9041,6 +8959,90 @@
 		)
 	)
 	(symbol
+		(lib_id "krylo:MOLEX_C")
+		(at 34.29 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e62af31f-7c0b-446d-875f-3587e0b06d93")
+		(property "Reference" "BT1"
+			(at 36.83 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MOLEX_C"
+			(at 36.83 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "krylo:Molex_connector"
+			(at 34.29 120.396 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 120.396 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOLEX 781710002 2-pin battery connector"
+			(at 34.29 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58eb2574-0682-48fa-a340-c6cfac172f60")
+		)
+		(pin "2"
+			(uuid "a06220cd-5761-4583-b52a-969cce746669")
+		)
+		(instances
+			(project "krylo"
+				(path "/231ead31-262f-44fe-a25c-f58d2465dcca"
+					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "krylo:D_SOD123")
 		(at 143.51 38.1 90)
 		(unit 1)
@@ -9162,7 +9164,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9242,7 +9244,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.889 0.889)
+					(size 1.27 1.27)
 				)
 			)
 		)
