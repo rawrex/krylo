@@ -95,6 +95,22 @@
           "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
         [
+          "courtyards_overlap|105230000|104939805|50239b62-1c3e-49c8-a82e-78da24081807|d4db7f11-8cfe-40d2-b021-b36f05241701",
+          "No conflict, an MCU and a soldered jumper will be on the different sides"
+        ],
+        [
+          "courtyards_overlap|105230000|104939805|65819f45-3f03-4ae7-aacc-52c4d3209ca1|d4db7f11-8cfe-40d2-b021-b36f05241701",
+          "No conflict, an MCU and a soldered jumper will be on the different sides"
+        ],
+        [
+          "courtyards_overlap|107755000|104959620|c8bfa1c6-40fb-42bf-9826-d8e4608a1351|d4db7f11-8cfe-40d2-b021-b36f05241701",
+          "No conflict, an MCU and a soldered jumper will be on the different sides"
+        ],
+        [
+          "courtyards_overlap|107755000|104959620|d4db7f11-8cfe-40d2-b021-b36f05241701|d9e1ee5b-5128-4a89-a35b-f07e1a431f2a",
+          "No conflict, an MCU and a soldered jumper will be on the different sides"
+        ],
+        [
           "courtyards_overlap|97654743|104929805|30a8cae3-0d19-440d-bcda-2517d5e3d239|d4db7f11-8cfe-40d2-b021-b36f05241701",
           "No conflict, an MCU and a soldered jumper will be on the different sides"
         ],
@@ -115,7 +131,7 @@
           "Intentional split. Double sided-PCB side effect of power routing"
         ],
         [
-          "unconnected_items|107400000|93750000|F.Cu|4|755ed1f1-cc7e-4695-8c43-a6913f142eb5|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9",
+          "unconnected_items|107400000|93750000|F.Cu|4|51d0b1c6-d09e-46d5-ac11-4e6850efcc42|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9",
           "Intentional split. Double sided-PCB side effect of power routing"
         ],
         [
