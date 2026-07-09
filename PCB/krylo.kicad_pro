@@ -356,6 +356,10 @@
         "For the front side GND is not connected. Double sided PCB side effect"
       ],
       [
+        "no_connect_connected|584200|774700|637583e2-d5dd-4ee7-b746-9d7f0995cc5c|59861cfa-54c8-44f7-9136-f800e7171708|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
+        "Not connected in reality. Only one jumper is connected. Double sided PCB side effect"
+      ],
+      [
         "no_connect_connected|584200|774700|637583e2-d5dd-4ee7-b746-9d7f0995cc5c|6c14b238-3dfd-4257-af57-05f949d4b9d2|/231ead31-262f-44fe-a25c-f58d2465dcca|/231ead31-262f-44fe-a25c-f58d2465dcca|",
         "Double sided PCB side effect"
       ],

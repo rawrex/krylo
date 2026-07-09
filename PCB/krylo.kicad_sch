@@ -397,7 +397,7 @@
 					)
 				)
 			)
-			(property "Description" "MOLEX 781710002 2-pin battery connector"
+			(property "Description" "Molex 781710002 2-pin battery connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -905,7 +905,7 @@
 					)
 				)
 			)
-			(property "Description" "M2 mounting hole"
+			(property "Description" "M2 SMT mounting hole"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2253,7 +2253,7 @@
 	)
 	(text "HOLES"
 		(exclude_from_sim no)
-		(at 165.862 19.558 0)
+		(at 166.37 19.05 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -4936,7 +4936,7 @@
 				)
 			)
 		)
-		(property "Description" "M2 mounting hole"
+		(property "Description" "M2 SMT mounting hole"
 			(at 172.72 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6929,7 +6929,7 @@
 				)
 			)
 		)
-		(property "Description" "M2 mounting hole"
+		(property "Description" "M2 SMT mounting hole"
 			(at 172.72 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -7166,7 +7166,7 @@
 				)
 			)
 		)
-		(property "Description" "M2 mounting hole"
+		(property "Description" "M2 SMT mounting hole"
 			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7775,7 +7775,7 @@
 				)
 			)
 		)
-		(property "Description" "M2 mounting hole"
+		(property "Description" "M2 SMT mounting hole"
 			(at 172.72 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8951,7 +8951,7 @@
 				)
 			)
 		)
-		(property "Description" "MOLEX 781710002 2-pin battery connector"
+		(property "Description" "Molex 781710002 2-pin battery connector"
 			(at 34.29 121.92 0)
 			(hide yes)
 			(show_name no)
