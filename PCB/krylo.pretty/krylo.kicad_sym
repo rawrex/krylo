@@ -968,7 +968,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ResetSW"
+		(property "Value" "RESET_SW"
 			(at 0 -1.524 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -978,7 +978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "krylo:ResetSW"
+		(property "Footprint" "krylo:reset_button"
 			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)
