@@ -366,7 +366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "krylo:Molex_connector"
+		(property "Footprint" "krylo:MOLEX_C"
 			(at 0 1.524 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "krylo:JST_PH"
+		(property "ki_fp_filters" "krylo:MOLEX_C"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -874,7 +874,7 @@
 				)
 			)
 		)
-		(property "Footprint" "krylo:SMT_M2"
+		(property "Footprint" "krylo:Mount"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -918,7 +918,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "krylo:MountingHole"
+		(property "ki_fp_filters" "krylo:Mount"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -978,7 +978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "krylo:reset_button"
+		(property "Footprint" "krylo:ResetSW"
 			(at 0 5.08 0)
 			(show_name no)
 			(do_not_autoplace no)

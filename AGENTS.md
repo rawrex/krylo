@@ -11,7 +11,7 @@ This repo: PCB, footprints, and symbols only.
 | `PCB/krylo.kicad_sch` | Schematic (rev 0.1) |
 | `PCB/krylo.kicad_pcb` | PCB layout, 2-layer, 1.6 mm |
 | `PCB/krylo.kicad_pro` | Project settings (DRC rules, net classes, BOM config) |
-| `PCB/krylo.pretty/` | **8 custom footprints** + **1 symbol library** (`krylo.kicad_sym`). Case-sensitive — dir name is `krylo.pretty`, not `krylo.pretty` |
+| `PCB/krylo.pretty/` | **9 custom footprints** (8 functional + 1 artwork) + **1 symbol library** (`krylo.kicad_sym`). Case-sensitive — dir name is `krylo.pretty`, not `krylo.pretty` |
 | `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `krylo` → `${KIPRJMOD}/krylo.pretty` |
 | `PCB/sym-lib-table` | Symbol library table — references `krylo.kicad_sym` inside `krylo.pretty/` |
 
@@ -25,24 +25,35 @@ This repo: PCB, footprints, and symbols only.
 - **`.bak` files** in `krylo.pretty/` — remove them, they don't belong in the library directory.
 - **Symbol and footprint names must match** — every symbol in `krylo.kicad_sym` references a footprint in `krylo.pretty/` by name. Renames must be kept in sync.
 
-## Custom footprints (8)
+## Custom footprints (9)
 
-All in `krylo.pretty/` as `.kicad_mod`:
+All in `krylo.pretty/` as `.kicad_mod`. **Symbol-to-footprint mapping is by identical name** for all 8 functional footprints.
 
 | Footprint | Used for |
 |---|---|
 | `D_SOD123` | 1N4148W SMD diodes (16 per board, bottom side), pads with holes are intentional |
-| `JST_PH` | Battery connector (optional, requires jumper bridge) |
+| `MOLEX_C` | Molex 781710002 2-pin battery connector (optional, requires jumper bridge) |
 | `Jumper` | Solder jumper pads (JP1–JP10) |
-| `MountingHole` | M2 mounting holes (4 per board) |
+| `Mount` | M2 SMT mounting holes (4 per board) |
 | `MSK12C02` | Power switch |
 | `nice_nano` | MCU module |
 | `ResetSW` | Tactile reset button |
 | `Switch` | Kailh Choc PG1350 keyswitch sockets (16 per board) |
+| `artwork` | PCB silkscreen artwork |
 
-**Naming is consistent:** each footprint name matches its file name and its symbol name in `krylo.kicad_sym`.
+**Naming is consistent:** every symbol's `Footprint` property and `ki_fp_filters` match its footprint file name. (e.g. `krylo:Switch` symbol ↔ `krylo:Switch` footprint). No cross-referencing needed.
 
-Plus 6 `.step` 3D model files in `krylo.pretty/`. Two match their footprint name (`nice_nano.step`, `MSK12C02.step`); two are lowercased variants (`switch.step`, `reset_sw.step` — resolves correctly on case-insensitive systems and in the footprint references); `keycap.step` and `hot_swap_socket.step` are extra models attached to the Switch footprint.
+Plus 9 `.step` 3D model files in `krylo.pretty/`:
+
+| File | Attached to |
+|---|---|
+| `nice_nano.step`, `MSK12C02.step` | Matching footprint |
+| `switch.step` | `Switch` (lowercase variant, resolves on case-insensitive systems) |
+| `keycap.step`, `hot_swap_socket.step` | Extra models on `Switch` footprint |
+| `molex_connector.step` | `MOLEX_C` footprint |
+| `reset_button.step` | `ResetSW` footprint |
+| `smt_m2_nut.step` | `Mount` footprint |
+| `reset_sw.step` | Orphaned (was attached to old `ResetSW`) |
 
 ## Custom symbols
 
@@ -54,12 +65,12 @@ Plus 6 `.step` 3D model files in `krylo.pretty/`. Two match their footprint name
 | `nice_nano` | MCU module |
 | `Switch` | Kailh Choc keyswitch sockets (16 per board) |
 | `D_SOD123` | 1N4148W SMD diodes (16 per board) |
-| `MountingHole` | Mounting holes (4 per board) |
+| `Mount` | M2 SMT mounting holes (4 per board) |
 | `ResetSW` | Tactile reset button |
 | `MSK12C02` | Power switch |
-| `JST_PH` | Battery connector (optional, requires jumper bridge) |
+| `MOLEX_C` | Molex 781710002 2-pin battery connector (optional, requires jumper bridge) |
 
-**Symbol-to-footprint mapping is by identical name** — e.g. `krylo:Switch` (symbol) ↔ `krylo:Switch` (footprint). No cross-referencing needed.
+**Symbol-to-footprint mapping is by identical name** — all 8 symbols follow this rule. No cross-referencing needed.
 
 ## Hardware & manufacturing
 
@@ -73,7 +84,7 @@ Plus 6 `.step` 3D model files in `krylo.pretty/`. Two match their footprint name
 
 ## KiCad conventions
 
-- **Only one footprint library** (`krylo`). All footprints are self-contained in `krylo.pretty/`. D_SOD123 and JST_PH reference system 3D models (`${KICAD10_3DMODEL_DIR}`) for visual rendering — the footprints themselves still resolve locally.
+- **Only one footprint library** (`krylo`). All footprints are self-contained in `krylo.pretty/`. D_SOD123 and MOLEX_C reference system 3D models (`${KICAD10_3DMODEL_DIR}`) for visual rendering — the footprints themselves still resolve locally.
 - **DRC:** min track 0.127 mm, min clearance 0.0 mm, min copper-to-edge 0.5 mm. Violations are `error` severity.
 - **Default net class:** track 0.25 mm, via 0.6/0.3 mm, clearance 0.127 mm.
 

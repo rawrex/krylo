@@ -12299,7 +12299,7 @@
 			)
 		)
 	)
-	(footprint "krylo:SMT_M2"
+	(footprint "krylo:Mount"
 		(layer "F.Cu")
 		(uuid "5503432f-9338-44cd-b140-2c2cae6dcbbd")
 		(at 202.2 108.9)
@@ -12355,7 +12355,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "krylo:MountingHole")
+		(property ki_fp_filters "krylo:Mount")
 		(path "/2a1b8ff7-5584-45e9-8aa0-4e563d6f0060")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
@@ -13485,7 +13485,7 @@
 			)
 		)
 	)
-	(footprint "krylo:SMT_M2"
+	(footprint "krylo:Mount"
 		(layer "F.Cu")
 		(uuid "5c201a33-dfab-41f9-9fc8-9fb756c9e57f")
 		(at 89.7 116.7)
@@ -13541,7 +13541,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "krylo:MountingHole")
+		(property ki_fp_filters "krylo:Mount")
 		(path "/83b84e59-590e-43af-b943-7897149b4884")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
@@ -17137,7 +17137,7 @@
 			)
 		)
 	)
-	(footprint "krylo:SMT_M2"
+	(footprint "krylo:Mount"
 		(layer "F.Cu")
 		(uuid "7a2b5755-88d9-4a00-a72e-c13e419e065e")
 		(at 105.3 73.9)
@@ -17193,7 +17193,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "krylo:MountingHole")
+		(property ki_fp_filters "krylo:Mount")
 		(path "/80162153-805d-487c-8fa4-e42a5c1a57ab")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
@@ -17505,7 +17505,7 @@
 			)
 		)
 	)
-	(footprint "krylo:reset_button"
+	(footprint "krylo:ResetSW"
 		(layer "F.Cu")
 		(uuid "8c397e1d-c9dc-4369-873b-f9bc905f34c2")
 		(at 105.3 91.4 -90)
@@ -19594,7 +19594,7 @@
 			)
 		)
 	)
-	(footprint "krylo:SMT_M2"
+	(footprint "krylo:Mount"
 		(layer "F.Cu")
 		(uuid "9864579c-5dab-4754-977a-d4e4261130a5")
 		(at 165.5 57.35)
@@ -19650,7 +19650,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "krylo:MountingHole")
+		(property ki_fp_filters "krylo:Mount")
 		(path "/a969f207-8630-4554-82e4-4e84f5e70931")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
@@ -22207,7 +22207,7 @@
 			)
 		)
 	)
-	(footprint "krylo:Molex_connector"
+	(footprint "krylo:MOLEX_C"
 		(layer "F.Cu")
 		(uuid "b23be362-c1cf-43dd-bd98-7b59ade99883")
 		(at 129.75 112 180)
@@ -22260,7 +22260,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "krylo:JST_PH")
+		(property ki_fp_filters "krylo:MOLEX_C")
 		(path "/e62af31f-7c0b-446d-875f-3587e0b06d93")
 		(sheetname "/")
 		(sheetfile "krylo.kicad_sch")
