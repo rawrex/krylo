@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" "SMD tactile button"
+	(property "Description" "Tactile reset button"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

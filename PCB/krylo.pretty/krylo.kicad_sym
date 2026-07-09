@@ -388,7 +388,7 @@
 				)
 			)
 		)
-		(property "Description" "MOLEX 781710002 2-pin battery connector"
+		(property "Description" "Molex 781710002 2-pin battery connector"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -896,7 +896,7 @@
 				)
 			)
 		)
-		(property "Description" "M2 mounting hole"
+		(property "Description" "M2 SMT mounting hole"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

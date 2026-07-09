@@ -43,7 +43,7 @@ All in `krylo.pretty/` as `.kicad_mod`. **Symbol-to-footprint mapping is by iden
 
 **Naming is consistent:** every symbol's `Footprint` property and `ki_fp_filters` match its footprint file name. (e.g. `krylo:Switch` symbol ↔ `krylo:Switch` footprint). No cross-referencing needed.
 
-Plus 9 `.step` 3D model files in `krylo.pretty/`:
+Plus 8 `.step` 3D model files in `krylo.pretty/`:
 
 | File | Attached to |
 |---|---|
@@ -53,7 +53,6 @@ Plus 9 `.step` 3D model files in `krylo.pretty/`:
 | `molex_connector.step` | `MOLEX_C` footprint |
 | `reset_button.step` | `ResetSW` footprint |
 | `smt_m2_nut.step` | `Mount` footprint |
-| `reset_sw.step` | Orphaned (was attached to old `ResetSW`) |
 
 ## Custom symbols
 
@@ -84,7 +83,7 @@ Plus 9 `.step` 3D model files in `krylo.pretty/`:
 
 ## KiCad conventions
 
-- **Only one footprint library** (`krylo`). All footprints are self-contained in `krylo.pretty/`. D_SOD123 and MOLEX_C reference system 3D models (`${KICAD10_3DMODEL_DIR}`) for visual rendering — the footprints themselves still resolve locally.
+- **Only one footprint library** (`krylo`). All footprints are self-contained in `krylo.pretty/`. D_SOD123 references the system 3D model (`${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-123.step`); all other models (including `MOLEX_C`) resolve locally from `krylo.pretty/`.
 - **DRC:** min track 0.127 mm, min clearance 0.0 mm, min copper-to-edge 0.5 mm. Violations are `error` severity.
 - **Default net class:** track 0.25 mm, via 0.6/0.3 mm, clearance 0.127 mm.
 
