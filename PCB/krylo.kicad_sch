@@ -256,7 +256,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Solder jumper pad"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1184,7 +1184,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Kailh Choc PG1350 keyswitch socket"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1195,7 +1195,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "ki_keywords" "keyswitch Kailh Choc PG1350"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1377,8 +1377,19 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "nRF52840 MCU module"
 				(at -5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "nrf52840 bluetooth mcu module"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -4025,7 +4036,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 119.38 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4290,7 +4301,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 140.97 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4552,7 +4563,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 26.67 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4843,7 +4854,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 129.54 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5197,7 +5208,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 119.38 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5513,7 +5524,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 48.26 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6095,7 +6106,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 45.72 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6255,7 +6266,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 119.38 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6414,7 +6425,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 96.52 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6679,7 +6690,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 129.54 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6759,7 +6770,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 63.5 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6993,7 +7004,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 107.95 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7073,7 +7084,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7229,7 +7240,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 45.72 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7310,7 +7321,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 96.52 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7496,7 +7507,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 140.97 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -7577,7 +7588,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 140.97 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7839,7 +7850,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 107.95 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7919,7 +7930,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 31.75 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8000,7 +8011,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 107.95 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -8263,7 +8274,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 129.54 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -8341,7 +8352,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "nRF52840 MCU module"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8775,7 +8786,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 107.95 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8856,7 +8867,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 96.52 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -9125,7 +9136,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 45.72 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -9205,7 +9216,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 45.72 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -9285,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 43.18 74.93 0)
 			(hide yes)
 			(show_name no)

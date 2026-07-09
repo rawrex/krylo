@@ -38,7 +38,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Solder jumper pad"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

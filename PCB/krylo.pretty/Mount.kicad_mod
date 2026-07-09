@@ -42,7 +42,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "M2 SMT mounting hole"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

@@ -247,7 +247,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1175,7 +1175,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1186,7 +1186,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "switch normally-open pushbutton push-button"
+		(property "ki_keywords" "keyswitch Kailh Choc PG1350"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,8 +1368,19 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "nRF52840 MCU module"
 			(at -5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "nrf52840 bluetooth mcu module"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)

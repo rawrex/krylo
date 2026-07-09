@@ -41,7 +41,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Molex 781710002 2-pin battery connector"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

@@ -162,7 +162,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8099,7 +8099,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9174,7 +9174,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -9996,7 +9996,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10812,7 +10812,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -11421,7 +11421,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11518,7 +11518,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -12708,7 +12708,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13637,7 +13637,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -14459,7 +14459,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 356)
 			(layer "F.Fab")
 			(hide yes)
@@ -15281,7 +15281,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16099,7 +16099,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 8)
 			(layer "F.Fab")
 			(hide yes)
@@ -18813,7 +18813,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -20003,7 +20003,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20821,7 +20821,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21637,7 +21637,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -22591,7 +22591,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23409,7 +23409,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 3)
 			(layer "F.Fab")
 			(hide yes)
@@ -24470,7 +24470,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24567,7 +24567,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25384,7 +25384,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "nRF52840 MCU module"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -27901,7 +27901,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Kailh Choc PG1350 keyswitch socket"
 			(at 0 0 350)
 			(layer "F.Fab")
 			(hide yes)
@@ -28724,7 +28724,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -28823,7 +28823,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -28922,7 +28922,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -29021,7 +29021,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
@@ -29120,7 +29120,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Solder jumper pad"
 			(at 0 0 270)
 			(layer "B.Fab")
 			(hide yes)
