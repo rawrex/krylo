@@ -9,7 +9,7 @@
 		(at 0 -4 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "68851f65-af79-48ce-be98-ea41a5ae8d44")
+		(uuid "06eb3564-be7e-4368-b88d-489d0b2b7706")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 0 4.15 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4789abff-3360-4d76-9064-754c063101ba")
+		(uuid "5b829d79-3571-479e-b2d2-bb9c29174977")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ef83ab4b-9c26-41ec-b71c-3433b33e035e")
+		(uuid "6b1aeec8-c9cf-40c7-8c59-7499b343e2ce")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3c20599a-adec-4a72-a022-c020d3ee868e")
+		(uuid "4526bf1e-156e-46ca-9c10-f0d0b625fe72")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 		)
 		(fill no)
 		(layer "B.CrtYd")
-		(uuid "c25ff2cd-9beb-4eac-8821-e2bc6195e6ea")
+		(uuid "55600a14-ac73-44f4-b525-52a40f401305")
 	)
 	(fp_rect
 		(start -3.8 -2.7)
@@ -74,7 +74,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7dc219c7-4a1e-4618-955b-181974effd4a")
+		(uuid "a440af87-3e9a-4457-aa95-2d8267c0eb6d")
 	)
 	(fp_rect
 		(start -2.600001 -2.6)
@@ -85,7 +85,7 @@
 		)
 		(fill no)
 		(layer "B.Fab")
-		(uuid "1e9ed041-b5ba-4f5e-abe1-c4ad5d5f2633")
+		(uuid "1ecf0349-215e-47b1-9bdf-c0a2fa5885d5")
 	)
 	(fp_circle
 		(center 0 0)
@@ -96,7 +96,7 @@
 		)
 		(fill no)
 		(layer "B.Fab")
-		(uuid "4ec45f94-9ae3-408f-bfbd-3cc0896bc6b9")
+		(uuid "815b1297-ae44-4d66-9e73-5ca57e799f85")
 	)
 	(fp_rect
 		(start -2.600001 -2.6)
@@ -107,7 +107,7 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "68c17095-226e-4f4a-a583-1ba1589717d4")
+		(uuid "872bbb5e-30d7-48ac-8eb9-060fcc70f4bb")
 	)
 	(fp_circle
 		(center 0 0)
@@ -118,13 +118,13 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7ca9ecf1-1f75-40a0-9ba8-42e67709b58c")
+		(uuid "93ead3f4-8d34-41f5-8e0e-7754c5630c9c")
 	)
 	(fp_text user "R"
 		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "7db65f2c-bd15-40d9-af0d-d90381ac65d0")
+		(uuid "e369c3d2-d3a8-4ff6-8c8c-7f2d016954a4")
 		(effects
 			(font
 				(face "JetBrainsMonoNL NFM ExtraBold")
@@ -153,7 +153,7 @@
 		(at -0.000001 0 90)
 		(unlocked yes)
 		(layer "B.SilkS")
-		(uuid "402c5475-edf4-490d-934b-fc72e38e7eaa")
+		(uuid "2c21a820-b6ae-4cfe-a059-eb9b52fc42e0")
 		(effects
 			(font
 				(face "JetBrainsMonoNL NFM ExtraBold")
@@ -177,7 +177,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "eb23d9c5-cc47-4bee-abb5-bcf3d3c5d755")
+		(uuid "bd008f20-41af-4ba8-a534-11b96d4c9579")
 	)
 	(pad "1" thru_hole rect
 		(at 3.3 -2.05)
@@ -185,7 +185,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "d7210e05-bb38-4e4e-ac2c-9570e222415b")
+		(uuid "0247219c-5302-416f-b530-a63f2278bb07")
 	)
 	(pad "2" thru_hole rect
 		(at -3.3 2.05)
@@ -193,7 +193,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "74fed1f2-ad44-451f-9931-64f72a05baab")
+		(uuid "a2a7b3c9-aeba-4d54-8d51-d842d0646c4a")
 	)
 	(pad "2" thru_hole rect
 		(at 3.3 2.05)
@@ -201,7 +201,7 @@
 		(drill 0.3)
 		(layers "*.Cu" "*.Paste" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7f9b328c-743a-4028-9077-bd6d2c0ee4e9")
+		(uuid "be687a70-97e5-4aaf-aecb-53a5bbf3028a")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/krylo.pretty/reset_button.step"
