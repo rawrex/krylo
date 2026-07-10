@@ -2411,6 +2411,12 @@
 		(uuid "9283bce7-5de4-40fc-8327-da04c7b81dc2")
 	)
 	(junction
+		(at 40.64 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92e93e87-3dd4-4af1-b51a-8b53ad4abeed")
+	)
+	(junction
 		(at 132.08 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2441,22 +2447,16 @@
 		(uuid "b82fe079-0135-461d-bbf3-79c120ca868e")
 	)
 	(junction
-		(at 40.64 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba05fc8b-6e7b-4e0a-a19e-9fbee0a092ce")
-	)
-	(junction
-		(at 40.64 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be4f2fdc-abb5-41fc-a424-43cdc22e67a6")
-	)
-	(junction
 		(at 116.84 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1369190-ed48-405e-83fd-63a727318a9c")
+	)
+	(junction
+		(at 40.64 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c168e373-2c62-443d-914a-c4a29cc32f54")
 	)
 	(junction
 		(at 121.92 40.64)
@@ -2694,16 +2694,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 125.73) (xy 40.64 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ee75c3-b672-425f-852b-44ac286198e7")
-	)
-	(wire
-		(pts
 			(xy 60.96 77.47) (xy 63.5 77.47)
 		)
 		(stroke
@@ -2801,6 +2791,16 @@
 			(type dash)
 		)
 		(uuid "4c4d8c01-f08c-4001-924d-9e67fab08564")
+	)
+	(wire
+		(pts
+			(xy 36.83 116.84) (xy 40.64 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eef8899-2500-43ff-b0fe-0f61afc320ed")
 	)
 	(wire
 		(pts
@@ -2964,16 +2964,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 125.73) (xy 34.29 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7945e6b3-168a-4963-80cf-49926bd1e9f9")
-	)
-	(wire
-		(pts
 			(xy 43.18 129.54) (xy 40.64 129.54)
 		)
 		(stroke
@@ -3064,6 +3054,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 125.73) (xy 40.64 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a539c77-adf1-46ac-af92-f5bf640944fb")
+	)
+	(wire
+		(pts
 			(xy 110.49 58.42) (xy 121.92 58.42)
 		)
 		(stroke
@@ -3074,6 +3074,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 125.73) (xy 36.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d2047ec-367e-4de1-bd00-46d0cbb9a587")
+	)
+	(wire
+		(pts
 			(xy 40.64 129.54) (xy 40.64 125.73)
 		)
 		(stroke
@@ -3081,16 +3091,6 @@
 			(type default)
 		)
 		(uuid "9ff6eb4a-db3a-4cf7-b66d-f6a6f9aa6018")
-	)
-	(wire
-		(pts
-			(xy 34.29 116.84) (xy 40.64 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2aa6939-8ffb-4f86-99d6-a7e4887e853a")
 	)
 	(wire
 		(pts
@@ -3353,12 +3353,12 @@
 		(uuid "f927d46c-63df-4fc8-bc75-3ed69e9e092a")
 	)
 	(label "PAD2"
-		(at 34.29 125.73 0)
+		(at 36.83 116.84 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "082b612d-2c38-4b1d-b289-5af2c2c73a19")
 	)
@@ -3393,12 +3393,12 @@
 		(uuid "8dc7b825-57cf-4990-a53f-5a94ef6f1098")
 	)
 	(label "PAD1"
-		(at 34.29 116.84 0)
+		(at 36.83 125.73 180)
 		(effects
 			(font
 				(size 0.889 0.889)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9f9f75e8-5c71-4811-a30a-aee9f537e7ae")
 	)
@@ -8895,7 +8895,7 @@
 	)
 	(symbol
 		(lib_id "krylo:MOLEX_C")
-		(at 34.29 121.92 0)
+		(at 36.83 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8906,7 +8906,7 @@
 		(fields_autoplaced yes)
 		(uuid "e62af31f-7c0b-446d-875f-3587e0b06d93")
 		(property "Reference" "BT1"
-			(at 36.83 119.38 0)
+			(at 34.29 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8918,7 +8918,7 @@
 			)
 		)
 		(property "Value" "MOLEX_C"
-			(at 36.83 121.92 0)
+			(at 34.29 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8930,7 +8930,7 @@
 			)
 		)
 		(property "Footprint" "krylo:MOLEX_C"
-			(at 34.29 120.396 90)
+			(at 36.83 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8941,7 +8941,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 120.396 90)
+			(at 36.83 120.904 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8952,7 +8952,7 @@
 			)
 		)
 		(property "Description" "Molex 781710002 2-pin battery connector"
-			(at 34.29 121.92 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
