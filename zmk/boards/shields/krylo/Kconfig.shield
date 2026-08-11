@@ -1,0 +1,5 @@
+config SHIELD_KRYLO_LEFT
+    def_bool $(shields_list_contains,krylo_left)
+
+config SHIELD_KRYLO_RIGHT
+    def_bool $(shields_list_contains,krylo_right)
