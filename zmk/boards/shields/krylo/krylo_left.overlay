@@ -1,12 +1,17 @@
 #include "krylo.dtsi"
 
 &kscan0 {
+    row-gpios 
+        = <&pro_micro 7 (GPIO_ACTIVE_HIGH)>
+        , <&pro_micro 8 (GPIO_ACTIVE_HIGH)>
+        , <&pro_micro 9 (GPIO_ACTIVE_HIGH)>
+        , <&pro_micro 10 (GPIO_ACTIVE_HIGH)>
+        ;
     col-gpios
-        = <&pro_micro_d 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro_d 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro_d 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&pro_micro_d 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        = <&pro_micro_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro_d 2(GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
