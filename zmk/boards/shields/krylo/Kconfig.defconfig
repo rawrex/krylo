@@ -1,4 +1,4 @@
-if SHIELD_KRYLO_RIGHT
+if SHIELD_KRYLO_LEFT
     config ZMK_KEYBOARD_NAME
         default "krylo"
     config ZMK_SPLIT_ROLE_CENTRAL
