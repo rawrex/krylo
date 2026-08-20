@@ -7,7 +7,7 @@ compatible = "zmk,keymap";
 base_layer {
     display-name = "Base";
     bindings = <
-        &u_lt U_FUN Q        &kp W           &kp F            &kp P             &kp B           &kp J           &kp L              &kp U               &kp Y            &kp SQT
+        &u_lt U_FUN Q        &kp W           &kp F            &kp P             &kp B           &kp J           &kp L              &kp U               &kp Y            &u_lt U_MEDIA SQT
         &u_mt LGUI A         &u_mt LALT R    &u_mt LCTRL S    &u_mt LSHFT T     &kp G           &kp M           &u_mt LSHFT N      &u_mt LCTRL E       &u_mt LALT I     &u_mt LGUI O
         &kp Z                &u_mt RALT X    &kp C            &kp D                                             &kp H              &kp COMMA           &u_mt RALT DOT   &kp SLASH
                                                               &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_NUM RET &u_lt U_SYM BSPC
