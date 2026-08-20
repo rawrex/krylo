@@ -139,30 +139,6 @@
             bindings = <&bootloader>;
             timeout-ms = <KRYLO_KLUDGE_TOPROWCOMBOS_TERM>;
         };
-        toprowcombos_U_BUTTON_LEFTPINKIE {
-            layers = <U_BUTTON>;
-            key-positions = <1 2>;
-            bindings = <U_UND>;
-            timeout-ms = <KRYLO_KLUDGE_TOPROWCOMBOS_TERM>;
-        };
-        toprowcombos_U_BUTTON_LEFTINNERINDEX {
-            layers = <U_BUTTON>;
-            key-positions = <2 3>;
-            bindings = <U_RDO>;
-            timeout-ms = <KRYLO_KLUDGE_TOPROWCOMBOS_TERM>;
-        };
-        toprowcombos_U_BUTTON_RIGHTINNERINDEX {
-            layers = <U_BUTTON>;
-            key-positions = <7 8>;
-            bindings = <U_RDO>;
-            timeout-ms = <KRYLO_KLUDGE_TOPROWCOMBOS_TERM>;
-        };
-        toprowcombos_U_BUTTON_RIGHTPINKIE {
-            layers = <U_BUTTON>;
-            key-positions = <8 9>;
-            bindings = <U_UND>;
-            timeout-ms = <KRYLO_KLUDGE_TOPROWCOMBOS_TERM>;
-        };
     };
 };
 #endif
@@ -175,7 +151,7 @@
         bottomrowcombos_U_BASE_LEFTPINKIE {
             layers = <U_BASE>;
             key-positions = <20 21>;
-            bindings = <&lt U_BUTTON Z>;
+            bindings = <&kp Z>;
             timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
         };
         bottomrowcombos_U_BASE_LEFTINNERINDEX {
@@ -193,7 +169,7 @@
         bottomrowcombos_U_BASE_RIGHTPINKIE {
             layers = <U_BASE>;
             key-positions = <27 28>;
-            bindings = <&lt U_BUTTON SLASH>;
+            bindings = <&kp SLASH>;
             timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
         };
         bottomrowcombos_U_NAV_LEFTPINKIE {
@@ -230,12 +206,6 @@
             layers = <U_MEDIA>;
             key-positions = <21 22>;
             bindings = <U_NA>;
-            timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
-        };
-        bottomrowcombos_U_MEDIA_RIGHTINNERINDEX {
-            layers = <U_MEDIA>;
-            key-positions = <26 27>;
-            bindings = <&u_out_tog>;
             timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
         };
         bottomrowcombos_U_MEDIA_RIGHTPINKIE {
@@ -314,30 +284,6 @@
             layers = <U_FUN>;
             key-positions = <27 28>;
             bindings = <U_NA>;
-            timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
-        };
-        bottomrowcombos_U_BUTTON_LEFTPINKIE {
-            layers = <U_BUTTON>;
-            key-positions = <20 21>;
-            bindings = <U_UND>;
-            timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
-        };
-        bottomrowcombos_U_BUTTON_LEFTINNERINDEX {
-            layers = <U_BUTTON>;
-            key-positions = <21 22>;
-            bindings = <U_RDO>;
-            timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
-        };
-        bottomrowcombos_U_BUTTON_RIGHTINNERINDEX {
-            layers = <U_BUTTON>;
-            key-positions = <26 27>;
-            bindings = <U_RDO>;
-            timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
-        };
-        bottomrowcombos_U_BUTTON_RIGHTPINKIE {
-            layers = <U_BUTTON>;
-            key-positions = <27 28>;
-            bindings = <U_UND>;
             timeout-ms = <KRYLO_KLUDGE_BOTTOMROWCOMBOS_TERM>;
         };
     };

@@ -41,12 +41,6 @@
             tapping-term-ms = <U_TAPPING_TERM>;
             bindings = <&none>, <&to U_TAP>;
         };
-        u_to_U_BUTTON: u_to_U_BUTTON {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&none>, <&to U_BUTTON>;
-        };
         u_to_U_NAV: u_to_U_NAV {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
