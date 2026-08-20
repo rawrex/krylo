@@ -10,9 +10,9 @@
 #define U_SYM    1
 #define U_NUM    2
 #define U_NAV    3
-#define U_TAP    4
-#define U_MEDIA  5
-#define U_FUN    6
+#define U_MEDIA  4
+#define U_FUN    5
+#define U_TAP    6
 #define U_EXTRA  7
 
 /* --------------------------------------------------------------------------
