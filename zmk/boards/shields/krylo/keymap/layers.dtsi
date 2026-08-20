@@ -7,7 +7,7 @@ compatible = "zmk,keymap";
 base_layer {
     display-name = "Base";
     bindings = <
-        &kp Q                &kp W           &kp F            &kp P             &kp B           &kp J           &kp L              &kp U               &kp Y            &kp SQT
+        &u_lt U_FUN Q        &kp W           &kp F            &kp P             &kp B           &kp J           &kp L              &kp U               &kp Y            &kp SQT
         &u_mt LGUI A         &u_mt LALT R    &u_mt LCTRL S    &u_mt LSHFT T     &kp G           &kp M           &u_mt LSHFT N      &u_mt LCTRL E       &u_mt LALT I     &u_mt LGUI O
         &kp Z                &u_mt RALT X    &kp C            &kp D                                             &kp H              &kp COMMA           &u_mt RALT DOT   &kp SLASH
                                                               &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_NUM RET &u_lt U_SYM BSPC
@@ -57,8 +57,8 @@ media_layer {
 fun_layer {
     display-name = "Fun";
     bindings = <
-        &kp F12              &kp F7          &kp F8           &kp F9            &kp PSCRN       &none           &u_to_U_BASE       &u_to_U_EXTRA       &u_to_U_TAP      U_BOOT
-        &kp F11              &kp F4          &kp F5           &kp F6            &kp SLCK        &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
+        &none                &kp F7          &kp F8           &kp F9            &kp PSCRN       &none           &u_to_U_BASE       &u_to_U_EXTRA       &u_to_U_TAP      U_BOOT
+        &kp F11              &kp F4          &kp F5           &kp F6            &kp F12         &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp F10              &kp F1          &kp F2           &kp F3                                            &u_to_U_FUN        &u_to_U_MEDIA       &kp RALT         &none
                                                               &kp SPACE         &kp TAB         &none           &none
     >;
