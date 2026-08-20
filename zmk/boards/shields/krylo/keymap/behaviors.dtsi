@@ -171,14 +171,6 @@
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
-        // Output toggle; hold Shift to force USB.
-        u_out_tog: u_out_tog {
-            compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <0>;
-            bindings = <&out OUT_TOG>, <&out OUT_USB>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-
         // Caps word; hold Shift for regular Caps Lock.
         u_caps_word: u_caps_word {
             compatible = "zmk,behavior-mod-morph";
