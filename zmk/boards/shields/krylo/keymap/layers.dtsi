@@ -1,7 +1,7 @@
 #include "macros.h"
 
 / {
-    keymap {
+keymap {
 compatible = "zmk,keymap";
 
 base_layer {
@@ -14,13 +14,33 @@ base_layer {
     >;
 };
 
-extra_layer {
-    display-name = "Cyrillic";
+sym_layer {
+    display-name = "Sym";
     bindings = <
-        &kp RU_TS            &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU       &kp RU_Y           &kp RU_YA           &kp RU_E         &kp RU_F
-        &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I        &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE &u_mt LGUI RU_S
-        &u_lt U_BUTTON RU_KH &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &kp COMMA           &u_mt RALT DOT   &u_lt U_BUTTON SLASH
-                                                              &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_NUM RET &u_lt U_SYM BSPC
+        &kp BSLH             &kp LT          &kp MINUS        &kp GT            &kp RU_SHCH     &none           &to_base_alt_shift &to_extra_alt_shift &none            &bootloader
+        &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &kp V           &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
+        &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &to U_SYM          &none               &kp RALT         &none
+                                                              &kp EQUAL         &kp UNDER       &none           &none
+    >;
+};
+
+num_layer {
+    display-name = "Num";
+    bindings = <
+        &none                &kp AMPS        &kp TILDE        &kp GRAVE         &none           &none           &kp N7             &kp N8              &kp N9           &bootloader
+        &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &kp RU_SH       &kp N4             &kp N5              &kp N6           &kp LGUI
+        &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                          &kp N1             &kp N2              &kp N3           &kp N0
+                                                              &kp SEMI          &kp COLON       &trans          &trans
+    >;
+};
+
+nav_layer {
+    display-name = "Nav";
+    bindings = <
+        U_BOOT               &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      &none           U_RDO           U_PST              U_CPY               U_CUT            U_UND
+        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &kp K           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
+        &none                &kp RALT        &u_to_U_NUM      &u_to_U_NAV                                       &kp INS            &kp HOME            &kp PG_DN        &kp PG_UP
+                                                              &none             &none           &kp RET         &kp ESC
     >;
 };
 
@@ -44,16 +64,6 @@ button_layer {
     >;
 };
 
-nav_layer {
-    display-name = "Nav";
-    bindings = <
-        U_BOOT               &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      &none           U_RDO           U_PST              U_CPY               U_CUT            U_UND
-        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &kp K           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
-        &none                &kp RALT        &u_to_U_NUM      &u_to_U_NAV                                       &kp INS            &kp HOME            &kp PG_DN        &kp PG_UP
-                                                              &none             &none           &kp RET         &kp ESC
-    >;
-};
-
 media_layer {
     display-name = "Media";
     bindings = <
@@ -61,26 +71,6 @@ media_layer {
         &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         U_NA            &none           &kp C_PREV         &kp C_VOL_DN        &kp C_VOL_UP     &kp C_NEXT
         &none                &kp RALT        &u_to_U_FUN      &u_to_U_MEDIA                                     &u_out_tog         &u_bt_sel_0         &u_bt_sel_1      &u_bt_sel_2
                                                               &none             &none           &kp C_STOP      &kp C_PP
-    >;
-};
-
-num_layer {
-    display-name = "Num";
-    bindings = <
-        &none                &kp AMPS        &kp TILDE        &kp GRAVE         &none           &none           &kp N7             &kp N8              &kp N9           &bootloader
-        &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &kp RU_SH       &kp N4             &kp N5              &kp N6           &kp LGUI
-        &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                          &kp N1             &kp N2              &kp N3           &kp N0
-                                                              &kp SEMI          &kp COLON       &trans          &trans
-    >;
-};
-
-sym_layer {
-    display-name = "Sym";
-    bindings = <
-        &kp BSLH             &kp LT          &kp MINUS        &kp GT            &kp RU_SHCH     &none           &to_base_alt_shift &to_extra_alt_shift &none            &bootloader
-        &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &kp V           &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
-        &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &to U_SYM          &none               &kp RALT         &none
-                                                              &kp EQUAL         &kp UNDER       &none           &none
     >;
 };
 
@@ -93,5 +83,15 @@ fun_layer {
                                                               &kp SPACE         &kp TAB         &none           &none
     >;
 };
-    };
+
+extra_layer {
+    display-name = "Cyrillic";
+    bindings = <
+        &kp RU_TS            &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU       &kp RU_Y           &kp RU_YA           &kp RU_E         &kp RU_F
+        &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I        &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE &u_mt LGUI RU_S
+        &u_lt U_BUTTON RU_KH &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &kp COMMA           &u_mt RALT DOT   &u_lt U_BUTTON SLASH
+                                                              &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_NUM RET &u_lt U_SYM BSPC
+    >;
+};
+};
 };
