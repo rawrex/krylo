@@ -66,21 +66,6 @@
 #define U_NP &none // key is not present
 #define U_NU &none // available but not used
 
-// Bootloader / soft off (miryoku: MIRYOKU_KLUDGE_DOUBLETAPBOOT + SOFT_OFF)
-#if defined(KRYLO_KLUDGE_DOUBLETAPBOOT)
-  #if defined(KRYLO_KLUDGE_SOFT_OFF)
-    #define U_BOOT &u_soft_off
-  #else
-    #define U_BOOT &u_bootloader
-  #endif
-#else
-  #if defined(KRYLO_KLUDGE_SOFT_OFF)
-    #define U_BOOT &soft_off
-  #else
-    #define U_BOOT &bootloader
-  #endif
-#endif
-
 // Clipboard (miryoku_clipboard.h)
 #if defined(KRYLO_CLIPBOARD_FUN)
   #define U_RDO &kp K_AGAIN

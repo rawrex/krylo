@@ -21,7 +21,7 @@ base_layer {
 sym_layer {
     display-name = "Sym";
     bindings = <
-        &kp BSLH             &kp LT          &kp MINUS        &kp GT            &kp RU_SHCH     U_BOOT          &to_base_alt_shift &to_extra_alt_shift &none            &none
+        &kp BSLH             &kp LT          &kp MINUS        &kp GT            &kp RU_SHCH     &none           &to_base_alt_shift &to_extra_alt_shift &none            &u_bootloader
         &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &kp V           &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &to U_SYM          &u_caps_word        &kp RALT         &none
                                                               &kp EQUAL         &kp UNDER       &soft_off       &none
@@ -31,7 +31,7 @@ sym_layer {
 num_layer {
     display-name = "Num";
     bindings = <
-        &none                &kp AMPS        &kp TILDE        &kp GRAVE         &none           &none           &kp N7             &kp N8              &kp N9           U_BOOT
+        &none                &kp AMPS        &kp TILDE        &kp GRAVE         &none           &none           &kp N7             &kp N8              &kp N9           &u_bootloader
         &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &kp RU_SH       &kp N4             &kp N5              &kp N6           &kp LGUI
         &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                          &kp N1             &kp N2              &kp N3           &kp N0
                                                               &kp SEMI          &kp COLON       &trans          &trans
@@ -41,7 +41,7 @@ num_layer {
 nav_layer {
     display-name = "Nav";
     bindings = <
-        &none                &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      U_BOOT          U_RDO           U_PST              U_CPY               U_CUT            U_UND
+        &u_bootloader         &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      &none          U_RDO           U_PST              U_CPY               U_CUT            U_UND
         &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &kp K           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
         &none                &kp RALT        &u_to_U_NUM      &u_to_U_NAV                                       &kp HOME           &kp PG_DN           &kp PG_UP        &kp END
                                                               &none             &soft_off       &kp RET         &kp ESC
@@ -51,7 +51,7 @@ nav_layer {
 media_layer {
     display-name = "Media";
     bindings = <
-        U_BOOT               &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      U_NA            &none           &none              &none               &none            &none
+        &u_bootloader         &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      U_NA            &none           &none              &none               &none            &none
         &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         U_NA            &none           &kp C_PREV         &kp C_VOL_DN        &kp C_VOL_UP     &kp C_NEXT
         &none                &kp RALT        &u_to_U_FUN      &u_to_U_MEDIA                                     &u_bt_sel_0        &u_bt_sel_1         &u_bt_sel_2      &u_bt_sel_3
                                                               &none             &none           &kp C_STOP      &kp C_PP
@@ -61,7 +61,7 @@ media_layer {
 fun_layer {
     display-name = "Fun";
     bindings = <
-        &none                &kp F7          &kp F8           &kp F9            &kp PSCRN       &none           &u_to_U_BASE       &u_to_U_EXTRA       &u_to_U_TAP      U_BOOT
+        &none                &kp F7          &kp F8           &kp F9            &kp PSCRN       &none           &u_to_U_BASE       &u_to_U_EXTRA       &u_to_U_TAP      &u_bootloader
         &kp F11              &kp F4          &kp F5           &kp F6            &kp F12         &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp F10              &kp F1          &kp F2           &kp F3                                            &u_to_U_FUN        &u_to_U_MEDIA       &kp RALT         &none
                                                               &kp SPACE         &kp TAB         &none           &none

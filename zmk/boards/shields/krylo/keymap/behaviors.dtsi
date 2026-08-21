@@ -72,6 +72,14 @@
             bindings = <&none>, <&to U_FUN>;
         };
 
+        // Double-tap bootloader guard
+        u_bootloader: u_bootloader {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <U_TAPPING_TERM>;
+            bindings = <&none>, <&bootloader>;
+        };
+
         // Layer switch + Alt+Shift (for OS input-method / language toggling).
         to_base_alt_shift: to_base_alt_shift {
             compatible = "zmk,behavior-macro";
@@ -172,25 +180,5 @@
             bindings = <&caps_word>, <&kp CAPS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-
-#if defined(KRYLO_KLUDGE_DOUBLETAPBOOT)
-        // Double-tap bootloader / soft-off guard (miryoku u_bootloader /
-        // u_soft_off). Single tap does nothing.
-  #if defined(KRYLO_KLUDGE_SOFT_OFF)
-        u_soft_off: u_soft_off {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&none>, <&soft_off>;
-        };
-  #else
-        u_bootloader: u_bootloader {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&none>, <&bootloader>;
-        };
-  #endif
-#endif
     };
 };
