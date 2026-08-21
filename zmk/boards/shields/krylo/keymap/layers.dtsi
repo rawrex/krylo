@@ -41,7 +41,7 @@ num_layer {
 nav_layer {
     display-name = "Nav";
     bindings = <
-        &none                &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      U_BOOT           U_RDO           U_PST              U_CPY               U_CUT            U_UND
+        &none                &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      U_BOOT          U_RDO           U_PST              U_CPY               U_CUT            U_UND
         &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &kp K           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
         &none                &kp RALT        &u_to_U_NUM      &u_to_U_NAV                                       &kp HOME           &kp PG_DN           &kp PG_UP        &kp END
                                                               &none             &soft_off       &kp RET         &kp ESC
