@@ -1,5 +1,9 @@
 #include "macros.h"
 
+&soft_off {
+    hold-time-ms = <2500>;
+};
+
 / {
 keymap {
 compatible = "zmk,keymap";
