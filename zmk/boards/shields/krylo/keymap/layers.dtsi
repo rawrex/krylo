@@ -41,7 +41,7 @@ num_layer {
 nav_layer {
     display-name = "Nav";
     bindings = <
-        &u_bootloader         &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      &none          U_RDO           U_PST              U_CPY               U_CUT            U_UND
+        &u_bootloader        &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      &none          U_RDO           U_PST              U_CPY               U_CUT            U_UND
         &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &kp K           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
         &none                &kp RALT        &u_to_U_NUM      &u_to_U_NAV                                       &kp HOME           &kp PG_DN           &kp PG_UP        &kp END
                                                               &none             &soft_off       &kp RET         &kp ESC
@@ -51,7 +51,7 @@ nav_layer {
 media_layer {
     display-name = "Media";
     bindings = <
-        &u_bootloader         &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      U_NA            &none           &none              &none               &none            &none
+        &u_bootloader        &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      U_NA            &none           &none              &none               &none            &none
         &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         U_NA            &none           &kp C_PREV         &kp C_VOL_DN        &kp C_VOL_UP     &kp C_NEXT
         &none                &kp RALT        &u_to_U_FUN      &u_to_U_MEDIA                                     &u_bt_sel_0        &u_bt_sel_1         &u_bt_sel_2      &u_bt_sel_3
                                                               &none             &none           &kp C_STOP      &kp C_PP
