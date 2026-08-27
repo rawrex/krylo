@@ -180,5 +180,11 @@
             bindings = <&caps_word>, <&kp CAPS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        batt: batt {
+            compatible = "krylo,led-battery";
+            #binding-cells = <0>;
+            leds = <&blue_led>;
+        };
     };
 };

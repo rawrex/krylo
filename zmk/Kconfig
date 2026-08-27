@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: MIT
+
+config KRYLO_LED_BATTERY
+	bool "krylo battery LED indication behavior"
+	depends on ZMK_BATTERY_REPORTING
+	default y
+	select LED
+	help
+		Behavior that blinks a configured LED a number of times to indicate the current battery charge level:
+		3 blinks when above 66%, 2 blinks when above 33%, 1 blink otherwise.
+		Each half blinks its own LED with its own battery level when the bound key is pressed on that half.
