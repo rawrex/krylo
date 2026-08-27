@@ -185,6 +185,10 @@
             compatible = "krylo,led-battery";
             #binding-cells = <0>;
             leds = <&blue_led>;
+            brightness = <100>;
+            on-ms = <200>;
+            off-ms = <200>;
+            stages = <4>;
         };
     };
 };

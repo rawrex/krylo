@@ -19,17 +19,17 @@ properties:
     description: LED device(s) to blink. The nice!nano blue LED, or the red one on the nice!nano clone
   brightness:
     type: int
-    default: 100
+    required: true
     description: LED brightness in percent while lit
   on-ms:
     type: int
-    default: 200
+    required: true
     description: Milliseconds each blink stays on
   off-ms:
     type: int
-    default: 200
+    required: true
     description: Milliseconds between blinks
   stages:
     type: int
-    default: 3
+    required: true
     description: Number of charge stages; each spans 100/stages percent, blinking once per stage

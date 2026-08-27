@@ -141,10 +141,10 @@ static const struct led_battery_config led_battery_config_##n =            \
 {                                                                          \
 .leds_len = ARRAY_SIZE(LEDS_ARRAY(n)),                                     \
     .leds = LEDS_ARRAY(n),                                                 \
-    .brightness = DT_INST_PROP_OR(n, brightness, 100),                     \
-    .on_ms = DT_INST_PROP_OR(n, on_ms, 200),                               \
-    .off_ms = DT_INST_PROP_OR(n, off_ms, 200),                             \
-    .stages = DT_INST_PROP_OR(n, stages, 3),                               \
+    .brightness = DT_INST_PROP(n, brightness),                             \
+    .on_ms = DT_INST_PROP(n, on_ms),                                       \
+    .off_ms = DT_INST_PROP(n, off_ms),                                     \
+    .stages = DT_INST_PROP(n, stages),                                     \
 };                                                                         \
 static struct led_battery_data led_battery_data_##n = {};                  \
 BEHAVIOR_DT_INST_DEFINE(n, led_battery_init, NULL, &led_battery_data_##n,  \
