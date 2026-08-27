@@ -29,23 +29,7 @@ properties:
     type: int
     default: 200
     description: Milliseconds between blinks
-  high-threshold:
-    type: int
-    default: 66
-    description: Blink high-count when state of charge is above this
-  high-count:
+  stages:
     type: int
     default: 3
-    description: Number of blinks when state of charge is above high-threshold
-  mid-threshold:
-    type: int
-    default: 33
-    description: Blink mid-count when state of charge is above this
-  mid-count:
-    type: int
-    default: 2
-    description: Number of blinks when state of charge is above mid-threshold
-  low-count:
-    type: int
-    default: 1
-    description: Number of blinks when state of charge is at or below mid-threshold
+    description: Number of charge stages; each spans 100/stages percent, blinking once per stage

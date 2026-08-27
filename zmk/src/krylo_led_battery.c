@@ -26,11 +26,7 @@ struct led_battery_config
     uint32_t on_ms;
     uint32_t off_ms;
 
-    uint8_t high_threshold;
-    uint8_t high_count;
-    uint8_t mid_threshold;
-    uint8_t mid_count;
-    uint8_t low_count;
+    uint8_t stages;
 };
 
 struct led_battery_data
@@ -104,20 +100,8 @@ static int led_battery_binding_pressed(struct zmk_behavior_binding *binding, str
     const struct led_battery_config *config = dev->config;
 
     const uint8_t soc = zmk_battery_state_of_charge();
-    uint8_t blinks;
-
-    if (soc > config->high_threshold) 
-    {
-        blinks = config->high_count;
-    }
-    else if (soc > config->mid_threshold) 
-    {
-        blinks = config->mid_count;
-    }
-    else 
-    {
-        blinks = config->low_count;
-    }
+    // Blink once per charge stage: 100% divided by the number of stages
+    uint8_t blinks = 1 + (soc * config->stages - 1) / 100;
 
     LOG_INF("Battery %u%% -> %u blinks", soc, blinks);
     start_pattern(data, blinks);
@@ -160,11 +144,7 @@ static const struct led_battery_config led_battery_config_##n =            \
     .brightness = DT_INST_PROP_OR(n, brightness, 100),                     \
     .on_ms = DT_INST_PROP_OR(n, on_ms, 200),                               \
     .off_ms = DT_INST_PROP_OR(n, off_ms, 200),                             \
-    .high_threshold = DT_INST_PROP_OR(n, high_threshold, 66),              \
-    .high_count = DT_INST_PROP_OR(n, high_count, 3),                       \
-    .mid_threshold = DT_INST_PROP_OR(n, mid_threshold, 33),                \
-    .mid_count = DT_INST_PROP_OR(n, mid_count, 2),                         \
-    .low_count = DT_INST_PROP_OR(n, low_count, 1),                         \
+    .stages = DT_INST_PROP_OR(n, stages, 3),                               \
 };                                                                         \
 static struct led_battery_data led_battery_data_##n = {};                  \
 BEHAVIOR_DT_INST_DEFINE(n, led_battery_init, NULL, &led_battery_data_##n,  \

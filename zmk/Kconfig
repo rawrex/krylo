@@ -6,6 +6,7 @@ config KRYLO_LED_BATTERY
 	default y
 	select LED
 	help
-		Behavior that blinks a configured LED a number of times to indicate the current battery charge level:
-		3 blinks when above 66%, 2 blinks when above 33%, 1 blink otherwise.
+		Behavior that blinks a configured LED a number of times to indicate the current battery charge level.
+		The charge is divided into a configurable number of stages (100% / stages); the LED blinks once per stage.
+		Defaults to 3 stages (3 blinks when above 66%, 2 when above 33%, 1 otherwise).
 		Each half blinks its own LED with its own battery level when the bound key is pressed on that half.
