@@ -29,7 +29,6 @@
             key-positions = <14 15>;
             bindings = <&kp ESC>;
             timeout-ms = <85>;
-            require-prior-idle-ms = <120>;
         };
 
         // DEL = thumbs (29 + 30)
