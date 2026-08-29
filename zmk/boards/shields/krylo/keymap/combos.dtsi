@@ -25,16 +25,20 @@
 
         // ESC = thumbs (28 + 31)
         combo_esc {
+            layers = <U_BASE>;
             key-positions = <28 31>;
             bindings = <&kp ESC>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <150>;
         };
 
         // DEL = thumbs (29 + 30)
         combo_del {
+            layers = <U_BASE>;
             key-positions = <29 30>;
             bindings = <&kp DEL>;
-            timeout-ms = <200>;
+            timeout-ms = <100>;
+            require-prior-idle-ms = <150>;
         };
     };
 };
