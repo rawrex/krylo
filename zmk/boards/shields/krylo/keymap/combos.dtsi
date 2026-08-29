@@ -23,16 +23,16 @@
             timeout-ms = <50>;
         };
 
-        // ESC = inner thumbs (29 + 30)
+        // ESC = thumbs (28 + 31)
         combo_esc {
-            key-positions = <29 30>;
+            key-positions = <28 31>;
             bindings = <&kp ESC>;
             timeout-ms = <200>;
         };
 
-        // DEL = outer thumbs (28 + 31)
+        // DEL = thumbs (29 + 30)
         combo_del {
-            key-positions = <28 31>;
+            key-positions = <29 30>;
             bindings = <&kp DEL>;
             timeout-ms = <200>;
         };
