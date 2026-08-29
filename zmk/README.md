@@ -24,10 +24,10 @@ Z X C D        H , . /
 |---|---|---|
 | `combo_v` | `C` + `D` | `V` |
 | `combo_k` | `H` + `,` | `K` |
-| `combo_esc` | outer thumbs (SPACE + BSPC) | `ESC` |
+| `combo_esc` | inner home row (`G` + `M`) | `ESC` |
 | `combo_del` | inner thumbs (TAB + RET) | `DEL` |
 
-All base-layer only. `V`/`K` use a 50 ms window; `ESC`/`DEL` use 100 ms with `require-prior-idle-ms` to avoid accidental triggers.
+All base-layer only. `V`/`K` use a 50 ms window; `ESC`/`DEL` use 85 ms with `require-prior-idle-ms` to avoid accidental triggers.
 
 ## Layers
 
