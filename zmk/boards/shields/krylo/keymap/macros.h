@@ -12,8 +12,7 @@
 #define U_NAV    3
 #define U_MEDIA  4
 #define U_FUN    5
-#define U_TAP    6
-#define U_EXTRA  7
+#define U_EXTRA  6
 
 /* --------------------------------------------------------------------------
  * Cyrillic key aliases (QWERTY keycodes, as in miryoku keys_ru.h)
