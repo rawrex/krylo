@@ -51,8 +51,8 @@ nav_layer {
 media_layer {
     display-name = "Media";
     bindings = <
-        &u_bootloader        &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      &none           &none           &none              &none               &none            &none
-        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &kp C_STOP      &kp C_PREV         &kp C_VOL_DN        &kp C_VOL_UP     &kp C_NEXT
+        &u_bootloader        &u_to_U_TAP     &u_to_U_EXTRA    &u_to_U_BASE      &none           &none           &kp C_PREV         &kp C_VOL_UP        &kp C_NEXT       &none
+        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &none           &kp C_STOP         &kp C_VOL_DN        &none            &none
         &none                &kp RALT        &u_to_U_FUN      &u_to_U_MEDIA                                     &u_bt_sel_0        &u_bt_sel_1         &u_bt_sel_2      &u_bt_sel_3
                                                               &none             &none           &kp C_MUTE      &kp C_PP
     >;
