@@ -22,7 +22,7 @@ sym_layer {
     display-name = "Sym";
     bindings = <
         &kp BSLH             &kp LT          &kp MINUS        &kp GT            &kp RU_SHCH     &none           &to_base_alt_shift &to_extra_alt_shift &none            &u_bootloader
-        &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &kp V           &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
+        &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &none           &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &to U_SYM          &u_caps_word        &kp RALT         &none
                                                               &kp EQUAL         &kp UNDER       &soft_off       &none
     >;
@@ -42,9 +42,9 @@ nav_layer {
     display-name = "Nav";
     bindings = <
         &u_bootloader        &none           &u_to_U_EXTRA    &u_to_U_BASE      &none           U_RDO           U_PST              U_CPY               U_CUT            U_UND
-        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &kp K           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
+        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &none           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
         &none                &kp RALT        &u_to_U_NUM      &u_to_U_NAV                                       &kp HOME           &kp PG_DN           &kp PG_UP        &kp END
-                                                              &none             &soft_off       &kp RET         &kp ESC
+                                                              &none             &soft_off       &kp RET         &kp BSPC
     >;
 };
 
