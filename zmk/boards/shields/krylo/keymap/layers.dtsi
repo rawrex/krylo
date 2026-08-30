@@ -21,7 +21,7 @@ base_layer {
 sym_layer {
     display-name = "Sym";
     bindings = <
-        &kp BSLH             &kp LT          &kp MINUS        &kp GT            &kp RU_SHCH     &u_bootloader   &to_base_alt_shift &to_extra_alt_shift &none            &none
+        &kp BSLH             &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader   &to_base_alt_shift &to_extra_alt_shift &none            &none
         &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &none           &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &to U_SYM          &u_caps_word        &kp RALT         &none
                                                               &kp EQUAL         &kp UNDER       &soft_off       &none
