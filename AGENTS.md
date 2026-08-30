@@ -1,6 +1,6 @@
 # krylo — AGENTS.md
 
-34-key column-staggered choc split keyboard — a KiCad v10.0 hardware project.  
+32-key column-staggered choc split keyboard — a KiCad v10.0 hardware project.  
 This repo: PCB, footprints, and symbols only.  
 **ZMK firmware is NOT in this repo** — no ZMK config, keymaps, or firmware here.
 
@@ -8,10 +8,10 @@ This repo: PCB, footprints, and symbols only.
 
 | Path | What |
 |---|---|
-| `PCB/krylo.kicad_sch` | Schematic (rev 0.1) |
+| `PCB/krylo.kicad_sch` | Schematic (rev 1.2) |
 | `PCB/krylo.kicad_pcb` | PCB layout, 2-layer, 1.6 mm |
 | `PCB/krylo.kicad_pro` | Project settings (DRC rules, net classes, BOM config) |
-| `PCB/krylo.pretty/` | **9 custom footprints** (8 functional + 1 artwork) + **1 symbol library** (`krylo.kicad_sym`). Case-sensitive — dir name is `krylo.pretty`, not `krylo.pretty` |
+| `PCB/krylo.pretty/` | **10 custom footprints** (8 functional + 1 artwork + 1 info panel) + **1 symbol library** (`krylo.kicad_sym`). Case-sensitive — dir name is `krylo.pretty` (capital `P`, lowercase `k`) |
 | `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `krylo` → `${KIPRJMOD}/krylo.pretty` |
 | `PCB/sym-lib-table` | Symbol library table — references `krylo.kicad_sym` inside `krylo.pretty/` |
 
@@ -25,7 +25,7 @@ This repo: PCB, footprints, and symbols only.
 - **`.bak` files** in `krylo.pretty/` — remove them, they don't belong in the library directory.
 - **Symbol and footprint names must match** — every symbol in `krylo.kicad_sym` references a footprint in `krylo.pretty/` by name. Renames must be kept in sync.
 
-## Custom footprints (9)
+## Custom footprints (10)
 
 All in `krylo.pretty/` as `.kicad_mod`. **Symbol-to-footprint mapping is by identical name** for all 8 functional footprints.
 
@@ -40,6 +40,7 @@ All in `krylo.pretty/` as `.kicad_mod`. **Symbol-to-footprint mapping is by iden
 | `ResetSW` | Tactile reset button |
 | `Switch` | Kailh Choc PG1350 keyswitch sockets (16 per board) |
 | `artwork` | PCB silkscreen artwork |
+| `Info` | PCB info panel — silkscreen text (project name, revision, credits) on both sides |
 
 **Naming is consistent:** every symbol's `Footprint` property and `ki_fp_filters` match its footprint file name. (e.g. `krylo:Switch` symbol ↔ `krylo:Switch` footprint). No cross-referencing needed.
 
@@ -56,7 +57,7 @@ Plus 8 `.step` 3D model files in `krylo.pretty/`:
 
 ## Custom symbols
 
-8 unique symbol types in `krylo.kicad_sym` (16 definitions including unit variants):
+8 unique symbol types in `krylo.kicad_sym` (20 definitions including unit variants):
 
 | Symbol | Used for |
 |---|---|
@@ -78,7 +79,7 @@ Plus 8 `.step` 3D model files in `krylo.pretty/`:
 - **Solder jumper pads (JP1–JP10):** JP1–JP4 are battery mode selection (see below); JP5–JP10 configure power and reset GPIO pins for each side of the split.
   - JST connector mode: bridge JP2+JP3 (top) and JP1+JP4 (bottom)
   - Direct-solder mode: leave open, solder battery wires to PAD1/PAD2
-- **Gerber export:** Plot from KiCad to `krylo_0-2_gerbers.zip` (not tracked — regenerate)
+- **Gerber export:** Plot from KiCad to `PCB/gerbers/` (tracked in this repo — regenerate after any layout change)
 - **JLCPCB key specs:** 120.5 × 85.5 mm, 2 layers, 1.6 mm, black, HASL, no impedance control, **remove order number**
 
 ## KiCad conventions
