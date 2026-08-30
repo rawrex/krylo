@@ -14,7 +14,7 @@ base_layer {
         &u_lt U_FUN Q        &kp W           &kp F            &kp P             &kp B           &kp J           &kp L              &kp U               &kp Y            &u_lt U_MEDIA SQT
         &u_mt LGUI A         &u_mt LALT R    &u_mt LCTRL S    &u_mt LSHFT T     &kp G           &kp M           &u_mt LSHFT N      &u_mt LCTRL E       &u_mt LALT I     &u_mt LGUI O
         &kp Z                &u_mt RALT X    &kp C            &kp D                                             &kp H              &kp COMMA           &u_mt RALT DOT   &kp SLASH
-                                                              &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_NUM RET &u_lt U_SYM BSPC
+                                                              &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_SYM2 RET &u_lt U_SYM BSPC
     >;
 };
 
@@ -31,10 +31,20 @@ sym_layer {
 num_layer {
     display-name = "Num";
     bindings = <
-        &u_to_U_BASE         &kp AMPS        &kp TILDE        &kp GRAVE         &batt           &batt           &kp N7             &kp N8              &kp N9           &u_to_U_BASE
-        &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &u_to_U_NUM     &u_to_U_NUM     &kp N4             &kp N5              &kp N6           &kp LGUI
-        &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                          &kp N1             &kp N2              &kp N3           &kp N0
-                                                              &kp SEMI          &kp COLON       &kp RET         &kp BSPC
+        &u_to_U_BASE         &none           &u_to_U_EXTRA    &none             &batt           &none           &kp N7             &kp N8              &kp N9           &none
+        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &u_to_U_NUM     &none           &kp N4             &kp N5              &kp N6           &kp LGUI
+        &none                &kp RALT        &none            &none                                             &kp N1             &kp N2              &kp N3           &kp N0
+                                                              SPACE             U_NA            &kp RET         &kp BSPC
+    >;
+};
+
+sym2_layer {
+    display-name = "Sym2";
+    bindings = <
+        &none                &kp AMPS        &kp TILDE        &kp GRAVE         &none           &batt           &to_base_alt_shift &to_extra_alt_shift &none            &u_to_U_BASE
+        &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &u_to_U_SYM2    &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
+        &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                          &none              &u_caps_word        &kp RALT         &none
+                                                              &kp SEMI          &kp COLON       U_NA            BSPC
     >;
 };
 
@@ -74,7 +84,7 @@ extra_layer {
         &kp RU_TS            &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU       &kp RU_Y           &kp RU_YA           &kp RU_E         &kp RU_F
         &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I        &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE &u_mt LGUI RU_S
         &kp RU_KH            &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &kp COMMA           &u_mt RALT DOT   &kp SLASH
-                                                              &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_NUM RET &u_lt U_SYM BSPC
+                                                              &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_SYM2 RET &u_lt U_SYM BSPC
     >;
 };
 };

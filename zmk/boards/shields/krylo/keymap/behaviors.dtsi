@@ -59,6 +59,12 @@
             tapping-term-ms = <U_TAPPING_TERM>;
             bindings = <&none>, <&to U_SYM>;
         };
+        u_to_U_SYM2: u_to_U_SYM2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <U_TAPPING_TERM>;
+            bindings = <&none>, <&to U_SYM2>;
+        };
         u_to_U_FUN: u_to_U_FUN {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;

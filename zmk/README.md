@@ -16,7 +16,7 @@ Z X C D        H , . /
 ```
 
 - **Home row mods** on `A/R/S/T` (hold → GUI/Alt/Ctrl/Shift) and `N/E/I/O` (Shift/Ctrl/Alt/GUI).
-- **Layer-tap thumbs**: `SPACE`→Nav, `TAB`/`RET`→Num, `BSPC`→Sym (hold for layer, tap for key).
+- **Layer-tap thumbs**: `SPACE`→Nav, `TAB`→Num, `RET`→Sym2, `BSPC`→Sym (hold for layer, tap for key).
 
 ## Combos
 
@@ -34,7 +34,8 @@ All base-layer only. `V`/`K` use a 50 ms window; `ESC` uses 85 ms; `DEL` uses 85
 | Layer | Purpose |
 |---|---|
 | **Sym** | Symbols and brackets; `to_base_alt_shift` / `to_extra_alt_shift` (Alt+Shift IME toggle); `u_caps_word`; soft off |
-| **Num** | Digits and math symbols; battery check (`batt`) |
+| **Sym2** | More symbols: `& ~ \` ^ * $ ? [ @ ] ; :` and the pipe `\|` |
+| **Num** | Digits and battery check (`batt`) |
 | **Nav** | Navigation, clipboard (copy/cut/paste/undo/redo), layer toggles |
 | **Media** | Media keys and volume; Bluetooth profile selection (`bt_sel_0..3`) |
 | **Fun** | F1–F12 and system keys |
