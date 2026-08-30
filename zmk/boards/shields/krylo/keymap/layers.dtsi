@@ -13,7 +13,7 @@ base_layer {
     bindings = <
         &u_lt U_FUN Q        &kp W           &kp F            &kp P             &kp B           &kp J           &kp L              &kp U               &kp Y            &u_lt U_MEDIA SQT
         &u_mt LGUI A         &u_mt LALT R    &u_mt LCTRL S    &u_mt LSHFT T     &kp G           &kp M           &u_mt LSHFT N      &u_mt LCTRL E       &u_mt LALT I     &u_mt LGUI O
-        &kp Z                &u_mt RALT X    &kp C            &kp D                                             &kp H              &kp COMMA           &u_mt RALT DOT   &kp SLASH
+        &kp Z                &u_mt RALT X    &kp C            &kp D                                             &kp H              &kp COMMA           &u_mt RALT DOT   &kp ESC
                                                               &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_SYM2 RET &u_lt U_SYM BSPC
     >;
 };
@@ -21,7 +21,7 @@ base_layer {
 sym_layer {
     display-name = "Sym";
     bindings = <
-        &kp BSLH             &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader   &to_base_alt_shift &to_extra_alt_shift &none            &u_to_U_BASE
+        &kp SLASH            &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader   &to_base_alt_shift &to_extra_alt_shift &none            &u_to_U_BASE
         &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &none           &u_to_U_SYM     &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &none              &u_caps_word        &kp RALT         &none
                                                               &kp EQUAL         &kp UNDER       &soft_off       U_NA
@@ -41,7 +41,7 @@ num_layer {
 sym2_layer {
     display-name = "Sym2";
     bindings = <
-        &none                &kp AMPS        &kp TILDE        &kp GRAVE         &none           &batt           &to_base_alt_shift &to_extra_alt_shift &none            &u_to_U_BASE
+        &kp BSLH             &kp AMPS        &kp TILDE        &kp GRAVE         &none           &batt           &to_base_alt_shift &to_extra_alt_shift &none            &u_to_U_BASE
         &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &u_to_U_SYM2    &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                          &none              &u_caps_word        &kp RALT         &none
                                                               &kp SEMI          &kp COLON       U_NA            BSPC
