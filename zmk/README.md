@@ -46,7 +46,7 @@ All base-layer only. `V`/`K` use a 50 ms window; `ESC` uses 85 ms; `DEL` uses 85
 - **Double-tap bootloader** (`u_bootloader`) instead of a plain reset binding.
 - **Soft off** (`soft_off`) on thumb clusters, hold ~2.5 s to power down.
 - **Caps word** (`u_caps_word`); hold Shift for regular Caps Lock.
-- **Bluetooth profiles 0–3**; hold Shift while selecting to also clear the profile.
+- **Bluetooth profiles 0–3**; double-tap a profile to also clear it. Each select first hops through the unused profile 4 to force a re-advertisement (a plain `BT_SEL` on the already-active profile is a no-op).
 - **Clipboard macros** (copy/cut/paste/undo/redo) on the Nav layer — switch between CUA / macOS / Windows variants via `KRYLO_CLIPBOARD_*` toggles in `keymap/config.h`.
 - **Battery LED indication** (`batt`): blinks the board LED per charge stage.
 - **Language toggle** via Alt+Shift macros on the Sym layer.

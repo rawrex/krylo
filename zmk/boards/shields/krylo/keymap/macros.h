@@ -61,6 +61,12 @@
 
 #define U_TAPPING_TERM 200
 
+// Bluetooth: unused profile used as a hop target to force a re-advertisement.
+// Selecting the profile we are already on is a no-op in ZMK (zmk_ble_prof_select
+// returns early without restarting advertising), so each profile select first
+// hops to this unused profile and back.
+#define U_BT_HOP_PROFILE 4
+
 #define U_NA &none // present but not available for use
 #define U_NP &none // key is not present
 #define U_NU &none // available but not used

@@ -105,31 +105,31 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&bt BT_SEL 0>, <&bt BT_SEL 0 &bt BT_CLR>;
+            bindings = <&bt BT_SEL U_BT_HOP_PROFILE &bt BT_SEL 0>, <&bt BT_SEL 0 &bt BT_CLR>;
         };
         u_bt_sel_1: u_bt_sel_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&bt BT_SEL 1>, <&bt BT_SEL 1 &bt BT_CLR>;
+            bindings = <&bt BT_SEL U_BT_HOP_PROFILE &bt BT_SEL 1>, <&bt BT_SEL 1 &bt BT_CLR>;
         };
         u_bt_sel_2: u_bt_sel_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&bt BT_SEL 2>, <&bt BT_SEL 2 &bt BT_CLR>;
+            bindings = <&bt BT_SEL U_BT_HOP_PROFILE &bt BT_SEL 2>, <&bt BT_SEL 2 &bt BT_CLR>;
         };
         u_bt_sel_3: u_bt_sel_3 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&bt BT_SEL 3>, <&bt BT_SEL 3 &bt BT_CLR>;
+            bindings = <&bt BT_SEL U_BT_HOP_PROFILE &bt BT_SEL 3>, <&bt BT_SEL 3 &bt BT_CLR>;
         };
         u_bt_sel_4: u_bt_sel_4 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <U_TAPPING_TERM>;
-            bindings = <&bt BT_SEL 4>, <&bt BT_SEL 4 &bt BT_CLR>;
+            bindings = <&bt BT_SEL U_BT_HOP_PROFILE &bt BT_SEL 4>, <&bt BT_SEL 4 &bt BT_CLR>;
         };
 
         // Caps word; hold Shift for regular Caps Lock.
