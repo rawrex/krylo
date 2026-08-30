@@ -83,7 +83,7 @@
           "Intentional layer split. Side effect of the double-sided PCB, its power solution."
         ],
         [
-          "unconnected_items|105225000|84412500|F.Cu|4|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9|51d0b1c6-d09e-46d5-ac11-4e6850efcc42",
+          "unconnected_items|105225000|84412500|F.Cu|4|51d0b1c6-d09e-46d5-ac11-4e6850efcc42|fc7b9f17-ee8c-4a2e-82b1-44e2af07f3b9",
           "Intentional layer split. Side effect of the double-sided PCB, its power solution."
         ]
       ],
