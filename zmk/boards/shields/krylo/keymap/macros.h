@@ -8,12 +8,12 @@
 
 #define U_BASE   0
 #define U_SYM    1
-#define U_NUM    2
-#define U_NAV    3
-#define U_MEDIA  4
-#define U_FUN    5
-#define U_EXTRA  6
-#define U_SYM2   7
+#define U_SYM2   2
+#define U_NUM    3
+#define U_NAV    4
+#define U_MEDIA  5
+#define U_FUN    6
+#define U_EXTRA  7
 
 /* --------------------------------------------------------------------------
  * Cyrillic key aliases (QWERTY keycodes, as in miryoku keys_ru.h)
