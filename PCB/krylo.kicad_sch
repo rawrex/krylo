@@ -6,8 +6,8 @@
 	(paper "A5")
 	(title_block
 		(title "krylo split keyboard")
-		(date "19/06/2026")
-		(rev "0.1")
+		(date "30/08/2026")
+		(rev "1.2")
 		(comment 1 "Author: rawrex")
 	)
 	(lib_symbols
