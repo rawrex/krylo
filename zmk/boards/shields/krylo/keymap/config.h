@@ -5,7 +5,4 @@
 // #define KRYLO_CLIPBOARD_WIN               // Clipboard via Ctrl+Z/C/V/X
 
 #define KRYLO_BT_HOP_ENABLE
-
-#ifndef KRYLO_BT_HOP_PROFILE
-    #define KRYLO_BT_HOP_PROFILE 4
-#endif
+#define KRYLO_BT_HOP_PROFILE 4
