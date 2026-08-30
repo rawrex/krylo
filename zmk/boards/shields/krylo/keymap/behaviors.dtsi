@@ -101,11 +101,6 @@
         };
 
         // Bluetooth profile select; double-tap to also clear the profile.
-        // Each press first hops through an unused profile (see U_BT_SEL /
-        // KRYLO_BT_HOP_ENABLE in macros.h / config.h), forcing a re-advertisement
-        // even when the target profile is already active (a plain BT_SEL on the
-        // active profile is a no-op). The clearing double-tap needs no hop:
-        // BT_CLR already disconnects, which restarts advertising on its own.
         u_bt_sel_0: u_bt_sel_0 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
