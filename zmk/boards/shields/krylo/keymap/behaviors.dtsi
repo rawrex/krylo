@@ -100,71 +100,36 @@
                 ;
         };
 
-        // Bluetooth profile select; hold Shift to also clear the profile.
-        u_macro_u_bt_sel_0: u_macro_u_bt_sel_0 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&bt BT_SEL 0 &bt BT_CLR>;
-        };
+        // Bluetooth profile select; double-tap to also clear the profile.
         u_bt_sel_0: u_bt_sel_0 {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&u_macro_u_bt_sel_0>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        u_macro_u_bt_sel_1: u_macro_u_bt_sel_1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&bt BT_SEL 1 &bt BT_CLR>;
+            tapping-term-ms = <U_TAPPING_TERM>;
+            bindings = <&bt BT_SEL 0>, <&bt BT_SEL 0 &bt BT_CLR>;
         };
         u_bt_sel_1: u_bt_sel_1 {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&u_macro_u_bt_sel_1>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        u_macro_u_bt_sel_2: u_macro_u_bt_sel_2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&bt BT_SEL 2 &bt BT_CLR>;
+            tapping-term-ms = <U_TAPPING_TERM>;
+            bindings = <&bt BT_SEL 1>, <&bt BT_SEL 1 &bt BT_CLR>;
         };
         u_bt_sel_2: u_bt_sel_2 {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 2>, <&u_macro_u_bt_sel_2>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        u_macro_u_bt_sel_3: u_macro_u_bt_sel_3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&bt BT_SEL 3 &bt BT_CLR>;
+            tapping-term-ms = <U_TAPPING_TERM>;
+            bindings = <&bt BT_SEL 2>, <&bt BT_SEL 2 &bt BT_CLR>;
         };
         u_bt_sel_3: u_bt_sel_3 {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 3>, <&u_macro_u_bt_sel_3>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-        };
-        u_macro_u_bt_sel_4: u_macro_u_bt_sel_4 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <0>;
-            tap-ms = <0>;
-            bindings = <&bt BT_SEL 4 &bt BT_CLR>;
+            tapping-term-ms = <U_TAPPING_TERM>;
+            bindings = <&bt BT_SEL 3>, <&bt BT_SEL 3 &bt BT_CLR>;
         };
         u_bt_sel_4: u_bt_sel_4 {
-            compatible = "zmk,behavior-mod-morph";
+            compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 4>, <&u_macro_u_bt_sel_4>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
+            tapping-term-ms = <U_TAPPING_TERM>;
+            bindings = <&bt BT_SEL 4>, <&bt BT_SEL 4 &bt BT_CLR>;
         };
 
         // Caps word; hold Shift for regular Caps Lock.
