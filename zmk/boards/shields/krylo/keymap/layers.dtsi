@@ -18,10 +18,20 @@ base_layer {
     >;
 };
 
+cyr_layer {
+    display-name = "Cyrillic";
+    bindings = <
+        &kp RU_TS            &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU       &kp RU_Y           &kp RU_YA           &kp RU_E         &kp RU_F
+        &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I        &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE &u_mt LGUI RU_S
+        &kp RU_KH            &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &kp COMMA           &u_mt RALT DOT   &kp SLASH
+                                                              &trans            &trans          &trans           &trans
+    >;
+};
+
 sym_layer {
     display-name = "Sym";
     bindings = <
-        &kp SLASH            &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader   &to_base_alt_shift &to_extra_alt_shift &none            &u_to_U_BASE
+        &kp SLASH            &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader   &lang_toggle       &none              &none            &u_to_U_BASE
         &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &none           &u_to_U_SYM     &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &none              &u_caps_word        &kp RALT         &none
                                                               &kp EQUAL         &kp UNDER       &soft_off       U_NA
@@ -75,16 +85,6 @@ fun_layer {
         &kp F11              &kp F4          &kp F5           &kp F6            &u_to_U_FUN     &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
         &kp F10              &kp F1          &kp F2           &kp F3                                            &none              &none               &kp RALT         &none
                                                               &kp SPACE         &kp PSCRN       &kp RET         &kp BSPC
-    >;
-};
-
-extra_layer {
-    display-name = "Cyrillic";
-    bindings = <
-        &kp RU_TS            &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU       &kp RU_Y           &kp RU_YA           &kp RU_E         &kp RU_F
-        &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I        &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE &u_mt LGUI RU_S
-        &kp RU_KH            &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &kp COMMA           &u_mt RALT DOT   &kp SLASH
-                                                              &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_SYM2 RET &u_lt U_SYM BSPC
     >;
 };
 };

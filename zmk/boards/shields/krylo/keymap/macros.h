@@ -7,13 +7,13 @@
  * -------------------------------------------------------------------------- */
 
 #define U_BASE   0
-#define U_SYM    1
-#define U_SYM2   2
-#define U_NUM    3
-#define U_NAV    4
-#define U_MEDIA  5
-#define U_FUN    6
-#define U_EXTRA  7
+#define U_CYR    1
+#define U_SYM    2
+#define U_SYM2   3
+#define U_NUM    4
+#define U_NAV    5
+#define U_MEDIA  6
+#define U_FUN    7
 
 /* --------------------------------------------------------------------------
  * Cyrillic key aliases (QWERTY keycodes, as in miryoku keys_ru.h)
@@ -61,6 +61,34 @@
  * -------------------------------------------------------------------------- */
 
 #define U_TAPPING_TERM 200
+
+/* --------------------------------------------------------------------------
+ * Language OS input-source toggle combo
+ * -------------------------------------------------------------------------- */
+
+#if defined(KRYLO_LANG_WIN_SPACE)
+#define KRYLO_LANG_COMBO \
+    &macro_press &kp LGUI &kp SPACE \
+    &macro_pause_for_release \
+    &macro_release &kp LGUI &kp SPACE
+#elif defined(KRYLO_LANG_CTRL_SPACE)
+#define KRYLO_LANG_COMBO \
+    &macro_press &kp LCTRL &kp SPACE \
+    &macro_pause_for_release \
+    &macro_release &kp LCTRL &kp SPACE
+#elif defined(KRYLO_LANG_CTRL_SHIFT)
+#define KRYLO_LANG_COMBO \
+    &macro_press &kp LCTRL &kp LSHIFT \
+    &macro_pause_for_release \
+    &macro_release &kp LCTRL &kp LSHIFT
+#elif defined(KRYLO_LANG_ALT_SHIFT)
+#define KRYLO_LANG_COMBO \
+    &macro_press &kp LALT &kp LSHIFT \
+    &macro_pause_for_release \
+    &macro_release &kp LALT &kp LSHIFT
+#else
+#error "Define exactly one of KRYLO_LANG_WIN_SPACE, KRYLO_LANG_CTRL_SPACE, KRYLO_LANG_CTRL_SHIFT, KRYLO_LANG_ALT_SHIFT in config.h"
+#endif
 
 // Bluetooth profile select binding. When KRYLO_BT_HOP_ENABLE is set (config.h),
 // first hop through the unused KRYLO_BT_HOP_PROFILE to force a re-advertisement
