@@ -25,3 +25,12 @@ config KRYLO_LANG_CYR_LAYER
 	default 1
 	help
 		Index of the Cyrillic secondary base layer to persist. Must match U_CYR in keymap/macros.h.
+
+config KRYLO_LANG_SAVE_DEBOUNCE
+	int "Debounce (ms) for persisting the language layer"
+	depends on KRYLO_LANG_PERSIST
+	default 1000
+	help
+		Delay between the last language toggle and the flash write that persists it.
+		A small value persists promptly; the write is deferred off the keypress path
+		so typing is not stalled by flash access.
