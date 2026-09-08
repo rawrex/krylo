@@ -28,5 +28,61 @@
             timeout-ms = <85>;
             require-prior-idle-ms = <120>;
         };
+
+        // RU_G = Р(22) + М(23)
+        combo_ru_g {
+            layers = <U_CYR>;
+            key-positions = <22 23>;
+            bindings = <&kp RU_G>;
+            timeout-ms = <50>;
+        };
+
+        // RU_SOFT = У(24) + Б(25)
+        combo_ru_soft {
+            layers = <U_CYR>;
+            key-positions = <24 25>;
+            bindings = <&kp RU_SOFT>;
+            timeout-ms = <50>;
+        };
+
+        // RU_SHCH = М(23) + П(21)
+        combo_ru_shch {
+            layers = <U_CYR>;
+            key-positions = <21 23>;
+            bindings = <&kp RU_SHCH>;
+            timeout-ms = <50>;
+        };
+
+        // RU_CH = З(10) + В(11)
+        combo_ru_ch {
+            layers = <U_CYR>;
+            key-positions = <10 11>;
+            bindings = <&kp RU_CH>;
+            timeout-ms = <50>;
+        };
+
+        // RU_ZH = Х(20) + П(21)
+        combo_ru_zh {
+            layers = <U_CYR>;
+            key-positions = <20 21>;
+            bindings = <&kp RU_ZH>;
+            timeout-ms = <50>;
+        };
+
+        // RU_SH = Ю(26) + .(27)
+        combo_ru_sh {
+            layers = <U_CYR>;
+            key-positions = <26 27>;
+            bindings = <&kp RU_SH>;
+            timeout-ms = <50>;
+        };
+
+        // RU_HARD = Ы(6) + Я(7)
+        combo_ru_hard {
+            layers = <U_CYR>;
+            key-positions = <6 7>;
+            bindings = <&kp RU_HARD>;
+            timeout-ms = <50>;
+        };
     };
 };

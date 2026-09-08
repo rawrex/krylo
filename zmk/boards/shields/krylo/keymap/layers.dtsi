@@ -18,16 +18,6 @@ base_layer {
     >;
 };
 
-// Combos:
-// RU_G рм
-// RU_SOFT уб
-//
-// RU_SHCH мп 
-// RU_CH зв
-// RU_ZH пх
-// RU_SH ю.
-// RU_HARD ыя
-
 cyr_layer {
     display-name = "Cyrillic";
     bindings = <
