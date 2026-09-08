@@ -23,14 +23,6 @@
             timeout-ms = <50>;
         };
 
-        // ESC = home row (14 + 15)
-        combo_esc {
-            layers = <U_BASE>;
-            key-positions = <14 15>;
-            bindings = <&kp ESC>;
-            timeout-ms = <85>;
-        };
-
         // DEL = thumbs (29 + 30)
         combo_del {
             layers = <U_BASE>;
