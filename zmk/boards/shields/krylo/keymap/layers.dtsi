@@ -11,9 +11,9 @@ compatible = "zmk,keymap";
 base_layer {
     display-name = "Base";
     bindings = <
-        &u_lt U_FUN Q        &kp W           &kp F            &kp P             &kp B           &kp J           &kp L              &kp U               &kp Y            &u_lt U_MEDIA SQT
-        &u_mt LGUI A         &u_mt LALT R    &u_mt LCTRL S    &u_mt LSHFT T     &kp G           &kp M           &u_mt LSHFT N      &u_mt LCTRL E       &u_mt LALT I     &u_mt LGUI O
-        &kp Z                &u_mt RALT X    &kp C            &kp D                                             &kp H              &kp COMMA           &u_mt RALT DOT   &kp ESC
+        &u_lt U_FUN Q        &kp W           &kp F            &kp P             &kp B           &kp J            &kp L              &kp U               &kp Y             &u_lt U_MEDIA SQT
+        &u_mt LGUI A         &u_mt LALT R    &u_mt LCTRL S    &u_mt LSHFT T     &kp G           &kp M            &u_mt LSHFT N      &u_mt LCTRL E       &u_mt LALT I      &u_mt LGUI O
+        &kp Z                &u_mt RALT X    &kp C            &kp D                                              &kp H              &kp COMMA           &u_mt RALT DOT    &kp ESC
                                                               &u_lt U_NAV SPACE &u_lt U_NUM TAB &u_lt U_SYM2 RET &u_lt U_SYM BSPC
     >;
 };
@@ -21,70 +21,70 @@ base_layer {
 cyr_layer {
     display-name = "Cyrillic";
     bindings = <
-        &u_lt U_FUN RU_TS    &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU       &kp RU_Y           &kp RU_YA           &kp RU_E         &u_lt U_MEDIA RU_F
-        &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I        &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE &u_mt LGUI RU_S
-        &kp RU_KH            &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &kp RU_COMMA       &u_mt RALT RU_DOT &trans
-                                                              &trans            &trans          &trans          &trans
+        &u_lt U_FUN RU_TS    &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU        &kp RU_Y           &kp RU_YA           &kp RU_E          &u_lt U_MEDIA RU_F
+        &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I         &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE  &u_mt LGUI RU_S
+        &kp RU_KH            &u_mt RALT RU_P &kp RU_R         &kp RU_M                                           &kp RU_U           &kp RU_COMMA        &u_mt RALT RU_DOT &trans
+                                                              &trans            &trans          &trans           &trans
     >;
 };
 
 sym_layer {
     display-name = "Sym";
     bindings = <
-        &kp SLASH            &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader   &lang_toggle       &none              &none            &u_to_U_BASE
-        &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &none           &u_to_U_SYM     &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
-        &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                          &none              &u_caps_word        &kp RALT         &none
-                                                              &kp EQUAL         &kp UNDER       &soft_off       U_NA
+        &kp SLASH            &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader    &lang_toggle       &none               &none             &_to_U_BASE
+        &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &none           &u_to_U_SYM      &kp LSHFT          &kp LCTRL           &kp LALT          &kp LGUI
+        &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                           &none              &u_caps_word        &kp RALT          &none
+                                                              &kp EQUAL         &kp UNDER       &soft_off        U_NA
     >;
 };
 
 sym2_layer {
     display-name = "Sym2";
     bindings = <
-        &kp BSLH             &kp AMPS        &kp TILDE        &kp GRAVE         &none           &batt           &none              &none              &none            &u_to_U_BASE
-        &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &u_to_U_SYM2    &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
-        &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                          &none              &u_caps_word        &kp RALT         &none
-                                                              &kp SEMI          &kp COLON       U_NA            &kp BSPC
+        &kp BSLH             &kp AMPS        &kp TILDE        &kp GRAVE         &none           &batt            &none              &none               &none             &_to_U_BASE
+        &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &u_to_U_SYM2     &kp LSHFT          &kp LCTRL           &kp LALT          &kp LGUI
+        &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                           &none              &u_caps_word        &kp RALT          &none
+                                                              &kp SEMI          &kp COLON       U_NA             &kp BSPC
     >;
 };
 
 num_layer {
     display-name = "Num";
     bindings = <
-        &u_to_U_BASE         &none           &none            &none             &batt           &none           &kp N7             &kp N8              &kp N9           &none
-        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &u_to_U_NUM     &none           &kp N4             &kp N5              &kp N6           &kp LGUI
-        &none                &kp RALT        &none            &none                                             &kp N1             &kp N2              &kp N3           &kp N0
-                                                              &kp SPACE         U_NA            &kp RET         &kp BSPC
+        &u_to_U_BASE         &none           &none            &none             &batt           &none            &kp N7             &kp N8              &kp N9            &none
+        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &u_to_U_NUM     &none            &kp N4             &kp N5              &kp N6            &kp LGUI
+        &none                &kp RALT        &none            &none                                              &kp N1             &kp N2              &kp N3            &kp N0
+                                                              &kp SPACE         U_NA            &kp RET          &kp BSPC
     >;
 };
 
 nav_layer {
     display-name = "Nav";
     bindings = <
-        &u_to_U_BASE         &none           &none            &none             &u_bootloader   U_RDO           U_PST              U_CPY               U_CUT            U_UND
-        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &u_to_U_NAV     &none           &kp LEFT           &kp DOWN            &kp UP           &kp RIGHT
-        &none                &kp RALT        &none            &none                                             &kp HOME           &kp PG_DN           &kp PG_UP        &kp END
-                                                              U_NA              &soft_off       &kp RET         &kp BSPC
+        &u_to_U_BASE         &none           &none            &none             &u_bootloader   U_RDO            U_PST              U_CPY               U_CUT             U_UND
+        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &u_to_U_NAV     &none            &kp LEFT           &kp DOWN            &kp UP            &kp RIGHT
+        &none                &kp RALT        &none            &none                                              &kp HOME           &kp PG_DN           &kp PG_UP         &kp END
+                                                              U_NA              &soft_off       &kp RET          &kp BSPC
     >;
 };
 
 media_layer {
     display-name = "Media";
     bindings = <
-        &u_to_U_BASE         &none           &none            &none             &none           &none           &kp C_PREV         &kp C_VOL_UP        &kp C_NEXT       U_NA
-        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &u_to_U_MEDIA   &kp C_STOP         &kp C_VOL_DN        &none            &none
-        &none                &kp RALT        &none            &none                                             &u_bt_sel_0        &u_bt_sel_1         &u_bt_sel_2      &u_bt_sel_3
-                                                              &none             &none           &kp C_MUTE      &kp C_PP
+        &u_to_U_BASE         &none           &none            &none             &none           &none            &kp C_PREV         &kp C_VOL_UP        &kp C_NEXT        &_NA
+        &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &u_to_U_MEDIA    &kp C_STOP         &kp C_VOL_DN        &none             &none
+        &none                &kp RALT        &none            &none                                              &u_bt_sel_0        &u_bt_sel_1         &u_bt_sel_2       &u_bt_sel_3
+                                                              &none             &none           &kp C_MUTE       &kp C_PP
     >;
 };
 
 fun_layer {
     display-name = "Fun";
     bindings = <
-        U_NA                 &kp F7          &kp F8           &kp F9            &kp F12         &none           &none              &none               &none            &u_to_U_BASE
-        &kp F11              &kp F4          &kp F5           &kp F6            &u_to_U_FUN     &none           &kp LSHFT          &kp LCTRL           &kp LALT         &kp LGUI
-        &kp F10              &kp F1          &kp F2           &kp F3                                            &none              &none               &kp RALT         &none
-                                                              &kp SPACE         &kp PSCRN       &kp RET         &kp BSPC
+        U_NA                 &kp F7          &kp F8           &kp F9            &kp F12         &none            &none              &none               &none             &u_to_U_BASE
+        &kp F11              &kp F4          &kp F5           &kp F6            &u_to_U_FUN     &none            &kp LSHFT          &kp LCTRL           &kp LALT          &kp LGUI
+        &kp F10              &kp F1          &kp F2           &kp F3                                             &none              &none               &kp RALT          &none
+                                                              &kp SPACE         &kp PSCRN       &kp RET          &kp BSPC
     >;
 };
 };
