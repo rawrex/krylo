@@ -23,7 +23,7 @@ cyr_layer {
     bindings = <
         &u_lt U_FUN RU_TS    &kp RU_K        &kp RU_L         &kp RU_B          &kp RU_J        &kp RU_YU       &kp RU_Y           &kp RU_YA           &kp RU_E         &u_lt U_MEDIA RU_F
         &u_mt LGUI RU_Z      &u_mt LALT RU_V &u_mt LCTRL RU_N &u_mt LSHFT RU_T  &kp RU_D        &kp RU_I        &u_mt LSHFT RU_A   &u_mt LCTRL RU_O    &u_mt LALT RU_YE &u_mt LGUI RU_S
-        &kp RU_KH            &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &trans              &trans           &trans
+        &kp RU_KH            &u_mt RALT RU_P &kp RU_R         &kp RU_M                                          &kp RU_U           &kp RU_COMMA       &u_mt RALT RU_DOT &trans
                                                               &trans            &trans          &trans          &trans
     >;
 };

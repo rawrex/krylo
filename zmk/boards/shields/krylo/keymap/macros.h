@@ -54,6 +54,11 @@
 #define RU_B  COMMA  // Б
 #define RU_YU DOT    // Ю
 
+// RU symbols: characters produced under the RU input source on the EN
+// punctuation positions (so the , and . keys behave the same in both languages).
+#define RU_COMMA LS(SLASH)  // ,
+#define RU_DOT   SLASH      // .
+
 // "ё" symbol is not used
 
 /* --------------------------------------------------------------------------
