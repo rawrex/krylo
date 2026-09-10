@@ -31,7 +31,7 @@ cyr_layer {
 sym_layer {
     display-name = "Sym";
     bindings = <
-        &kp SLASH            &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader    &lang_toggle       &none               &none             &_to_U_BASE
+        &kp SLASH            &kp LT          &kp MINUS        &kp GT            &none           &u_bootloader    &lang_toggle       &none               &none             &u_to_U_BASE
         &kp EXCL             &kp LPAR        &kp PRCNT        &kp RPAR          &none           &u_to_U_SYM      &kp LSHFT          &kp LCTRL           &kp LALT          &kp LGUI
         &kp HASH             &kp LBRC        &kp PLUS         &kp RBRC                                           &none              &u_caps_word        &kp RALT          &none
                                                               &kp EQUAL         &kp UNDER       &soft_off        U_NA
@@ -41,7 +41,7 @@ sym_layer {
 sym2_layer {
     display-name = "Sym2";
     bindings = <
-        &kp BSLH             &kp AMPS        &kp TILDE        &kp GRAVE         &none           &batt            &none              &none               &none             &_to_U_BASE
+        &kp BSLH             &kp AMPS        &kp TILDE        &kp GRAVE         &none           &batt            &none              &none               &none             &u_to_U_BASE
         &kp CARET            &kp PIPE        &kp ASTRK        &kp DLLR          &none           &u_to_U_SYM2     &kp LSHFT          &kp LCTRL           &kp LALT          &kp LGUI
         &kp QMARK            &kp LBKT        &kp AT           &kp RBKT                                           &none              &u_caps_word        &kp RALT          &none
                                                               &kp SEMI          &kp COLON       U_NA             &kp BSPC
@@ -71,7 +71,7 @@ nav_layer {
 media_layer {
     display-name = "Media";
     bindings = <
-        &u_to_U_BASE         &none           &none            &none             &none           &none            &kp C_PREV         &kp C_VOL_UP        &kp C_NEXT        &_NA
+        &u_to_U_BASE         &none           &none            &none             &none           &none            &kp C_PREV         &kp C_VOL_UP        &kp C_NEXT        U_NA
         &kp LGUI             &kp LALT        &kp LCTRL        &kp LSHFT         &none           &u_to_U_MEDIA    &kp C_STOP         &kp C_VOL_DN        &none             &none
         &none                &kp RALT        &none            &none                                              &u_bt_sel_0        &u_bt_sel_1         &u_bt_sel_2       &u_bt_sel_3
                                                               &none             &none           &kp C_MUTE       &kp C_PP
