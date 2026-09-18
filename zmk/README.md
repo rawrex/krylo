@@ -51,7 +51,7 @@ All base-layer only. `V`/`K` use a 50 ms window; `ESC` uses 85 ms; `DEL` uses 85
 - **Bluetooth profiles 0–3**; double-tap a profile to also clear it. Each select first hops through the unused profile 4 to force a re-advertisement (a plain `BT_SEL` on the already-active profile is a no-op) — disable via `KRYLO_BT_HOP_ENABLE` in `config.h`.
 - **Clipboard macros** (copy/cut/paste/undo/redo) on the Nav layer — switch between CUA / macOS / Windows variants via `KRYLO_CLIPBOARD_*` toggles in `keymap/config.h`.
 - **Battery LED indication** (`batt`): blinks the board LED per charge stage.
-- **Language toggle** (`lang_toggle`): a single key flips the keyboard's Latin↔Cyrillic base layer and sends the OS input-source switch combo selected by `KRYLO_LANG_*` in `keymap/config.h`. The OS combo is a toggle, so the keyboard layer and host source stay in lock-step; neither side is reset on connect. Exactly one macro must be present
+- **Language toggle** (`lang_toggle`): a single key flips the keyboard's Latin↔Cyrillic base layer and sends the OS input-source switch combo selected by `KRYLO_LANG_*` in `keymap/config.h`. The OS combo is a toggle, so the keyboard layer and host source stay in lock-step while typing. The active language is not persisted: the keyboard boots on the Latin base layer, so it may be out of sync with the host until toggled. Exactly one macro must be present
 
 ## Config toggles (`boards/shields/krylo/keymap/config.h`)
 

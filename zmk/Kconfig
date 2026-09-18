@@ -10,27 +10,3 @@ config KRYLO_LED_BATTERY
 		The charge is divided into a configurable number of stages (100% / stages); the LED blinks once per stage.
 		Defaults to 3 stages (3 blinks when above 66%, 2 when above 33%, 1 otherwise).
 		Each half blinks its own LED with its own battery level when the bound key is pressed on that half.
-
-config KRYLO_LANG_PERSIST
-	bool "Persist the active language layer across reboots"
-	depends on SETTINGS
-	depends on !ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL
-	default y
-	help
-		Saves whether the Cyrillic base layer is active and restores it on boot.
-		The host's OS input source is not changed, so it may be out of sync.
-
-config KRYLO_LANG_CYR_LAYER
-	int "Layer index of the Cyrillic base layer"
-	default 1
-	help
-		Index of the Cyrillic secondary base layer to persist. Must match U_CYR in keymap/macros.h.
-
-config KRYLO_LANG_SAVE_DEBOUNCE
-	int "Debounce (ms) for persisting the language layer"
-	depends on KRYLO_LANG_PERSIST
-	default 1000
-	help
-		Delay between the last language toggle and the flash write that persists it.
-		A small value persists promptly; the write is deferred off the keypress path
-		so typing is not stalled by flash access.
