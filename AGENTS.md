@@ -1,8 +1,7 @@
 # krylo — AGENTS.md
 
 32-key column-staggered choc split keyboard — a KiCad v10.0 hardware project.  
-This repo: PCB, footprints, and symbols only.  
-**ZMK firmware is NOT in this repo** — no ZMK config, keymaps, or firmware here.
+This repo: PCB, footprints, symbols, and the ZMK module.  
 
 ## Codebase map
 
@@ -14,6 +13,7 @@ This repo: PCB, footprints, and symbols only.
 | `PCB/krylo.pretty/` | **10 custom footprints** (8 functional + 1 artwork + 1 info panel) + **1 symbol library** (`krylo.kicad_sym`). Case-sensitive — dir name is `krylo.pretty` (capital `P`, lowercase `k`) |
 | `PCB/fp-lib-table` | Footprint library table — **exactly ONE entry**: `krylo` → `${KIPRJMOD}/krylo.pretty` |
 | `PCB/sym-lib-table` | Symbol library table — references `krylo.kicad_sym` inside `krylo.pretty/` |
+| `zmk/` | ZMK module: `boards/shields/krylo/` (shield + `keymap/*.dtsi`), `src/krylo_led_battery.c`, `zephyr/module.yml` |
 
 ## Library gotchas
 
