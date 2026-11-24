@@ -1,0 +1,35 @@
+# SPDX-License-Identifier: MIT
+
+description: Blinks a configured LED to indicate the battery charge level
+
+compatible: "krylo,led-battery"
+
+properties:
+  "#binding-cells":
+    type: int
+    required: true
+    const: 0
+  label:
+    type: string
+    required: false
+    deprecated: true
+  leds:
+    type: phandles
+    required: true
+    description: LED device(s) to blink. The nice!nano blue LED, or the red one on the nice!nano clone
+  brightness:
+    type: int
+    required: true
+    description: LED brightness in percent while lit
+  on-ms:
+    type: int
+    required: true
+    description: Milliseconds each blink stays on
+  off-ms:
+    type: int
+    required: true
+    description: Milliseconds between blinks
+  stages:
+    type: int
+    required: true
+    description: Number of charge stages; each spans 100/stages percent, blinking once per stage
